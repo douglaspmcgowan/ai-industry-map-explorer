@@ -1,0 +1,4878 @@
+[
+  {
+    "id": "agent-frameworks__langgraph",
+    "slug": "langgraph",
+    "name": "LangGraph (+ LangChain)",
+    "maker": "LangChain Inc. · CEO Harrison Chase",
+    "logo": "https://www.google.com/s2/favicons?domain=langchain.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Python + JS",
+        "variant": "default"
+      }
+    ],
+    "tagline": "LangChain is the earliest and most-used LLM framework (launched Oct 2022).",
+    "paragraphs": [
+      "What it is. LangChain is the earliest and most-used LLM framework (launched Oct 2022). LangGraph is their newer library for explicit graph-based agent orchestration — nodes are steps, edges are transitions, state is shared. Also ships LangSmith (observability) and LangGraph Platform (hosting).",
+      "What sets it apart. Explicit graph model gives you full control and visibility, which is good for complex regulated workflows. Massive ecosystem — hundreds of integrations. LangGraph is one of the few frameworks with native support for checkpointing + human-in-the-loop pauses.",
+      "Connections. LangSmith (observability) is the sister product; most LangGraph users pay for it too. Replaced much of the \"raw LangChain\" codebase over 2024–2025. Often paired with vector DBs (Pinecone, Weaviate) and model APIs."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Most-downloaded LLM framework on PyPI; LangChain has 90K+ GitHub stars"
+      },
+      {
+        "k": "Criticism",
+        "v": "Abstraction hides behavior; PostHog's \"Frameworks considered harmful\" specifically cites LangGraph"
+      }
+    ],
+    "links": [
+      {
+        "label": "langchain.com",
+        "url": "https://langchain.com"
+      },
+      {
+        "label": "LangGraph docs",
+        "url": "https://langchain-ai.github.io/langgraph/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/langchain-ai/langgraph"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__crewai",
+    "slug": "crewai",
+    "name": "CrewAI",
+    "maker": "founded by João Moura · 2023",
+    "logo": "https://www.google.com/s2/favicons?domain=crewai.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Multi-agent",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Framework for multi-agent systems — you define \"agents\" with roles, goals, and tools, and \"tasks\" that get assigned, optionally with a \"crew\" that coordinates.",
+    "paragraphs": [
+      "What it is. Framework for multi-agent systems — you define \"agents\" with roles, goals, and tools, and \"tasks\" that get assigned, optionally with a \"crew\" that coordinates. Think of it as the \"team of specialists\" pattern in library form.",
+      "What sets it apart. The most accessible multi-agent framework — role-based metaphor is easy to reason about. Huge adoption as a \"start here\" for multi-agent. Ships CrewAI Enterprise (hosted platform with observability, auth, deploy).",
+      "Connections. Often compared to AutoGen (Microsoft). Heavily featured in Medium / YouTube tutorials, which drove outsized mindshare."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~35K GitHub stars; big tutorial / hobbyist community"
+      },
+      {
+        "k": "Criticism",
+        "v": "Same as all multi-agent: context loss between agents hurts performance vs. single-loop"
+      }
+    ],
+    "links": [
+      {
+        "label": "crewai.com",
+        "url": "https://crewai.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/crewaiinc/crewai"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.crewai.com"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__autogen",
+    "slug": "autogen",
+    "name": "AutoGen",
+    "maker": "Microsoft Research · lead Chi Wang (later founded AG2)",
+    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Multi-agent",
+        "variant": "default"
+      }
+    ],
+    "tagline": "One of the earliest multi-agent frameworks (2023).",
+    "paragraphs": [
+      "What it is. One of the earliest multi-agent frameworks (2023). Pioneered the \"conversational agents that talk to each other\" pattern. Rebuilt from scratch as AutoGen 0.4 in late 2024 with a pub/sub architecture.",
+      "What sets it apart. Research-grade — lots of the \"multi-agent conversation\" academic papers in 2023–2024 used AutoGen. Microsoft backing means tight Azure / Copilot Studio integration. The AutoGen v0.4 rewrite is more production-ready than v0.2.",
+      "Connections. Original lead Chi Wang left Microsoft in 2024 to start AG2 — a community fork that kept the old API. So there are now two AutoGens. Microsoft's version is the official one."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~40K GitHub stars (combined); strong in research, slower production adoption"
+      },
+      {
+        "k": "Fork",
+        "v": "AG2 (community) vs. AutoGen (Microsoft)"
+      }
+    ],
+    "links": [
+      {
+        "label": "microsoft.github.io/autogen",
+        "url": "https://microsoft.github.io/autogen/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/microsoft/autogen"
+      },
+      {
+        "label": "AG2 (fork)",
+        "url": "https://ag2.ai"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__pydantic-ai",
+    "slug": "pydantic-ai",
+    "name": "Pydantic AI",
+    "maker": "Pydantic · Samuel Colvin",
+    "logo": "https://www.google.com/s2/favicons?domain=pydantic.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Type-safe",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Python agent framework from the team behind Pydantic (the validation library).",
+    "paragraphs": [
+      "What it is. Python agent framework from the team behind Pydantic (the validation library). Launched late 2024. Minimal, type-safe, explicit — the anti-LangChain.",
+      "What sets it apart. First-class structured-output types (of course — it's Pydantic). Tool definitions are just Python functions. Small, readable codebase you can actually understand. Popular with FastAPI developers (also built on Pydantic).",
+      "Connections. Pydantic the library is used by literally every LLM framework, so this is a \"first-party\" play from the validation layer. Pydantic Logfire is the observability sister product."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast growth among FastAPI / typed-Python crowd; ~10K stars in under a year"
+      },
+      {
+        "k": "Niche",
+        "v": "Developers who want \"just Python + types\" instead of a DSL"
+      }
+    ],
+    "links": [
+      {
+        "label": "ai.pydantic.dev",
+        "url": "https://ai.pydantic.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/pydantic/pydantic-ai"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__mastra",
+    "slug": "mastra",
+    "name": "Mastra",
+    "maker": "founded by Sam Bhagwat (ex-Gatsby)",
+    "logo": "https://www.google.com/s2/favicons?domain=mastra.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "TypeScript",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A TypeScript-first agent framework — most frameworks are Python-first.",
+    "paragraphs": [
+      "What it is. A TypeScript-first agent framework — most frameworks are Python-first. Covers agents, workflows, RAG, evals, and observability in one bundle. Launched early 2025.",
+      "What sets it apart. Clean TypeScript DX (tRPC-like ergonomics), good Next.js / Vercel integration, batteries-included. Becoming a popular choice in the JS ecosystem where LangChain-JS is seen as bloated.",
+      "Connections. Founders previously built Gatsby (the React static-site generator). YC backed. Mastra Cloud is the hosted version."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast growth in JS/TS agent community; ~12K stars"
+      },
+      {
+        "k": "Audience",
+        "v": "TypeScript / Next.js teams"
+      }
+    ],
+    "links": [
+      {
+        "label": "mastra.ai",
+        "url": "https://mastra.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mastra-ai/mastra"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__llamaindex",
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "maker": "Jerry Liu · founded 2023",
+    "logo": "https://www.google.com/s2/favicons?domain=llamaindex.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "RAG-focused",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Originally \"GPT-Index\" — a RAG-focused framework for indexing and querying your documents with LLMs.",
+    "paragraphs": [
+      "What it is. Originally \"GPT-Index\" — a RAG-focused framework for indexing and querying your documents with LLMs. Has since expanded into full agents and workflows, but RAG remains the main differentiator.",
+      "What sets it apart. Deepest RAG toolkit of any framework — dozens of indexing strategies, retrieval modes, response synthesizers, and agent patterns specifically for document-heavy use cases. LlamaParse (paid) is a best-in-class PDF / doc parser.",
+      "Connections. Historical rival to LangChain; overlapping feature sets now. LlamaHub has hundreds of community connectors. LlamaCloud is the hosted platform."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~35K GitHub stars; default choice for RAG-heavy apps"
+      },
+      {
+        "k": "Niche",
+        "v": "Enterprise RAG — searching big document collections"
+      }
+    ],
+    "links": [
+      {
+        "label": "llamaindex.ai",
+        "url": "https://llamaindex.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/run-llama/llama_index"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__smolagents",
+    "slug": "smolagents",
+    "name": "smolagents",
+    "maker": "Hugging Face",
+    "logo": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Minimalist",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Hugging Face's tiny agent framework (launched early 2025).",
+    "paragraphs": [
+      "What it is. Hugging Face's tiny agent framework (launched early 2025). Core idea: \"code agents\" — the LLM writes Python code as its actions, rather than emitting structured tool-call JSON. Inspired by the \"Executable Code Actions\" paper.",
+      "What sets it apart. Elegantly small (~1K lines of code). Python-as-action-space often beats rigid tool schemas for complex tasks. Backed by HuggingFace's model hub — easy to swap open-weights models.",
+      "Connections. HF Spaces / Inference Endpoints for deployment. Academic roots (the code-actions approach)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~15K stars; popular in the open-weights / HF community"
+      },
+      {
+        "k": "Niche",
+        "v": "Code-actions enthusiasts; local / open-model agent pipelines"
+      }
+    ],
+    "links": [
+      {
+        "label": "huggingface.co/docs/smolagents",
+        "url": "https://huggingface.co/docs/smolagents"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/huggingface/smolagents"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__agno",
+    "slug": "agno",
+    "name": "Agno (formerly Phidata)",
+    "maker": "Ashpreet Bedi et al.",
+    "logo": "https://www.google.com/s2/favicons?domain=agno.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Python",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Python agent framework (rebranded from Phidata in 2025).",
+    "paragraphs": [
+      "What it is. Python agent framework (rebranded from Phidata in 2025). Emphasizes performance — claims \"10,000x faster agent instantiation than LangGraph\" — and out-of-the-box memory, knowledge, reasoning.",
+      "What sets it apart. Speed benchmarks and minimal dependencies make it attractive where LangGraph's overhead hurts. Built-in \"reasoning agents\" and \"memory agents\" as primitives.",
+      "Connections. Often compared side-by-side with CrewAI and LangGraph in benchmark posts."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~25K stars; smaller but dedicated community"
+      },
+      {
+        "k": "Niche",
+        "v": "Performance-sensitive Python agents"
+      }
+    ],
+    "links": [
+      {
+        "label": "agno.com",
+        "url": "https://agno.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/agno-agi/agno"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__hermes",
+    "slug": "hermes",
+    "name": "Hermes Agent",
+    "maker": "Nous Research · released Feb 25, 2026 · MIT",
+    "logo": "https://www.google.com/s2/favicons?domain=nousresearch.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Self-improving",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Nous Research's open-source agent framework, with a built-in learning loop: it creates reusable skills from experience, refines them as you use them, persists knowledge across sessions, and builds a model of the user over time.",
+    "paragraphs": [
+      "What it is. Nous Research's open-source agent framework, with a built-in learning loop: it creates reusable skills from experience, refines them as you use them, persists knowledge across sessions, and builds a model of the user over time. Ships with 118 bundled skills, three-layer memory, and six messaging integrations out of the box (Telegram, Discord, Slack, WhatsApp, Signal, Email, plus CLI).",
+      "What sets it apart. The only framework on this list with a first-class self-improvement loop — most others treat \"memory\" as vector storage, Hermes treats it as a closed learning system. Model-agnostic: Nous Portal, OpenRouter (200+ models), NVIDIA NIM, z.ai/GLM, Kimi/Moonshot, MiniMax, HuggingFace, OpenAI, or custom endpoints. Runs on a $5 VPS or serverless.",
+      "Connections. Nous Research is the same group behind the Hermes series of fine-tuned open-weights models (Hermes 3, Hermes 4). Hit ~95K GitHub stars in ~7 weeks — the fastest-growing agent framework of 2026."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~95K stars in 7 weeks; messaging-first agent deployments"
+      },
+      {
+        "k": "Niche",
+        "v": "Personal agents that persist and improve across sessions"
+      }
+    ],
+    "links": [
+      {
+        "label": "hermes-agent.nousresearch.com",
+        "url": "https://hermes-agent.nousresearch.com/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/nousresearch/hermes-agent"
+      },
+      {
+        "label": "Docs",
+        "url": "https://hermes-agent.nousresearch.com/docs/"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-frameworks__openclaw",
+    "slug": "openclaw",
+    "name": "OpenClaw",
+    "maker": "created by Peter Steinberger · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=openclaws.io&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Personal agent",
+        "variant": "default"
+      }
+    ],
+    "tagline": "An open-source autonomous AI personal assistant that runs on your own machine.",
+    "paragraphs": [
+      "What it is. An open-source autonomous AI personal assistant that runs on your own machine. Executes real tasks — manages files, drives browsers, sends messages, and automates workflows across WhatsApp, Telegram, Discord, Slack, Signal, and iMessage. Positioned as \"The AI that actually does things\" — closer to a computer-use agent than a chatbot.",
+      "What sets it apart. The messaging-integration surface is the broadest in any open-source agent — Signal + iMessage in particular are rare. Local-first, which Hermes and most cloud agents are not. TechCrunch called it category-defining enough that Indian startup Emergent's \"Wingman\" was framed as an \"OpenClaw-like\" competitor.",
+      "Connections. Created by Peter Steinberger (ex-PSPDFKit founder). Spiritual sibling to Hermes Agent (above) — both are autonomous-personal-agent products, though Hermes is framework-first and OpenClaw is product-first. Often confused with OpenClaude (the Claude Code fork, different tool) and OpenCode (SST's coding agent, also different)."
+    ],
+    "meta": [
+      {
+        "k": "Category note",
+        "v": "More product than framework — fits here as Hermes's closest peer"
+      },
+      {
+        "k": "Niche",
+        "v": "Local autonomous agent with broad messaging reach"
+      }
+    ],
+    "links": [
+      {
+        "label": "openclaws.io",
+        "url": "https://openclaws.io"
+      }
+    ],
+    "category": "agent-frameworks",
+    "categorySlug": "agent-frameworks",
+    "categoryName": "Agent Frameworks (Third-Party)"
+  },
+  {
+    "id": "agent-runtimes__cmux",
+    "slug": "cmux",
+    "name": "cmux",
+    "maker": "manaflow-ai · launched Feb 2026 · AGPL",
+    "logo": "https://www.google.com/s2/favicons?domain=cmux.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "macOS only",
+        "variant": "warn"
+      }
+    ],
+    "tagline": "A native macOS terminal built on Ghostty's libghostty rendering engine, designed specifically for running multiple AI coding agents in parallel.",
+    "paragraphs": [
+      "What it is. A native macOS terminal built on Ghostty's libghostty rendering engine, designed specifically for running multiple AI coding agents in parallel. Vertical tabs, per-tab status lights (green = done, yellow = waiting for input, red = error), notifications when an agent finishes, a built-in browser for previewing changes, and a scriptable CLI/socket API.",
+      "What sets it apart. Defined the category. The status-light-per-tab metaphor is so obvious in hindsight that every subsequent \"agent terminal\" copied it. Free, open source, GPU-accelerated via Ghostty. Compatible with Claude Code, Codex, OpenCode, Gemini CLI, Kiro, Aider — any CLI tool.",
+      "Connections. Built on Ghostty (Mitchell Hashimoto's GPU terminal). Hit 7.7K stars in its first month. Inspired Wmux (the Windows port) and Calyx (another Ghostty-based competitor on macOS)."
+    ],
+    "meta": [
+      {
+        "k": "Platform",
+        "v": "macOS 26+ only"
+      },
+      {
+        "k": "Cost",
+        "v": "Free forever (AGPL)"
+      }
+    ],
+    "links": [
+      {
+        "label": "cmux.com",
+        "url": "https://cmux.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/manaflow-ai/cmux"
+      }
+    ],
+    "category": "agent-runtimes",
+    "categorySlug": "agent-runtimes",
+    "categoryName": "Agent Runtimes / Terminals"
+  },
+  {
+    "id": "agent-runtimes__wmux",
+    "slug": "wmux",
+    "name": "Wmux",
+    "maker": "Windows-native",
+    "logo": "https://www.google.com/s2/favicons?domain=mcpmarket.com&sz=128",
+    "tags": [
+      {
+        "label": "Windows",
+        "variant": "good"
+      },
+      {
+        "label": "Multi-agent",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A Windows-first terminal multiplexer for AI coding agents.",
+    "paragraphs": [
+      "What it is. A Windows-first terminal multiplexer for AI coding agents. Orchestrate Claude Code, Codex, Gemini CLI across split terminals with smart notifications when an agent finishes or needs input. Ships with integrated browser automation via Chrome DevTools Protocol, so agents can drive a browser without a separate setup.",
+      "What sets it apart. Basically \"cmux for Windows\" — same philosophy, different OS. The browser-automation integration is a genuine add-on: if you have agents that need to test a web UI, you don't have to glue Playwright in yourself.",
+      "Connections. Aimed at the audience cmux explicitly excluded. The category's answer to \"fine, but I'm on Windows.\""
+    ],
+    "meta": [
+      {
+        "k": "Platform",
+        "v": "Windows"
+      },
+      {
+        "k": "Niche",
+        "v": "Windows devs running 2–5 agents in parallel"
+      }
+    ],
+    "links": [
+      {
+        "label": "mcpmarket.com/server/wmux",
+        "url": "https://mcpmarket.com/server/wmux"
+      }
+    ],
+    "category": "agent-runtimes",
+    "categorySlug": "agent-runtimes",
+    "categoryName": "Agent Runtimes / Terminals"
+  },
+  {
+    "id": "agent-runtimes__warp",
+    "slug": "warp",
+    "name": "Warp",
+    "maker": "Warp · founded 2020 · CEO Zach Lloyd",
+    "logo": "https://www.google.com/s2/favicons?domain=warp.dev&sz=128",
+    "tags": [
+      {
+        "label": "Cross-platform",
+        "variant": "good"
+      },
+      {
+        "label": "AI-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A cross-platform (macOS / Linux / Windows) terminal rebuilt from scratch around AI.",
+    "paragraphs": [
+      "What it is. A cross-platform (macOS / Linux / Windows) terminal rebuilt from scratch around AI. Inline agents that can plan, run, and review commands; block-based command history; collaborative sessions; integrated code editor. Not a dedicated \"agent orchestrator\" like cmux, but a full AI-native terminal that plays well with Claude Code and other CLIs.",
+      "What sets it apart. The most polished AI terminal, period. The only tool in this category with real Windows support — if you're on Windows and want a single \"nice\" terminal instead of stacking Warp + cmux-likes, this is it. Paid tiers for teams.",
+      "Connections. Predates the cmux-style category (Warp launched in 2022) and is now repositioned as \"agent-first.\" Features Claude Code as a first-class integration on their site."
+    ],
+    "meta": [
+      {
+        "k": "Platform",
+        "v": "macOS, Linux, Windows"
+      },
+      {
+        "k": "Cost",
+        "v": "Free tier; paid teams"
+      }
+    ],
+    "links": [
+      {
+        "label": "warp.dev",
+        "url": "https://www.warp.dev"
+      },
+      {
+        "label": "Warp + Claude Code",
+        "url": "https://www.warp.dev/agents/claude-code"
+      }
+    ],
+    "category": "agent-runtimes",
+    "categorySlug": "agent-runtimes",
+    "categoryName": "Agent Runtimes / Terminals"
+  },
+  {
+    "id": "agent-runtimes__yaw",
+    "slug": "yaw",
+    "name": "Yaw",
+    "maker": "yaw.sh",
+    "logo": "https://www.google.com/s2/favicons?domain=yaw.sh&sz=128",
+    "tags": [
+      {
+        "label": "Claude Code–focused",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A terminal purpose-built for Claude Code workflows.",
+    "paragraphs": [
+      "What it is. A terminal purpose-built for Claude Code workflows. Watches for Claude Code launches and immediately opens a side-by-side layout: your AI agent on one side, a regular shell in the same project directory on the other.",
+      "What sets it apart. Narrower than cmux (Claude Code specifically, not \"any agent\") but nicer if that's all you use. The auto-split-on-launch ergonomics remove a manual tmux step.",
+      "Connections. Indie project. Part of the 2026 wave of \"one terminal per agent type\" experiments."
+    ],
+    "meta": [
+      {
+        "k": "Niche",
+        "v": "Claude Code power users who want a dedicated UI"
+      }
+    ],
+    "links": [
+      {
+        "label": "yaw.sh",
+        "url": "https://yaw.sh"
+      }
+    ],
+    "category": "agent-runtimes",
+    "categorySlug": "agent-runtimes",
+    "categoryName": "Agent Runtimes / Terminals"
+  },
+  {
+    "id": "agent-runtimes__windows-terminal",
+    "slug": "windows-terminal",
+    "name": "Windows Terminal",
+    "maker": "Microsoft · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "tags": [
+      {
+        "label": "Windows",
+        "variant": "good"
+      },
+      {
+        "label": "Baseline",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The default modern terminal on Windows 11.",
+    "paragraphs": [
+      "What it is. The default modern terminal on Windows 11. Tabs, split panes, scrollback, search, PowerShell + CMD + WSL in one window. No AI-specific features.",
+      "What sets it apart. It's free, it's already installed, and it works fine for Claude Code / Codex / Aider. You have to set up split panes manually — there's no per-tab \"agent status\" indicator — but for a single agent at a time it's perfectly adequate.",
+      "Connections. The sensible fallback if you don't want to evaluate Warp or Wmux yet. Combine with WSL2 + Ghostty if you want the GPU-accelerated experience cmux users get on macOS."
+    ],
+    "meta": [
+      {
+        "k": "Platform",
+        "v": "Windows only"
+      },
+      {
+        "k": "Cost",
+        "v": "Free"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/microsoft/terminal"
+      }
+    ],
+    "category": "agent-runtimes",
+    "categorySlug": "agent-runtimes",
+    "categoryName": "Agent Runtimes / Terminals"
+  },
+  {
+    "id": "ai-code-editors__cursor",
+    "slug": "cursor",
+    "name": "Cursor",
+    "maker": "by Anysphere · Founded 2022 · CEO Michael Truell",
+    "logo": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
+    "tags": [
+      {
+        "label": "VS Code fork",
+        "variant": "default"
+      },
+      {
+        "label": "$20/mo Pro",
+        "variant": "warn"
+      }
+    ],
+    "tagline": "A VS Code fork with AI woven into every surface: Tab (predictive multi-line completion), Chat (codebase-aware), Composer / Agent mode (multi-file automated edits), and inline diffs.",
+    "paragraphs": [
+      "What it is. A VS Code fork with AI woven into every surface: Tab (predictive multi-line completion), Chat (codebase-aware), Composer / Agent mode (multi-file automated edits), and inline diffs. Model-agnostic — users pick Claude, GPT, or Gemini from a dropdown.",
+      "What sets it apart. Fastest, most polished in-editor agent experience. Cursor Tab's custom \"cursor-small\" model does blazing-fast speculative completions that neither Claude nor GPT can match at that latency. Became the default dev tool for AI-native startups in 2024–2025.",
+      "Connections. Raised ~$900M at $9.9B valuation (2025). Heavy Anthropic user — Claude Sonnet 4.5 is the most-used model inside Cursor. Major beneficiary of MCP (Cursor's MCP support makes tool plugins easy)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "1M+ paying users reported, ~$500M+ ARR as of 2025"
+      },
+      {
+        "k": "Founded",
+        "v": "2022; originally a sidecar, pivoted to full fork late 2023"
+      }
+    ],
+    "links": [
+      {
+        "label": "cursor.com",
+        "url": "https://cursor.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.cursor.com"
+      },
+      {
+        "label": "Forum",
+        "url": "https://forum.cursor.com"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__windsurf",
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "maker": "by Codeium · now owned by Cognition · CEO Jeff Wang",
+    "logo": "https://www.google.com/s2/favicons?domain=codeium.com&sz=128",
+    "tags": [
+      {
+        "label": "VS Code fork",
+        "variant": "default"
+      },
+      {
+        "label": "Acquired 2025",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Also a VS Code fork, also AI-first, but with a distinctive \"Cascade\" agent mode that's more willing to take initiative across multiple files without confirming each step.",
+    "paragraphs": [
+      "What it is. Also a VS Code fork, also AI-first, but with a distinctive \"Cascade\" agent mode that's more willing to take initiative across multiple files without confirming each step. Codeium's earlier autocomplete plugin was re-wrapped into the Windsurf IDE in late 2024.",
+      "What sets it apart. Cascade mode's balance between autocomplete and full autonomy — less fussy than Cursor Composer for long refactors. Strong enterprise story (self-hosted, SOC 2) from Codeium's plugin days. Acquired by Cognition Labs (maker of Devin) in 2025 — Windsurf is now the IDE half of Cognition's \"IDE + autonomous agent\" strategy.",
+      "Connections. Originally Codeium (founded by Varun Mohan, 2021). Google tried to acquire for ~$2.4B in mid-2025, deal fell through; Cognition bought the rump-company in a controversial deal. Cascade runs on Claude, GPT, and Codeium's own models."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Codeium's plugin had ~1M+ devs; Windsurf IDE adoption strong in enterprise"
+      },
+      {
+        "k": "Parent",
+        "v": "Cognition Labs (also makes Devin)"
+      }
+    ],
+    "links": [
+      {
+        "label": "windsurf.com",
+        "url": "https://windsurf.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.windsurf.com"
+      },
+      {
+        "label": "Cognition (parent)",
+        "url": "https://cognition.ai"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__antigravity",
+    "slug": "antigravity",
+    "name": "Google Antigravity",
+    "maker": "Google · launched early 2026",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "Agent-first IDE",
+        "variant": "default"
+      },
+      {
+        "label": "Rate-limit complaints",
+        "variant": "warn"
+      }
+    ],
+    "tagline": "Google's agent-first IDE, designed from scratch around multi-step autonomous task execution (unlike Cursor / Copilot, which layered agents on top of autocomplete).",
+    "paragraphs": [
+      "What it is. Google's agent-first IDE, designed from scratch around multi-step autonomous task execution (unlike Cursor / Copilot, which layered agents on top of autocomplete). Ships with both Claude Opus 4.6 and Gemini 3 Pro built in. Core UX: describe a task, the agent creates a plan, you approve, it executes with real-time visibility.",
+      "What sets it apart. The \"plan before action\" step is a meaningful safety net against agents wandering off. Scores 76.2% on SWE-bench Verified — among the top publicly benchmarked coding agents. Free at launch with no announced paid tier.",
+      "Connections. Merged with Google AI Studio in early 2026 to form Google's \"full-stack vibe coding\" pipeline. Google is sunsetting Firebase Studio in favor of Antigravity-plus-AI-Studio as the primary builder. Runs Claude Opus 4.6 despite being a Google product — the most visible cross-vendor model deal of 2026."
+    ],
+    "meta": [
+      {
+        "k": "Reception",
+        "v": "Strong benchmarks; mixed real-world reviews — tight rate limits in March 2026 drew \"$20 paperweight\" complaints"
+      },
+      {
+        "k": "Platform",
+        "v": "Desktop (macOS, Windows, Linux)"
+      }
+    ],
+    "links": [
+      {
+        "label": "antigravity.google",
+        "url": "https://antigravity.google"
+      },
+      {
+        "label": "Launch post",
+        "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__copilot",
+    "slug": "copilot",
+    "name": "GitHub Copilot",
+    "maker": "Microsoft / GitHub · CEO Thomas Dohmke (GitHub)",
+    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise default",
+        "variant": "default"
+      },
+      {
+        "label": "VS Code extension",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The original AI code assistant, launched in 2021 on top of OpenAI Codex.",
+    "paragraphs": [
+      "What it is. The original AI code assistant, launched in 2021 on top of OpenAI Codex. Now a suite: Copilot (autocomplete + chat), Copilot Workspace (plan → diff), Copilot Agent Mode (VS Code-native agent added 2025), and Copilot Extensions (third-party tool integrations).",
+      "What sets it apart. Enterprise incumbency. When a large company \"turns on AI coding,\" Copilot is the default because of GitHub Enterprise licensing and Microsoft procurement. Model-agnostic: users can pick GPT-5, Claude, or Gemini inside Copilot.",
+      "Connections. Owned by Microsoft (via GitHub, acquired 2018). Trained originally on OpenAI models (Microsoft is exclusive Azure partner). Integrated natively into VS Code (Microsoft) and JetBrains IDEs."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "20M+ developers, ~100K enterprises as of 2025; largest user base in category"
+      },
+      {
+        "k": "Positioning",
+        "v": "Safe default for incumbents; Cursor/Windsurf win the startup early-adopter fight"
+      }
+    ],
+    "links": [
+      {
+        "label": "github.com/features/copilot",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.github.com/copilot"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__zed",
+    "slug": "zed",
+    "name": "Zed",
+    "maker": "by Zed Industries · CEO Nathan Sobo (co-creator of Atom)",
+    "logo": "https://www.google.com/s2/favicons?domain=zed.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Rust-native",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A ground-up rewrite of \"the editor\" in Rust — GPU-rendered, designed from day one for real-time collaboration and AI.",
+    "paragraphs": [
+      "What it is. A ground-up rewrite of \"the editor\" in Rust — GPU-rendered, designed from day one for real-time collaboration and AI. Ships an \"Agent panel\" with Claude/GPT support, in-editor threaded chat, and a native MCP client.",
+      "What sets it apart. Not a VS Code fork — the only serious AI editor built from scratch. Result: genuinely faster than Cursor / Windsurf, lower memory, better Linux support. Open-source under GPL + Apache.",
+      "Connections. Built by the team behind Atom (the editor GitHub retired in 2022). Heavy use of Tree-sitter (also co-created by Zed's Max Brunsfeld). Native MCP support makes it tight with Anthropic's ecosystem."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Smaller than Cursor but devoted following among performance-sensitive / Linux devs"
+      },
+      {
+        "k": "Founded",
+        "v": "2022; AI features became first-class in 2024–2025"
+      }
+    ],
+    "links": [
+      {
+        "label": "zed.dev",
+        "url": "https://zed.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/zed-industries/zed"
+      },
+      {
+        "label": "Docs",
+        "url": "https://zed.dev/docs"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__jetbrains-ai",
+    "slug": "jetbrains-ai",
+    "name": "JetBrains AI Assistant / Junie",
+    "maker": "JetBrains · Prague",
+    "logo": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=128",
+    "tags": [
+      {
+        "label": "Paid add-on",
+        "variant": "default"
+      },
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      }
+    ],
+    "tagline": "AI features bolted into every JetBrains IDE — IntelliJ, PyCharm, WebStorm, Rider, etc.",
+    "paragraphs": [
+      "What it is. AI features bolted into every JetBrains IDE — IntelliJ, PyCharm, WebStorm, Rider, etc. \"Junie\" is JetBrains' agent-mode product, launched 2025. Supports Claude, GPT, Gemini, and JetBrains' own models.",
+      "What sets it apart. Deepest static-analysis / refactoring engine of any IDE — JetBrains can do precise, symbol-aware edits that pure-LLM editors struggle with. Big advantage for large Java / Kotlin / C# codebases.",
+      "Connections. Long-time rival to Microsoft's VS Code ecosystem. Copilot also runs as a plugin inside JetBrains, so devs can mix-and-match."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Huge install base (JetBrains IDEs have ~15M+ users); AI adoption catching up"
+      },
+      {
+        "k": "Strength",
+        "v": "Best choice for Java/Kotlin/.NET shops with large legacy codebases"
+      }
+    ],
+    "links": [
+      {
+        "label": "jetbrains.com/ai",
+        "url": "https://www.jetbrains.com/ai/"
+      },
+      {
+        "label": "Junie",
+        "url": "https://www.jetbrains.com/junie/"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-code-editors__continue",
+    "slug": "continue",
+    "name": "Continue",
+    "maker": "by Continue Dev · CEO Ty Dunn",
+    "logo": "https://www.google.com/s2/favicons?domain=continue.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "BYO model",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Open-source AI code assistant that installs as an extension in VS Code and JetBrains.",
+    "paragraphs": [
+      "What it is. Open-source AI code assistant that installs as an extension in VS Code and JetBrains. Bring-your-own-model — works with local (Ollama, LM Studio), open-weights, or frontier APIs.",
+      "What sets it apart. The go-to choice for devs who want Cursor-like features without leaving VS Code proper, or who want to run entirely locally for privacy / compliance. \"Continue Hub\" lets teams share assistant configurations as code.",
+      "Connections. YC-backed. Heavily used inside enterprises that can't send code to frontier APIs; often paired with Ollama or vLLM locally."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hundreds of thousands of installs via VS Code marketplace"
+      },
+      {
+        "k": "Niche",
+        "v": "Open-source / local-first / regulated-industry default"
+      }
+    ],
+    "links": [
+      {
+        "label": "continue.dev",
+        "url": "https://continue.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/continuedev/continue"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.continue.dev"
+      }
+    ],
+    "category": "ai-code-editors",
+    "categorySlug": "ai-code-editors",
+    "categoryName": "AI Code Editors"
+  },
+  {
+    "id": "ai-observability__langsmith",
+    "slug": "langsmith",
+    "name": "LangSmith",
+    "maker": "LangChain Inc.",
+    "logo": "https://www.google.com/s2/favicons?domain=langchain.com&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Traces + evals",
+        "variant": "default"
+      }
+    ],
+    "tagline": "LangChain's observability + evals platform.",
+    "paragraphs": [
+      "What it is. LangChain's observability + evals platform. Traces, human review, LLM-as-judge evals, dataset management, prompt playground.",
+      "What sets it apart. Works with any framework (not just LangChain). Market leader by usage. Tightest integration with LangGraph.",
+      "Connections. Often sold alongside LangGraph (they share SDK)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Largest managed LLM observability by revenue"
+      },
+      {
+        "k": "Cost",
+        "v": "Free tier; Plus $39/mo per seat; enterprise pricing"
+      }
+    ],
+    "links": [
+      {
+        "label": "smith.langchain.com",
+        "url": "https://smith.langchain.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.smith.langchain.com"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__langfuse",
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "maker": "Langfuse · Berlin",
+    "logo": "https://www.google.com/s2/favicons?domain=langfuse.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Self-host",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Open-source LangSmith.",
+    "paragraphs": [
+      "What it is. Open-source LangSmith. Traces, evals, prompt management, dataset management — all self-hostable. Also offers Langfuse Cloud.",
+      "What sets it apart. The default pick when you can't send prompts/outputs to a third-party SaaS (regulated industries, self-hosting preference). Generous free tier on Cloud.",
+      "Connections. Works with LangChain, LlamaIndex, Claude Agent SDK, OpenAI Agents SDK, any LLM."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~12K GitHub stars; leading OSS choice in category"
+      },
+      {
+        "k": "Strength",
+        "v": "Self-hostable; no data leaves your infra"
+      }
+    ],
+    "links": [
+      {
+        "label": "langfuse.com",
+        "url": "https://langfuse.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/langfuse/langfuse"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__helicone",
+    "slug": "helicone",
+    "name": "Helicone",
+    "maker": "Helicone · YC",
+    "logo": "https://www.google.com/s2/favicons?domain=helicone.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Proxy-based",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Proxy-based LLM observability — you point your OpenAI/Anthropic SDK at Helicone's URL and it logs everything.",
+    "paragraphs": [
+      "What it is. Proxy-based LLM observability — you point your OpenAI/Anthropic SDK at Helicone's URL and it logs everything. One-line integration.",
+      "What sets it apart. Lowest friction to install. Cost analytics + caching + rate limiting built in. Popular for quick-start observability.",
+      "Connections. Often paired with LangSmith or Langfuse — Helicone handles raw logging, the others handle evals."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hundreds of thousands of developers; fast YC-era growth"
+      },
+      {
+        "k": "Niche",
+        "v": "Proxy-based \"just-log-everything\" simplicity"
+      }
+    ],
+    "links": [
+      {
+        "label": "helicone.ai",
+        "url": "https://helicone.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Helicone/helicone"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__braintrust",
+    "slug": "braintrust",
+    "name": "Braintrust",
+    "maker": "Braintrust · founded by Ankur Goyal (ex-MotherDuck, ex-Figma)",
+    "logo": "https://www.google.com/s2/favicons?domain=braintrust.dev&sz=128",
+    "tags": [
+      {
+        "label": "Evals-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Evals-centric platform.",
+    "paragraphs": [
+      "What it is. Evals-centric platform. Write datasets as code, run LLM-as-judge graders, compare models side-by-side, integrate into CI. Traces and prompt management as supporting features.",
+      "What sets it apart. Best developer experience for evals-as-code. Strong typed SDKs. Used by Zapier, Vercel, and most \"serious engineering culture\" LLM teams.",
+      "Connections. Founders have MotherDuck + Figma backgrounds — product-engineering-heavy pedigree. Often cited alongside Promptfoo."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast-growing among technical teams; smaller user base than LangSmith, larger-contract focus"
+      },
+      {
+        "k": "Niche",
+        "v": "Evals-in-CI / TypeScript-native / engineering-rigor teams"
+      }
+    ],
+    "links": [
+      {
+        "label": "braintrust.dev",
+        "url": "https://braintrust.dev"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__arize",
+    "slug": "arize",
+    "name": "Arize AI (+ Phoenix)",
+    "maker": "Arize · founded 2020",
+    "logo": "https://www.google.com/s2/favicons?domain=arize.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      },
+      {
+        "label": "Phoenix is OSS",
+        "variant": "good"
+      }
+    ],
+    "tagline": "Enterprise ML + LLM observability platform.",
+    "paragraphs": [
+      "What it is. Enterprise ML + LLM observability platform. Arize AX is the commercial product; Phoenix is the open-source core (notebook-friendly tracing + evals).",
+      "What sets it apart. Deep classic-ML roots — the only vendor covering both traditional ML monitoring and LLM observability in one platform. Popular at regulated-industry customers that need both.",
+      "Connections. Phoenix has ~4K GitHub stars; commonly used in Jupyter for one-off debugging."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Enterprise ML shops; less mindshare in startup AI than LangSmith"
+      },
+      {
+        "k": "Strength",
+        "v": "ML + LLM unified; regulated industries"
+      }
+    ],
+    "links": [
+      {
+        "label": "arize.com",
+        "url": "https://arize.com"
+      },
+      {
+        "label": "Phoenix",
+        "url": "https://phoenix.arize.com"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__posthog-llm",
+    "slug": "posthog-llm",
+    "name": "PostHog LLM Analytics",
+    "maker": "PostHog",
+    "logo": "https://www.google.com/s2/favicons?domain=posthog.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Product analytics",
+        "variant": "default"
+      }
+    ],
+    "tagline": "PostHog (product analytics) added LLM-specific analytics in 2024–2025.",
+    "paragraphs": [
+      "What it is. PostHog (product analytics) added LLM-specific analytics in 2024–2025. Combines traces with the product-analytics layer (session replays, funnel analysis, cohorts) — so you can correlate LLM quality with business metrics.",
+      "What sets it apart. The only option that unifies LLM observability with session replay and product analytics in one tool. PostHog's own AI team uses it for \"Trace Hours\" (watching real user traces).",
+      "Connections. PostHog also ships PostHog AI (an in-product agent) — eats its own dogfood."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "PostHog has ~100K paying customers; LLM features adoption is the newest slice"
+      },
+      {
+        "k": "Niche",
+        "v": "Product + LLM observability unified"
+      }
+    ],
+    "links": [
+      {
+        "label": "posthog.com/llm-observability",
+        "url": "https://posthog.com/llm-observability"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__promptfoo",
+    "slug": "promptfoo",
+    "name": "Promptfoo",
+    "maker": "acquired by OpenAI March 2026",
+    "logo": "https://www.google.com/s2/favicons?domain=promptfoo.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Evals + red-team",
+        "variant": "default"
+      }
+    ],
+    "tagline": "YAML-configured eval harness: define test cases, run across providers, get diffs.",
+    "paragraphs": [
+      "What it is. YAML-configured eval harness: define test cases, run across providers, get diffs. Also supports red-teaming / vulnerability scanning for agents. Acquired by OpenAI in March 2026 (the OSS project continues).",
+      "What sets it apart. Lowest-friction way to compare GPT vs Claude vs Gemini on the same prompts. Strong CI integration. Fireship favorite.",
+      "Connections. Now part of OpenAI's Frontier AI security platform. OSS tool still usable with any provider."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Tens of thousands of users; strong indie-dev adoption"
+      },
+      {
+        "k": "Niche",
+        "v": "Evals-as-YAML + red-teaming"
+      }
+    ],
+    "links": [
+      {
+        "label": "promptfoo.dev",
+        "url": "https://promptfoo.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/promptfoo/promptfoo"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "ai-observability__traceloop",
+    "slug": "traceloop",
+    "name": "Traceloop (OpenLLMetry)",
+    "maker": "Traceloop",
+    "logo": "https://www.google.com/s2/favicons?domain=traceloop.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "OpenTelemetry",
+        "variant": "default"
+      }
+    ],
+    "tagline": "OpenLLMetry is an open-source extension of OpenTelemetry for LLM apps.",
+    "paragraphs": [
+      "What it is. OpenLLMetry is an open-source extension of OpenTelemetry for LLM apps. Traceloop is the managed dashboard built on top.",
+      "What sets it apart. Standards-based — emits OpenTelemetry spans. Works with any OTel-compatible backend (Datadog, Grafana, Honeycomb, etc.), not just Traceloop's own UI.",
+      "Connections. Part of CNCF / OpenTelemetry ecosystem. Preferred by orgs that already have big OTel investments."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Growing with OpenTelemetry adoption"
+      },
+      {
+        "k": "Niche",
+        "v": "OTel-shop AI observability"
+      }
+    ],
+    "links": [
+      {
+        "label": "traceloop.com",
+        "url": "https://traceloop.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/traceloop/openllmetry"
+      }
+    ],
+    "category": "ai-observability",
+    "categorySlug": "ai-observability",
+    "categoryName": "AI Observability & Evals"
+  },
+  {
+    "id": "app-builders__v0",
+    "slug": "v0",
+    "name": "v0",
+    "maker": "Vercel · launched Oct 2023",
+    "logo": "https://www.google.com/s2/favicons?domain=vercel.com&sz=128",
+    "tags": [
+      {
+        "label": "React/Next.js",
+        "variant": "default"
+      },
+      {
+        "label": "Design-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Vercel's prompt-to-UI tool.",
+    "paragraphs": [
+      "What it is. Vercel's prompt-to-UI tool. Describe a UI or paste a screenshot; get React + Tailwind + shadcn/ui code you can deploy to Vercel in one click. Has evolved from \"generate a component\" to \"generate a full app.\"",
+      "What sets it apart. Tightest integration with the Next.js + Vercel stack — the apps you build actually deploy cleanly. Output is idiomatic, modern React that professional devs can continue editing. Has its own model family (\"v0-1.5\") tuned for UI code.",
+      "Connections. Vercel also makes the AI SDK and Next.js. Works seamlessly with shadcn/ui (Vercel's design system). Competes directly with Bolt.new and Lovable."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Millions of generations/month; a primary Vercel growth driver"
+      },
+      {
+        "k": "Audience",
+        "v": "Designers + front-end devs who already know Vercel"
+      }
+    ],
+    "links": [
+      {
+        "label": "v0.app",
+        "url": "https://v0.app"
+      },
+      {
+        "label": "vercel.com (parent)",
+        "url": "https://vercel.com"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__bolt",
+    "slug": "bolt",
+    "name": "Bolt.new",
+    "maker": "StackBlitz · CEO Eric Simons",
+    "logo": "https://www.google.com/s2/favicons?domain=stackblitz.com&sz=128",
+    "tags": [
+      {
+        "label": "Full-stack",
+        "variant": "default"
+      },
+      {
+        "label": "In-browser",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A full-stack app builder running entirely in your browser.",
+    "paragraphs": [
+      "What it is. A full-stack app builder running entirely in your browser. StackBlitz built \"WebContainers\" — Node.js in WASM — which lets Bolt run a real dev server + npm install in-browser, not on a remote VM. Users prompt, Bolt generates and runs a full app.",
+      "What sets it apart. No cloud VM = instant feedback loop, works offline-ish, no infrastructure cost per session. Went from $0 to $20M ARR in 2 months in late 2024 — one of the fastest SaaS ramps on record.",
+      "Connections. Built on StackBlitz's decade-old WebContainer tech. Deploys to Netlify, Cloudflare, Vercel. Heavy Claude user under the hood."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hit $40M+ ARR in first ~6 months; millions of apps generated"
+      },
+      {
+        "k": "Tech moat",
+        "v": "WebContainers — the \"Node-in-browser\" nobody else has"
+      }
+    ],
+    "links": [
+      {
+        "label": "bolt.new",
+        "url": "https://bolt.new"
+      },
+      {
+        "label": "stackblitz.com (parent)",
+        "url": "https://stackblitz.com"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__lovable",
+    "slug": "lovable",
+    "name": "Lovable",
+    "maker": "Sweden · CEO Anton Osika",
+    "logo": "https://www.google.com/s2/favicons?domain=lovable.dev&sz=128",
+    "tags": [
+      {
+        "label": "Non-dev friendly",
+        "variant": "default"
+      },
+      {
+        "label": "Europe",
+        "variant": "default"
+      }
+    ],
+    "tagline": "\"GPT-Engineer for everyone.\" Web-based app builder targeting non-developers; Supabase is the default backend.",
+    "paragraphs": [
+      "What it is. \"GPT-Engineer for everyone.\" Web-based app builder targeting non-developers; Supabase is the default backend. Launched November 2024 and reached $17M ARR in 3 months — fastest European SaaS ever.",
+      "What sets it apart. Best-in-class UX for non-technical founders. Clean integration with Supabase for auth + database. Aggressive social marketing made \"built with Lovable\" a meme on Twitter/X in 2025.",
+      "Connections. Originated from the GPT-Engineer open-source project (also by Anton Osika). Deep Supabase partnership. Uses Claude heavily."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "$17M ARR in 3 months (Jan 2025); 500K+ users; ~$100M ARR by late 2025"
+      },
+      {
+        "k": "Audience",
+        "v": "Non-technical founders and solopreneurs"
+      }
+    ],
+    "links": [
+      {
+        "label": "lovable.dev",
+        "url": "https://lovable.dev"
+      },
+      {
+        "label": "GPT-Engineer (origin)",
+        "url": "https://github.com/AntonOsika/gpt-engineer"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__replit",
+    "slug": "replit",
+    "name": "Replit Agent",
+    "maker": "Replit · CEO Amjad Masad",
+    "logo": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+    "tags": [
+      {
+        "label": "Cloud IDE",
+        "variant": "default"
+      },
+      {
+        "label": "Deployed in-place",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Replit's AI agent, launched 2024, now the front door to Replit.",
+    "paragraphs": [
+      "What it is. Replit's AI agent, launched 2024, now the front door to Replit. Describe an app; the agent scaffolds files, wires up a DB, and deploys to a live URL — all inside Replit's existing cloud IDE.",
+      "What sets it apart. Unique position: Replit already had the IDE + hosting + DB integrated, so Agent is \"just add AI\" on top of a working product. Supports Python, Node, Go, Rust, etc. — most general-purpose of the app builders. \"Replit Bounties\" lets you outsource Agent tasks to humans if they get stuck.",
+      "Connections. Replit predates the AI wave (founded 2016). Huge education user base. Uses Claude heavily."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~30M Replit users; Agent drove $100M+ ARR in 2024"
+      },
+      {
+        "k": "Audience",
+        "v": "Existing Replit users, students, multi-language builders"
+      }
+    ],
+    "links": [
+      {
+        "label": "replit.com",
+        "url": "https://replit.com"
+      },
+      {
+        "label": "Agent docs",
+        "url": "https://docs.replit.com/replitai/agent"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__firebase-studio",
+    "slug": "firebase-studio",
+    "name": "Firebase Studio",
+    "maker": "Google · evolved from \"Project IDX\"",
+    "logo": "https://www.google.com/s2/favicons?domain=firebase.google.com&sz=128",
+    "tags": [
+      {
+        "label": "Full-stack",
+        "variant": "default"
+      },
+      {
+        "label": "Being sunset 2026",
+        "variant": "warn"
+      }
+    ],
+    "tagline": "Google's prompt-to-app platform.",
+    "paragraphs": [
+      "What it is. Google's prompt-to-app platform. Announced April 2025 (renaming Project IDX). Browser-based agentic dev environment that uses Gemini to scaffold full apps on Firebase + Google Cloud infra.",
+      "What sets it apart. Native access to Firebase Auth, Firestore, Cloud Functions, Hosting — everything a web app needs. Google-grade free tier. Gemini 2.5 Pro as the agent planner.",
+      "Status (April 2026). Google announced it is sunsetting Firebase Studio in favor of Antigravity + Google AI Studio's merged \"full-stack vibe coding\" pipeline. You can still publish existing Firebase-Studio apps from Antigravity or AI Studio."
+    ],
+    "meta": [
+      {
+        "k": "Status",
+        "v": "Sunsetting; use Antigravity + AI Studio instead"
+      },
+      {
+        "k": "Legacy",
+        "v": "Successor to Project IDX; relative short shelf life"
+      }
+    ],
+    "links": [
+      {
+        "label": "firebase.google.com/studio",
+        "url": "https://firebase.google.com/studio"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__ai-studio",
+    "slug": "ai-studio",
+    "name": "Google AI Studio",
+    "maker": "Google",
+    "logo": "https://www.google.com/s2/favicons?domain=aistudio.google.com&sz=128",
+    "tags": [
+      {
+        "label": "Prompt + app",
+        "variant": "default"
+      },
+      {
+        "label": "Gemini-native",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Originally Google's prompt-playground for the Gemini API; in 2026 it merged with Antigravity to become a full-stack \"vibe coding\" experience.",
+    "paragraphs": [
+      "What it is. Originally Google's prompt-playground for the Gemini API; in 2026 it merged with Antigravity to become a full-stack \"vibe coding\" experience. Prototype a prompt in the browser, then hand it off to Antigravity's autonomous agents to build the app around it.",
+      "What sets it apart. Tight seam between \"play with the model\" and \"ship the app\" — the handoff between prompt engineering and agent coding is smoother than any other tool. Free tier with Gemini 3.1 Pro preview access.",
+      "Connections. Now effectively the front door to Google's developer stack: AI Studio → Antigravity → deploy. Replaces much of what Firebase Studio did."
+    ],
+    "meta": [
+      {
+        "k": "Status",
+        "v": "Primary Google builder entry point as of 2026"
+      },
+      {
+        "k": "Models",
+        "v": "Gemini 3.1 Pro preview + earlier Gemini generations"
+      }
+    ],
+    "links": [
+      {
+        "label": "aistudio.google.com",
+        "url": "https://aistudio.google.com"
+      },
+      {
+        "label": "Vibe-coding launch post",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/full-stack-vibe-coding-google-ai-studio/"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__claude-design",
+    "slug": "claude-design",
+    "name": "Claude Design",
+    "maker": "Anthropic Labs · launched April 17, 2026",
+    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "tags": [
+      {
+        "label": "Design-first",
+        "variant": "default"
+      },
+      {
+        "label": "Opus 4.7",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A \"prompt-to-prototype\" tool that outputs polished visual work rather than running code: designs, prototypes, slides, one-pagers.",
+    "paragraphs": [
+      "What it is. A \"prompt-to-prototype\" tool that outputs polished visual work rather than running code: designs, prototypes, slides, one-pagers. During onboarding, Claude reads your codebase + existing design files to build a design system (colors, typography, components) that every later project reuses automatically. Exports to PDF, shareable URL, PPTX, or Canva.",
+      "What sets it apart. Sits half-in the App Builders category: it makes visuals, not apps. But the codebase-aware design-system extraction is unique — other tools start from zero every time. Generates custom sliders tied to specific elements so non-designers can tweak visually. Figma's stock dropped 6.8% on announcement.",
+      "Connections. Powered by Claude Opus 4.7. Research preview for Claude Pro / Max / Team / Enterprise subscribers. Adjacent to v0 (design-first code) but orthogonal: v0 ships React; Claude Design ships pixels."
+    ],
+    "meta": [
+      {
+        "k": "Category note",
+        "v": "Design/prototype output, not app output — the closest existing fit on this map"
+      },
+      {
+        "k": "Availability",
+        "v": "Research preview (paid Claude plans only)"
+      }
+    ],
+    "links": [
+      {
+        "label": "Launch post",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs"
+      },
+      {
+        "label": "claude.ai",
+        "url": "https://claude.ai"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__base44",
+    "slug": "base44",
+    "name": "Base44",
+    "maker": "founded by Maor Shlomo · Israel · acquired by Wix 2025",
+    "logo": "https://www.google.com/s2/favicons?domain=base44.com&sz=128",
+    "tags": [
+      {
+        "label": "Non-dev",
+        "variant": "default"
+      },
+      {
+        "label": "Acquired",
+        "variant": "default"
+      }
+    ],
+    "tagline": "No-code AI app builder.",
+    "paragraphs": [
+      "What it is. No-code AI app builder. Users describe an app in plain language; Base44 generates a working web app, auth, and DB. Acquired by Wix in mid-2025 for ~$80M after a ~$10M ARR ramp in months.",
+      "What sets it apart. Even more tuned for \"non-developer founder\" than Lovable. Also notable as the first prominent solo-founder AI app-builder exit, proving the category can produce huge outcomes.",
+      "Connections. Now part of Wix (site builder, ~300M users). Positioned as Wix's answer to the Lovable / Bolt wave."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~250K users at acquisition"
+      },
+      {
+        "k": "Exit",
+        "v": "~$80M to Wix, mid-2025"
+      }
+    ],
+    "links": [
+      {
+        "label": "base44.com",
+        "url": "https://base44.com"
+      },
+      {
+        "label": "wix.com (parent)",
+        "url": "https://wix.com"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "app-builders__opal",
+    "slug": "opal",
+    "name": "Google Opal",
+    "maker": "Google Labs",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "No-code",
+        "variant": "default"
+      },
+      {
+        "label": "Experiment",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A no-code \"AI mini-app builder\" from Google Labs launched mid-2025.",
+    "paragraphs": [
+      "What it is. A no-code \"AI mini-app builder\" from Google Labs launched mid-2025. Lets you describe a small tool or workflow (image generator with specific styling, structured-output form, etc.) and get a shareable mini-app — somewhere between a ChatGPT GPT and a full web app.",
+      "What sets it apart. Sits at a lighter tier than Firebase Studio — simpler mental model, not trying to build a full app. Targets the \"I just want a branded AI thing I can share\" user.",
+      "Connections. Part of Google's 2025 AI builder stack (paired with Jules / Antigravity / Firebase Studio). Gemini-backed."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Early labs product; adoption still unclear"
+      },
+      {
+        "k": "Positioning",
+        "v": "\"ChatGPT GPTs, but from Google\""
+      }
+    ],
+    "links": [
+      {
+        "label": "opal.withgoogle.com",
+        "url": "https://opal.withgoogle.com"
+      }
+    ],
+    "category": "app-builders",
+    "categorySlug": "app-builders",
+    "categoryName": "App Builders (Prompt-to-App)"
+  },
+  {
+    "id": "autonomous-coding-agents__claude-code",
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "maker": "Anthropic · launched Feb 2025",
+    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "tags": [
+      {
+        "label": "Terminal-first",
+        "variant": "default"
+      },
+      {
+        "label": "Frontier",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Anthropic's official CLI coding agent.",
+    "paragraphs": [
+      "What it is. Anthropic's official CLI coding agent. Lives in your terminal, reads your repo, plans, edits files, runs commands, and iterates — all through a single Claude loop with a simple tool set (Read, Edit, Bash, Grep, etc.). Also ships as a desktop app, web app (claude.ai/code), and IDE extensions (VS Code, JetBrains).",
+      "What sets it apart. The \"single loop + simple tools\" architecture that PostHog and others now hold up as the ideal pattern. Hooks, slash commands, MCP support, agent SDK, and sub-agents are all first-class. Has become the de-facto reference implementation that every other agent is measured against.",
+      "Connections. Powered by Claude Sonnet / Opus. Same team ships the Claude Agent SDK (which lets you build your own agents on the same engine). Uses MCP (Anthropic's own spec) for external tools. Cited as inspiration by Windsurf Cascade, Cursor Agent mode, Amp, and Cognition's Jules-style products."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Default CLI agent for AI-native dev teams; millions of terminal sessions per month"
+      },
+      {
+        "k": "Cost",
+        "v": "Included in Claude Pro / Max / API usage; $20–$200/mo tiers"
+      }
+    ],
+    "links": [
+      {
+        "label": "claude.com/claude-code",
+        "url": "https://claude.com/claude-code"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.claude.com/claude-code"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/anthropics/claude-code"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__devin",
+    "slug": "devin",
+    "name": "Devin",
+    "maker": "Cognition Labs · founded 2023 · CEO Scott Wu",
+    "logo": "https://www.google.com/s2/favicons?domain=cognition.ai&sz=128",
+    "tags": [
+      {
+        "label": "Cloud async",
+        "variant": "default"
+      },
+      {
+        "label": "Expensive",
+        "variant": "warn"
+      }
+    ],
+    "tagline": "\"The AI software engineer.\" Runs in a cloud VM with its own browser, terminal, and editor; you assign it tasks via Slack / web UI and it comes back with a PR.",
+    "paragraphs": [
+      "What it is. \"The AI software engineer.\" Runs in a cloud VM with its own browser, terminal, and editor; you assign it tasks via Slack / web UI and it comes back with a PR. Positioned as a junior dev you hire, not a tool you drive.",
+      "What sets it apart. Pioneered the \"async cloud agent\" category in March 2024 with a viral launch demo. Long-horizon planning and its own scaffolded workspace (browser + shell + IDE) set the template every cloud agent since has copied. Cognition also owns Windsurf now — pairing the IDE and the async agent.",
+      "Connections. Raised at ~$4B valuation in 2024. Acquired Windsurf in 2025. Uses frontier models under the hood (primarily Claude). Controversial SWE-bench claims at launch led to the broader industry tightening eval standards."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Enterprise-heavy; \"Devin Team\" at $500/mo per seat + usage"
+      },
+      {
+        "k": "Positioning",
+        "v": "Hire-an-engineer framing vs. Claude Code's drive-the-tool framing"
+      }
+    ],
+    "links": [
+      {
+        "label": "cognition.ai",
+        "url": "https://cognition.ai"
+      },
+      {
+        "label": "devin.ai",
+        "url": "https://devin.ai"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.devin.ai"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__jules",
+    "slug": "jules",
+    "name": "Google Jules",
+    "maker": "Google Labs",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "Cloud async",
+        "variant": "default"
+      },
+      {
+        "label": "GitHub-native",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Google's async coding agent.",
+    "paragraphs": [
+      "What it is. Google's async coding agent. You connect it to a GitHub repo; it clones to a Google Cloud VM, plans, writes code, runs tests, and opens a PR. Uses Gemini 2.5 Pro as the planner.",
+      "What sets it apart. Free tier for Google accounts makes async-agent coding accessible to hobbyists, where Devin is gated behind enterprise pricing. Very clean GitHub PR integration.",
+      "Connections. Part of Google's sprawling 2025 agent lineup (Antigravity for desktop, Jules for cloud, Opal for app-building, Firebase Studio for full-stack). Built on Gemini; competes directly with Claude Code + Devin."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Public beta 2024; general availability mid-2025; rapid hobbyist uptake"
+      },
+      {
+        "k": "Sibling products",
+        "v": "Antigravity (desktop agent IDE), Opal (no-code agent builder)"
+      }
+    ],
+    "links": [
+      {
+        "label": "jules.google",
+        "url": "https://jules.google"
+      },
+      {
+        "label": "Google Labs",
+        "url": "https://labs.google"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__codex",
+    "slug": "codex",
+    "name": "OpenAI Codex (CLI + Cloud)",
+    "maker": "OpenAI",
+    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "tags": [
+      {
+        "label": "Terminal + cloud",
+        "variant": "default"
+      }
+    ],
+    "tagline": "OpenAI's answer to Claude Code.",
+    "paragraphs": [
+      "What it is. OpenAI's answer to Claude Code. Revived the \"Codex\" name (originally the 2021 GitHub Copilot model) as a new agentic coding product in 2025. Ships as a local CLI (mirroring Claude Code) and a cloud async mode (mirroring Devin / Jules).",
+      "What sets it apart. Tight integration with ChatGPT subscriptions and the OpenAI Agents SDK. Runs on o-series reasoning models and GPT-5. Backed by OpenAI's massive consumer distribution.",
+      "Connections. Shares a name but not a model lineage with the 2021 Codex. Pairs naturally with ChatGPT Team / Enterprise seats. OpenAI Agents SDK (formerly Swarm) is the framework version."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Rapidly adopted by ChatGPT Team subscribers; smaller mindshare than Claude Code in dev-tool circles"
+      },
+      {
+        "k": "Launched",
+        "v": "Mid-2025; still catching up to Claude Code polish"
+      }
+    ],
+    "links": [
+      {
+        "label": "openai.com/codex",
+        "url": "https://openai.com/codex"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/openai/codex"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__gemini-cli",
+    "slug": "gemini-cli",
+    "name": "Gemini CLI",
+    "maker": "Google · launched 2025",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "Terminal-first",
+        "variant": "default"
+      },
+      {
+        "label": "Free tier",
+        "variant": "good"
+      }
+    ],
+    "tagline": "Google's answer to Claude Code / Codex CLI.",
+    "paragraphs": [
+      "What it is. Google's answer to Claude Code / Codex CLI. A terminal coding agent that reads your repo, plans, edits files, and runs commands — all powered by Gemini 2.5 Pro (and now 3.1 Pro). Free tier with generous daily limits tied to a Google account.",
+      "What sets it apart. Genuinely free for individuals at meaningful usage levels — a rare thing in this category. Tight MCP support, integrates with NotebookLM (you can give the agent a NotebookLM notebook as context). Preferred by cost-sensitive devs who don't need Claude's quality.",
+      "Connections. Part of Google's 2025–2026 developer lineup (Jules for async, Antigravity for IDE, Gemini CLI for terminal). Uses the same Gemini API surface as Antigravity and Vertex AI."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Strong free-tier traction; smaller mindshare than Claude Code among pros"
+      },
+      {
+        "k": "Cost",
+        "v": "Free tier for individuals; paid via Vertex / AI Studio for higher usage"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/google-gemini/gemini-cli"
+      },
+      {
+        "label": "Gemini API docs",
+        "url": "https://ai.google.dev/gemini-api/docs"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__amp",
+    "slug": "amp",
+    "name": "Amp",
+    "maker": "Sourcegraph · CEO Quinn Slack",
+    "logo": "https://www.google.com/s2/favicons?domain=sourcegraph.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      },
+      {
+        "label": "VS Code + CLI",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Sourcegraph's coding agent.",
+    "paragraphs": [
+      "What it is. Sourcegraph's coding agent. Ships as a VS Code extension and a CLI, built on Sourcegraph's deep code-search and code-intel infrastructure. Launched early 2025 after Sourcegraph sunset its earlier Cody product.",
+      "What sets it apart. Massive-codebase expertise. Sourcegraph has indexed billions of lines for a decade, and Amp taps that structural knowledge for refactors and navigation that pure-LLM agents struggle with. The *How to Build an Agent* essay by Thorsten Ball (Amp engineer) is one of the most influential agent-design posts in the industry.",
+      "Connections. Sourcegraph has deep Fortune-100 customer base (Stripe, Uber, Lyft, etc.). Amp is model-agnostic but heavily tuned for Claude."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Enterprise monorepo teams; quieter in startup circles than Cursor / Windsurf"
+      },
+      {
+        "k": "Niche",
+        "v": "Best option for 10M+ LOC codebases"
+      }
+    ],
+    "links": [
+      {
+        "label": "ampcode.com",
+        "url": "https://ampcode.com"
+      },
+      {
+        "label": "How to Build an Agent",
+        "url": "https://ampcode.com/notes/how-to-build-an-agent/"
+      },
+      {
+        "label": "sourcegraph.com (parent)",
+        "url": "https://sourcegraph.com"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__aider",
+    "slug": "aider",
+    "name": "Aider",
+    "maker": "by Paul Gauthier · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=aider.chat&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Terminal",
+        "variant": "default"
+      }
+    ],
+    "tagline": "A scrappy open-source CLI coding agent that predated Claude Code by over a year (launched May 2023).",
+    "paragraphs": [
+      "What it is. A scrappy open-source CLI coding agent that predated Claude Code by over a year (launched May 2023). Edits files in-place using a \"diff-based\" edit format, commits via git, and works with any LLM API.",
+      "What sets it apart. Ran the most-cited open coding-agent benchmark (\"Aider's polyglot benchmark\") that drove model eval standards in 2023–2024. Genuinely model-agnostic — works with Claude, GPT, Gemini, DeepSeek, local Ollama, etc.",
+      "Connections. Solo-developer project (Paul Gauthier). Pure Python, MIT-licensed. Widely copied by paid products; the pattern of \"LLM emits a unified diff, CLI applies it, git tracks history\" originates here."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~30K GitHub stars; default OSS choice before Claude Code"
+      },
+      {
+        "k": "Cost",
+        "v": "Free (pay only your model provider)"
+      }
+    ],
+    "links": [
+      {
+        "label": "aider.chat",
+        "url": "https://aider.chat"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Aider-AI/aider"
+      },
+      {
+        "label": "Leaderboard",
+        "url": "https://aider.chat/docs/leaderboards/"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__cline",
+    "slug": "cline",
+    "name": "Cline (and Roo Code)",
+    "maker": "open source · VS Code extension",
+    "logo": "https://www.google.com/s2/favicons?domain=cline.bot&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "VS Code",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Open-source agentic coding extension for VS Code.",
+    "paragraphs": [
+      "What it is. Open-source agentic coding extension for VS Code. Shows every action the agent takes with an approval step before edits / shell commands. Roo Code is a popular fork that's added extra features faster.",
+      "What sets it apart. \"Human-in-the-loop by default\" is the core design choice — you see and approve each tool call. Appeals to developers burned by YOLO agents. Fully model-agnostic (Claude, OpenRouter, local).",
+      "Connections. One of the most popular open-source VS Code AI extensions. Heavy Claude user in practice. Roo Code fork sometimes merges back, sometimes diverges — typical OSS drama."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hundreds of thousands of VS Code installs; top-10 in the marketplace AI section"
+      },
+      {
+        "k": "Niche",
+        "v": "Developers who want agentic power but dislike Cursor's opacity"
+      }
+    ],
+    "links": [
+      {
+        "label": "cline.bot",
+        "url": "https://cline.bot"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/cline/cline"
+      },
+      {
+        "label": "Roo Code",
+        "url": "https://roocode.com"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__openhands",
+    "slug": "openhands",
+    "name": "OpenHands",
+    "maker": "All Hands AI · founded by Graham Neubig et al.",
+    "logo": "https://www.google.com/s2/favicons?domain=all-hands.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Research-grade",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Formerly \"OpenDevin\" — a fully open-source take on the autonomous coding agent, originating in academia.",
+    "paragraphs": [
+      "What it is. Formerly \"OpenDevin\" — a fully open-source take on the autonomous coding agent, originating in academia. Provides a sandboxed Docker environment where the agent runs code, browses, and edits. Also ships a cloud version.",
+      "What sets it apart. Comes from researchers (CMU, et al.) with heavy contribution from the SWE-bench authors. Strongest open-source SWE-bench scores of any agent you can actually self-host. The reference if you want to study agent internals.",
+      "Connections. Spinoff of academic work; corporate backer All Hands AI (Graham Neubig, CMU). SWE-bench (the benchmark) was designed by overlapping authors. Popular in research papers on agent capabilities."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~50K GitHub stars; widely referenced in academic agent research"
+      },
+      {
+        "k": "Positioning",
+        "v": "\"Open Devin\" — reproducible, hackable, self-hostable"
+      }
+    ],
+    "links": [
+      {
+        "label": "all-hands.dev",
+        "url": "https://all-hands.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/All-Hands-AI/OpenHands"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.all-hands.dev"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "autonomous-coding-agents__openclaude",
+    "slug": "openclaude",
+    "name": "OpenClaude",
+    "maker": "Gitlawb · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Multi-provider",
+        "variant": "default"
+      }
+    ],
+    "tagline": "An open-source fork of Claude Code's codebase, rebuilt to work with any provider: OpenAI, Gemini, DeepSeek, Ollama, Codex OAuth, GitHub Models, and 200+ models via any OpenAI-compatible endpoint.",
+    "paragraphs": [
+      "What it is. An open-source fork of Claude Code's codebase, rebuilt to work with any provider: OpenAI, Gemini, DeepSeek, Ollama, Codex OAuth, GitHub Models, and 200+ models via any OpenAI-compatible endpoint. Keeps Claude Code's terminal-first workflow — prompts, tools, agents, MCP, slash commands, streaming — but frees you from the Claude-only assumption.",
+      "What sets it apart. A \"use any model you want\" agent CLI with a Claude-Code-grade UX. Ships a VS Code extension for launch integration and a provider-aware control-center UI. Valuable if you want to experiment with open-weights or cheaper-per-token models without losing the Claude Code muscle memory.",
+      "Connections. Originated from the Claude Code codebase and substantially modified. Fills the same niche Aider did pre-2024 — \"model-agnostic CLI coding agent\" — with a more modern scaffold. Sometimes confused with OpenClaw (a different tool: an autonomous personal assistant by Peter Steinberger). Also adjacent to OpenCode (opencode.ai), SST's open-source coding agent."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Growing OSS community; compared to Aider + Claude Code hybrids"
+      },
+      {
+        "k": "Niche",
+        "v": "Developers who want Claude Code's UX but not the Anthropic lock-in"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/Gitlawb/openclaude"
+      }
+    ],
+    "category": "autonomous-coding-agents",
+    "categorySlug": "autonomous-coding-agents",
+    "categoryName": "Autonomous Coding Agents"
+  },
+  {
+    "id": "cloud-platforms__bedrock",
+    "slug": "bedrock",
+    "name": "AWS Bedrock",
+    "maker": "Amazon · launched 2023",
+    "logo": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      },
+      {
+        "label": "Multi-model",
+        "variant": "default"
+      }
+    ],
+    "tagline": "AWS's managed LLM service.",
+    "paragraphs": [
+      "What it is. AWS's managed LLM service. Hosts Claude (Anthropic), Llama (Meta), Mistral, Cohere, Amazon Titan, Amazon Nova, Stability, and others — all through a single AWS API. Ships Bedrock Agents, Bedrock Knowledge Bases (RAG), and AgentCore for agent infra.",
+      "What sets it apart. Claude runs natively here (Amazon is Anthropic's largest investor). Deepest enterprise compliance surface — FedRAMP High, IL5, HIPAA, everything. Most neutral of the three clouds — doesn't push its own models as hard.",
+      "Connections. Amazon invested ~$8B in Anthropic; Claude is the flagship Bedrock model. Competes with Azure OpenAI and Vertex AI."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Dominant among AWS-first enterprises; grew ~5x in 2024"
+      },
+      {
+        "k": "Strength",
+        "v": "Widest model selection, including Claude and Llama natively"
+      }
+    ],
+    "links": [
+      {
+        "label": "aws.amazon.com/bedrock",
+        "url": "https://aws.amazon.com/bedrock/"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.aws.amazon.com/bedrock/"
+      }
+    ],
+    "category": "cloud-platforms",
+    "categorySlug": "cloud-platforms",
+    "categoryName": "Cloud AI Platforms"
+  },
+  {
+    "id": "cloud-platforms__azure-foundry",
+    "slug": "azure-foundry",
+    "name": "Azure AI Foundry (ex-Azure OpenAI)",
+    "maker": "Microsoft",
+    "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      },
+      {
+        "label": "OpenAI-primary",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Microsoft's unified AI platform (renamed from Azure OpenAI Service in late 2024).",
+    "paragraphs": [
+      "What it is. Microsoft's unified AI platform (renamed from Azure OpenAI Service in late 2024). Primary home for OpenAI models outside openai.com itself, plus Llama, Mistral, DeepSeek, and Microsoft's own Phi models. Includes AI Foundry Agent Service, Azure AI Search (vector DB), and Copilot Studio.",
+      "What sets it apart. Exclusive early access to OpenAI models for Microsoft customers (Microsoft is OpenAI's exclusive cloud partner). Tightest integration with Microsoft 365, Teams, Dynamics, and Power Platform — if you live in the Microsoft world, this is the default.",
+      "Connections. OpenAI is the flagship provider. Copilot Studio is Microsoft's low-code agent builder on top. Microsoft has invested ~$13B in OpenAI."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Largest enterprise LLM deployment footprint globally; most Fortune 500 are on Azure AI"
+      },
+      {
+        "k": "Strength",
+        "v": "OpenAI exclusivity + M365 integration"
+      }
+    ],
+    "links": [
+      {
+        "label": "azure.microsoft.com/ai-foundry",
+        "url": "https://azure.microsoft.com/en-us/products/ai-foundry"
+      },
+      {
+        "label": "Docs",
+        "url": "https://learn.microsoft.com/azure/ai-foundry/"
+      }
+    ],
+    "category": "cloud-platforms",
+    "categorySlug": "cloud-platforms",
+    "categoryName": "Cloud AI Platforms"
+  },
+  {
+    "id": "cloud-platforms__vertex",
+    "slug": "vertex",
+    "name": "Google Vertex AI",
+    "maker": "Google Cloud",
+    "logo": "https://www.google.com/s2/favicons?domain=cloud.google.com&sz=128",
+    "tags": [
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      },
+      {
+        "label": "Gemini-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Google Cloud's managed ML + GenAI platform.",
+    "paragraphs": [
+      "What it is. Google Cloud's managed ML + GenAI platform. Hosts Gemini, Claude (via partnership), Llama, Mistral, and a Model Garden of 100+ open models. Ships Vertex AI Agent Builder, Agent Engine, Agent Garden, and the AI Applications suite.",
+      "What sets it apart. Only place (outside Anthropic directly) where you can get both Gemini and Claude through a unified enterprise contract. Deep integration with BigQuery — turning your warehouse into an AI substrate.",
+      "Connections. Google also invested in Anthropic (~$2B). Gemini 2.5 Pro is the flagship. Google's ADK (agent SDK) is the first-party framework that lives here."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Strong in data-heavy enterprises (BigQuery shops); smaller share than AWS/Azure overall"
+      },
+      {
+        "k": "Strength",
+        "v": "Gemini + Claude availability, BigQuery + Vertex AI joint story"
+      }
+    ],
+    "links": [
+      {
+        "label": "cloud.google.com/vertex-ai",
+        "url": "https://cloud.google.com/vertex-ai"
+      },
+      {
+        "label": "Docs",
+        "url": "https://cloud.google.com/vertex-ai/docs"
+      }
+    ],
+    "category": "cloud-platforms",
+    "categorySlug": "cloud-platforms",
+    "categoryName": "Cloud AI Platforms"
+  },
+  {
+    "id": "cloud-platforms__cloudflare-ai",
+    "slug": "cloudflare-ai",
+    "name": "Cloudflare Workers AI",
+    "maker": "Cloudflare",
+    "logo": "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=128",
+    "tags": [
+      {
+        "label": "Edge-first",
+        "variant": "default"
+      },
+      {
+        "label": "Serverless",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Cloudflare's edge AI platform.",
+    "paragraphs": [
+      "What it is. Cloudflare's edge AI platform. Runs open-weights models (Llama, Mistral, Qwen, etc.) on Cloudflare's global network at millisecond latencies. Ships Workers (compute), AI Gateway (model routing), Vectorize (vector DB), and Agents SDK.",
+      "What sets it apart. Lowest-latency inference anywhere thanks to edge deployment. Usage-based pricing with no idle cost — attractive vs. the hyperscalers for spiky workloads. Ecosystem plays well with Next.js / Hono / serverless stacks.",
+      "Connections. Co-creator with Anthropic of the WebBot Auth protocol for agent authentication. Primary host for OpenAI's own edge-latency demos. Browserbase and other cloud-browser tools often run on Cloudflare infra."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Millions of Workers developers; AI side growing fast in 2025"
+      },
+      {
+        "k": "Niche",
+        "v": "Edge / low-latency / serverless-first AI apps"
+      }
+    ],
+    "links": [
+      {
+        "label": "developers.cloudflare.com/workers-ai",
+        "url": "https://developers.cloudflare.com/workers-ai/"
+      },
+      {
+        "label": "Agents SDK",
+        "url": "https://developers.cloudflare.com/agents/"
+      }
+    ],
+    "category": "cloud-platforms",
+    "categorySlug": "cloud-platforms",
+    "categoryName": "Cloud AI Platforms"
+  },
+  {
+    "id": "deployment-platforms__vercel",
+    "slug": "vercel",
+    "name": "Vercel",
+    "maker": "Vercel · CEO Guillermo Rauch",
+    "logo": "https://www.google.com/s2/favicons?domain=vercel.com&sz=128",
+    "tags": [
+      {
+        "label": "Next.js",
+        "variant": "default"
+      },
+      {
+        "label": "AI-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The deployment home for Next.js (which Vercel also makes).",
+    "paragraphs": [
+      "What it is. The deployment home for Next.js (which Vercel also makes). Handles serverless functions, edge compute, CDN, preview deploys, and now AI Gateway for routing LLM calls.",
+      "What sets it apart. Tightest dev loop — git push → live URL in seconds. Shipped v0 (prompt-to-UI) + AI SDK + AI Gateway as a full AI-dev stack. Used by most AI-native startups by default.",
+      "Connections. Makes Next.js, v0, AI SDK. Runs Claude Code's hosted web version. Primary deploy target for Bolt.new / Lovable / Replit outputs."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Millions of developers; dominant in JS/TS indie ecosystem"
+      },
+      {
+        "k": "Strength",
+        "v": "Fastest dev-to-prod for front-end + serverless"
+      }
+    ],
+    "links": [
+      {
+        "label": "vercel.com",
+        "url": "https://vercel.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://vercel.com/docs"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "deployment-platforms__netlify",
+    "slug": "netlify",
+    "name": "Netlify",
+    "maker": "Netlify · CEO Mathias Biilmann",
+    "logo": "https://www.google.com/s2/favicons?domain=netlify.com&sz=128",
+    "tags": [
+      {
+        "label": "JAMstack",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The original Jamstack platform.",
+    "paragraphs": [
+      "What it is. The original Jamstack platform. Static + serverless functions + forms + identity + edge functions. Pre-dates Vercel's current dominance; still strong in its core niche.",
+      "What sets it apart. Framework-agnostic (where Vercel leans Next.js-heavy). Strong Stripe-like pricing clarity. Popular default for Bolt.new deploys.",
+      "Connections. Ongoing fierce rivalry with Vercel. Acquired Gatsby in 2023."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~4M developers; strong in static-site / marketing-site world"
+      },
+      {
+        "k": "Niche",
+        "v": "Framework-agnostic Jamstack"
+      }
+    ],
+    "links": [
+      {
+        "label": "netlify.com",
+        "url": "https://netlify.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.netlify.com"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "deployment-platforms__railway",
+    "slug": "railway",
+    "name": "Railway",
+    "maker": "Railway · CEO Jake Cooper",
+    "logo": "https://www.google.com/s2/favicons?domain=railway.com&sz=128",
+    "tags": [
+      {
+        "label": "PaaS",
+        "variant": "default"
+      },
+      {
+        "label": "Indie-friendly",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Heroku-style PaaS.",
+    "paragraphs": [
+      "What it is. Heroku-style PaaS. Deploy any language / framework / database from a git repo; Railway handles the infra. No \"only Next.js\" bias like Vercel.",
+      "What sets it apart. Clean UX, fair pricing, polyglot out of the box — Python, Node, Go, Rust, Postgres, Redis, all one-click. Popular for AI back-ends and Discord bots.",
+      "Connections. Spiritual successor to Heroku (after Salesforce hobbled Heroku's free tier). Often paired with Vercel (Next.js front, Railway back)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~1M developers; favorite for small teams with full-stack / Python back-ends"
+      },
+      {
+        "k": "Niche",
+        "v": "Heroku-replacement; full-stack indie"
+      }
+    ],
+    "links": [
+      {
+        "label": "railway.com",
+        "url": "https://railway.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.railway.com"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "deployment-platforms__render",
+    "slug": "render",
+    "name": "Render",
+    "maker": "Render · CEO Anurag Goel",
+    "logo": "https://www.google.com/s2/favicons?domain=render.com&sz=128",
+    "tags": [
+      {
+        "label": "PaaS",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Direct Railway competitor.",
+    "paragraphs": [
+      "What it is. Direct Railway competitor. Same pitch — Heroku replacement, polyglot PaaS, git-push deploy. Slightly more enterprise-oriented.",
+      "What sets it apart. Strong background workers + cron jobs story. Predictable pricing. Long track record.",
+      "Connections. Often benchmarked head-to-head with Railway and Fly.io."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Widely adopted by small-to-mid teams"
+      },
+      {
+        "k": "Niche",
+        "v": "Same as Railway — it's largely a preference split"
+      }
+    ],
+    "links": [
+      {
+        "label": "render.com",
+        "url": "https://render.com"
+      },
+      {
+        "label": "Docs",
+        "url": "https://render.com/docs"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "deployment-platforms__fly",
+    "slug": "fly",
+    "name": "Fly.io",
+    "maker": "Fly · CEO Kurt Mackey",
+    "logo": "https://www.google.com/s2/favicons?domain=fly.io&sz=128",
+    "tags": [
+      {
+        "label": "Edge",
+        "variant": "default"
+      },
+      {
+        "label": "Region-aware",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Runs full Docker containers (not just functions) at dozens of regions globally, with transparent region-based failover.",
+    "paragraphs": [
+      "What it is. Runs full Docker containers (not just functions) at dozens of regions globally, with transparent region-based failover. Effectively edge-hosted Heroku.",
+      "What sets it apart. Unique \"run a full app globally\" primitive — Phoenix/Elixir + Fly is a cult favorite combo. Good fit for globally distributed AI chatbots.",
+      "Connections. Built heavily by ex-Heroku / Keen engineers. Popular among the Rails + Elixir crowd."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Smaller than Vercel/Netlify/Railway but deeply loved by its users"
+      },
+      {
+        "k": "Niche",
+        "v": "Globally distributed, stateful app deployment"
+      }
+    ],
+    "links": [
+      {
+        "label": "fly.io",
+        "url": "https://fly.io"
+      },
+      {
+        "label": "Docs",
+        "url": "https://fly.io/docs/"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "deployment-platforms__cloudflare-workers",
+    "slug": "cloudflare-workers",
+    "name": "Cloudflare Workers / Pages",
+    "maker": "Cloudflare",
+    "logo": "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=128",
+    "tags": [
+      {
+        "label": "Edge-serverless",
+        "variant": "default"
+      },
+      {
+        "label": "Ultra-cheap",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Cloudflare's developer platform — Workers (V8-isolate serverless), Pages (static + Functions), R2 (S3-compatible object storage), D1 (SQLite), KV, Queues, Durable Objects.",
+    "paragraphs": [
+      "What it is. Cloudflare's developer platform — Workers (V8-isolate serverless), Pages (static + Functions), R2 (S3-compatible object storage), D1 (SQLite), KV, Queues, Durable Objects.",
+      "What sets it apart. Runs at Cloudflare's edge (~300 cities) with effectively-free cold starts. Most generous free tier in the industry. Durable Objects give you stateful serverless — a genuinely novel primitive.",
+      "Connections. Cloudflare also ships Workers AI (see Cloud Platforms page). WebBot Auth protocol is co-developed with Anthropic."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Millions of Workers developers; growing AI-app share"
+      },
+      {
+        "k": "Niche",
+        "v": "Ultra-low-latency edge serverless; cheapest free tier"
+      }
+    ],
+    "links": [
+      {
+        "label": "workers.cloudflare.com",
+        "url": "https://workers.cloudflare.com"
+      },
+      {
+        "label": "Pages",
+        "url": "https://pages.cloudflare.com"
+      }
+    ],
+    "category": "deployment-platforms",
+    "categorySlug": "deployment-platforms",
+    "categoryName": "Deployment Platforms"
+  },
+  {
+    "id": "durable-execution__temporal",
+    "slug": "temporal",
+    "name": "Temporal",
+    "maker": "Temporal Technologies · founded 2019 · CEO Maxim Fateev",
+    "logo": "https://www.google.com/s2/favicons?domain=temporal.io&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The category-defining durable-execution engine.",
+    "paragraphs": [
+      "What it is. The category-defining durable-execution engine. Originally spun out of Uber's Cadence project. Workflows are code (Go, Java, Python, TS, .NET, Ruby, PHP) — every step is automatically checkpointed.",
+      "What sets it apart. Maturity — runs in production at Uber, Netflix, Stripe, Airbnb. Handles billions of executions. \"Workflow as code\" beats YAML DSLs for complex branching. Temporal Cloud is the hosted version.",
+      "Connections. OpenAI uses Temporal for some internal agent workflows. Many agent frameworks have Temporal adapters."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fortune-500 heavy; largest durable-exec engine by deployment count"
+      },
+      {
+        "k": "Strength",
+        "v": "Ceiling is very high; handles massive scale and regulated workloads"
+      }
+    ],
+    "links": [
+      {
+        "label": "temporal.io",
+        "url": "https://temporal.io"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.temporal.io"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/temporalio/temporal"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "durable-execution__inngest",
+    "slug": "inngest",
+    "name": "Inngest",
+    "maker": "founded by Dan Farrelly & Tony Holdstock-Brown · 2021",
+    "logo": "https://www.google.com/s2/favicons?domain=inngest.com&sz=128",
+    "tags": [
+      {
+        "label": "TypeScript-first",
+        "variant": "default"
+      },
+      {
+        "label": "AgentKit",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Developer-friendly durable execution designed for modern serverless/TS stacks.",
+    "paragraphs": [
+      "What it is. Developer-friendly durable execution designed for modern serverless/TS stacks. Event-triggered workflows, steps, and concurrency controls; runs on your own infra or Inngest Cloud. Ships \"AgentKit\" — purpose-built agent primitives on top.",
+      "What sets it apart. Much lighter onboarding than Temporal. Works beautifully with Next.js, Vercel, Supabase. Co-founder Dan Farrelly is one of the loudest voices arguing \"durable execution is the missing layer for agents.\"",
+      "Connections. Popular in the Vercel / Next.js ecosystem. AgentKit is their answer to LangGraph-style orchestration but with durability built in."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast-growing; default durable-exec for many TS/serverless teams"
+      },
+      {
+        "k": "Niche",
+        "v": "Serverless + TypeScript + agents"
+      }
+    ],
+    "links": [
+      {
+        "label": "inngest.com",
+        "url": "https://inngest.com"
+      },
+      {
+        "label": "AgentKit",
+        "url": "https://agentkit.inngest.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/inngest/inngest"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "durable-execution__restate",
+    "slug": "restate",
+    "name": "Restate",
+    "maker": "Restate · co-founded by Stephan Ewen (ex-Apache Flink)",
+    "logo": "https://www.google.com/s2/favicons?domain=restate.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Rust engine",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Single-binary durable-execution engine written in Rust.",
+    "paragraphs": [
+      "What it is. Single-binary durable-execution engine written in Rust. Combines durable workflows, transactional state, and RPC into one system. Workflow SDKs in TypeScript, Java, Python, Kotlin, Go, Rust.",
+      "What sets it apart. Single binary — drop it on a box, done. No Kafka / Cassandra / separate databases needed (unlike Temporal's heavier footprint). Strongest \"developer local-first\" experience in the category.",
+      "Connections. Stephan Ewen was a co-founder of Apache Flink (stream processing). Restate is the team's second act — focused on the \"operations\" half of what Flink didn't quite nail."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Early but growing fast; popular in European engineering teams"
+      },
+      {
+        "k": "Strength",
+        "v": "Simplest ops footprint in the category"
+      }
+    ],
+    "links": [
+      {
+        "label": "restate.dev",
+        "url": "https://restate.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/restatedev/restate"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "durable-execution__trigger-dev",
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "maker": "Trigger.dev · founded 2023",
+    "logo": "https://www.google.com/s2/favicons?domain=trigger.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "TypeScript",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Background jobs + durable workflows for TypeScript.",
+    "paragraphs": [
+      "What it is. Background jobs + durable workflows for TypeScript. Tasks run on Trigger's own infra or self-hosted. Specifically positioned around long-running AI tasks that exceed serverless function timeouts.",
+      "What sets it apart. AI-first positioning — \"run your LLM task for 8 hours.\" Strong monitoring UI, retries, and concurrency keys. Generous free tier.",
+      "Connections. Popular in Next.js / Remix apps. Often used with OpenAI / Anthropic long-running tasks."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Growing fast; ~15K GitHub stars"
+      },
+      {
+        "k": "Niche",
+        "v": "TypeScript devs with long-running AI jobs"
+      }
+    ],
+    "links": [
+      {
+        "label": "trigger.dev",
+        "url": "https://trigger.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/triggerdotdev/trigger.dev"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "durable-execution__hatchet",
+    "slug": "hatchet",
+    "name": "Hatchet",
+    "maker": "Hatchet · YC-backed",
+    "logo": "https://www.google.com/s2/favicons?domain=hatchet.run&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Postgres-based",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Distributed task queue / workflow engine backed by Postgres.",
+    "paragraphs": [
+      "What it is. Distributed task queue / workflow engine backed by Postgres. Sweet spot: more power than a raw job queue, less ceremony than Temporal.",
+      "What sets it apart. Postgres as the source of truth — easy ops, easy to understand. Python, TS, Go SDKs. Good fit for teams that already have a Postgres-centric stack.",
+      "Connections. Often described as \"Temporal lite\" or \"Inngest but on your Postgres.\""
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Smaller but growing; mid-size engineering teams"
+      },
+      {
+        "k": "Niche",
+        "v": "Postgres-first, self-hosted, no new infra"
+      }
+    ],
+    "links": [
+      {
+        "label": "hatchet.run",
+        "url": "https://hatchet.run"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/hatchet-dev/hatchet"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "durable-execution__dbos",
+    "slug": "dbos",
+    "name": "DBOS",
+    "maker": "founded by Mike Stonebraker & Matei Zaharia",
+    "logo": "https://www.google.com/s2/favicons?domain=dbos.dev&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Research-grade",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Durable-execution library where the OS is essentially Postgres.",
+    "paragraphs": [
+      "What it is. Durable-execution library where the OS is essentially Postgres. Founders are Turing-award-winner Mike Stonebraker (Postgres) and Matei Zaharia (Spark, Databricks). TypeScript and Python.",
+      "What sets it apart. Academic pedigree — based on the \"DBOS\" OS paper. \"Exactly-once\" durable workflow semantics in <100 lines of glue code. Aggressive simplicity: your workflow state IS a Postgres row.",
+      "Connections. Spun out of MIT / Stanford. Strong overlap with Restate and Hatchet philosophically (single-binary, Postgres-centric)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Early; strong traction among academic / research-inflected teams"
+      },
+      {
+        "k": "Founders",
+        "v": "Stonebraker (Postgres) + Zaharia (Spark) — unusual pedigree"
+      }
+    ],
+    "links": [
+      {
+        "label": "dbos.dev",
+        "url": "https://dbos.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/dbos-inc/dbos-transact-ts"
+      }
+    ],
+    "category": "durable-execution",
+    "categorySlug": "durable-execution",
+    "categoryName": "Durable Execution"
+  },
+  {
+    "id": "first-party-sdks__claude-sdk",
+    "slug": "claude-sdk",
+    "name": "Claude Agent SDK",
+    "maker": "Anthropic",
+    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "tags": [
+      {
+        "label": "Anthropic-native",
+        "variant": "default"
+      },
+      {
+        "label": "MCP built-in",
+        "variant": "good"
+      }
+    ],
+    "tagline": "The same engine that powers Claude Code, packaged as a library.",
+    "paragraphs": [
+      "What it is. The same engine that powers Claude Code, packaged as a library. Ships tools (read/write file, run command, web search), conversation loop, memory, permissions, hooks, and sub-agents out of the box. Python and TypeScript.",
+      "What sets it apart. Tightest integration with MCP (Anthropic's spec, but now industry-standard). Extended Thinking, prompt caching, computer use, and other Claude-specific features all first-class. Uses the exact code that runs Claude Code — no \"SDK vs reality\" drift.",
+      "Connections. Same team ships Claude Code and the Claude API. PostHog migrated to this from LangChain in late 2025."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Rapid uptake in 2025–2026; the default \"just use Claude\" framework"
+      },
+      {
+        "k": "Docs",
+        "v": "code.claude.com/docs/en/agent-sdk/overview"
+      }
+    ],
+    "links": [
+      {
+        "label": "Overview",
+        "url": "https://code.claude.com/docs/en/agent-sdk/overview"
+      },
+      {
+        "label": "GitHub (Python)",
+        "url": "https://github.com/anthropics/claude-agent-sdk-python"
+      },
+      {
+        "label": "GitHub (TS)",
+        "url": "https://github.com/anthropics/claude-agent-sdk-typescript"
+      }
+    ],
+    "category": "first-party-sdks",
+    "categorySlug": "first-party-sdks",
+    "categoryName": "First-Party Agent SDKs"
+  },
+  {
+    "id": "first-party-sdks__openai-agents",
+    "slug": "openai-agents",
+    "name": "OpenAI Agents SDK (formerly Swarm)",
+    "maker": "OpenAI",
+    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "tags": [
+      {
+        "label": "OpenAI-native",
+        "variant": "default"
+      },
+      {
+        "label": "Python + JS",
+        "variant": "default"
+      }
+    ],
+    "tagline": "OpenAI's official multi-agent orchestration library.",
+    "paragraphs": [
+      "What it is. OpenAI's official multi-agent orchestration library. Announced as \"Swarm\" (experimental) in 2024, promoted to \"OpenAI Agents SDK\" (production) in March 2025. Core primitives: Agents, Handoffs, Guardrails, Sessions.",
+      "What sets it apart. Multi-agent handoffs are first-class (vs. Claude's single-loop emphasis). Deep integration with the OpenAI Responses API, built-in tools (web search, file search, computer use, code interpreter), and tracing. Runs Voice + MCP natively.",
+      "Connections. Internally used to build ChatGPT agent mode and the OpenAI Codex cloud agent. Paired with OpenAI Traces UI for debugging."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast adoption among OpenAI-shop teams; alt to third-party frameworks for pure-OpenAI stacks"
+      },
+      {
+        "k": "Philosophy",
+        "v": "Multi-agent by default — explicit contrast with Anthropic's single-loop"
+      }
+    ],
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://openai.github.io/openai-agents-python/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/openai/openai-agents-python"
+      }
+    ],
+    "category": "first-party-sdks",
+    "categorySlug": "first-party-sdks",
+    "categoryName": "First-Party Agent SDKs"
+  },
+  {
+    "id": "first-party-sdks__google-adk",
+    "slug": "google-adk",
+    "name": "Google Agent Development Kit (ADK)",
+    "maker": "Google · launched April 2025",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "Gemini-native",
+        "variant": "default"
+      },
+      {
+        "label": "Python + Java",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Google's official framework for building agents on Gemini.",
+    "paragraphs": [
+      "What it is. Google's official framework for building agents on Gemini. Primitives include Agent, Tool, Runner, Session. Integrates with Vertex AI Agent Engine for managed deployment.",
+      "What sets it apart. Ships an \"A2A\" (Agent-to-Agent) protocol alongside it — Google's answer to cross-framework agent communication. Works with any LLM via LiteLLM, not just Gemini (though Gemini is home).",
+      "Connections. Pairs with Vertex AI (managed agent hosting) and Google's AgentSpace product. Gemini-optimized but provider-agnostic."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Newest of the first-party SDKs; fast traction inside Google Cloud"
+      },
+      {
+        "k": "Philosophy",
+        "v": "Multi-agent + cross-vendor (A2A protocol)"
+      }
+    ],
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://google.github.io/adk-docs/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/google/adk-python"
+      },
+      {
+        "label": "A2A protocol",
+        "url": "https://a2aprotocol.ai"
+      }
+    ],
+    "category": "first-party-sdks",
+    "categorySlug": "first-party-sdks",
+    "categoryName": "First-Party Agent SDKs"
+  },
+  {
+    "id": "first-party-sdks__vercel-ai-sdk",
+    "slug": "vercel-ai-sdk",
+    "name": "Vercel AI SDK",
+    "maker": "Vercel",
+    "logo": "https://www.google.com/s2/favicons?domain=vercel.com&sz=128",
+    "tags": [
+      {
+        "label": "TypeScript",
+        "variant": "default"
+      },
+      {
+        "label": "UI-aware",
+        "variant": "default"
+      }
+    ],
+    "tagline": "TypeScript SDK for building AI features in web apps.",
+    "paragraphs": [
+      "What it is. TypeScript SDK for building AI features in web apps. Unified API across OpenAI, Anthropic, Google, and 30+ other providers. Handles streaming, tool calling, structured outputs, and React-first UI streaming (RSC, useChat, useCompletion).",
+      "What sets it apart. Not strictly \"first-party\" to any model, but it's the default \"model-agnostic thin wrapper\" for the JS/TS world. Built-in React hooks. Tight Next.js / Vercel integration. \"Agents\" primitive added 2025.",
+      "Connections. Maintained by the same Vercel team behind Next.js, v0, and the Fluid / AI Gateway infra. Handles routing between providers via Vercel's AI Gateway."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "De-facto TypeScript choice; 500K+ npm weekly downloads"
+      },
+      {
+        "k": "Strength",
+        "v": "Real-time UI streaming (React Server Components) is best-in-class"
+      }
+    ],
+    "links": [
+      {
+        "label": "ai-sdk.dev",
+        "url": "https://ai-sdk.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/vercel/ai"
+      }
+    ],
+    "category": "first-party-sdks",
+    "categorySlug": "first-party-sdks",
+    "categoryName": "First-Party Agent SDKs"
+  },
+  {
+    "id": "first-party-sdks__mistral-agents",
+    "slug": "mistral-agents",
+    "name": "Mistral Agents API",
+    "maker": "Mistral",
+    "logo": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "tags": [
+      {
+        "label": "Mistral-native",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Mistral's managed agents layer on top of their models.",
+    "paragraphs": [
+      "What it is. Mistral's managed agents layer on top of their models. Ships built-in tools (code interpreter, web search, image gen, document library) and agent hand-offs. Announced May 2025.",
+      "What sets it apart. European sovereign-AI deployment option — enterprise customers worried about US / Chinese data policy. Batteries-included built-in tools mean you don't need to wire up your own search / sandboxes.",
+      "Connections. Pairs with Le Chat (consumer front-end) and Le Platforme (developer console). Works with Mistral Large, Codestral, etc."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Still smaller than OpenAI / Anthropic SDKs; concentrated in EU"
+      },
+      {
+        "k": "Niche",
+        "v": "EU-regulated, sovereign-AI workloads"
+      }
+    ],
+    "links": [
+      {
+        "label": "docs.mistral.ai/agents",
+        "url": "https://docs.mistral.ai/agents"
+      }
+    ],
+    "category": "first-party-sdks",
+    "categorySlug": "first-party-sdks",
+    "categoryName": "First-Party Agent SDKs"
+  },
+  {
+    "id": "llm-providers__openai",
+    "slug": "openai",
+    "name": "OpenAI",
+    "maker": "Founded 2015 · San Francisco · CEO Sam Altman",
+    "logo": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Frontier",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The company that kicked off the modern wave with GPT-3 and ChatGPT.",
+    "paragraphs": [
+      "What it is. The company that kicked off the modern wave with GPT-3 and ChatGPT. Current flagship family is GPT-5 (general) and the o-series reasoning models (o3, o4-mini). Also ships Sora for video, DALL-E 3 for images, Whisper for speech, and the Agents SDK / Swarm for orchestration.",
+      "What sets it apart. Strongest brand recognition and the largest consumer surface (ChatGPT reportedly ~800M weekly active users). Deep Microsoft partnership puts GPT models natively inside Azure, Office, and GitHub Copilot. Ships features fastest — Operator, Deep Research, Canvas, Projects — then competitors catch up.",
+      "Connections. Microsoft is investor and exclusive Azure partner. GitHub (Microsoft) ships Copilot on top of GPT. Apple Intelligence uses ChatGPT as the fallback LLM in iOS. Anthropic was founded by ex-OpenAI people (Dario & Daniela Amodei, Jared Kaplan, Tom Brown)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~800M weekly ChatGPT users; majority of Fortune 500 use via Azure OpenAI"
+      },
+      {
+        "k": "Revenue (est.)",
+        "v": "~$12B+ ARR as of late 2025"
+      }
+    ],
+    "links": [
+      {
+        "label": "openai.com",
+        "url": "https://openai.com"
+      },
+      {
+        "label": "API docs",
+        "url": "https://platform.openai.com/docs"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/openai"
+      },
+      {
+        "label": "Research blog",
+        "url": "https://openai.com/research"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__anthropic",
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "maker": "Founded 2021 · San Francisco · CEO Dario Amodei",
+    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Frontier",
+        "variant": "default"
+      },
+      {
+        "label": "Safety-first",
+        "variant": "good"
+      }
+    ],
+    "tagline": "Maker of the Claude model family — Opus (most capable), Sonnet (balanced), Haiku (fast/cheap).",
+    "paragraphs": [
+      "What it is. Maker of the Claude model family — Opus (most capable), Sonnet (balanced), Haiku (fast/cheap). Ships Claude Code (CLI coding agent), the Claude Agent SDK, and the Model Context Protocol (MCP), which has become the de-facto standard for connecting tools to AI.",
+      "What sets it apart. Widely considered the strongest coding model for agentic work — Claude Sonnet 4.5 / 4.6 and Opus 4.6 are what PostHog, Cursor, Windsurf, Replit, Cognition, and Amp actually ship on top of. Constitutional AI / RLAIF approach. Invented MCP (now adopted by OpenAI, Google, and the open-source world).",
+      "Connections. Amazon is largest investor; Claude runs natively on AWS Bedrock. Google also invested. Founded by former OpenAI researchers (Dario, Daniela, Jared Kaplan, Tom Brown). Claude Code is the scaffolding Claude.ai terminal sessions run on."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Dominant in coding-agent market share; Claude Code used by most AI-native dev teams"
+      },
+      {
+        "k": "Revenue (est.)",
+        "v": "~$5B+ ARR as of late 2025, growing fastest among frontier labs"
+      }
+    ],
+    "links": [
+      {
+        "label": "anthropic.com",
+        "url": "https://anthropic.com"
+      },
+      {
+        "label": "API docs",
+        "url": "https://docs.anthropic.com"
+      },
+      {
+        "label": "Building Effective Agents",
+        "url": "https://anthropic.com/engineering/building-effective-agents"
+      },
+      {
+        "label": "MCP spec",
+        "url": "https://modelcontextprotocol.io"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__google",
+    "slug": "google",
+    "name": "Google DeepMind",
+    "maker": "Alphabet · CEO Demis Hassabis (DeepMind) / Sundar Pichai (Alphabet)",
+    "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Frontier",
+        "variant": "default"
+      },
+      {
+        "label": "Multimodal",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Makers of the Gemini family — Gemini 2.5 Pro (frontier), Flash (fast), Nano (on-device).",
+    "paragraphs": [
+      "What it is. Makers of the Gemini family — Gemini 2.5 Pro (frontier), Flash (fast), Nano (on-device). Also ships Veo (video), Imagen (images), Lyria (audio), Gemma (open weights), and now a sprawling agent/app-builder lineup: Jules, Antigravity, Opal, Firebase Studio, NotebookLM, and Vertex AI.",
+      "What sets it apart. Native multimodality (text+image+video+audio) beats most rivals. 1M+ token context window is industry-leading. Runs on Google's own TPUs — massive cost advantage at scale. Gemini is baked into Search, Workspace, Android, and Chrome (billions of users).",
+      "Connections. Owns YouTube (huge training-data moat for video). Invested in Anthropic (~$2B). DeepMind (absorbed 2014) is the research engine. Gemma is the open-weights cousin — runs inside Ollama, LM Studio, etc."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Gemini in Search touches billions; Workspace AI rollout ongoing"
+      },
+      {
+        "k": "Strengths",
+        "v": "Long context, multimodal, TPU cost; weakest on agentic coding vs Claude"
+      }
+    ],
+    "links": [
+      {
+        "label": "deepmind.google",
+        "url": "https://deepmind.google"
+      },
+      {
+        "label": "AI Studio / API",
+        "url": "https://ai.google.dev"
+      },
+      {
+        "label": "Vertex AI",
+        "url": "https://cloud.google.com/vertex-ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/google-deepmind"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__meta",
+    "slug": "meta",
+    "name": "Meta (Llama)",
+    "maker": "Menlo Park · Chief AI Scientist Yann LeCun",
+    "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+    "tags": [
+      {
+        "label": "Open weights",
+        "variant": "good"
+      },
+      {
+        "label": "Frontier-ish",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Home of Llama — the most downloaded open-weights LLM family.",
+    "paragraphs": [
+      "What it is. Home of Llama — the most downloaded open-weights LLM family. Llama 3.1 405B, Llama 3.3 70B, Llama 4 Behemoth/Maverick/Scout are Meta's current stack. Llama powers Meta AI (in Instagram, WhatsApp, Facebook) and is the default base model for a huge share of open-source fine-tunes.",
+      "What sets it apart. Open weights under a permissive (but commercial-restricted) license. Zuckerberg's bet: commoditize the models so Meta benefits from a cheap open ecosystem instead of paying a frontier-lab tax. Llama is what most \"open\" hosts (Together, Fireworks, Groq, Cerebras) run by default.",
+      "Connections. Training uses Meta's own ~350K+ H100 fleet. PyTorch (also Meta) is the framework the entire AI world trains on. Distilled / fine-tuned Llamas power countless downstream products — Perplexity, Character.ai (partially), DeepSeek's early work, etc."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Meta AI reportedly 1B+ monthly users across apps; Llama the most-downloaded open LLM"
+      },
+      {
+        "k": "Trade-off",
+        "v": "Weights open, training data and RL details aren't — \"open weights\" not \"open source\""
+      }
+    ],
+    "links": [
+      {
+        "label": "llama.com",
+        "url": "https://llama.com"
+      },
+      {
+        "label": "ai.meta.com",
+        "url": "https://ai.meta.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/meta-llama"
+      },
+      {
+        "label": "HuggingFace",
+        "url": "https://huggingface.co/meta-llama"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__mistral",
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "maker": "Founded 2023 · Paris · CEO Arthur Mensch",
+    "logo": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open weights",
+        "variant": "good"
+      },
+      {
+        "label": "Europe",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Europe's flagship LLM lab.",
+    "paragraphs": [
+      "What it is. Europe's flagship LLM lab. Ships both open-weights models (Mistral 7B, Mixtral 8x22B, Mistral Small/Nemo) and proprietary frontier models (Mistral Large, Codestral, Pixtral multimodal). Also offers Le Chat (consumer chat product) and a growing Agents API.",
+      "What sets it apart. Founded by ex-DeepMind and ex-Meta researchers; pioneered sparse Mixture-of-Experts (Mixtral) and fast, efficient small models that punch above their weight. The sovereign-EU-AI story matters to European governments and enterprises worried about US / Chinese data policy.",
+      "Connections. Strategic partnership with Microsoft (Azure hosts Mistral Large). Big contracts with French government and BNP Paribas. Models run on every major host (Together, Fireworks, Hugging Face)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Popular open-weights choice in Europe; Codestral a dev favorite for local coding"
+      },
+      {
+        "k": "Positioning",
+        "v": "Sovereign-AI champion; \"the OpenAI of Europe\""
+      }
+    ],
+    "links": [
+      {
+        "label": "mistral.ai",
+        "url": "https://mistral.ai"
+      },
+      {
+        "label": "API docs",
+        "url": "https://docs.mistral.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/mistralai"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__xai",
+    "slug": "xai",
+    "name": "xAI",
+    "maker": "Founded 2023 · San Francisco · CEO Elon Musk",
+    "logo": "https://www.google.com/s2/favicons?domain=x.ai&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Frontier",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Maker of the Grok model family.",
+    "paragraphs": [
+      "What it is. Maker of the Grok model family. Grok 3 (late 2024) and Grok 4 (2025) pushed into frontier territory thanks to the Colossus supercluster in Memphis (~200K+ H100s, largest training cluster ever built). Ships via grok.com, the X (Twitter) app, and an API.",
+      "What sets it apart. Real-time data access via X's firehose — unique moat vs. anyone not training on a live social graph. Raw training compute is the sheer scale play. Positioning is deliberately edgier / less \"aligned\" than OpenAI or Anthropic, which draws both fans and critics.",
+      "Connections. Owned by Elon Musk (also Tesla, X, Neuralink, SpaceX). Sibling company X provides data and distribution. Musk co-founded OpenAI in 2015 and left in 2018; xAI is in ongoing legal fights with OpenAI."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Built into X (Twitter) for 500M+ users; enterprise API growing"
+      },
+      {
+        "k": "Compute",
+        "v": "Colossus: largest single training cluster on Earth as of 2025"
+      }
+    ],
+    "links": [
+      {
+        "label": "x.ai",
+        "url": "https://x.ai"
+      },
+      {
+        "label": "API docs",
+        "url": "https://docs.x.ai"
+      },
+      {
+        "label": "grok.com",
+        "url": "https://grok.com"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__cohere",
+    "slug": "cohere",
+    "name": "Cohere",
+    "maker": "Founded 2019 · Toronto · CEO Aidan Gomez",
+    "logo": "https://www.google.com/s2/favicons?domain=cohere.com&sz=128",
+    "tags": [
+      {
+        "label": "Closed",
+        "variant": "default"
+      },
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Enterprise-focused LLM provider.",
+    "paragraphs": [
+      "What it is. Enterprise-focused LLM provider. Ships the Command family (Command R, Command R+), Embed (the gold-standard enterprise embedding models), and Rerank. Private-deployment-first — customers can run Cohere models inside their own VPC or even on-prem.",
+      "What sets it apart. Deep enterprise RAG expertise — Cohere Embed / Rerank are what many production RAG pipelines use even when the generation model is from OpenAI or Anthropic. Quiet competence; rarely chases the consumer-chat hype cycle.",
+      "Connections. Aidan Gomez was a co-author of \"Attention Is All You Need\" (the original Transformer paper). Major investors: Nvidia, Salesforce, Oracle. Tight partnerships with Oracle Cloud and Fujitsu for regulated-industry deployments."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Concentrated in banking, healthcare, gov — fewer users than consumer labs, but high contract sizes"
+      },
+      {
+        "k": "Niche",
+        "v": "\"The RAG and enterprise-private-deployment provider\""
+      }
+    ],
+    "links": [
+      {
+        "label": "cohere.com",
+        "url": "https://cohere.com"
+      },
+      {
+        "label": "API docs",
+        "url": "https://docs.cohere.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/cohere-ai"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__deepseek",
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "maker": "Founded 2023 · Hangzhou, China · parent: High-Flyer hedge fund",
+    "logo": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
+    "tags": [
+      {
+        "label": "Open weights",
+        "variant": "good"
+      },
+      {
+        "label": "China",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Chinese research lab that shocked the industry in early 2025 by releasing DeepSeek-V3 and the R1 reasoning model with fully open weights and costs dramatically below Western frontier labs.",
+    "paragraphs": [
+      "What it is. Chinese research lab that shocked the industry in early 2025 by releasing DeepSeek-V3 and the R1 reasoning model with fully open weights and costs dramatically below Western frontier labs. Ships V3, R1, and the Coder family.",
+      "What sets it apart. Reasoning-model quality at a fraction of OpenAI / Anthropic prices. Full model weights, training recipe, and papers released publicly — a major change in the competitive landscape. \"DeepSeek moment\" (Jan 2025) crashed Nvidia stock ~17% in a single day on efficiency fears.",
+      "Connections. Funded by High-Flyer, a Chinese quant hedge fund. Export-control pressure means DeepSeek had to be clever about training efficiency on restricted Nvidia H800s. Widely hosted by Together, Fireworks, Groq; runs locally via Ollama / LM Studio."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Most-hosted open reasoning model outside Llama; millions of downloads"
+      },
+      {
+        "k": "Caveat",
+        "v": "Data-governance concerns for Western enterprises; API hosted in China"
+      }
+    ],
+    "links": [
+      {
+        "label": "deepseek.com",
+        "url": "https://deepseek.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/deepseek-ai"
+      },
+      {
+        "label": "HuggingFace",
+        "url": "https://huggingface.co/deepseek-ai"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "llm-providers__qwen",
+    "slug": "qwen",
+    "name": "Alibaba Qwen",
+    "maker": "Alibaba Cloud · Hangzhou, China",
+    "logo": "https://www.google.com/s2/favicons?domain=alibaba.com&sz=128",
+    "tags": [
+      {
+        "label": "Open weights",
+        "variant": "good"
+      },
+      {
+        "label": "China",
+        "variant": "default"
+      },
+      {
+        "label": "Multimodal",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Alibaba's LLM family.",
+    "paragraphs": [
+      "What it is. Alibaba's LLM family. Qwen 2.5 and Qwen 3 cover sizes from 0.5B to 72B+ parameters, with specialist variants for coding (Qwen-Coder), math (Qwen-Math), and vision (Qwen-VL). Fully open weights for most sizes.",
+      "What sets it apart. Huge depth of model sizes and specializations under a permissive license. Consistently tops open-weights leaderboards in Chinese and non-English benchmarks. Qwen-VL is a top open multimodal model.",
+      "Connections. Backed by Alibaba Cloud infrastructure. Popular base model for international fine-tunes (many Hugging Face leaderboard winners are Qwen-based). Available via Alibaba Cloud's Model Studio, Together, Fireworks, and locally."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Dominant open-weights model in China; growing internationally, especially for multilingual"
+      },
+      {
+        "k": "Strength",
+        "v": "Best open-weights option for non-English tasks and for coding at the small-model tier"
+      }
+    ],
+    "links": [
+      {
+        "label": "qwenlm.ai",
+        "url": "https://qwenlm.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/QwenLM"
+      },
+      {
+        "label": "HuggingFace",
+        "url": "https://huggingface.co/Qwen"
+      }
+    ],
+    "category": "llm-providers",
+    "categorySlug": "llm-providers",
+    "categoryName": "LLM Providers"
+  },
+  {
+    "id": "local-runners__ollama",
+    "slug": "ollama",
+    "name": "Ollama",
+    "maker": "Ollama Inc.",
+    "logo": "https://www.google.com/s2/favicons?domain=ollama.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "CLI + daemon",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The de-facto \"Docker for LLMs.\" `ollama run llama3` downloads and runs the model locally with a clean REST API.",
+    "paragraphs": [
+      "What it is. The de-facto \"Docker for LLMs.\" `ollama run llama3` downloads and runs the model locally with a clean REST API. Ships models in a GGUF-based registry (`ollama.com/library`).",
+      "What sets it apart. Simplest dev experience in the category. Integrates with basically every local-LLM tool. macOS, Linux, Windows. The default \"I want to run Llama locally\" answer.",
+      "Connections. Built on llama.cpp internally. Works with Continue, Cline, Aider, OpenCode, LangChain, etc."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~100K+ GitHub stars; most-used local runner"
+      },
+      {
+        "k": "Strength",
+        "v": "Frictionless local LLM UX"
+      }
+    ],
+    "links": [
+      {
+        "label": "ollama.com",
+        "url": "https://ollama.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ollama/ollama"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "local-runners__lm-studio",
+    "slug": "lm-studio",
+    "name": "LM Studio",
+    "maker": "LM Studio · closed-source client",
+    "logo": "https://www.google.com/s2/favicons?domain=lmstudio.ai&sz=128",
+    "tags": [
+      {
+        "label": "GUI",
+        "variant": "default"
+      },
+      {
+        "label": "Free",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Desktop GUI for running local LLMs.",
+    "paragraphs": [
+      "What it is. Desktop GUI for running local LLMs. Browse Hugging Face models, download with a click, chat in a polished interface, expose as a local OpenAI-compatible API.",
+      "What sets it apart. Best GUI for non-CLI users. \"Power Mode\" exposes advanced settings for tuning. Free for personal use (closed-source).",
+      "Connections. Bundles llama.cpp + MLX runtimes. Works as a drop-in OpenAI API for other tools."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Millions of downloads; most-used GUI local runner"
+      },
+      {
+        "k": "Niche",
+        "v": "Non-CLI users; \"just give me a chat UI for Llama\""
+      }
+    ],
+    "links": [
+      {
+        "label": "lmstudio.ai",
+        "url": "https://lmstudio.ai"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "local-runners__llama-cpp",
+    "slug": "llama-cpp",
+    "name": "llama.cpp",
+    "maker": "Georgi Gerganov · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "C++",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The foundational open-source C++ inference engine for Llama-family models.",
+    "paragraphs": [
+      "What it is. The foundational open-source C++ inference engine for Llama-family models. Created GGUF (the quantized model format used industry-wide). CPU + GPU, CUDA, Metal, Vulkan, everything.",
+      "What sets it apart. The layer underneath Ollama, LM Studio, Jan, and most other local runners. GGUF format set the industry standard for quantized weights.",
+      "Connections. Gerganov also makes whisper.cpp (speech-to-text) and ggml (the ML library powering both)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~70K+ GitHub stars; underneath most local runners"
+      },
+      {
+        "k": "Strength",
+        "v": "Portability + performance without a Python dependency"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ggerganov/llama.cpp"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "local-runners__vllm",
+    "slug": "vllm",
+    "name": "vLLM",
+    "maker": "UC Berkeley (Woosuk Kwon et al.) · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=vllm.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Production",
+        "variant": "default"
+      }
+    ],
+    "tagline": "High-throughput inference engine for production.",
+    "paragraphs": [
+      "What it is. High-throughput inference engine for production. Introduced PagedAttention — a major innovation that doubled throughput for transformer serving. Python + CUDA.",
+      "What sets it apart. Production-grade batching + KV-cache management. What most \"host your own Llama in prod\" deployments actually run. Comparable to NVIDIA TensorRT-LLM and TGI.",
+      "Connections. Came out of Sky Computing Lab at UC Berkeley. Now a Linux Foundation project."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~40K GitHub stars; default OSS production engine"
+      },
+      {
+        "k": "Niche",
+        "v": "Production self-hosted inference at scale"
+      }
+    ],
+    "links": [
+      {
+        "label": "docs.vllm.ai",
+        "url": "https://docs.vllm.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/vllm-project/vllm"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "local-runners__mlx",
+    "slug": "mlx",
+    "name": "MLX",
+    "maker": "Apple · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=apple.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Apple Silicon",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Apple's ML framework optimized for Apple Silicon (M-series chips).",
+    "paragraphs": [
+      "What it is. Apple's ML framework optimized for Apple Silicon (M-series chips). Like PyTorch but uses the unified-memory architecture that M-series provides. `mlx-lm` is the LLM sub-library.",
+      "What sets it apart. Fastest way to run big LLMs on a Mac — can fit a 70B model on a 128GB M3 Max / Ultra because RAM and VRAM are unified. Native Apple, open source.",
+      "Connections. Integrated into LM Studio's \"MLX Engine\" on Macs. Not useful on Linux/Windows."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Fast-growing in the Apple Silicon LLM community"
+      },
+      {
+        "k": "Niche",
+        "v": "Mac users running large local models"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ml-explore/mlx"
+      },
+      {
+        "label": "Docs",
+        "url": "https://ml-explore.github.io/mlx/build/html/index.html"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "local-runners__jan",
+    "slug": "jan",
+    "name": "Jan",
+    "maker": "Jan (Menlo Research)",
+    "logo": "https://www.google.com/s2/favicons?domain=jan.ai&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "GUI",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Open-source LM Studio alternative.",
+    "paragraphs": [
+      "What it is. Open-source LM Studio alternative. Desktop chat app for local LLMs with model browser, extensions, and OpenAI-compatible server.",
+      "What sets it apart. Fully open source where LM Studio is closed. Same polished UX. Appeals to users who want an LM-Studio-like experience but prefer auditable code.",
+      "Connections. Built on llama.cpp. Community-run fork culture, similar to early OBS."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~25K GitHub stars; growing OSS alternative"
+      },
+      {
+        "k": "Niche",
+        "v": "Open-source GUI for local LLMs"
+      }
+    ],
+    "links": [
+      {
+        "label": "jan.ai",
+        "url": "https://jan.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/janhq/jan"
+      }
+    ],
+    "category": "local-runners",
+    "categorySlug": "local-runners",
+    "categoryName": "Local Model Runners"
+  },
+  {
+    "id": "mcp-ecosystem__mcp-spec",
+    "slug": "mcp-spec",
+    "name": "The MCP Spec + Reference Servers",
+    "maker": "Anthropic (original) · now multi-vendor stewardship",
+    "logo": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "tags": [
+      {
+        "label": "Open spec",
+        "variant": "good"
+      },
+      {
+        "label": "Industry standard",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The protocol itself, plus Anthropic's reference MCP servers (file system, GitHub, Slack, Postgres, Puppeteer, etc.) in the modelcontextprotocol/servers repo.",
+    "paragraphs": [
+      "What it is. The protocol itself, plus Anthropic's reference MCP servers (file system, GitHub, Slack, Postgres, Puppeteer, etc.) in the modelcontextprotocol/servers repo.",
+      "What sets it apart. The spec is the whole ecosystem — everything else listed here piggybacks on it. Adoption by OpenAI, Google, Microsoft, and the open-source world in 2025 turned MCP into a genuine cross-vendor standard (rare in AI).",
+      "Connections. Launched by Anthropic. Now stewarded via an open working group. Huge reference-server library."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Supported by Claude Desktop, Cursor, Windsurf, Zed, ChatGPT Desktop, VS Code, and more"
+      },
+      {
+        "k": "Launched",
+        "v": "November 2024"
+      }
+    ],
+    "links": [
+      {
+        "label": "modelcontextprotocol.io",
+        "url": "https://modelcontextprotocol.io"
+      },
+      {
+        "label": "Reference servers",
+        "url": "https://github.com/modelcontextprotocol/servers"
+      },
+      {
+        "label": "GitHub org",
+        "url": "https://github.com/modelcontextprotocol"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "mcp-ecosystem__smithery",
+    "slug": "smithery",
+    "name": "Smithery",
+    "maker": "Smithery · 2024",
+    "logo": "https://www.google.com/s2/favicons?domain=smithery.ai&sz=128",
+    "tags": [
+      {
+        "label": "Registry + runtime",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The most-used MCP server registry.",
+    "paragraphs": [
+      "What it is. The most-used MCP server registry. Lets you discover, install, and even host MCP servers with one click — both local (stdio) and remote (HTTP).",
+      "What sets it apart. Hosted-server runtime (not just a directory) means MCP servers can run remotely without you setting up infra. Clean one-command installers for most clients.",
+      "Connections. Closest thing to an \"npm for MCP.\" Works with Claude Desktop, Cursor, Windsurf, etc."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Thousands of MCP servers indexed; primary installer for MCP in the wild"
+      },
+      {
+        "k": "Role",
+        "v": "Registry + hosted runtime + install UX"
+      }
+    ],
+    "links": [
+      {
+        "label": "smithery.ai",
+        "url": "https://smithery.ai"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/smithery-ai"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "mcp-ecosystem__mcp-so",
+    "slug": "mcp-so",
+    "name": "MCP.so",
+    "maker": "community-run",
+    "logo": "https://www.google.com/s2/favicons?domain=mcp.so&sz=128",
+    "tags": [
+      {
+        "label": "Directory",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Community directory of MCP servers, clients, and resources.",
+    "paragraphs": [
+      "What it is. Community directory of MCP servers, clients, and resources. Includes install configs, stars, descriptions, and categories.",
+      "What sets it apart. Broader and more neutral than Smithery — lists servers that aren't hosted on Smithery's runtime. Good for browsing and benchmarking.",
+      "Connections. Free alternative to Smithery for discovery-only. Indexes any GitHub-hosted MCP server."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Thousands of servers listed; hundreds of thousands of monthly visits"
+      },
+      {
+        "k": "Role",
+        "v": "Pure directory / awesome-list-as-a-service"
+      }
+    ],
+    "links": [
+      {
+        "label": "mcp.so",
+        "url": "https://mcp.so"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "mcp-ecosystem__composio",
+    "slug": "composio",
+    "name": "Composio",
+    "maker": "Composio · YC-backed",
+    "logo": "https://www.google.com/s2/favicons?domain=composio.dev&sz=128",
+    "tags": [
+      {
+        "label": "Tool platform",
+        "variant": "default"
+      },
+      {
+        "label": "Enterprise",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Managed tool-integration platform with 250+ pre-built tool integrations (Gmail, Slack, Notion, Linear, etc.) that you can drop into any agent via MCP or native SDKs.",
+    "paragraphs": [
+      "What it is. Managed tool-integration platform with 250+ pre-built tool integrations (Gmail, Slack, Notion, Linear, etc.) that you can drop into any agent via MCP or native SDKs. Handles auth (OAuth flows), rate limits, and tool versioning.",
+      "What sets it apart. OAuth / auth is the hard part of agent-tool integrations — Composio takes on that burden. Works with LangChain, CrewAI, Claude Agent SDK, OpenAI Agents, etc., so you can use it regardless of framework.",
+      "Connections. Alternative category leader to Arcade. Popular with enterprise agent builders who need reliable SaaS integrations."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Used by thousands of agent projects; SOC 2 compliant"
+      },
+      {
+        "k": "Role",
+        "v": "\"Zapier for agents\" + auth manager"
+      }
+    ],
+    "links": [
+      {
+        "label": "composio.dev",
+        "url": "https://composio.dev"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ComposioHQ/composio"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.composio.dev"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "mcp-ecosystem__arcade",
+    "slug": "arcade",
+    "name": "Arcade",
+    "maker": "Arcade (formerly Arcade AI)",
+    "logo": "https://www.google.com/s2/favicons?domain=arcade.dev&sz=128",
+    "tags": [
+      {
+        "label": "Tool platform",
+        "variant": "default"
+      },
+      {
+        "label": "Auth-heavy",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Another managed \"tools + auth for agents\" platform.",
+    "paragraphs": [
+      "What it is. Another managed \"tools + auth for agents\" platform. Pre-built integrations + a framework for writing your own custom tools in Python, with OAuth handled for you.",
+      "What sets it apart. Developer-first SDK — writing a custom tool is one decorator away. Head-to-head competitor with Composio; the two often come up together.",
+      "Connections. MCP-compatible. Works with major agent frameworks."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Mid-size dev community; fast growth in 2025"
+      },
+      {
+        "k": "Role",
+        "v": "Similar to Composio; more custom-tooling-first"
+      }
+    ],
+    "links": [
+      {
+        "label": "arcade.dev",
+        "url": "https://arcade.dev"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.arcade.dev"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "mcp-ecosystem__fastmcp",
+    "slug": "fastmcp",
+    "name": "FastMCP",
+    "maker": "Jeremiah Lowin (Prefect) · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=gofastmcp.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Python",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The most popular Python framework for building MCP servers.",
+    "paragraphs": [
+      "What it is. The most popular Python framework for building MCP servers. Decorator-based (like FastAPI) — you write tools as normal Python functions and FastMCP exposes them over MCP.",
+      "What sets it apart. Ergonomics — building an MCP server is typically <20 lines. Auth, sessions, and deployment helpers baked in. FastMCP 2.0 (2025) merged into the official modelcontextprotocol/python-sdk as its ergonomic layer.",
+      "Connections. Jeremiah Lowin also built Prefect (workflow engine). FastMCP is now effectively the default way to write MCP servers in Python."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Most community MCP servers are written with FastMCP"
+      },
+      {
+        "k": "Role",
+        "v": "\"FastAPI for MCP\""
+      }
+    ],
+    "links": [
+      {
+        "label": "gofastmcp.com",
+        "url": "https://gofastmcp.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/jlowin/fastmcp"
+      }
+    ],
+    "category": "mcp-ecosystem",
+    "categorySlug": "mcp-ecosystem",
+    "categoryName": "MCP Ecosystem"
+  },
+  {
+    "id": "model-hosting__replicate",
+    "slug": "replicate",
+    "name": "Replicate",
+    "maker": "Replicate · founded 2019",
+    "logo": "https://www.google.com/s2/favicons?domain=replicate.com&sz=128",
+    "tags": [
+      {
+        "label": "General-purpose",
+        "variant": "default"
+      },
+      {
+        "label": "Cog",
+        "variant": "default"
+      }
+    ],
+    "tagline": "\"One API for every open-source model.\" Huge catalog (text, image, video, audio, custom).",
+    "paragraphs": [
+      "What it is. \"One API for every open-source model.\" Huge catalog (text, image, video, audio, custom). Cog (their container format) is the standard way to package models for deployment.",
+      "What sets it apart. Breadth of models — if it's on Hugging Face, it's probably on Replicate. Pay-per-prediction pricing.",
+      "Connections. Cog is open-source. Broad use among creators / hobbyists for image + video models."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hundreds of thousands of developers; strong creator community"
+      },
+      {
+        "k": "Niche",
+        "v": "Widest model catalog, creator-friendly"
+      }
+    ],
+    "links": [
+      {
+        "label": "replicate.com",
+        "url": "https://replicate.com"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__together",
+    "slug": "together",
+    "name": "Together AI",
+    "maker": "Together · CEO Vipul Ved Prakash",
+    "logo": "https://www.google.com/s2/favicons?domain=together.ai&sz=128",
+    "tags": [
+      {
+        "label": "LLM inference",
+        "variant": "default"
+      },
+      {
+        "label": "Training too",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Fast inference for open-weights LLMs (Llama, Qwen, DeepSeek, Mistral).",
+    "paragraphs": [
+      "What it is. Fast inference for open-weights LLMs (Llama, Qwen, DeepSeek, Mistral). Also offers fine-tuning, dedicated endpoints, and training.",
+      "What sets it apart. Competitive pricing, open model catalog, FlashAttention-like custom optimizations. Popular drop-in replacement for people who want Llama-class quality without hosting it themselves.",
+      "Connections. Funded by Nvidia, Salesforce Ventures. Co-published RedPajama open-dataset work."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Hundreds of millions of API calls per month; growing fast"
+      },
+      {
+        "k": "Niche",
+        "v": "Best combo of pricing + open-model breadth"
+      }
+    ],
+    "links": [
+      {
+        "label": "together.ai",
+        "url": "https://together.ai"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__fireworks",
+    "slug": "fireworks",
+    "name": "Fireworks AI",
+    "maker": "Fireworks · founded by ex-Meta PyTorch leads",
+    "logo": "https://www.google.com/s2/favicons?domain=fireworks.ai&sz=128",
+    "tags": [
+      {
+        "label": "Fast inference",
+        "variant": "default"
+      }
+    ],
+    "tagline": "LLM inference with strong focus on latency + throughput.",
+    "paragraphs": [
+      "What it is. LLM inference with strong focus on latency + throughput. Popular for production Llama / Qwen / DeepSeek workloads. Also offers fine-tuning (LoRA + full) and custom deployments.",
+      "What sets it apart. Founded by former Meta PyTorch team → deep kernel optimization expertise. Popular with enterprises needing predictable p99 latency.",
+      "Connections. Tight partnerships with Meta (Llama) and Nvidia."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Strong enterprise adoption for LLM inference"
+      },
+      {
+        "k": "Strength",
+        "v": "Low-latency production inference"
+      }
+    ],
+    "links": [
+      {
+        "label": "fireworks.ai",
+        "url": "https://fireworks.ai"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__modal",
+    "slug": "modal",
+    "name": "Modal",
+    "maker": "Modal Labs · CEO Erik Bernhardsson (ex-Spotify, author of luigi + annoy)",
+    "logo": "https://www.google.com/s2/favicons?domain=modal.com&sz=128",
+    "tags": [
+      {
+        "label": "Serverless GPUs",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Serverless cloud for Python + ML.",
+    "paragraphs": [
+      "What it is. Serverless cloud for Python + ML. Decorate a function with `@app.function(gpu=\"A100\")` and it runs on a remote GPU on demand. Great for custom model serving + batch inference.",
+      "What sets it apart. Cold starts under a second even for GPU containers — famously hard problem solved elegantly. Python-native developer experience. Popular for one-off ML jobs + custom model endpoints.",
+      "Connections. Spotify heritage via Bernhardsson. Popular with research teams and indie ML developers."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Tens of thousands of developers; beloved in Python ML circles"
+      },
+      {
+        "k": "Niche",
+        "v": "Custom model endpoints + Python batch jobs"
+      }
+    ],
+    "links": [
+      {
+        "label": "modal.com",
+        "url": "https://modal.com"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__baseten",
+    "slug": "baseten",
+    "name": "Baseten",
+    "maker": "Baseten · founded 2019",
+    "logo": "https://www.google.com/s2/favicons?domain=baseten.co&sz=128",
+    "tags": [
+      {
+        "label": "Custom deployments",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Managed model serving for custom / fine-tuned models.",
+    "paragraphs": [
+      "What it is. Managed model serving for custom / fine-tuned models. \"Truss\" is their open-source packaging format. Focus: reliable production deployments with good observability.",
+      "What sets it apart. Strong story for enterprises with their own trained models who want managed infra without building it. Sits between Replicate (hobbyist) and the hyperscalers.",
+      "Connections. Used by Writer, Descript, Patreon for ML serving."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Mid-market and enterprise ML teams"
+      },
+      {
+        "k": "Niche",
+        "v": "Custom-model production serving with hand-holding"
+      }
+    ],
+    "links": [
+      {
+        "label": "baseten.co",
+        "url": "https://baseten.co"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__groq",
+    "slug": "groq",
+    "name": "Groq",
+    "maker": "Groq · founded 2016 by Jonathan Ross (ex-Google TPU)",
+    "logo": "https://www.google.com/s2/favicons?domain=groq.com&sz=128",
+    "tags": [
+      {
+        "label": "Custom silicon",
+        "variant": "default"
+      },
+      {
+        "label": "Ultra-fast",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Inference on Groq's custom LPU (Language Processing Unit) chips.",
+    "paragraphs": [
+      "What it is. Inference on Groq's custom LPU (Language Processing Unit) chips. Delivers the fastest tokens-per-second for open-weights LLMs available anywhere.",
+      "What sets it apart. Hundreds of tokens/second on Llama 70B-class models — demos feel instant, like reading a file. Founder invented the Google TPU.",
+      "Connections. Often confused with Elon Musk's xAI Grok. Has a Saudi sovereign deal for regional deployment."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Popular for real-time voice agents + interactive UIs"
+      },
+      {
+        "k": "Niche",
+        "v": "Lowest-latency inference in the industry"
+      }
+    ],
+    "links": [
+      {
+        "label": "groq.com",
+        "url": "https://groq.com"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__cerebras",
+    "slug": "cerebras",
+    "name": "Cerebras",
+    "maker": "Cerebras · founded 2016 · CEO Andrew Feldman",
+    "logo": "https://www.google.com/s2/favicons?domain=cerebras.net&sz=128",
+    "tags": [
+      {
+        "label": "Custom silicon",
+        "variant": "default"
+      },
+      {
+        "label": "Wafer-scale",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Custom wafer-scale chip (a single chip the size of a dinner plate).",
+    "paragraphs": [
+      "What it is. Custom wafer-scale chip (a single chip the size of a dinner plate). Runs inference on open-weights LLMs at speeds competitive with Groq.",
+      "What sets it apart. Only company shipping wafer-scale compute. Used by Glean, Meta, and the US national labs for high-throughput inference + training. Filed for IPO in 2024.",
+      "Connections. Rivalry with Groq for \"fastest inference\" mindshare. Different tech bet (wafer-scale vs. custom SRAM LPU)."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Larger enterprise contracts than Groq on average; smaller hobbyist mindshare"
+      },
+      {
+        "k": "Niche",
+        "v": "Enterprise-scale fast inference + training"
+      }
+    ],
+    "links": [
+      {
+        "label": "cerebras.net",
+        "url": "https://cerebras.net"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "model-hosting__runpod",
+    "slug": "runpod",
+    "name": "RunPod",
+    "maker": "RunPod",
+    "logo": "https://www.google.com/s2/favicons?domain=runpod.io&sz=128",
+    "tags": [
+      {
+        "label": "Raw GPU rental",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Raw GPU cloud — rent H100s, A100s, L40s by the hour for training, fine-tuning, or custom inference.",
+    "paragraphs": [
+      "What it is. Raw GPU cloud — rent H100s, A100s, L40s by the hour for training, fine-tuning, or custom inference. Also offers serverless GPU mode.",
+      "What sets it apart. Cheapest GPU hour prices of any \"real\" cloud. Two-tier: \"Community Cloud\" (cheaper, less reliable) vs \"Secure Cloud\" (enterprise SLA). Huge with indie ML researchers.",
+      "Connections. Alternative to Vast.ai, Lambda Labs, Paperspace."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Massive indie + research adoption; the \"cheap GPU\" default"
+      },
+      {
+        "k": "Niche",
+        "v": "Raw GPU rental / training on a budget"
+      }
+    ],
+    "links": [
+      {
+        "label": "runpod.io",
+        "url": "https://runpod.io"
+      }
+    ],
+    "category": "model-hosting",
+    "categorySlug": "model-hosting",
+    "categoryName": "Model Hosting / Inference"
+  },
+  {
+    "id": "vector-dbs__pinecone",
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "maker": "Pinecone · founded 2019 · CEO Edo Liberty",
+    "logo": "https://www.google.com/s2/favicons?domain=pinecone.io&sz=128",
+    "tags": [
+      {
+        "label": "Managed",
+        "variant": "default"
+      },
+      {
+        "label": "Category leader",
+        "variant": "default"
+      }
+    ],
+    "tagline": "The original managed vector DB.",
+    "paragraphs": [
+      "What it is. The original managed vector DB. Fully hosted, serverless mode, enterprise-grade. Launched the category in 2019 and defined the API most alternatives copied.",
+      "What sets it apart. Serverless pricing (pay per query, not per pod) makes it the easiest managed option for getting started. Largest enterprise customer base. Edo Liberty co-wrote the original vector-search research at Yahoo / AWS SageMaker.",
+      "Connections. Named in nearly every LangChain / LlamaIndex tutorial. Raised $100M Series B 2023."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Most-adopted managed vector DB"
+      },
+      {
+        "k": "Strength",
+        "v": "Managed, serverless, enterprise-ready"
+      }
+    ],
+    "links": [
+      {
+        "label": "pinecone.io",
+        "url": "https://pinecone.io"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.pinecone.io"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__weaviate",
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "maker": "Weaviate · Amsterdam",
+    "logo": "https://www.google.com/s2/favicons?domain=weaviate.io&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Multimodal",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Open-source vector DB with native multimodal support, built-in vectorization modules (you pass text, Weaviate embeds it), and hybrid BM25+vector search.",
+    "paragraphs": [
+      "What it is. Open-source vector DB with native multimodal support, built-in vectorization modules (you pass text, Weaviate embeds it), and hybrid BM25+vector search.",
+      "What sets it apart. Weaviate Cloud (hosted) + self-hostable in a container. Hybrid search out of the box. Strong European customer base.",
+      "Connections. Ecosystem partner with Cohere, OpenAI, Hugging Face for embedding models. Named in most RAG tutorials alongside Pinecone."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~11K GitHub stars; popular OSS choice"
+      },
+      {
+        "k": "Strength",
+        "v": "Multimodal + hybrid search + self-host option"
+      }
+    ],
+    "links": [
+      {
+        "label": "weaviate.io",
+        "url": "https://weaviate.io"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/weaviate/weaviate"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__qdrant",
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "maker": "Qdrant · Berlin",
+    "logo": "https://www.google.com/s2/favicons?domain=qdrant.tech&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Rust",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Rust-written vector DB with a focus on filtering + hybrid search.",
+    "paragraphs": [
+      "What it is. Rust-written vector DB with a focus on filtering + hybrid search. Self-hostable single binary or Qdrant Cloud.",
+      "What sets it apart. Fastest pure performance benchmarks in the category, thanks to Rust. Good payload-filtering (i.e. \"vector search but only in documents written after 2024\"). Free tier has no row cap.",
+      "Connections. Used by OpenAI (internal), GitHub Copilot, X (Grok memory), and many LLM apps via LangChain."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~22K GitHub stars; strong growth 2024–2025"
+      },
+      {
+        "k": "Strength",
+        "v": "Performance + filtering"
+      }
+    ],
+    "links": [
+      {
+        "label": "qdrant.tech",
+        "url": "https://qdrant.tech"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/qdrant/qdrant"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__chroma",
+    "slug": "chroma",
+    "name": "Chroma",
+    "maker": "Chroma · founded by Jeff Huber & Anton Troynikov",
+    "logo": "https://www.google.com/s2/favicons?domain=trychroma.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Local-first",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Lightweight Python-native vector DB.",
+    "paragraphs": [
+      "What it is. Lightweight Python-native vector DB. `pip install chromadb` and go. Designed for prototyping, notebooks, and small production workloads. Chroma Cloud adds managed hosting.",
+      "What sets it apart. Easiest onboarding of any vector DB — you can have a working RAG demo in 10 lines. Favorite for local dev + quick prototypes.",
+      "Connections. Default vector DB in most LangChain \"getting started\" tutorials. YC backed."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~17K GitHub stars; most-used for tutorials + prototypes"
+      },
+      {
+        "k": "Strength",
+        "v": "Simplicity, Python-native"
+      }
+    ],
+    "links": [
+      {
+        "label": "trychroma.com",
+        "url": "https://trychroma.com"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/chroma-core/chroma"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__milvus",
+    "slug": "milvus",
+    "name": "Milvus (+ Zilliz Cloud)",
+    "maker": "Zilliz · founded 2017",
+    "logo": "https://www.google.com/s2/favicons?domain=zilliz.com&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Scale",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Distributed, cloud-native vector DB designed for billion-scale collections.",
+    "paragraphs": [
+      "What it is. Distributed, cloud-native vector DB designed for billion-scale collections. Open source; Zilliz Cloud is the managed version.",
+      "What sets it apart. Scale. Where Pinecone and Chroma handle millions of vectors, Milvus is built for billions — search engines, multimedia catalogs, recommendation systems.",
+      "Connections. Part of the LF AI & Data foundation. Powers vector search at Walmart, Nvidia, and others."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "~30K GitHub stars; largest OSS vector DB by deployment count"
+      },
+      {
+        "k": "Strength",
+        "v": "Billion-vector scale + distributed architecture"
+      }
+    ],
+    "links": [
+      {
+        "label": "milvus.io",
+        "url": "https://milvus.io"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/milvus-io/milvus"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__pgvector",
+    "slug": "pgvector",
+    "name": "pgvector (Postgres)",
+    "maker": "Andrew Kane · open source",
+    "logo": "https://www.google.com/s2/favicons?domain=postgresql.org&sz=128",
+    "tags": [
+      {
+        "label": "Open source",
+        "variant": "good"
+      },
+      {
+        "label": "Postgres",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Postgres extension that adds vector types and HNSW / IVFFlat indexing.",
+    "paragraphs": [
+      "What it is. Postgres extension that adds vector types and HNSW / IVFFlat indexing. Turn any Postgres database into a vector DB with one `CREATE EXTENSION`.",
+      "What sets it apart. Reuses your existing Postgres — same backup, same auth, same ops, same transactions. The \"don't need another database\" pitch killed many dedicated vector-DB pitches in 2024–2025. Supabase and Neon ship it by default.",
+      "Connections. Default vector store in Supabase, Neon, Tembo, AWS RDS Postgres, and most managed-Postgres offerings."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Most-deployed vector storage globally (by virtue of Postgres ubiquity)"
+      },
+      {
+        "k": "Strength",
+        "v": "No new database, transactional, familiar SQL"
+      }
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/pgvector/pgvector"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  },
+  {
+    "id": "vector-dbs__turbopuffer",
+    "slug": "turbopuffer",
+    "name": "Turbopuffer",
+    "maker": "founded by Simon Hørup Eskildsen (ex-Shopify)",
+    "logo": "https://www.google.com/s2/favicons?domain=turbopuffer.com&sz=128",
+    "tags": [
+      {
+        "label": "Serverless",
+        "variant": "default"
+      },
+      {
+        "label": "Object-storage-native",
+        "variant": "default"
+      }
+    ],
+    "tagline": "Serverless vector + full-text search built on S3-style object storage.",
+    "paragraphs": [
+      "What it is. Serverless vector + full-text search built on S3-style object storage. Optimizes for cost at \"many namespaces × few queries each\" — the common pattern for per-user AI apps.",
+      "What sets it apart. Orders of magnitude cheaper than Pinecone when you have millions of small tenants. Used by Notion, Cursor, Linear for AI features. Darling of the AI-infra twitter crowd.",
+      "Connections. Used by Cursor for codebase indexing across all its users. Founder was a Shopify principal engineer."
+    ],
+    "meta": [
+      {
+        "k": "Usage",
+        "v": "Small but high-profile customer list; fast growth 2024–2025"
+      },
+      {
+        "k": "Niche",
+        "v": "Per-user / multi-tenant vector search at low cost"
+      }
+    ],
+    "links": [
+      {
+        "label": "turbopuffer.com",
+        "url": "https://turbopuffer.com"
+      }
+    ],
+    "category": "vector-dbs",
+    "categorySlug": "vector-dbs",
+    "categoryName": "Vector Databases"
+  }
+]

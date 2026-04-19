@@ -1,0 +1,228 @@
+[
+  {
+    "id": "agent-frameworks",
+    "slug": "agent-frameworks",
+    "name": "Agent Frameworks (Third-Party)",
+    "blurb": "Libraries that sit on top of LLM APIs and handle the orchestration — loops, tool calls, memory, multi-agent coordination. Every one of these is in the controversial middle zone that PostHog warned about: they add abstraction that can hide bugs, and they lock you to ecosystems that evolve slower than the models themselves.",
+    "companyIds": [
+      "agent-frameworks__langgraph",
+      "agent-frameworks__crewai",
+      "agent-frameworks__autogen",
+      "agent-frameworks__pydantic-ai",
+      "agent-frameworks__mastra",
+      "agent-frameworks__llamaindex",
+      "agent-frameworks__smolagents",
+      "agent-frameworks__agno",
+      "agent-frameworks__hermes",
+      "agent-frameworks__openclaw"
+    ]
+  },
+  {
+    "id": "agent-runtimes",
+    "slug": "agent-runtimes",
+    "name": "Agent Runtimes / Terminals",
+    "blurb": "A category that barely existed a year ago: terminals and environments purpose-built to run AI coding agents — Claude Code, Codex, Gemini CLI, Aider, OpenCode — rather than be them. Running one agent in a plain terminal is fine; running three in parallel exposes pain (which tab is waiting? which errored? which finished?) that these tools were built to fix.",
+    "companyIds": [
+      "agent-runtimes__cmux",
+      "agent-runtimes__wmux",
+      "agent-runtimes__warp",
+      "agent-runtimes__yaw",
+      "agent-runtimes__windows-terminal"
+    ]
+  },
+  {
+    "id": "ai-code-editors",
+    "slug": "ai-code-editors",
+    "name": "AI Code Editors",
+    "blurb": "The IDE is the main battlefield for AI-assisted programming. These tools put an LLM inside your editor — autocomplete, chat, codebase-aware edits, agent mode. The line between \"editor with AI\" and \"autonomous coding agent\" (next category) is blurry and moving fast.",
+    "companyIds": [
+      "ai-code-editors__cursor",
+      "ai-code-editors__windsurf",
+      "ai-code-editors__antigravity",
+      "ai-code-editors__copilot",
+      "ai-code-editors__zed",
+      "ai-code-editors__jetbrains-ai",
+      "ai-code-editors__continue"
+    ]
+  },
+  {
+    "id": "ai-observability",
+    "slug": "ai-observability",
+    "name": "AI Observability & Evals",
+    "blurb": "Traces, evaluations, and dashboards for LLM apps. Two overlapping jobs: observability (record what happened) and evals (test whether it was correct). PostHog's take: you need both, but looking at real traces beats running synthetic evals on day one.",
+    "companyIds": [
+      "ai-observability__langsmith",
+      "ai-observability__langfuse",
+      "ai-observability__helicone",
+      "ai-observability__braintrust",
+      "ai-observability__arize",
+      "ai-observability__posthog-llm",
+      "ai-observability__promptfoo",
+      "ai-observability__traceloop"
+    ]
+  },
+  {
+    "id": "app-builders",
+    "slug": "app-builders",
+    "name": "App Builders (Prompt-to-App)",
+    "blurb": "Type a description, get a working web app. This category exploded in 2024–2025. The tools differ mainly on who the user is: designers (v0), non-engineers (Lovable, Base44), engineers wanting a sketch (Bolt.new), or existing Replit users (Replit Agent).",
+    "companyIds": [
+      "app-builders__v0",
+      "app-builders__bolt",
+      "app-builders__lovable",
+      "app-builders__replit",
+      "app-builders__firebase-studio",
+      "app-builders__ai-studio",
+      "app-builders__claude-design",
+      "app-builders__base44",
+      "app-builders__opal"
+    ]
+  },
+  {
+    "id": "autonomous-coding-agents",
+    "slug": "autonomous-coding-agents",
+    "name": "Autonomous Coding Agents",
+    "blurb": "One step past the \"editor with AI\" category: these tools plan, write, run, test, and sometimes ship code with minimal human intervention. Some live in your terminal, some in your browser, some in a cloud VM. They differ mostly in how much autonomy the user actually grants them.",
+    "companyIds": [
+      "autonomous-coding-agents__claude-code",
+      "autonomous-coding-agents__devin",
+      "autonomous-coding-agents__jules",
+      "autonomous-coding-agents__codex",
+      "autonomous-coding-agents__gemini-cli",
+      "autonomous-coding-agents__amp",
+      "autonomous-coding-agents__aider",
+      "autonomous-coding-agents__cline",
+      "autonomous-coding-agents__openhands",
+      "autonomous-coding-agents__openclaude"
+    ]
+  },
+  {
+    "id": "cloud-platforms",
+    "slug": "cloud-platforms",
+    "name": "Cloud AI Platforms",
+    "blurb": "The hyperscalers' bundled AI offerings. Each one packages model hosting, agents, vector DBs, fine-tuning, and deployment into a single managed suite — convenient, enterprise-friendly, and deeply locked-in to their cloud.",
+    "companyIds": [
+      "cloud-platforms__bedrock",
+      "cloud-platforms__azure-foundry",
+      "cloud-platforms__vertex",
+      "cloud-platforms__cloudflare-ai"
+    ]
+  },
+  {
+    "id": "deployment-platforms",
+    "slug": "deployment-platforms",
+    "name": "Deployment Platforms",
+    "blurb": "Where the web-app half of your AI product actually runs. These aren't AI-specific — they just happen to host 90%+ of new AI apps because they're the modern default for web deployment.",
+    "companyIds": [
+      "deployment-platforms__vercel",
+      "deployment-platforms__netlify",
+      "deployment-platforms__railway",
+      "deployment-platforms__render",
+      "deployment-platforms__fly",
+      "deployment-platforms__cloudflare-workers"
+    ]
+  },
+  {
+    "id": "durable-execution",
+    "slug": "durable-execution",
+    "name": "Durable Execution",
+    "blurb": "Infrastructure for workflows that must survive crashes, restarts, and long waits. Agents often run for minutes or hours, hit rate limits, wait on human approval, or need to retry after a model outage. Durable-execution engines checkpoint every step so the workflow can resume exactly where it left off — even days later.",
+    "companyIds": [
+      "durable-execution__temporal",
+      "durable-execution__inngest",
+      "durable-execution__restate",
+      "durable-execution__trigger-dev",
+      "durable-execution__hatchet",
+      "durable-execution__dbos"
+    ]
+  },
+  {
+    "id": "first-party-sdks",
+    "slug": "first-party-sdks",
+    "name": "First-Party Agent SDKs",
+    "blurb": "In 2024–2025, every major model provider shipped its own \"just use us directly\" SDK, partly as a reaction to third-party frameworks feeling heavy. These are thin, minimal wrappers with tool calling, conversation loops, and sometimes MCP support — all blessed by the company that also makes the model.",
+    "companyIds": [
+      "first-party-sdks__claude-sdk",
+      "first-party-sdks__openai-agents",
+      "first-party-sdks__google-adk",
+      "first-party-sdks__vercel-ai-sdk",
+      "first-party-sdks__mistral-agents"
+    ]
+  },
+  {
+    "id": "llm-providers",
+    "slug": "llm-providers",
+    "name": "LLM Providers",
+    "blurb": "The \"brains\" of the industry. These are the companies training and serving the large language models that every other tool on this map plugs into. Providers compete on raw capability (reasoning, coding, long context), price, latency, and alignment / safety posture.",
+    "companyIds": [
+      "llm-providers__openai",
+      "llm-providers__anthropic",
+      "llm-providers__google",
+      "llm-providers__meta",
+      "llm-providers__mistral",
+      "llm-providers__xai",
+      "llm-providers__cohere",
+      "llm-providers__deepseek",
+      "llm-providers__qwen"
+    ]
+  },
+  {
+    "id": "local-runners",
+    "slug": "local-runners",
+    "name": "Local Model Runners",
+    "blurb": "Run LLMs on your own machine — laptop, desktop, workstation, or home server. Why: privacy, no API costs, offline use, and hackability. Split into end-user GUIs, CLI / developer tools, and production-grade inference engines.",
+    "companyIds": [
+      "local-runners__ollama",
+      "local-runners__lm-studio",
+      "local-runners__llama-cpp",
+      "local-runners__vllm",
+      "local-runners__mlx",
+      "local-runners__jan"
+    ]
+  },
+  {
+    "id": "mcp-ecosystem",
+    "slug": "mcp-ecosystem",
+    "name": "MCP Ecosystem",
+    "blurb": "The Model Context Protocol is an open standard (originally from Anthropic, Nov 2024) that lets any AI agent talk to any tool. Think USB-C for AI tools. In 2025 it became the industry-default — OpenAI, Google, Microsoft, and most frameworks now speak MCP. This category is about the registries, hosts, and SDKs that grew around it.",
+    "companyIds": [
+      "mcp-ecosystem__mcp-spec",
+      "mcp-ecosystem__smithery",
+      "mcp-ecosystem__mcp-so",
+      "mcp-ecosystem__composio",
+      "mcp-ecosystem__arcade",
+      "mcp-ecosystem__fastmcp"
+    ]
+  },
+  {
+    "id": "model-hosting",
+    "slug": "model-hosting",
+    "name": "Model Hosting / Inference",
+    "blurb": "Providers that run open-weights (Llama, Qwen, DeepSeek, Mistral) and custom models as managed APIs. The frontier labs host their own models; this category hosts everyone else's. Split into general-purpose, cold-start-specialist, and custom-silicon providers.",
+    "companyIds": [
+      "model-hosting__replicate",
+      "model-hosting__together",
+      "model-hosting__fireworks",
+      "model-hosting__modal",
+      "model-hosting__baseten",
+      "model-hosting__groq",
+      "model-hosting__cerebras",
+      "model-hosting__runpod"
+    ]
+  },
+  {
+    "id": "vector-dbs",
+    "slug": "vector-dbs",
+    "name": "Vector Databases",
+    "blurb": "Storage for embeddings — the numeric fingerprints of text/images/audio that power semantic search and retrieval-augmented generation (RAG). The field split in 2023 between \"dedicated vector DBs\" and \"Postgres extensions that do it natively.\" Both are viable; the choice depends on scale and ops preference.",
+    "companyIds": [
+      "vector-dbs__pinecone",
+      "vector-dbs__weaviate",
+      "vector-dbs__qdrant",
+      "vector-dbs__chroma",
+      "vector-dbs__milvus",
+      "vector-dbs__pgvector",
+      "vector-dbs__turbopuffer"
+    ]
+  }
+]
