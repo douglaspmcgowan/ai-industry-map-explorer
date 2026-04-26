@@ -4,6 +4,7 @@ import type { Category, Company } from './types';
 import ClusterMap from './ClusterMap';
 import CardGrid from './CardGrid';
 import DetailPanel from './DetailPanel';
+import NewsPage from './NewsPage';
 
 function ThemeToggle() {
   const [theme, setTheme] = useState<'light' | 'dark'>(
@@ -50,6 +51,7 @@ function writeParams(patch: Record<string, string | null>) {
 }
 
 export default function App() {
+  const [view, setView] = useState<'map' | 'news'>('map');
   const [categories, setCategories] = useState<Category[]>([]);
   const [companies, setCompanies] = useState<Company[]>([]);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -104,10 +106,15 @@ export default function App() {
           <span className="accent">AI</span> Industry Map
         </div>
         <nav>
-          {selectedCatId && (
+          {view === 'map' && selectedCatId && (
             <button className="back-btn" onClick={() => { setSelectedCatId(null); setSelectedCompanyId(null); }}>
               ← All categories
             </button>
+          )}
+          {view === 'map' ? (
+            <button className="nav-link-btn" onClick={() => setView('news')}>News Queue</button>
+          ) : (
+            <button className="back-btn" onClick={() => setView('map')}>← Map</button>
           )}
           <a href="https://ai-industry-map.vercel.app" target="_blank" rel="noreferrer">
             Static site
@@ -116,30 +123,36 @@ export default function App() {
         </nav>
       </header>
 
-      {loadError && (
-        <div style={{ padding: 40, color: 'var(--warn)' }}>Failed to load data: {loadError}</div>
-      )}
+      {view === 'news' ? (
+        <NewsPage />
+      ) : (
+        <>
+          {loadError && (
+            <div style={{ padding: 40, color: 'var(--warn)' }}>Failed to load data: {loadError}</div>
+          )}
 
-      <LayoutGroup>
-        <ClusterMap
-          categories={categories}
-          companiesByCategory={companiesByCategory}
-          selectedCatId={selectedCatId}
-          onSelect={setSelectedCatId}
-        />
+          <LayoutGroup>
+            <ClusterMap
+              categories={categories}
+              companiesByCategory={companiesByCategory}
+              selectedCatId={selectedCatId}
+              onSelect={setSelectedCatId}
+            />
 
-        {selectedCategory && (
-          <CardGrid
-            category={selectedCategory}
-            companies={companiesByCategory.get(selectedCategory.slug) ?? []}
-            onClose={() => setSelectedCatId(null)}
-            onSelectCompany={setSelectedCompanyId}
-          />
-        )}
-      </LayoutGroup>
+            {selectedCategory && (
+              <CardGrid
+                category={selectedCategory}
+                companies={companiesByCategory.get(selectedCategory.slug) ?? []}
+                onClose={() => setSelectedCatId(null)}
+                onSelectCompany={setSelectedCompanyId}
+              />
+            )}
+          </LayoutGroup>
 
-      {selectedCompany && (
-        <DetailPanel company={selectedCompany} onClose={() => setSelectedCompanyId(null)} />
+          {selectedCompany && (
+            <DetailPanel company={selectedCompany} onClose={() => setSelectedCompanyId(null)} />
+          )}
+        </>
       )}
     </>
   );
