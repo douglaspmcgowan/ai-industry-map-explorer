@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T03:01:43.562Z",
+  "generated": "2026-04-30T10:21:40.881Z",
   "items": [
     {
       "id": "15849abf",
@@ -55,6 +55,100 @@
       "industry_nodes": [
         "robotics-manufacturing",
         "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "49454921",
+      "title": "Leo AI can now generate full CAD assemblies",
+      "url": "https://www.engineering.com/leo-ai-can-now-generate-full-cad-assemblies/",
+      "source": "Engineering.com",
+      "date": "2026-04-01",
+      "summary": "Leo AI (getleo.ai) can now generate complete CAD assemblies from a single natural-language prompt—including full part and feature trees—compatible with SolidWorks, Onshape, CATIA, and Inventor, grounded in a company's own parts inventory. This is the first AI system to close the loop from idea to manufacturable assembly with institutional knowledge, marking a step-change in text-to-CAD for engineering teams.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6eae4241",
+      "title": "Meet Leo and Aura: SOLIDWORKS' New AI-Powered Virtual Twins",
+      "url": "https://converge.design/leo-and-aura-virtual-twins/",
+      "source": "Converge Design",
+      "date": "2026-04-27",
+      "summary": "SOLIDWORKS 2026 FD01 introduces LEO—a generative modeling companion for geometry, assemblies, and optimized design variations—and AURA, an LLM-powered assistant that understands design context and project history for conversational workflows. Available in SOLIDWORKS Labs beta, these tools represent a major AI integration milestone for one of the most widely deployed 3D CAD platforms in mechanical engineering.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms",
+        "topology-optimization"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "97b108d2",
+      "title": "Autodesk announces Fusion MCP servers and more AI updates",
+      "url": "https://www.engineering.com/autodesk-announces-fusion-mcp-servers-and-more-ai-updates/",
+      "source": "Engineering.com",
+      "date": "2026-04-23",
+      "summary": "Autodesk launched two Fusion MCP servers—a local one for executing modeling commands via Claude Desktop or Cursor, and a remote one for querying Fusion cloud data—opening professional CAD workflows to any MCP-capable AI client. The announcement also covered expansion of Autodesk Assistant across the design and manufacturing portfolio, signaling a broad push toward AI-native engineering tooling.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "dac89387",
+      "title": "Now SketchUp has an MCP server for Claude-based 3D modeling",
+      "url": "https://www.engineering.com/now-sketchup-has-an-mcp-server-for-claude-based-3d-modeling/",
+      "source": "Engineering.com",
+      "date": "2026-04-28",
+      "summary": "Trimble launched an official SketchUp MCP connector for Claude that enables 3D geometry generation directly in SketchUp from natural language and reference sketches or floor plans, with version-history tracking and iterative refinement. The tool offers 30 free SKP exports per month, with unlimited access on paid subscriptions, and sits within Anthropic's broader Claude for Creative Work ecosystem.",
+      "industry_nodes": [
+        "cad-copilots",
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "870e676a",
+      "title": "Aurorin CAD (YC W26): The Next Generation Mechanical CAD Software",
+      "url": "https://www.ycombinator.com/launches/PWy-aurorin-cad-w26-the-next-generation-mechanical-cad-software",
+      "source": "Y Combinator",
+      "date": "2026-02-24",
+      "summary": "Aurorin (YC W26) is building professional mechanical CAD software from the ground up with a custom parametric + B-Rep kernel optimized for modern CPUs/GPUs and AI-native workflows, reducing part modeling time from 20 minutes (SolidWorks) to seconds. Founded by a former SpaceX Raptor simulation engineer, Aurorin directly targets the speed and tedium bottlenecks that make current CAD tools a poor fit for AI-accelerated product development.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bd99fb72",
+      "title": "Neural CAD accelerates design exploration",
+      "url": "https://develop3d.com/cad/neural-cad-accelerates-design-exploration/",
+      "source": "DEVELOP3D",
+      "date": "2026-02-19",
+      "summary": "Autodesk's Neural CAD—generative AI foundation models trained on professional design and manufacturing data—is being commercially deployed in Fusion and Forma, enabling engineers to generate and refine geometry concepts from text while preserving engineering intent at both part geometry and industrial-process levels. Unlike general-purpose LLMs, Neural CAD understands manufacturing constraints and building-layout conventions, making it relevant for both mechanical and AEC design exploration.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad",
+        "aec-construction-ai"
       ],
       "schools": [],
       "relevance": 4,
