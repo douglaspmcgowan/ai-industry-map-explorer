@@ -1,4 +1,64 @@
 {
-  "generated": "2026-04-24T00:00:00Z",
-  "items": []
+  "generated": "2026-04-30T03:01:43.562Z",
+  "items": [
+    {
+      "id": "15849abf",
+      "title": "Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "source": "Anthropic / TLDR AI",
+      "date": "2026-04-29",
+      "summary": "Anthropic launched Claude connectors integrating its AI with Adobe, Blender, and Autodesk, enabling natural-language workflows, automation, and cross-tool pipelines for design, 3D modeling, and audio production. This bridges LLM capability directly into the major authoring tools designers and engineers use daily, marking a pivotal step toward AI-native creative and engineering workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e06a667d",
+      "title": "Thoughts and Feelings around Claude Design",
+      "url": "https://samhenri.gold/blog/20260418-claude-design/",
+      "source": "Sam Henri Gold / TLDR Design",
+      "date": "2026-04-18",
+      "summary": "The author argues that design teams built complex Figma infrastructure—components, variables, and props—that looks increasingly outdated as AI trained on code rather than Figma's locked format, making code progressively more accessible to designers. As the source of truth shifts back to code, working directly in the medium where designs live makes AI-assisted development superior to Figma's pre-AI systematization.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cfe7bb1f",
+      "title": "ComfyUI Hits $500M Valuation as Creators Seek More Control Over AI-Generated Media",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "source": "TechCrunch / TLDR Design",
+      "date": "2026-04-24",
+      "summary": "ComfyUI raised $30M at a $500M valuation to scale its node-based, modular AI workflow tool that gives creative professionals granular control over image, video, and audio generation—serving 4M users who need more precision than prompt-based tools like Midjourney provide. The funding signals strong market demand for transparent, reconfigurable AI generation pipelines as a professional-grade alternative in the generative media toolchain.",
+      "industry_nodes": [
+        "generative-platforms",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ee963701",
+      "title": "NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026",
+      "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+      "source": "NVIDIA Blog",
+      "date": "2026-04-20",
+      "summary": "At Hannover Messe 2026 (April 20-24), NVIDIA and partners including Cadence, Dassault Systèmes, Siemens, and Synopsys demonstrated agentic design and engineering workflows, physics-grounded real-time simulation via Omniverse, and autonomous humanoid robots already deployed in production facilities. The event marks commercial-scale integration of AI physics, digital twins, and agentic design exploration across mainstream industrial engineering platforms.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    }
+  ]
 }
