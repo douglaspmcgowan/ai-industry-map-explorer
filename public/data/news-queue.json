@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T10:21:40.881Z",
+  "generated": "2026-05-01T10:29:29.863Z",
   "items": [
     {
       "id": "15849abf",
@@ -152,6 +152,97 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b6eda722",
+      "title": "The AI Economy: Five Adobe Sneaks Worth Watching in 2026",
+      "url": "https://thelettertwo.com/2026/04/24/ai-economy-adobe-sneaks-2026-ai-prototypes-marketers/",
+      "source": "The Letter Two",
+      "date": "2026-04-24",
+      "summary": "Adobe Sneaks 2026 showcased experimental AI prototypes including Project Face Off, which uses synthetic user personas to predict creative A/B test winners in seconds instead of weeks, and Project Test Kitchen, a collaborative multi-designer AI image-generation workspace. These prototypes — historically 30–40% likely to reach production — signal Adobe's direction for embedding AI deeply into creative collaboration and design decision workflows.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c8f177c4",
+      "title": "Autodesk Unleashes Neural CAD: 3D Generative AI Foundation Models for Fusion and Forma",
+      "url": "https://develop3d.com/cad/autodesk-unleashes-neural-cad-3d-generative-ai-foundation-models/",
+      "source": "DEVELOP3D",
+      "date": "2025-09-01",
+      "summary": "Autodesk announced Neural CAD, a category of generative AI foundation models trained on professional design data to reason at both geometry and systems levels, capable of creating fully editable parametric CAD geometry from text prompts, sketches, or images — targeting 80–90% of routine design tasks. Two model types are launching: one for product geometry in Autodesk Fusion and one for buildings in Autodesk Forma, with future options for customers to fine-tune on proprietary data.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "28008714",
+      "title": "Synopsys Launches Ansys 2026 R1 with GeomAI and First Agentic Engineering Capabilities",
+      "url": "https://news.synopsys.com/2026-03-11-Synopsys-Launches-Ansys-2026-R1-to-Re-Engineer-Engineering-with-Joint-Solutions-and-AI-Powered-Products",
+      "source": "Synopsys / Ansys",
+      "date": "2026-03-11",
+      "summary": "Ansys 2026 R1 introduces GeomAI, a generative AI platform for conceptual design exploration that lets engineering teams rapidly generate, evaluate, and refine geometry concepts while preserving engineering intent. The release also marks the portfolio's first agentic capabilities for automating complex simulation workflows, accelerating validation across mechanical, electrical, and fluid domains.",
+      "industry_nodes": [
+        "generative-platforms",
+        "surrogate-models",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "701158fa",
+      "title": "Generative AI Meets CAD: Enhancing Engineering Design to Manufacturing with LLMs",
+      "url": "https://link.springer.com/article/10.1007/s00170-025-15830-2",
+      "source": "International Journal of Advanced Manufacturing Technology",
+      "date": "2025-06-01",
+      "summary": "Peer-reviewed study exploring how large language models can enhance the end-to-end pipeline from engineering design through manufacturing process planning, covering CAD feature recognition, automated DfM/DfAM recommendations, and natural-language interfaces for design intent. Provides a research baseline for how LLMs are being integrated into professional CAD and manufacturing workflows.",
+      "industry_nodes": [
+        "ai-for-dfm-dfam",
+        "engineering-rag-chat",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0b8d4437",
+      "title": "The New Designer Value Proposition: Repositioning Design Services in the Age of AI Art",
+      "url": "https://designworklife.com/the-new-designer-value-proposition-how-to-reposition-your-design-services-in-the-age-of-ai-art/",
+      "source": "Design Work Life",
+      "date": "2026-04-30",
+      "summary": "Argues that designers can differentiate from AI-generated work by repositioning as strategic directors who know when to deploy AI tools and when human judgment is essential, shifting focus from execution to long-term brand value and nuanced client understanding. Practical framing for how design practitioners can adapt their service positioning as AI-generated visuals commoditize routine creative work.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "75c27aaa",
+      "title": "Logo Design After AI: How Designers Create Powerful Brand Logos in 2026",
+      "url": "https://graphicdesignjunction.com/2026/04/logo-design-after-ai/",
+      "source": "Graphic Design Junction",
+      "date": "2026-04-30",
+      "summary": "Surveys how professional logo designers are using AI tools (Midjourney, generative platforms) for rapid concept generation and visual exploration while retaining human strategic thinking for brand differentiation and identity development. Documents the evolving craft workflow as AI becomes the concept-generation layer and human designers handle refinement, judgment, and client strategy.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
