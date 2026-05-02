@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T10:29:29.863Z",
+  "generated": "2026-05-02T10:05:50.854Z",
   "items": [
     {
       "id": "15849abf",
@@ -244,6 +244,83 @@
       "schools": [],
       "relevance": 3,
       "status": "pending"
+    },
+    {
+      "url": "https://develop3d.com/ai/claude-for-cad-blender-autodesk-fusion/",
+      "title": "Claude for CAD: Arrives with Blender and Autodesk Fusion Connectors",
+      "source": "DEVELOP3D",
+      "date": "2026-04-28",
+      "summary": "Anthropic released nine Claude connectors for engineering and creative tools including Blender (enabling scene analysis and custom scripting) and Autodesk Fusion, directly linking conversational AI to parametric CAD workflows for the first time. This positions Claude as a native co-pilot inside 3D and CAD environments, compressing the gap between design intent and geometry execution.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "ce53a9b6"
+    },
+    {
+      "url": "https://www.creativebloq.com/art/animation/how-autodesks-new-ai-tool-gets-us-closer-to-just-press-animate",
+      "title": "How Autodesk's New AI Tool Gets Us Closer to 'Just Press Animate'",
+      "source": "Creative Bloq",
+      "date": "2026-04-28",
+      "summary": "Autodesk Flow Studio launched AI Rigging, which automatically prepares 3D characters for animation from text or image prompts, and Neural Layer, which delivers cinematic rendering without a traditional pipeline. These features collapse two historically expensive production bottlenecks—rigging and rendering—into AI-automated steps available across all subscription tiers.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "bdab2e4b"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "title": "Awesome DESIGN.md: Markdown Design Systems for AI Agents",
+      "source": "GitHub / VoltAgent",
+      "date": "2026-05-01",
+      "summary": "DESIGN.md is a plain-text markdown format introduced by Google Stitch that lets AI coding agents read a single design document and generate pixel-accurate, brand-consistent UI without Figma exports or JSON schemas. This curated collection of 71+ files from Stripe, Figma, Apple, and Claude demonstrates how treating design systems as machine-readable context enables agentic UI generation at scale.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "4b4cf6b0"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/design-systems-are-now-inference",
+      "title": "Design Systems Are Now Inference Systems",
+      "source": "Proof of Concept",
+      "date": "2026-05-01",
+      "summary": "As AI agents dynamically assemble interfaces instead of following prescribed design patterns, traditional design systems must evolve into \"Inference Systems\" with adaptive parameters, machine-parseable documentation, and continuous governance feedback loops rather than human review checkpoints. The article argues adoption metrics are no longer sufficient and that adaptation—how well the system learns from what teams actually build—becomes the defining success measure.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "1120f3c0"
+    },
+    {
+      "url": "https://jonnyburch.com/i-love-ai-but-it-still-cant-design-for-shit/",
+      "title": "I Love AI, But It Still Can't Design for Shit",
+      "source": "Jonny Burch",
+      "date": "2026-05-01",
+      "summary": "A veteran product designer argues that AI tools lack the critical self-evaluation loop required for quality design work, making the human applying editorial judgment—not the AI generating options—the irreplaceable component. The piece frames one-shot prompting as a misconception and positions iteration plus human oversight as the actual workflow pattern that produces results.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "1f36b6f0"
     }
   ]
 }
