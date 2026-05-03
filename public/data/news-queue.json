@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T10:05:50.854Z",
+  "generated": "2026-05-03T10:30:22.943Z",
   "items": [
     {
       "id": "15849abf",
@@ -321,6 +321,50 @@
       "relevance": 3,
       "status": "pending",
       "id": "1f36b6f0"
+    },
+    {
+      "id": "6af9f986",
+      "title": "Stitch's DESIGN.md format is now open-source so you can use it across platforms",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-design-md/",
+      "source": "Google Blog",
+      "date": "2026-04-21",
+      "summary": "Google Labs open-sourced DESIGN.md, a markdown specification that gives AI coding agents (Claude Code, Cursor, Kiro) a structured, machine-readable understanding of a project's visual identity — colors, typography, layout rules — without a build pipeline. The format aims to be the universal contract between brand design systems and AI-generated UI, enabling consistent pixel-accurate output from plain text.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fec65649",
+      "title": "Introducing AI Rigging and Neural Layer in Autodesk Flow Studio",
+      "url": "https://blogs.autodesk.com/media-and-entertainment/2026/04/28/introducing-ai-rigging-and-neural-layer-in-autodesk-flow-studio/",
+      "source": "Autodesk Blog",
+      "date": "2026-04-28",
+      "summary": "Autodesk Flow Studio added AI Rigging — which automatically prepares 3D characters for animation in minutes instead of hours of manual setup — and Neural Layer, which delivers cinematic rendering quality without a traditional render pipeline. Together they collapse the gap between AI-generated characters and publication-ready animation, keeping the workflow inside a single platform.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fba1c6c6",
+      "title": "US' First Integrated Humanoid Factory to Build 100,000 NEO Robots by 2027",
+      "url": "https://interestingengineering.com/ai-robotics/1x-humanoid-robot-neo-factory-california",
+      "source": "Interesting Engineering",
+      "date": "2026-05-01",
+      "summary": "1X Technologies opened a 58,000 sq ft humanoid robot manufacturing facility in Hayward, California, with current capacity of 10,000 NEO units per year scaling to 100,000 by 2027. The factory represents a major milestone in moving AI-powered general-purpose humanoid robots from prototype to scaled production, signaling that manufacturing and robotics AI is crossing a commercialization threshold.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
