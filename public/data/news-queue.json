@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T10:30:22.943Z",
+  "generated": "2026-05-04T10:25:44.681Z",
   "items": [
     {
       "id": "15849abf",
@@ -365,6 +365,82 @@
       "schools": [],
       "relevance": 3,
       "status": "pending"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=47977694",
+      "title": "Show HN: Text-to-CAD – Open-Source Harness for AI-Generated CAD Models",
+      "source": "Hacker News",
+      "date": "2026-05-04",
+      "summary": "An open-source harness (github.com/earthtojake/text-to-cad) lets Claude Code and Codex generate 3D CAD models in STEP, STL, 3MF, and URDF formats from natural language prompts, with geometry-aware @cad[] handles for follow-up edits and a browser-based CAD Explorer. The project ships 10 benchmarks from simple calibration blocks to planetary gears and targets URDF robot descriptions and manufacturing preflight checks, directly lowering the barrier to AI-native mechanical design.",
+      "industry_nodes": [
+        "text-to-cad",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "fa4d246b"
+    },
+    {
+      "url": "https://www.ansys.com/blog/introducing-ansys-geomai-software",
+      "title": "Ansys GeomAI: Generative AI Platform for Conceptual Geometry Design (Ansys 2026 R1)",
+      "source": "Ansys",
+      "date": "2026-03-11",
+      "summary": "Ansys GeomAI, released in Ansys 2026 R1, introduces a generative AI-driven approach to conceptual design exploration—learning from reference designs to rapidly generate, evaluate, and refine geometry concepts while preserving engineering intent for downstream validation. The release also restructures SimAI into SimAI Pro (local, component-level) and SimAI Premium (cloud-scale predictive modeling), adding Mesh Agent for AI-assisted meshing failure resolution, marking a pivotal step in agentic simulation workflows.",
+      "industry_nodes": [
+        "generative-platforms",
+        "surrogate-models",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "29a18766"
+    },
+    {
+      "url": "https://live.solidworks.com/demand/solidworks-2026-fd01-ai-powered-3d-cad-software-leo-aura-performance-upgrades",
+      "title": "SOLIDWORKS 2026 FD01: LEO & AURA AI Companions for Mechanical Design",
+      "source": "SOLIDWORKS",
+      "date": "2026-04-28",
+      "summary": "SOLIDWORKS 2026 FD01 ships LEO and AURA, conversational AI companions available in SOLIDWORKS Labs—LEO handles mechanical design tasks including assembly generation, image-to-mesh conversion, parametric feature injection into STEP files, simulation execution, and error resolution, while AURA provides knowledge retrieval from 3DEXPERIENCE platform documentation. This makes agentic CAD co-pilots a mainstream feature in the world's most widely used mechanical CAD package.",
+      "industry_nodes": [
+        "cad-copilots",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "714d5d41"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21315",
+      "title": "TopoStyle: Supporting Iterative Design with Generative AI for 2.5D Topology Optimization",
+      "source": "arXiv",
+      "date": "2026-04-01",
+      "summary": "TopoStyle presents a generative AI system for 2.5D topology optimization that supports iterative structural design, enabling engineers and designers to interactively explore and refine structurally valid geometries through diffusion-based models, building on prior Sketch2Topo work (arXiv:2603.18960). The system addresses the gap between optimization output and designer intent by embedding human feedback loops into the topology optimization cycle—a critical advance for human-AI co-design of lightweight mechanical structures.",
+      "industry_nodes": [
+        "topology-optimization",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "4dc0c39d"
+    },
+    {
+      "url": "https://splice-cad.com/blog/mcp-server-agentic-workflows-march-2026/",
+      "title": "The Splice CAD MCP Server: Agentic Workflows for Wire Harness Design",
+      "source": "Splice CAD",
+      "date": "2026-03-01",
+      "summary": "Splice CAD's MCP server connects AI agents directly to the Splice workspace, enabling agentic execution of wire harness design operations—creating components, mapping pins, and routing conductors—on the live canvas without human intervention. This positions Splice CAD as an MCP-native CAD tool and is an early example of AI agents editing domain-specific engineering CAD (electrical harness) through a structured protocol.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "0e2fa99c"
     }
   ]
 }
