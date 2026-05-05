@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T10:25:44.681Z",
+  "generated": "2026-05-05T10:09:39.271Z",
   "items": [
     {
       "id": "15849abf",
@@ -441,6 +441,65 @@
       "relevance": 4,
       "status": "pending",
       "id": "0e2fa99c"
+    },
+    {
+      "id": "7f5e62fe",
+      "title": "New in Make: Voice-to-Text, Question Cards, and More",
+      "url": "https://www.figma.com/release-notes/?title=new-in-make-voice-to-text-question-cards-and-more",
+      "source": "Figma Release Notes (via TLDR Design)",
+      "date": "2026-05-04",
+      "summary": "Figma Make added voice-to-text prompt dictation with automatic text cleaning, structured decision-making via question cards, version history with instant revert, and a Zapier connector spanning 9,000+ applications. These updates meaningfully reduce friction in AI-assisted design workflows, letting designers communicate intent more naturally and integrate Make outputs directly into broader tool stacks.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f08f1e9a",
+      "title": "Artists Are Split Over Claude AI and Blender – Here's Why",
+      "url": "https://www.creativebloq.com/3d/why-claude-ais-funding-of-blender-isnt-controversial-yet",
+      "source": "Creative Bloq (via TLDR Design)",
+      "date": "2026-05-04",
+      "summary": "Anthropic joined Blender's Development Fund as Corporate Patron (€240K/year) and launched an official Claude MCP connector enabling direct natural-language control of Blender 3D scenes — but community backlash over AI ethics led the Blender Foundation to reclassify the contribution as a one-time donation. The episode highlights growing tensions between AI company funding and open-source 3D creative communities, while the MCP connector itself represents a concrete new bridge between LLMs and professional 3D authoring tools.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed9192b8",
+      "title": "Open Design: Open-Source Alternative to Claude Design",
+      "url": "https://github.com/nexu-io/open-design",
+      "source": "GitHub (via TLDR)",
+      "date": "2026-05-04",
+      "summary": "Open Design (25.7k stars) is a local-first, open-source design agent that integrates with 15 coding CLIs including Claude Code, Cursor, and Gemini, providing 31 reusable design skills and 72 brand design systems without vendor lock-in. It behaves as a senior designer with a deterministic palette library and checklist culture, generating prototypes and design artifacts through conversational prompts — a practical alternative to proprietary AI design tools for teams that want full control over their stack.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "24115b18",
+      "title": "3DSVG: Turn SVGs into 3D Objects",
+      "url": "https://3dsvg.design/",
+      "source": "TLDR Design",
+      "date": "2026-05-04",
+      "summary": "3DSVG is a web tool that converts 2D SVG vector files into interactive 3D objects with animation options, lowering the barrier for designers to generate 3D geometry from existing flat design assets. It represents a growing category of conversion-layer tools that sit between 2D design workflows and full 3D modeling, useful for quick visualization and prototyping.",
+      "industry_nodes": [
+        "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
