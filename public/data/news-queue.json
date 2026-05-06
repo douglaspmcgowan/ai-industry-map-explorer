@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T10:09:39.271Z",
+  "generated": "2026-05-06T10:16:57.849Z",
   "items": [
     {
       "id": "15849abf",
@@ -499,6 +499,51 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "cb1ab800",
+      "title": "FigJam Is Now Your Coding Agent's Whiteboard Too",
+      "url": "https://www.figma.com/blog/figjam-your-coding-agents-whiteboard/",
+      "source": "Figma Blog",
+      "date": "2026-05-05",
+      "summary": "Figma's new MCP server connects FigJam design decisions directly to coding environments, so AI coding agents can access design context and ensure built products match original intent. This makes FigJam a live context layer for the design-to-code loop, narrowing the gap between design artifacts and production UI.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c80a3391",
+      "title": "Don't Simply Bolt On AI. Rethink from the Ground Up.",
+      "url": "https://uxdesign.cc/dont-simply-bolt-on-ai-rethink-from-the-ground-up-ae73a9093cd2",
+      "source": "UX Collective",
+      "date": "2026-05-05",
+      "summary": "Revanth Krishna argues that adding AI to existing product surfaces fails the embedded-intelligence test — AI must be woven into the conceptual layer, not just the interaction layer, so users can state intent rather than learn internal abstractions. The piece provides a practical audit framework for redesigning products to let AI absorb conceptual weight end-to-end.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6b13ffb2",
+      "title": "Novineer Partners with AM Craft on AI-Backed Reverse Engineering for CAD Models",
+      "url": "https://3dprint.com/325601/novineer-am-craft-ai-backed-reverse-engineering-for-cad-models/",
+      "source": "3DPrint.com",
+      "date": "2026-04-24",
+      "summary": "Novineer and contract manufacturer AM Craft are deploying NoviVision, an AI tool that generates fully editable CAD models from one to four smartphone photos in under two minutes — targeting aviation MRO where physical parts exist with no digital twin. The partnership collapses what was a five-hour manual CAD reconstruction task into a smartphone-driven workflow, directly applicable to DfAM and certified manufacturing.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
