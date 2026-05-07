@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T10:16:57.849Z",
+  "generated": "2026-05-07T10:16:42.492Z",
   "items": [
     {
       "id": "15849abf",
@@ -544,6 +544,64 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c8d18b95",
+      "title": "Workflow Lab: Expanding the Canvas with Figma MCP",
+      "url": "https://www.figma.com/blog/workflow-lab-expanding-the-canvas-with-figma-mcp/",
+      "source": "Figma Blog",
+      "date": "2026-05-06",
+      "summary": "Demonstrates how AI agents connected via Figma MCP can read a live codebase and write editable frames directly to the Figma canvas, creating a continuous design-code feedback loop without tickets or handoffs. Matters for AI+design because it documents a production-tested workflow where a coding agent and a design canvas share a living source of truth, eliminating drift between intent and implementation.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "96a17449",
+      "title": "Finally, the Handoff is Dead",
+      "url": "https://www.lukew.com/ff/entry.asp?2150",
+      "source": "LukeW Ideation + Design",
+      "date": "2026-04-30",
+      "summary": "Luke Wroblewski argues the traditional designer/developer handoff is finished, showing how the app Intent creates a shared workspace that encodes design systems and dev preferences so designers and developers—and AI agents—collaborate on the same surface. Key for AI+design because it frames taste and institutional knowledge encoded into workspaces as the new coordination primitive, replacing Figma-to-Jira hand-waves.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f83b762c",
+      "title": "MolmoAct 2: An Open Foundation for Robots That Work in the Real World",
+      "url": "https://allenai.org/blog/molmoact2",
+      "source": "Allen Institute for AI",
+      "date": "2026-05-05",
+      "summary": "Allen AI releases MolmoAct 2, an upgraded open-source action-reasoning foundation model for robotics, paired with the largest open-source bimanual manipulation dataset ever published (720+ hours of two-arm task demonstrations). Significant for AI+design because an open, editable foundation model for physical manipulation lowers the barrier to training task-specific robots for assembly, inspection, and manufacturing workflows.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "654f8b9a",
+      "title": "Wonder: Generate Designs, Make Precise Edits",
+      "url": "https://wonder.design/",
+      "source": "Wonder",
+      "date": "2026-05-06",
+      "summary": "Wonder launches an AI-powered design ideation tool that lets designers generate style variants, build canvas flows, and make precise edits using existing designs as context—all within a single generative canvas. Relevant as a new entrant in the AI-native design tool category where generation and refinement happen in one surface rather than prompt → export → tweak cycles.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
