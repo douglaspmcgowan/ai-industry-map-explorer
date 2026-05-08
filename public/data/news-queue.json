@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T10:16:42.492Z",
+  "generated": "2026-05-08T10:13:24.998Z",
   "items": [
     {
       "id": "15849abf",
@@ -597,6 +597,65 @@
       "source": "Wonder",
       "date": "2026-05-06",
       "summary": "Wonder launches an AI-powered design ideation tool that lets designers generate style variants, build canvas flows, and make precise edits using existing designs as context—all within a single generative canvas. Relevant as a new entrant in the AI-native design tool category where generation and refinement happen in one surface rather than prompt → export → tweak cycles.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "172bb9e4",
+      "title": "component.md",
+      "url": "https://ianguisard.substack.com/p/componentmd",
+      "source": "TLDR Design",
+      "date": "2026-05-07",
+      "summary": "AI design tools fail to accurately recreate Figma designs because most design systems only document visuals, leaving behavior, accessibility, tokens, and implementation logic undocumented. The proposed solution is a structured \"component.md\" file per component that serves as a shared source of truth both humans and AI tools can parse to generate consistent, faithful implementations.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5e29d669",
+      "title": "Agents with Taste",
+      "url": "https://emilkowal.ski/ui/agents-with-taste",
+      "source": "TLDR Design",
+      "date": "2026-05-07",
+      "summary": "AI coding agents excel at engineering tasks but still struggle with visual details like animation, motion, and typography; the solution is structured \"skill files\" that encode design rules—easing curves, durations, typography guidelines—so agents follow consistent design logic instead of guessing. Because strong visual decisions are usually explainable, documenting the reasoning transfers design taste into AI-assisted workflows and produces far more polished interfaces.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8883cbf5",
+      "title": "From Tools to Thinking Systems – How AI Is Redesigning Design and Our Tools",
+      "url": "https://ux4dotcom.blogspot.com/2026/04/from-tools-to-thinking-systems-how-ai.html",
+      "source": "TLDR Design",
+      "date": "2026-05-07",
+      "summary": "AI is transforming design software from step-by-step manual tools into intent-based thinking systems where designers describe what they want rather than execute operations, shifting creativity toward higher-level decision-making. Both Adobe and Figma are repositioning around this shift—Adobe as infrastructure for AI-driven content creation—raising concerns that automation of manual craftsmanship may reduce learning opportunities for new designers.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e7fff7f0",
+      "title": "The Death of Design",
+      "url": "https://nathanbeck.eu/essays/death-of-design/",
+      "source": "TLDR Design",
+      "date": "2026-05-07",
+      "summary": "A UX designer refutes the \"AI is killing design\" narrative, arguing that chat interfaces are often the weakest affordance and that tools like Claude are powerful assistants rather than replacements for skilled, critical design thinking. As vibe-coding hype fades and the gap between prototype and shippable product becomes apparent, design's role will remain essential—redefined but indispensable.",
       "industry_nodes": [
         "designer-workflow-with-ai"
       ],
