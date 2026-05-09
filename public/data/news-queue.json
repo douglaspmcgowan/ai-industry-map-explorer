@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T10:13:24.998Z",
+  "generated": "2026-05-09T10:11:53.477Z",
   "items": [
     {
       "id": "15849abf",
@@ -661,6 +661,95 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c122dcde",
+      "title": "AlphaEvolve: Gemini-Powered Coding Agent Scaling Impact Across Fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "source": "Google DeepMind",
+      "date": "2026-05-07",
+      "summary": "Google DeepMind reports that AlphaEvolve—an evolutionary Gemini-powered coding agent—is now used routinely to design next-generation TPUs, achieving in two days engineering results that previously required months of human effort, and reduced quantum circuit error rates by 10x. It marks a shift where AI agents are actively solving core hardware and algorithm design problems rather than merely assisting, directly mapping to the chip design and surrogate-model spaces.",
+      "industry_nodes": [
+        "eda-chip-design",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9e96c26a",
+      "title": "Shaping Creator-Centric AI: Autodesk Research at CHI 2026",
+      "url": "https://www.research.autodesk.com/blog/shaping-creator-centric-ai-autodesk-research-at-chi-2026/",
+      "source": "Autodesk Research",
+      "date": "2026-05-02",
+      "summary": "Autodesk Research presented six papers at CHI 2026 in Barcelona on AI-augmented creative workflows, including systems that capture designers spoken intent in real time and deliver proactive, context-aware AI assistance integrated into professional design environments. The research defines a direction for controllable, deeply embedded creator-facing AI—directly advancing human-AI co-design within CAD and design tooling.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fd70d7e3",
+      "title": "Top AI Systems for Science & Engineering Discovery: Mid-2026",
+      "url": "https://medium.com/@timventura/top-ai-systems-for-science-engineering-discovery-mid-2026-3232f213e06e",
+      "source": "Tim Ventura / Medium",
+      "date": "2026-05-05",
+      "summary": "A working map of AI systems for science and engineering discovery as of mid-2026, covering tools like Altair PhysicsAI (geometric deep learning for physics prediction claiming 1000x speedup over conventional solvers) alongside autonomous lab agents, AI for materials discovery, and engineering-specific LLM stacks. Essential orientation for the physics-aware-surrogates and surrogate-models nodes, benchmarking where production-grade AI engineering tools stand today.",
+      "industry_nodes": [
+        "physics-aware-surrogates",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "94a99c47",
+      "title": "When AI Decides and Human Signs Off",
+      "url": "https://uxdesign.cc/when-ai-decides-and-human-signs-off-901e42d07ba5",
+      "source": "UX Collective",
+      "date": "2026-04-01",
+      "summary": "Leslie Sultani argues that most high-stakes AI systems marketed as decision-support are designed to make AI output look good while grafting on human approval as liability transfer rather than genuine oversight; EU AI Act Article 14 obligations effective August 2026 will require human review to be substantive, not nominal. Directly relevant to designers building AI tools for engineering, medical, or manufacturing contexts where human-AI co-design must embed real judgment.",
+      "industry_nodes": [
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "960b9cdc",
+      "title": "Generative AI CAD vs AI Design Review: What Delivers ROI Now",
+      "url": "https://www.colabsoftware.com/post/ai-cad-in-2026-why-design-review-is-delivering-roi-while-generative-design-catches-up",
+      "source": "CoLab Software",
+      "date": "2026-03-30",
+      "summary": "CoLab argues that near-term ROI in engineering AI is coming from automated AI design review—tools like AutoReview that run CAD model checks against manufacturing standards and DFM rules before human reviewers engage—not from generative design which remains in catch-up mode. This practitioner analysis directly maps to the dfm-machining-molding node and shows where production-ready AI+design tooling stands vs. the hype.",
+      "industry_nodes": [
+        "dfm-machining-molding",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8ea0d1a1",
+      "title": "What's New in SOLIDWORKS 2026x FD01 — Design and Modeling",
+      "url": "https://blogs.solidworks.com/solidworksblog/2026/02/whats-new-in-solidworks-2026x-fd01-design-and-modeling.html",
+      "source": "SOLIDWORKS Blog",
+      "date": "2026-02-14",
+      "summary": "SOLIDWORKS 2026x FD01 introduces AI virtual companions LEO and AURA through SOLIDWORKS Labs, enabling engineers to generate full assembly structures from a single text prompt, run AI-assisted simulation studies, create drawings conversationally, and add parametric features to STEP file imports. This is the mainstream arrival of AI copilots inside the world most widely deployed mechanical CAD platform, directly populating the cad-copilots and generative-geometry-cad nodes.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
