@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T10:11:53.477Z",
+  "generated": "2026-05-10T10:19:45.424Z",
   "items": [
     {
       "id": "15849abf",
@@ -750,6 +750,99 @@
       ],
       "schools": [],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fc29827b",
+      "title": "10 AI Tools Coming to SOLIDWORKS in 2026",
+      "url": "https://www.engineering.com/10-ai-tools-coming-to-solidworks-in-2026/",
+      "source": "Engineering.com",
+      "date": "2026-02-01",
+      "summary": "SOLIDWORKS 2026 FD01 introduces LEO and AURA, two AI-powered virtual companions that let engineers generate drawings from prompts, auto-diagnose model issues, build assembly structures, and convert images to 3D mesh inside the CAD environment. This is the most concrete mainstream deployment of CAD-copilot AI, directly mapping to the cad-copilots node as Dassault embeds conversational AI into everyday mechanical design workflows.",
+      "industry_nodes": [
+        "cad-copilots",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1bfc3c91",
+      "title": "Upcoming 3D Generative AI Foundation Models for Autodesk Fusion and Forma",
+      "url": "https://adsknews.autodesk.com/en/news/upcoming-3d-generative-ai-foundation-models/",
+      "source": "Autodesk News",
+      "date": "2025-11-20",
+      "summary": "Autodesk previewed Neural CAD foundation models for Fusion (geometry) and Forma (buildings), capable of generating fully editable parametric CAD geometry from text, sketches, or images — trained specifically on professional design data rather than general language corpora. The 2026 rollout represents the first major commercial text-to-CAD system embedded in a leading platform, directly hitting the text-to-cad, generative-geometry-cad, and aec-construction-ai nodes.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "992b7b99",
+      "title": "Physics-Informed Transformer for Real-Time High-Fidelity Topology Optimization",
+      "url": "https://arxiv.org/abs/2604.03522",
+      "source": "arXiv",
+      "date": "2026-04-04",
+      "summary": "The paper presents a physics-informed transformer architecture that delivers real-time, high-fidelity topology optimization results — bypassing iterative finite-element solves — by encoding physical constraints directly into the attention mechanism. This is a key advance for the physics-aware-surrogates node, enabling topology optimization to run inside interactive design loops rather than as offline batch jobs.",
+      "industry_nodes": [
+        "topology-optimization",
+        "physics-aware-surrogates",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "004fa5b8",
+      "title": "Generative AI-Driven SIMP Topology Optimization for Mass Reduction in Aerospace Drone Structures",
+      "url": "https://www.sciencedirect.com/science/article/pii/S259012302600784X",
+      "source": "ScienceDirect",
+      "date": "2026-02-15",
+      "summary": "Researchers integrate density-based SIMP topology optimization with exploratory machine learning to generate aerospace drone structural components across 16 combinations of three materials and three manufacturing constraints, achieving up to 70% mass reduction. The work directly maps the ai-for-dfm-dfam and topology-optimization nodes by demonstrating AI-driven design-for-manufacture at a component level in safety-critical aerospace applications.",
+      "industry_nodes": [
+        "topology-optimization",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9b4b122a",
+      "title": "Neural Co-Optimization of Structural Topology, Manufacturable Layers, and Path Orientations for Fiber-Reinforced Composites",
+      "url": "https://arxiv.org/abs/2505.03779",
+      "source": "arXiv / ACM Transactions on Graphics",
+      "date": "2025-05-06",
+      "summary": "This paper presents a neural-field framework that simultaneously optimizes structural topology, curved layer sequences, and fiber-path orientations for multi-axis 3D printing of continuous fiber-reinforced thermoplastics, achieving up to 33% higher failure loads than sequentially optimized approaches. It is a landmark result for the ai-for-dfm-dfam and physics-aware-surrogates nodes, showing that deep learning can co-solve the topology-plus-manufacturability problem for advanced composites.",
+      "industry_nodes": [
+        "topology-optimization",
+        "ai-for-dfm-dfam",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "946ace65",
+      "title": "Generative Design Combined with Topology Optimization for Lightweight Product Structure: An Implementation Path",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772941926000323",
+      "source": "ScienceDirect",
+      "date": "2026-03-01",
+      "summary": "The paper presents a hybrid GD+TO methodology combining SIMP topology optimization with a Fruit Fly Optimized Generative Gradient Network to automate the creation of lightweight, structurally sound product parts — reducing material while maintaining structural integrity. It provides an implementation path connecting generative design platforms with classical optimization, directly mapping the generative-platforms and topology-optimization nodes.",
+      "industry_nodes": [
+        "topology-optimization",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
