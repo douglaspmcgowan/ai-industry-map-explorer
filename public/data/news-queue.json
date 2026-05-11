@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T10:19:45.424Z",
+  "generated": "2026-05-11T10:16:31.400Z",
   "items": [
     {
       "id": "15849abf",
@@ -843,6 +843,66 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e6d18e7e",
+      "title": "3 AI Features Coming to Every CAD Program in 2026",
+      "url": "https://www.engineering.com/3-ai-features-coming-to-every-cad-program-in-2026/",
+      "source": "Engineering.com",
+      "date": "2026-01-15",
+      "summary": "Engineering.com identifies three AI capabilities now standard across major CAD platforms: AI-generated rendering, automated drawing creation (Siemens Solid Edge generates up to 80% of drawing views with minimal user input), and integrated product-support chatbots. The analysis signals that AI augmentation is shifting from premium add-on to table-stakes feature across the entire professional CAD market.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "relevance": 4,
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "30185849",
+      "title": "Best AI Design Tools That Engineers and Architects Are Using to Build Smarter in 2026",
+      "url": "https://www.techtimes.com/articles/316474/20260511/best-ai-design-tools-that-engineers-architects-are-using-build-smarter-2026.htm",
+      "source": "TechTimes",
+      "date": "2026-05-11",
+      "summary": "TechTimes surveys the leading AI design tools now in use by engineers and architects in 2026, covering generative design platforms, AI-assisted BIM tools, and CAD co-pilots across mechanical, structural, and AEC disciplines. The roundup captures the current state of practitioner adoption and highlights which categories are delivering real workflow value versus remaining experimental.",
+      "industry_nodes": [
+        "cad-copilots",
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "90e277d3",
+      "title": "Agents, Meet the Figma Canvas",
+      "url": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+      "source": "Figma",
+      "date": "2026-03-24",
+      "summary": "Figma opened its canvas to AI agents via an MCP server beta on March 24, 2026, enabling Claude Code, Cursor, Copilot, and others to directly create and edit components, variables, and auto-layout using a team's design system. A companion \"Skills\" framework lets teams encode their own conventions as markdown files, making design-system-aware AI generation a first-class workflow in product and UI design.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 4,
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "8e6a1ac2",
+      "title": "Reinforcement Learning-Based Topology Optimization for Generative Designed Lightweight Structures",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12355488/",
+      "source": "MethodsX / PubMed Central",
+      "date": "2026-01-01",
+      "summary": "This study integrates deep reinforcement learning (PPO) with physics-informed FEA to learn optimal material layouts under hard engineering constraints (stress ≤300 MPa, displacement ≤0.5 mm), achieving up to 40% weight reduction over SIMP and level-set baselines. The framework outputs STL files via Signed Distance Field smoothing, closing the loop from generative topology design to 3D-printable geometry.",
+      "industry_nodes": [
+        "topology-optimization",
+        "surrogate-models",
+        "ai-for-dfm-dfam"
+      ],
+      "relevance": 5,
+      "schools": [],
       "status": "pending"
     }
   ]
