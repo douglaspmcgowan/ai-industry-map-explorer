@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T10:16:31.400Z",
+  "generated": "2026-05-12T10:08:35.461Z",
   "items": [
     {
       "id": "15849abf",
@@ -903,6 +903,80 @@
       ],
       "relevance": 5,
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "11170092",
+      "title": "The Prompt Is Not an Interface",
+      "url": "https://newsletter.uxdesign.cc/p/the-prompt-is-not-an-interface",
+      "source": "UX Collective",
+      "date": "2026-05-11",
+      "summary": "Modern AI interfaces have regressed to command-line style text prompts, which are poorly suited for visual and spatial tasks like design, layout, and composition. The future of AI interaction will move toward canvas-based, node-based, and embedded visual tools—as designers shift focus from execution to direction and judgment.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2e0ad625",
+      "title": "Designers Are a Rare Breed",
+      "url": "https://www.unknownarts.co/p/designers-are-a-rare-breed",
+      "source": "Unknown Arts",
+      "date": "2026-05-11",
+      "summary": "AI design tools like Claude are more likely to raise the overall quality of design work than replace professional designers, especially since designers are already rare and most companies never hire them. Skilled designers can use these tools to increase their reach and impact rather than be displaced.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "fbe23122",
+      "title": "Agentic Design System - From Chatbot to Orchestration",
+      "url": "https://learn.thedesignsystem.guide/p/agentic-design-system-from-chatbot",
+      "source": "The Design System Guide",
+      "date": "2026-05-11",
+      "summary": "Future-ready design systems are evolving from UI libraries into structured systems that AI agents can understand and safely operate within—defining intent, rules, accessibility, constraints, and governance. Teams that invest in better system structure and metadata will unlock agent-assisted documentation, QA, migrations, and consistency checks while retaining human judgment over ethics and product decisions.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5e54f766",
+      "title": "Figma's Collapse Should Terrify SaaS Leaders",
+      "url": "https://hackernoon.com/figmas-collapse-should-terrify-saas-leaders",
+      "source": "Hacker Noon",
+      "date": "2026-05-11",
+      "summary": "Figma has lost roughly 85% of its market value since its IPO as AI agents threaten to replace design workflows end-to-end. The post presents a three-layer framework for repositioning design-tool products before AI disruption accelerates.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a7455e6e",
+      "title": "ARES 2027 Deep Dive: AI, Automation and BIM-to-DWG Workflows",
+      "url": "https://architosh.com/2026/05/ares-2027-deep-dive-ai-automation-and-bim-to-dwg-workflows/",
+      "source": "Architosh",
+      "date": "2026-05-01",
+      "summary": "Deep dive into Graebert ARES 2027 highlighting AI-native CAD editing via natural language (A3), AI-generated blocks, voice interaction in Kudo, and tighter Autodesk Forma integration for BIM-to-DWG workflows. Marks a significant step in embedding conversational AI directly into DWG-based design tools used by AEC professionals.",
+      "industry_nodes": [
+        "cad-copilots",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
