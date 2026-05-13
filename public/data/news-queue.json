@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T10:08:35.461Z",
+  "generated": "2026-05-13T10:12:55.662Z",
   "items": [
     {
       "id": "15849abf",
@@ -978,6 +978,65 @@
       "schools": [],
       "relevance": 4,
       "status": "pending"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260423016237/en/ELECTRIX-AI-Powered-Electrical-CAD-from-WSCAD-Accelerates-Engineering-Workflows-Decreases-Manual-Design-Time-by-Up-to-50",
+      "title": "ELECTRIX AI-Powered Electrical CAD from WSCAD Accelerates Engineering Workflows, Decreases Manual Design Time by Up to 50%",
+      "source": "BusinessWire / WSCAD",
+      "date": "2026-04-23",
+      "summary": "WSCAD launched ELECTRIX AI in the US market — the first fully AI-integrated electrical CAD platform combining schematic design, control cabinet layout, and building automation — automatically converting circuit diagrams into standards-compliant cabinet designs in minutes. The AI copilot also ingests project-specific regulations and customer specs as a knowledge base, reducing engineering time by up to 50% and enabling teams to serve more clients without adding headcount.",
+      "industry_nodes": [
+        "pcb-electronics-design",
+        "eda-chip-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "cc5caab3"
+    },
+    {
+      "url": "https://www.hestus.co/",
+      "title": "Hestus — AI Autocomplete for CAD",
+      "source": "TLDR Design",
+      "date": "2026-05-12",
+      "summary": "Hestus offers AI-powered autocomplete for CAD software that predicts the engineer's next design move, delivering 2.5x faster workflows and 4x fewer clicks inside existing CAD tools. By reducing repetitive interactions, it functions as a real-time copilot embedded in the CAD session rather than a separate generation step.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "3dd68c37"
+    },
+    {
+      "url": "https://www.digitalengineering247.com/article/solidworks-2026-generative-ai-for-design",
+      "title": "SOLIDWORKS 2026: Generative AI for Design",
+      "source": "Digital Engineering 24/7",
+      "date": "2026-02-10",
+      "summary": "SOLIDWORKS 2026 embeds AI companions LEO and AURA directly in the CAD environment, enabling chat-driven 3D modeling, natural-language assembly structure generation, and automatic drawing creation — normalizing generative AI as a core part of daily mechanical design. The release also introduces PDF-to-parametric-model and BREP-to-parametric conversion, closing the loop from legacy 2D drawings to editable 3D geometry.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "e01e2836"
+    },
+    {
+      "url": "https://www.engineering.com/bananaz-launches-ai-design-agent-for-mechanical-engineers/",
+      "title": "bananaz Launches AI Design Agent for Mechanical Engineers",
+      "source": "Engineering.com",
+      "date": "2025-11-11",
+      "summary": "bananaz launched its Design Agent, an AI agent that reads native CAD files, 2D drawings, and BOMs to autonomously run design reviews, detect change-impact, enforce engineering standards, and surface DFM insights — integrating directly with PDM/PLM systems. The agent is claimed to cut revision turnaround times by over 90%, representing a shift from AI-assisted design toward fully agentic quality gates in the mechanical engineering workflow.",
+      "industry_nodes": [
+        "cad-copilots",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "4321e671"
     }
   ]
 }
