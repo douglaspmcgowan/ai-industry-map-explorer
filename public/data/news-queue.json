@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T10:12:55.662Z",
+  "generated": "2026-05-14T10:16:32.230Z",
   "items": [
     {
       "id": "15849abf",
@@ -1037,6 +1037,49 @@
       "relevance": 4,
       "status": "pending",
       "id": "4321e671"
+    },
+    {
+      "id": "35dff049",
+      "url": "https://blogs.autodesk.com/media-and-entertainment/2026/05/04/project-falcon-faq/",
+      "title": "Autodesk Project Falcon: Free Browser-Based 3D Kitbashing Tool",
+      "source": "Autodesk Blog",
+      "date": "2026-05-04",
+      "summary": "Autodesk has launched Project Falcon, a free browser-based 3D modeling tool that lets anyone rapidly assemble 3D models from a library of premade parts through kitbashing—no software install required. It supports export to STL for 3D printing and USD for Blender/Maya/3ds Max, dramatically lowering the entry barrier to 3D design prototyping and fast creative workflows.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7f11eac1",
+      "url": "https://medium.com/design-bootcamp/the-most-important-design-system-in-2026-that-designers-missed-was-built-by-a-developer-d5617753882e",
+      "title": "The Most Important Design System in 2026 That Designers Missed Was Built by a Developer",
+      "source": "Medium / Design Bootcamp",
+      "date": "2026-05-13",
+      "summary": "shadcn/ui has quietly become the de-facto design system powering AI-generated interfaces from Claude, Cursor, v0, and Figma Make, standardizing component patterns across the industry without designers explicitly choosing it. The piece argues that design system leadership in 2026 is now shaped by developer ecosystems and AI tooling—not by traditional design-platform adoption.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ddf70ad9",
+      "url": "https://boagworld.com/emails/from-doer-to-director/",
+      "title": "From Doer to Director: The AI Mindset Shift",
+      "source": "Boagworld",
+      "date": "2026-05-12",
+      "summary": "AI is fundamentally shifting design leadership from individual task execution to directing multiple parallel AI agents, requiring the same mindset transition that design leaders face when moving from hands-on work to managing teams. The article argues that success with AI is not about tools or knowledge, but building the organized workflows and structured processes that agents need to function effectively.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
