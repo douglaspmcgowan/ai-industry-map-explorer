@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T10:16:32.230Z",
+  "generated": "2026-05-15T10:12:39.069Z",
   "items": [
     {
       "id": "15849abf",
@@ -1080,6 +1080,67 @@
       "schools": [],
       "relevance": 3,
       "status": "pending"
+    },
+    {
+      "url": "https://uxdesign.cc/how-to-make-claude-code-follow-your-design-system-in-figma-559618cffaa9",
+      "title": "How to Make Claude Code Follow Your Design System in Figma",
+      "source": "UX Collective (via TLDR Design)",
+      "date": "2026-05-14",
+      "summary": "The author built four Claude Code Skills to enforce design-system token compliance when Claude Code writes to Figma via MCP, eliminating hard-coded hex values and improvised components in favor of semantic tokens and library instances. This turns Claude Code from a loose canvas-writer into a governed design-system citizen, enabling both strict and fast-prototyper modes.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "b88e4212"
+    },
+    {
+      "url": "https://www.creativeboom.com/insight/have-your-views-on-ai-changed-heres-what-our-creative-community-had-to-say/",
+      "title": "Have Your Views on AI Changed? Here's What Our Creative Community Had to Say",
+      "source": "Creative Boom (via TLDR Design)",
+      "date": "2026-05-13",
+      "summary": "A Creative Boom survey finds that designer anxiety about AI has evolved into a nuanced debate: many oppose generative AI over copyright and job concerns, while others value it for repetitive tasks but argue human creativity and taste remain irreplaceable. The piece is a useful pulse check on where the practitioner community sits on human-AI co-creation heading into mid-2026.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "5af90f26"
+    },
+    {
+      "url": "https://www.designnews.com/design-engineering/simscale-s-2026-ai-report-reveals-ai-enabled-workflows-generate-4x-more-design-variants",
+      "title": "SimScale's 2026 AI Report Reveals AI-Enabled Workflows Generate 4x More Design Variants",
+      "source": "Design News",
+      "date": "2026-03-24",
+      "summary": "Based on 350 engineering leaders, the 2026 SimScale State of Engineering AI report finds AI-enabled simulation workflows generate nearly 4x more design variants and deliver 2.8x faster simulation turnaround than conventional methods. AI copilots are deployed across 67-76% of major design phases while fully autonomous agents remain at ~10%, mapping the current human-in-the-loop reality of engineering AI.",
+      "industry_nodes": [
+        "surrogate-models",
+        "generative-platforms",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "0ae032ed"
+    },
+    {
+      "url": "https://www.simscale.com/blog/2026-the-breakout-year-for-agentic-ai-in-engineering/",
+      "title": "2026: The Breakout Year for Agentic AI in Engineering",
+      "source": "SimScale Blog",
+      "date": "2026-01-15",
+      "summary": "SimScale argues 2026 is the inflection point where engineering AI moves from isolated copilots to agentic workflows that autonomously run simulation loops, evaluate design candidates, and escalate exceptions. The post highlights that 87% of organizations have governance ready for autonomous AI pass/fail decisions at design gates, but only 8% routinely deploy them, framing the year as escaping AI pilot purgatory.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "a257e277"
     }
   ]
 }
