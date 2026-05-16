@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T10:12:39.069Z",
+  "generated": "2026-05-16T10:16:24.059Z",
   "items": [
     {
       "id": "15849abf",
@@ -1141,6 +1141,123 @@
       "relevance": 4,
       "status": "pending",
       "id": "a257e277"
+    },
+    {
+      "url": "https://www.figma.com/blog/what-the-design-to-code-loop-unlocks/",
+      "title": "What the Design-to-Code Loop Unlocks",
+      "source": "Figma Blog",
+      "date": "2026-05-15",
+      "summary": "Figma's Codex integration enables teams to import live production UIs into Figma for collaborative design exploration, then export refined designs back with all context preserved—creating a seamless round-trip between design and code. This bridging of the designer-developer gap is the clearest example yet of AI-mediated co-design workflows becoming standard practice.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "relevance": 4,
+      "id": "e1e759b7",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://uxdesign.cc/the-thinking-was-never-just-mine-9b73cc04c837",
+      "title": "The Thinking Was Never Just Mine",
+      "source": "UX Collective",
+      "date": "2026-05-15",
+      "summary": "Giorgio Schirò explores using Claude as a rapid creative iteration partner rather than an answer machine, arguing that what makes an idea \"yours\" is the consistent pattern of choices, refinements, and rejections—not origination. The piece surfaces a key tension in AI-augmented design: speed of generation vs. the slower processes (user research, stepping away) that AI cannot replace.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 3,
+      "id": "37406f94",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/0laM1L",
+      "title": "Product Design with AI — It's Not Witchcraft, So You Still Need to Know Your Craft",
+      "source": "TLDR Design",
+      "date": "2026-05-15",
+      "summary": "AI lowers the barrier to shipping products but makes it easier to create systems people do not fully understand, producing polished but fragile apps—making product and UX design more important, not less. The author argues AI best amplifies existing expertise (repetitive tasks, research synthesis, documentation) while craft and coherence remain human responsibilities.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 4,
+      "id": "f2529806",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://uxdesign.cc/the-death-of-the-empty-state-in-ai-products-2026-e11439fbb688",
+      "title": "The Death of the Empty State in AI Products",
+      "source": "UX Collective",
+      "date": "2026-05-15",
+      "summary": "Adi Leviim argues that AI products have replaced 40 years of onboarding UX research with a blank prompt box, violating recognition-over-recall and driving first-session drop-off across ChatGPT, Claude, Gemini, and every major AI product. A better AI onboarding pattern uses worked examples, starting verbs, visible limitations, and interactive scaffolding before the user must prompt.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 3,
+      "id": "2fa406a8",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.designboom.com/design/tey-bannerman-ai-strategy-design-leaders-interview/",
+      "title": "Tey Bannerman on Why AI Strategy Is the New Essential Skill for Design Leaders",
+      "source": "Designboom",
+      "date": "2026-05-15",
+      "summary": "Former McKinsey partner Tey Bannerman argues that as AI compresses the production layer of design, human skills—ethical judgment, contextual understanding, and systems thinking—become the true differentiators for design leaders. He is launching a course on AI strategy for design leaders structured around this shift from pixel production to strategic positioning.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "95a5185c",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.animationmagazine.net/2026/05/netflix-staffing-for-inkubator-ai-powered-experimental-animation-studio/",
+      "title": "Netflix Staffing for INKubator AI-Powered Experimental Animation Studio",
+      "source": "Animation Magazine",
+      "date": "2026-05-14",
+      "summary": "Netflix's INKubator, quietly launched in March 2026 under Serrena Iyer, is an artist-led studio building GenAI-native animation production pipelines for shorts and specials, recruiting producers, CG artists, and ML engineers in a hybrid workflow model. It signals that major studios are committing to AI-integrated production toolchains rather than treating GenAI as experimental post-production add-ons.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "9bbefcb7",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://interestingengineering.com/ai-robotics/figure-helix02-humanoid-robots-8-hour-shifts",
+      "title": "Helix-02 Robots Now Sustain Full Factory-Style 8-Hour Shifts Without Intervention",
+      "source": "Interesting Engineering",
+      "date": "2026-05-14",
+      "summary": "Figure AI's Helix-02 system—a unified neural network combining vision, touch, proprioception, and whole-body control—ran autonomous 8-hour manufacturing shifts processing 22,000+ packages, matching human performance without resets. This represents a step-change in AI-driven physical manufacturing workflows and underscores how neural-network-based robot control is moving from lab demos to continuous industrial deployment.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "relevance": 4,
+      "id": "84abe98a",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://newatlas.com/technology/ouster-rev8-native-color-lidar/",
+      "title": "World's First Native Color LiDAR Gives Machines Human-Like Vision",
+      "source": "New Atlas",
+      "date": "2026-05-15",
+      "summary": "Ouster's Rev8 sensor family fuses color directly into every point of 3D data—the first LiDAR with native color—enabling machines to see geometry and color simultaneously with a 200-500m detection range and high dynamic range across light conditions. Native-color point clouds directly improve automated visual quality inspection and AI-driven manufacturing vision systems that previously required separate RGB cameras.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "relevance": 3,
+      "id": "dea572ef",
+      "schools": [],
+      "status": "pending"
     }
   ]
 }
