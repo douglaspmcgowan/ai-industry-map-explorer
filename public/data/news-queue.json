@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T10:16:24.059Z",
+  "generated": "2026-05-17T10:08:23.025Z",
   "items": [
     {
       "id": "15849abf",
@@ -1257,6 +1257,77 @@
       "relevance": 3,
       "id": "dea572ef",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "0121e13c",
+      "title": "State of the Designer 2026: Designers Are Leaning Into the Messy Middle",
+      "url": "https://www.figma.com/blog/state-of-the-designer-2026/",
+      "source": "Figma Blog",
+      "date": "2026-02-13",
+      "summary": "Figma's annual survey of 2,300+ designers finds AI has moved from experiment to core workflow — practitioners use it daily for ideation, documentation, and iteration while retaining ownership of judgment and craft. The data matters for AI+design because it grounds market adoption in practitioner reality rather than vendor claims.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "da64bcd9",
+      "title": "Design Was Never the Comps: What I Learned When Claude Design Dumped a Dozen Screens on Me",
+      "url": "https://christophernoessel.medium.com/design-was-never-the-comps-what-i-learned-when-claude-design-dumped-a-dozen-screens-on-me-73893af464ae",
+      "source": "Medium",
+      "date": "2026-04-01",
+      "summary": "Veteran UX designer Christopher Noessel's hands-on account of Anthropic's Claude Design generating batches of UI screens from a single prompt; argues that the experience reframes design as judgment and curation rather than production of deliverables. Important because it is a practitioner testing a new AI design tool and articulating what remains irreducibly human in the process.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a5189a83",
+      "title": "Figure AI's Helix-02 Robots Complete Full 8-Hour Autonomous Shifts as Humanoid Race Intensifies",
+      "url": "https://www.techtimes.com/articles/316632/20260514/figure-ais-helix-02-robots-complete-full-8-hour-autonomous-shifts-humanoid-race-intensifies.htm",
+      "source": "TechTimes",
+      "date": "2026-05-14",
+      "summary": "Figure AI's Helix-02 neural system enables humanoid robots to run complete 8-hour factory shifts without human intervention, combining vision, touch, proprioception, and whole-body motor control in a single network that replaced 109,000 lines of hand-engineered C++. Marks a step-change in AI for manufacturing labor and autonomous physical-world operation.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f2d35b80",
+      "title": "Autodesk Unleashes Neural CAD",
+      "url": "https://aecmag.com/ai/autodesk-unleashes-neural-cad/",
+      "source": "AEC Magazine",
+      "date": "2025-10-09",
+      "summary": "AEC Magazine covers Autodesk's Neural CAD announcement — new AI foundation models for Fusion and Forma that generate fully editable parametric CAD geometry from text or sketch inputs, the first such capability in a major commercial CAD platform. Marks the transition from bolt-on AI features to AI-native geometry generation inside the dominant mechanical and AEC design tools.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "d1a1b943",
+      "title": "Operating as an AI-Native Product Designer in 2026",
+      "url": "https://verifiedinsider.substack.com/p/operating-as-an-ai-native-product",
+      "source": "Verified Insider",
+      "date": "2026-01-01",
+      "summary": "Practitioner guide to working as a product designer when AI handles production tasks: the key shift is from making to deciding, using AI for generation while keeping judgment, systems thinking, and user context firmly in human hands. Directly addresses the craft-vs-automation question for designers navigating AI tool adoption.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
