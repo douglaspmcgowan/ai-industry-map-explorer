@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T10:08:23.025Z",
+  "generated": "2026-05-18T10:08:25.704Z",
   "items": [
     {
       "id": "15849abf",
@@ -1328,6 +1328,53 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3067730f",
+      "title": "Introducing InfinitForm: AI-Powered Engineering Design, Built for Manufacturing from Day One",
+      "url": "https://infinitform.com/introducing-infinitform-ai-powered-engineering-design-built-for-manufacturing-from-day-one/",
+      "source": "InfinitForm Blog",
+      "date": "2026-01-28",
+      "summary": "InfinitForm launched its Generative Engineering Platform on January 28, 2026, combining GPU-accelerated DFM solvers with an AI co-pilot to automate part design optimization across machining, molding, and additive manufacturing. Beta customers including NASA, BMW, and Yamaha reported 60–80% faster design cycles, and the platform integrates natively with Autodesk Fusion, Siemens NX, and SOLIDWORKS while protecting IP with a privacy-first architecture.",
+      "industry_nodes": [
+        "generative-platforms",
+        "dfm-machining-molding",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "60a2a195",
+      "title": "Dassault Systèmes unveils virtual companions and industrial AI strategy at 3DEXPERIENCE World 2026",
+      "url": "https://www.enterprisetimes.co.uk/2026/02/04/dassault-systemes-unveils-virtual-companions-and-industrial-ai-strategy-at-3dexperience-world-2026/",
+      "source": "Enterprise Times",
+      "date": "2026-02-04",
+      "summary": "At 3DExperience World 2026, Dassault Systèmes announced three AI virtual companions embedded in SOLIDWORKS—LEO (mechanical design and simulation), AURA (company knowledge retrieval), and MARIE (materials science)—representing a shift toward conversational, agentic workflows in mainstream CAD. LEO can generate assembly structures, convert images to parametric mesh, run surrogate simulations, and resolve design errors, with general availability targeted for mid-2026.",
+      "industry_nodes": [
+        "cad-copilots",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1dd04c36",
+      "title": "Synopsys Launches Ansys 2026 R1 to Re-Engineer Engineering with Joint Solutions and AI-Powered Products",
+      "url": "https://www.prnewswire.com/news-releases/synopsys-launches-ansys-2026-r1-to-re-engineer-engineering-with-joint-solutions-and-ai-powered-products-302711215.html",
+      "source": "PR Newswire / Synopsys",
+      "date": "2026-03-11",
+      "summary": "Synopsys launched Ansys 2026 R1 on March 11, 2026, introducing GeomAI—a generative AI platform that learns from reference designs to build a parametric latent space and rapidly generate, evaluate, and refine geometry concepts at the conceptual design stage. The release also delivers the Ansys portfolio’s first agentic capabilities, including a Discovery Validation Agent that proactively identifies simulation setup issues and a Mesh Agent that debugs and resolves meshing failures.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "physics-aware-surrogates",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
