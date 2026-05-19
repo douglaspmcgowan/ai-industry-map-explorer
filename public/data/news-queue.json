@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T10:08:25.704Z",
+  "generated": "2026-05-19T10:14:43.719Z",
   "items": [
     {
       "id": "15849abf",
@@ -1370,6 +1370,81 @@
       "summary": "Synopsys launched Ansys 2026 R1 on March 11, 2026, introducing GeomAI—a generative AI platform that learns from reference designs to build a parametric latent space and rapidly generate, evaluate, and refine geometry concepts at the conceptual design stage. The release also delivers the Ansys portfolio’s first agentic capabilities, including a Discovery Validation Agent that proactively identifies simulation setup issues and a Mesh Agent that debugs and resolves meshing failures.",
       "industry_nodes": [
         "generative-geometry-cad",
+        "physics-aware-surrogates",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d12d632d",
+      "title": "CADReasoner: Iterative Program Editing for CAD Reverse Engineering",
+      "url": "https://arxiv.org/abs/2603.29847",
+      "source": "arXiv",
+      "date": "2026-03-01",
+      "summary": "CADReasoner iteratively refines scan-to-CAD predictions using geometric discrepancy feedback, outputting runnable CadQuery Python programs from multi-view renders and point clouds. It achieves state-of-the-art results on DeepCAD, Fusion 360, and MCB benchmarks and introduces a scan-simulation protocol to close the domain gap between clean CAD geometry and real-world scan data.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3b14ec73",
+      "title": "GenCAD-Self-Repairing: Feasibility Enhancement for 3D CAD Generation",
+      "url": "https://arxiv.org/abs/2505.23287",
+      "source": "arXiv / ASME IDETC-CIE",
+      "date": "2025-05-29",
+      "summary": "GenCAD-Self-Repairing uses diffusion guidance combined with a latent-space classifier and self-supervised regressor to repair infeasible B-rep outputs from generative CAD models, converting 65.84% of GenCAD failures into feasible designs. The self-repairing pipeline addresses a key reliability bottleneck in AI-driven CAD generation without sacrificing overall geometric accuracy.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6758ef6b",
+      "title": "Figma Q1 revenue grows 46% as AI credit monetization shows early traction",
+      "url": "https://thenextweb.com/news/figma-q1-earnings-ai-monetization-stock-rebound",
+      "source": "The Next Web",
+      "date": "2026-05-14",
+      "summary": "Figma Q1 2026 revenue reached $333M (+46% YoY) with AI credit limits now enforced — over 75% of users who hit their allocation chose to keep paying for more credits. MCP server adoption is driving compounding value: customers using the Figma MCP expand seats 70% faster than peers, and 60% of enterprise users now run Figma Make weekly.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e6afff22",
+      "title": "Newforma Announces AI-Powered Innovations and Open Ecosystem Strategy at Newforma World 2026",
+      "url": "https://www.prnewswire.com/news-releases/newforma-announces-ai-powered-innovations-and-open-ecosystem-strategy-at-newforma-world-2026-302765799.html",
+      "source": "PR Newswire",
+      "date": "2026-05-07",
+      "summary": "Newforma launched Vojo, an AI assistant embedding intelligence directly into AECO project workflows with \"Smart Email Filing\" that auto-associates emails and recommends filing locations for RFIs and submittals. The company also announced AWS and Egnyte partnerships for secure data management, signaling AI moving from pilots to production in construction project information management.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "84053f97",
+      "title": "A surrogate model for topology optimisation of elastic structures via parametric autoencoders",
+      "url": "https://arxiv.org/abs/2507.22539",
+      "source": "arXiv",
+      "date": "2025-07-01",
+      "summary": "A parametric autoencoder surrogate maps load and boundary condition inputs to latent topology representations, reducing optimization iterations by 53% while keeping compliance within 4% of fully optimized results for elastic structures. The approach enables rapid generative design exploration by replacing expensive finite-element solves with learned geometry prediction across parametric design spaces.",
+      "industry_nodes": [
+        "topology-optimization",
         "physics-aware-surrogates",
         "surrogate-models"
       ],
