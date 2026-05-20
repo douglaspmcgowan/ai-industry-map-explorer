@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T10:14:43.719Z",
+  "generated": "2026-05-20T10:14:28.931Z",
   "items": [
     {
       "id": "15849abf",
@@ -1447,6 +1447,112 @@
         "topology-optimization",
         "physics-aware-surrogates",
         "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5d2c71ac",
+      "title": "MIT Researchers Introduce GenCAD: A Generative AI Model for Image-Conditioned Parametric CAD",
+      "url": "https://aitoolly.com/ai-news/article/2026-05-18-mit-researchers-introduce-gencad-a-generative-ai-model-for-image-conditioned-parametric-cad-program",
+      "source": "AIToolly",
+      "date": "2026-05-18",
+      "summary": "MIT GenCAD uses autoregressive transformers and latent diffusion models to generate full parametric CAD command sequences directly from image inputs, achieving up to 15x better accuracy than prior image-to-CAD models while producing editable geometry compatible with standard CAD kernels. This is a significant leap toward vision-guided CAD generation that outputs manufacturing-ready, modifiable models rather than static meshes or point clouds.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "87d228b0",
+      "title": "From Image to Editable CAD in Minutes: Novineer Introduces NoviVision",
+      "url": "https://www.tctmagazine.com/from-image-to-editable-cad-in-minutes-novineer-introduces-novivision-software-tool/",
+      "source": "TCT Magazine",
+      "date": "2026-04-01",
+      "summary": "NoviVision generates editable STEP CAD files from 2-6 smartphone photographs in approximately two minutes, using an AI model trained on millions of digital part models, with no CAD expertise required by the operator. The tool outputs STEP files that open directly in Creo and SolidWorks, enabling shop-floor reverse engineering at aviation-grade quality in partnership with contract manufacturer AM Craft.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0915abdc",
+      "title": "Autodesk Launches Forma Building Design and AI-Powered Revit Integration for AEC",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-design-and-make-intelligence/",
+      "source": "Autodesk News",
+      "date": "2026-04-01",
+      "summary": "Autodesk introduced Forma Building Design for AI-assisted schematic design with real-time daylight, sun-hours, and carbon analysis, plus Revit as the first Forma cloud-connected desktop client. Autodesk Assistant is now integrated into Revit, providing contextual AI that executes tasks and orchestrates actions across Autodesk products directly within the BIM authoring environment.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fed31892",
+      "title": "Agentic BIM's Missing Infrastructure",
+      "url": "https://aecmag.com/ai/agentic-bims-missing-infrastructure/",
+      "source": "AEC Magazine",
+      "date": "2026-05-01",
+      "summary": "Analysis of why the draft revision DIS/ISO 19650-1:2026 omits agentic AI and autonomous workflows, leaving the BIM industry without foundational standards for deploying AI agents across construction project lifecycles. The article maps the data interoperability, access control, and accountability gaps that must be resolved before agentic BIM can scale responsibly.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2b03be35",
+      "title": "A Review of Generative Artificial Intelligence for Additive Manufacturing: Bridging Design, Process Monitoring, and Beyond",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0278612526000749",
+      "source": "Journal of Manufacturing Systems",
+      "date": "2026-03-01",
+      "summary": "Comprehensive 2026 review synthesizing how generative AI bridges all stages of additive manufacturing from topology-optimized design and DfAM through real-time process monitoring and quality control. Identifies LLM+RAG-driven autonomous workflow reasoning and physics-informed intelligence as the emerging frontier, with 2025-2026 publication volume nearly matching all prior years combined.",
+      "industry_nodes": [
+        "ai-for-dfm-dfam",
+        "process-monitoring-am-boost",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e84b8ad8",
+      "title": "Roadmap on Artificial Intelligence-Augmented Additive Manufacturing",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202500484",
+      "source": "Advanced Intelligent Systems",
+      "date": "2026-01-01",
+      "summary": "A roadmap paper charting AI roles across the full additive manufacturing stack including generative design for DfAM, ML-driven process parameter optimization, and in-situ monitoring, with specific ML architectures mapped to each AM pipeline stage. Positions generative AI as enabling design geometries impossible with traditional methods, particularly for complex lattice structures and multi-material components.",
+      "industry_nodes": [
+        "ai-for-dfm-dfam",
+        "process-monitoring-am-boost",
+        "topology-optimization"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0d908877",
+      "title": "2026 AEC Trends: AI in Architecture with Vibe Coding and Real-Time Analysis",
+      "url": "https://www.stantec.com/en/ideas/content/blog/2026/2026-aec-trends-part-2-ai-in-architecture-vibe-coding-real-time-analysis-data",
+      "source": "Stantec",
+      "date": "2026-01-15",
+      "summary": "Stantec architects argue that vibe coding gives designers direct control over computational design workflows without requiring specialized programming, fundamentally shifting the architect-software relationship. Combined with always-on AI analysis for structural and environmental performance replacing discrete simulation runs, the article identifies a transition from software consumer to software author for AEC practitioners.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
       ],
       "schools": [],
       "relevance": 4,
