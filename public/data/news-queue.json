@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T10:14:28.931Z",
+  "generated": "2026-05-21T10:15:59.691Z",
   "items": [
     {
       "id": "15849abf",
@@ -1556,6 +1556,119 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e5ecd1d3",
+      "title": "Agent-Aided Design for Dynamic CAD Models",
+      "url": "https://arxiv.org/abs/2604.15184",
+      "source": "arXiv",
+      "date": "2026-04-20",
+      "summary": "Introduces AADvark, an agentic system that generates and iteratively refines complex 3D CAD assemblies with moving parts (pistons, scissors, pendulums) using visual feedback—without task-specific training data. Addresses a critical gap: no prior text-to-CAD system could build dynamic assemblies with degrees-of-freedom, marking a step-change for AI-assisted mechanical design.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ef775d97",
+      "title": "3D Generative AI Foundation Models Released for Autodesk Fusion, Forma",
+      "url": "https://www.digitalengineering247.com/article/autodesk-to-release-3d-generative-ai-foundation-models-for-autodesk-fusion-forma",
+      "source": "Digital Engineering 24/7",
+      "date": "2026-02-16",
+      "summary": "Autodesk has released Neural CAD, 3D generative AI foundation models for Fusion and Forma that produce fully editable parametric geometry from text prompts, targeting automation of 80–90% of typical design tasks. The models are trained on professional CAD and architectural data to reason about both product geometry (D&M/Fusion) and building logic (AEC/Forma), representing a fundamental reimagining of how CAD geometry is created.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "generative-geometry-cad",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "a6d2f435",
+      "title": "Zookeeper: The Conversational CAD Agent For Parametric Modeling",
+      "url": "https://zoo.dev/research/zookeeper",
+      "source": "Zoo",
+      "date": "2026-01-15",
+      "summary": "Zoo launched Zookeeper, a conversational CAD agent that takes natural language goals, performs engineering research, proposes design constraints, and produces fully editable parametric 3D models ready for manufacturing. Built on their Text-to-CAD foundation and extended with agentic planning, reasoning, and geometry inspection capabilities, Zookeeper positions engineers to delegate design intent rather than issuing explicit geometry commands.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0693f66d",
+      "title": "Siemens updates Designcenter Solid Edge with AI and cloud-driven enhancements",
+      "url": "https://news.siemens.com/en-us/siemens-designcenter-solid-edge-2026/",
+      "source": "Siemens",
+      "date": "2025-10-09",
+      "summary": "Siemens launched Designcenter Solid Edge 2026 with AI-powered 2D drawing generation (producing drawings that are 80% complete on creation), a Design Copilot conversational assistant, and Magnetic Snap Assembly for AI-driven constraint placement. The release embeds generative AI directly into a mainstream mechanical CAD tool for everyday engineering use.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "17263e61",
+      "title": "AU25: All About Autodesk's AI Neural CAD Engines",
+      "url": "https://architosh.com/2025/09/au25-all-about-autodesks-ai-neural-cad-engines/",
+      "source": "Architosh",
+      "date": "2025-09-15",
+      "summary": "Deep-dive from Autodesk University 2025 on two Neural CAD foundation models: one for product geometry in Fusion (D&M workflows) and one for building logic in Forma (AEC workflows), both generating editable B-Rep geometry from text and sketches. The piece explains the architectural distinction from LLMs—these models are trained specifically to reason about CAD geometry and industrial systems, not just text.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "generative-geometry-cad",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ba3d73db",
+      "title": "GenCAD: Image-Conditioned Computer-Aided Design Generation with Transformer-Based Contrastive Representation and Diffusion Priors",
+      "url": "https://arxiv.org/abs/2409.16294",
+      "source": "arXiv / MIT",
+      "date": "2024-09-24",
+      "summary": "GenCAD uses contrastive learning to align image and CAD-command latent spaces, then employs a latent diffusion model to generate complete parametric CAD command sequences from 2D images—producing editable solid models rather than static meshes or point clouds. It significantly outperforms prior state-of-the-art in image-conditioned CAD generation, establishing a path for photo-to-parametric and scan-to-CAD workflows.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "scan-to-cad-reverse-eng",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d126f429",
+      "title": "How generative design is reshaping engineering workflows",
+      "url": "https://www.engineerlive.com/content/how-generative-design-reshaping-engineering-workflows",
+      "source": "Engineer Live",
+      "date": "2026-01-20",
+      "summary": "Surveys how generative AI is now embedded in mainstream engineering CAD platforms—SolidWorks, Autodesk Fusion, nTopology—to generate editable geometry, automate 2D drawing creation, and assist assembly design in real time. Marks the shift from generative design as an offline optimization step to an always-on AI participant across the full mechanical and AEC design workflow.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
