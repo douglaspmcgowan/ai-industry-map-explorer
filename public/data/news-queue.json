@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T10:15:59.691Z",
+  "generated": "2026-05-22T10:18:00.479Z",
   "items": [
     {
       "id": "15849abf",
@@ -1669,6 +1669,107 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "100558ba",
+      "title": "The Figma Agent is Here",
+      "url": "https://www.figma.com/blog/the-figma-agent-is-here/",
+      "source": "Figma Blog",
+      "date": "2026-05-20",
+      "summary": "Figma launched its native in-canvas AI agent on May 20, 2026, enabling designers to use natural language to generate and bulk-edit designs with design-system awareness while working in real-time alongside the AI. It represents a fundamental shift in human-AI co-design workflow — designers orchestrate while agents handle the tedious system-level production work.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "d2c26b23",
+      "title": "Google I/O: Agents, Agents, Agents (incl. Figma Agent Vibe Check)",
+      "url": "https://every.to/context-window/google-i-o-agents-agents-agents",
+      "source": "Every / Context Window",
+      "date": "2026-05-20",
+      "summary": "Every's Context Window covers the Google I/O 2026 agent wave — Gemini 3.5 Flash, Antigravity 2.0 design orchestration platform, and a direct Vibe Check of Figma's new in-canvas agent, evaluating whether it solves the blank-page problem for designers. Provides practitioner-level analysis of how agent-first tools are reshaping the UX design workflow.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0d5dccb9",
+      "title": "The AI to UI Trap",
+      "url": "https://thecursormag.substack.com/p/the-ai-to-ui-trap",
+      "source": "The Cursor Mag",
+      "date": "2026-05-20",
+      "summary": "Argues that AI is redefining design work by making every problem look like a visual-output execution task, shifting designers from strategic thinking toward mere UI generation — a race to the bottom. Competing on AI execution alone makes designers structurally replaceable, and the professional instinct to resist is actually correct strategy.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "91e51cf2",
+      "title": "Rosebernard Studio's Robert Polacek on Why AI Belongs Behind the Curtain in Design",
+      "url": "https://thenextweb.com/news/rosebernard-studio-robert-polacek-ai-behind-curtain-design",
+      "source": "TNW / The Next Web",
+      "date": "2026-05-20",
+      "summary": "Studio director Robert Polacek argues AI should work invisibly on mundane tasks so designers can focus on creative direction — smaller agile studios gain a structural advantage in AI adoption over large firms with legacy workflows. Younger designers already expect AI as default practice, and studios should use it to expand creative capacity rather than cut headcount.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8966095c",
+      "title": "SuperSplat — Browser-Based 3D Gaussian Splatting Editor",
+      "url": "https://superspl.at/editor",
+      "source": "SuperSplat / PlayCanvas",
+      "date": "2026-05-21",
+      "summary": "SuperSplat is an advanced browser-based editor for manipulating, cropping, and optimizing 3D Gaussian Splats — making real-world scan-derived 3D assets editable without specialized software. Relevant to the emerging pipeline of Gaussian splatting as a lightweight alternative to mesh-based scan-to-CAD and scene reconstruction for engineering review.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "632b9121",
+      "title": "From Faster Pencil to AI Experience Architect: A Designer's Path",
+      "url": "https://uxdesign.cc/from-faster-pencil-to-ai-experience-architect-a-designers-path-4bec9856a785",
+      "source": "UX Collective",
+      "date": "2026-05-20",
+      "summary": "Patrick Neeman maps the evolution from using AI as a productivity shortcut (\"faster pencil\") to becoming an AI Experience Architect who designs the workflows and social contracts around AI systems themselves. Argues the strategic shift is not about speed but accountability — the architect role owns the parts of the process that no LLM has ever seen.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7887a2c8",
+      "title": "GenCAD: Transforming Images into Editable CAD Models with AI-Powered Generation",
+      "url": "https://signals.aktagon.com/articles/2026/03/gencad-transforming-images-into-editable-cad-models-with-ai-powered-generation/",
+      "source": "Signals / Aktagon",
+      "date": "2026-03-01",
+      "summary": "MIT's GenCAD uses autoregressive transformers and latent diffusion to convert reference images directly into parametric CAD command sequences — producing fully editable 3D models rather than static meshes. The model significantly outperforms prior state-of-the-art on image-conditioned CAD generation and opens the door to scan-and-prompt-to-CAD workflows in aerospace, automotive, and medical device manufacturing.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
