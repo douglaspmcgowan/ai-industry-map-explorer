@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T10:18:00.479Z",
+  "generated": "2026-05-23T10:09:09.265Z",
   "items": [
     {
       "id": "15849abf",
@@ -1770,6 +1770,63 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1cb42738",
+      "title": "Canva and Adobe are Coming to Gemini, and They Want to Make Everything Chatty",
+      "url": "https://www.digitaltrends.com/computing/canva-and-adobe-are-coming-to-gemini-and-they-want-to-make-everything-chatty/",
+      "source": "Digital Trends / TLDR Design",
+      "date": "2026-05-22",
+      "summary": "Adobe and Canva are integrating with Google Gemini so creative work can begin via chat prompts before users open any design app, with Canva already rolling out and Adobe arriving in coming weeks via Firefly and Creative Cloud connectors. This signals a structural shift where AI assistants become the primary entry point for design decisions, potentially making Gemini a new gatekeeper for the creative industry.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e97d1b4c",
+      "title": "Design Engineering Then vs. Now: How AI is Reshaping the Designer-Developer Divide",
+      "url": "https://blog.logrocket.com/ux-design/design-engineering-then-vs-now/",
+      "source": "LogRocket / TLDR Design",
+      "date": "2026-05-22",
+      "summary": "AI-powered visual editors like Cursor are collapsing the traditional boundary between design and engineering, enabling professionals to manipulate web elements by talking to them directly in a unified canvas. Design engineering has evolved from a handoff-bridging discipline into a unified execution role where one person can both design and ship production code.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0455bd48",
+      "title": "Claude Design vs. Adobe Creative Cloud Pro: The Definitive 2026 Comparison",
+      "url": "https://weandthecolor.com/claude-design-vs-adobe-creative-cloud-pro-the-definitive-2026-comparison-every-creative-needs-to-read/209651",
+      "source": "We And The Color / TLDR Design",
+      "date": "2026-05-22",
+      "summary": "Claude Design and Adobe Creative Cloud Pro occupy complementary positions—Claude accelerates early-stage ideation while Adobe handles professional-grade refinement—and can work together via an Adobe connector that brings Photoshop and Firefly directly into Claude. This comparison clarifies how AI-native creation tools are entering the professional design stack alongside traditional software.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b15ab1d0",
+      "title": "Text2CAD-Bench: A Benchmark for LLM-based Text-to-Parametric CAD Generation",
+      "url": "https://arxiv.org/abs/2605.18430",
+      "source": "arXiv",
+      "date": "2026-05-18",
+      "summary": "Text2CAD-Bench introduces the first comprehensive benchmark for evaluating text-to-CAD generation, comprising 600 human-curated examples across four complexity tiers from basic geometry to real-world domain applications, with dual-style prompts covering both novice and expert conventions. Evaluation of mainstream LLMs and domain-specific models shows reasonable performance on basic shapes but substantial degradation on complex topology, establishing a rigorous baseline for the fast-growing text-to-CAD field.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
