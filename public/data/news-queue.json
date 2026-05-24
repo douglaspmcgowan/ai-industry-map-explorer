@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T10:09:09.265Z",
+  "generated": "2026-05-24T10:16:38.968Z",
   "items": [
     {
       "id": "15849abf",
@@ -1827,6 +1827,67 @@
       ],
       "schools": [],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.bitovi.com/blog/figma-just-opened-the-canvas-to-agents.-heres-what-actually-happens",
+      "title": "Figma's MCP Just Gave AI Agents Write Access. A First Look at What It Can Do.",
+      "source": "Bitovi",
+      "date": "2026-05-22",
+      "summary": "Bitovi documents what happens in practice when Figma's MCP server gives AI agents (Claude Code, Cursor, Codex) write access to design files, letting them create and modify real layers tied to design-system components, variables, and styles. The piece marks a shift from AI that reads Figma to AI that directly authors design artifacts within the multiplayer canvas.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 4,
+      "id": "9be59ae5",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260330208364/en/Tech-Soft-3D-Announces-Full-Launch-of-HOOPS-AI-Adding-Embeddings-Linux-Support",
+      "title": "Tech Soft 3D Announces Full Launch of HOOPS AI, Adding Embeddings & Linux Support",
+      "source": "BusinessWire",
+      "date": "2026-03-30",
+      "summary": "Tech Soft 3D has released HOOPS AI to general availability—the first purpose-built framework for applying machine learning to CAD data—adding vector embeddings and Linux support following a beta with over 30 companies in PLM, CAM, and manufacturing. The platform covers the full ML lifecycle: CAD data access, dataset preparation, optimized encoding, visualization, and large-scale model experimentation, making it easier for engineering software vendors to build intelligent 3D geometry systems.",
+      "industry_nodes": [
+        "cad-copilots",
+        "engineering-rag-chat",
+        "generative-geometry-cad"
+      ],
+      "relevance": 4,
+      "id": "8fa2bc3b",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://hawkridgesys.com/blog/3dx-world-solidworks-ai",
+      "title": "3DEXPERIENCE World 2026: SOLIDWORKS Goes All-In on AI",
+      "source": "Hawkridge Systems",
+      "date": "2026-02-04",
+      "summary": "At 3DExperience World 2026 in Houston, Dassault Systèmes unveiled three AI virtual companions for SOLIDWORKS—LEO (engineering/simulation/manufacturing), MARIE (materials science), and AURA (business strategy)—with LEO launching mid-2026 capable of generating assembly structures from prompts, converting images to mesh, and running simulation studies. A NVIDIA partnership brings skilled industrial AI agents into the 3DExperience platform, combining GPU-accelerated computing with Dassault's domain-specific engineering knowledge.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "relevance": 4,
+      "id": "48aa19ed",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.engineering.com/turbocad-2026-adds-ai-tools-and-cad-workflow-updates/",
+      "title": "TurboCAD 2026 Adds AI Tools and CAD Workflow Updates",
+      "source": "Engineering.com",
+      "date": "2026-05-01",
+      "summary": "TurboCAD 2026 ships over 100 new features including Copilot Render, which lets users generate concept images (style, lighting, materials) from natural language directly within the CAD workspace without altering geometry, plus updated DWG/DXF libraries and direct Adobe PDF import for converting drawings into editable CAD geometry. The release reflects the broader industry trend of embedding AI-assisted ideation within established CAD tools rather than replacing them.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "relevance": 3,
+      "id": "ccced59c",
+      "schools": [],
       "status": "pending"
     }
   ]
