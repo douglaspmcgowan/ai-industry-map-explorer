@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T10:16:38.968Z",
+  "generated": "2026-05-25T10:17:15.765Z",
   "items": [
     {
       "id": "15849abf",
@@ -1888,6 +1888,99 @@
       "relevance": 3,
       "id": "ccced59c",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "42260e1c",
+      "title": "Neural Concept Introduces a Physics- and Geometry-Aware AI Design Copilot",
+      "url": "https://www.neuralconcept.com/post/neural-concept-introduces-a-physics--and-geometry-aware-ai-design-copilot-extending-its-established-engineering-ai-platform",
+      "source": "Neural Concept",
+      "date": "2026-01-07",
+      "summary": "Neural Concept launched the first physics- and geometry-aware AI Design Copilot at CES 2026, combining spatial reasoning, surrogate models, and CAD-ready geometry generation backed by a $100M Goldman Sachs-led round. The copilot reduces manual modeling effort by up to 90% and enables engineers to explore 10–1,000× more design variants across thermal, fluid dynamics, and crash simulation domains.",
+      "industry_nodes": [
+        "cad-copilots",
+        "surrogate-models",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "12e7410d",
+      "title": "AI-powered surrogate models advance real-time simulation for composites manufacturing",
+      "url": "https://www.compositesworld.com/news/ai-powered-surrogate-models-advance-real-time-simulation-for-composites-manufacturing",
+      "source": "CompositesWorld",
+      "date": "2026-04-01",
+      "summary": "Researchers from IMDEA Materials Institute and UPM developed a deep learning surrogate model enabling real-time fluid flow simulation for liquid composite molding on unstructured 3D grids, achieving 4–5 orders of magnitude speedup over traditional CFD methods. This breakthrough enables adaptive real-time process control in composites manufacturing without the prohibitive computational cost of full simulation.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates",
+        "process-monitoring-am-boost"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b59ac749",
+      "title": "Vision Language Models (VLMs) Explained: Augmenting Machine Vision and Robotics in Manufacturing",
+      "url": "https://www.vision-systems.com/factory/article/55375320/vision-language-models-vlms-explained-augmenting-machine-vision-and-robotics-in-manufacturing",
+      "source": "Vision Systems Design",
+      "date": "2026-04-01",
+      "summary": "Comprehensive primer on how VLMs augment traditional machine vision in manufacturing, enabling robots to interpret novel anomalies semantically and reason about quality against learned expert standards. The article details how spatial AI integrating depth sensing, 3D point clouds, and VLM reasoning enables full-geometry inspection including dimensional conformance and material characteristic assessment.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7450f773",
+      "title": "NVIDIA and Global Robotics Leaders Take Physical AI to the Real World",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-robotics-leaders-take-physical-ai-to-the-real-world",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-03-16",
+      "summary": "NVIDIA announced production-scale physical AI at GTC 2026 with Cosmos world models, Isaac simulation frameworks, and GR00T N foundation models to accelerate training of industrial and humanoid robots. Partners including Bosch, ABB, and Fanuc are integrating NVIDIA-powered robot brains into production lines, marking a shift from research-grade to deployment-ready AI for physical manufacturing tasks.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7b6fbda8",
+      "title": "AI in Machine Building 2026: Adoption, Barriers, Use Cases, and Leading Sub-Industries",
+      "url": "https://iot-analytics.com/ai-in-machine-building-2026-adoption-barriers-use-cases-and-leading-sub-industries/",
+      "source": "IoT Analytics",
+      "date": "2026-03-01",
+      "summary": "IoT Analytics survey finds 33% of machine builders have adopted GenAI for CAD generation and 25% for concept creation, with generative design identified as an early but growing application across the sector. The report maps adoption barriers and identifies quality control and predictive maintenance as the most mature AI use cases, with CAD copilots gaining ground.",
+      "industry_nodes": [
+        "generative-platforms",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2b494546",
+      "title": "Autodesk introduces Neural CAD at AU 2025",
+      "url": "https://www.engineering.com/autodesk-introduces-neural-cad-at-au-2025/",
+      "source": "Engineering.com",
+      "date": "2025-11-19",
+      "summary": "At Autodesk University 2025, Autodesk unveiled Neural CAD, a generative AI foundation model that produces fully editable B-rep CAD geometry from text prompts inside Fusion and AEC-focused Forma, advancing far beyond mesh-based text-to-shape tools. Unlike prior approaches, Neural CAD outputs geometry that engineers can directly modify in parametric workflows, a major step toward AI-native engineering design.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
