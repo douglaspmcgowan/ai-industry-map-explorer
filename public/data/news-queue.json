@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T10:17:15.765Z",
+  "generated": "2026-05-26T10:13:07.488Z",
   "items": [
     {
       "id": "15849abf",
@@ -1981,6 +1981,64 @@
       ],
       "schools": [],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-updates/",
+      "title": "We're Introducing Real Time Design with Google Stitch",
+      "source": "Google Blog (via TLDR Design)",
+      "date": "2026-05-25",
+      "summary": "Google Stitch is a real-time AI design tool that streams live design iterations directly to a collaborative canvas in response to text or voice prompts, allowing designers to steer the AI in real time. It exports to Google Antigravity for backend integration or publishes direct to the web, marking a significant step toward human-AI co-design in UI/web tooling.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 4,
+      "id": "1f230289",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.thedrum.com/industry-insight/ai-gives-us-the-prototype-it-doesn-t-give-us-the-brand",
+      "title": "AI Gives Us the Prototype. It Doesn't Give Us the Brand",
+      "source": "The Drum (via TLDR Design)",
+      "date": "2026-05-25",
+      "summary": "AI tools competently handle ~80% of the design process including structure and prototypes, but cannot deliver the remaining 20% that creates brand identity and emotional connection. Over-reliance on AI-generated defaults is causing design parity — all interfaces converging on the same look — raising the stakes for designers to add the differentiating creative layer.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "506da620",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://slack.design/articles/leading-design-through-the-ai-shift/",
+      "title": "Leading Design Through the AI Shift",
+      "source": "Slack Design Blog (via TLDR Design)",
+      "date": "2026-05-25",
+      "summary": "Slack's design leader Will Miner describes how 70 designers now routinely use coding agents for prototyping and building tools that previously required engineering support, fundamentally shifting what designers own. The article argues that AI should strengthen craft and expand capability, not replace human judgment about what is worth building.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "51be1699",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.bdcnetwork.com/aec-tech/3d-printing/press-release/55378884/tvasta-and-14trees-launch-cedar-a-global-leap-in-automated-3d-construction",
+      "title": "Tvasta and 14Trees Launch Cedar: A Global Leap in Automated 3D Construction",
+      "source": "Building Design + Construction",
+      "date": "2026-05-20",
+      "summary": "Tvasta Manufacturing Solutions and 14Trees have launched Cedar, a large-format 3D concrete printer with AI-driven material optimization that works with locally available concrete mixes, potentially cutting material costs by 5x. The system is designed as an AI-ready platform for automated construction at scale, advancing the state of AI-assisted AEC manufacturing.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "robotics-manufacturing"
+      ],
+      "relevance": 4,
+      "id": "1d76ee0c",
+      "schools": [],
       "status": "pending"
     }
   ]
