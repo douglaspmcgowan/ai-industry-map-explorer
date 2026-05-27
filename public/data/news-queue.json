@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T10:13:07.488Z",
+  "generated": "2026-05-27T10:11:17.243Z",
   "items": [
     {
       "id": "15849abf",
@@ -2039,6 +2039,64 @@
       "relevance": 4,
       "id": "1d76ee0c",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "79ae8606",
+      "title": "The Design System Advantage Is Memory",
+      "url": "https://learn.thedesignsystem.guide/p/the-design-system-advantage-is-memory",
+      "source": "The Design System Guide",
+      "date": "2026-05-26",
+      "summary": "The real competitive edge in AI-powered design systems is whether agents can access a company's accumulated decision-making memory including design critiques, ADRs, deprecated patterns, and research history. The solution is structuring organizational knowledge into graph-based indexes so agents retrieve correct context before acting rather than repeatedly rediscovering it.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "93b69020",
+      "title": "When Designers Start Building",
+      "url": "https://automattic.design/2026/05/21/when-designers-start-building/",
+      "source": "Automattic Design",
+      "date": "2026-05-21",
+      "summary": "Automattic ran a workshop where twenty designers learned to work directly in production codebases with real components and APIs rather than Figma mockups, opening their first pull requests and making design decisions in code. The experiment signals a broader shift toward designers who can ship directly to production using AI-assisted coding tools.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5e1d7125",
+      "title": "Seven Tips for Using Figma Make Credits More Efficiently",
+      "url": "https://www.figma.com/blog/7-tips-for-using-figma-make-credits-more-efficiently/",
+      "source": "Figma",
+      "date": "2026-05-26",
+      "summary": "Figma Make now offers Make kits and Make attachments that seed prototypes with real components, data, and constraints rather than generic placeholders, giving designers more context and control. The post is a practical guide for teams integrating AI-driven prototyping into design workflows at scale.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b065b1f2",
+      "title": "Novineer Launches AI Reverse Engineering with AM Craft",
+      "url": "https://runwaygirlnetwork.com/2026/04/press-release-novineer-launches-ai-reverse-engineering-with-am-craft/",
+      "source": "Novineer / Runway Girl Network",
+      "date": "2026-04-01",
+      "summary": "Novineer's AM Craft uses AI to generate editable CAD models from just one to four smartphone photographs in approximately two minutes, targeting aerospace and industrial maintenance reverse engineering workflows. The tool removes the need for dedicated 3D scanning hardware, dramatically lowering the barrier for scan-to-CAD in the field.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
