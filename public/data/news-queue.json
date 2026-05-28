@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T10:11:17.243Z",
+  "generated": "2026-05-28T10:11:33.735Z",
   "items": [
     {
       "id": "15849abf",
@@ -2097,6 +2097,77 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "22b02dc5",
+      "title": "You Are No Longer the User. You Are the Principal.",
+      "url": "https://uxdesign.cc/you-are-no-longer-the-user-you-are-the-principal-3a6222e0780a",
+      "source": "UX Collective",
+      "date": "2026-05-27",
+      "summary": "Adrian Levy analyzes how Google I/O 2026 revealed a fundamental shift: humans are no longer \"users\" operating software but \"principals\" delegating intent to always-running AI agents, exposing a critical gap in design disciplines for trust, visibility, and authority control. This matters for AI+design because it reframes the entire interaction paradigm — designers must now architect delegation relationships, not just interfaces.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2c77085c",
+      "title": "Design Changing from Artifact-Production to Intent-Shaping",
+      "url": "https://jakobnielsenphd.substack.com/p/artifact-to-intent",
+      "source": "Jakob Nielsen PhD (Substack)",
+      "date": "2026-05-27",
+      "summary": "Jakob Nielsen argues AI is transforming UX design from creating artifacts — screens, prototypes — to defining intent, judgment, and behavioral boundaries for AI systems, requiring designers to encode what \"good\" means into systems rather than performing craft activities. He warns designers who resist this shift will become unemployable within five years, making this a critical career-inflection piece for the field.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9da77391",
+      "title": "Do More With Grid in Figma Buzz",
+      "url": "https://www.figma.com/release-notes/?title=do-more-with-grid",
+      "source": "Figma",
+      "date": "2026-05-27",
+      "summary": "Figma Buzz now supports bulk editing of campaign assets at scale — designers can upload spreadsheets to generate and manage hundreds of variants simultaneously with bulk resizing for multi-channel output. This matters for AI+design as it advances AI-powered design systems that automate repetitive production work, freeing designers for higher-order decisions.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "79367c1c",
+      "title": "MagicPath — AI Multiplayer Design Workspace",
+      "url": "https://www.magicpath.ai/",
+      "source": "MagicPath",
+      "date": "2026-05-26",
+      "summary": "MagicPath is an AI-powered multiplayer workspace where teams collaboratively build and iterate on live, interactive browser-based interfaces, eliminating the design-to-engineering handoff entirely. It represents a new category of AI-native design tooling where generation, collaboration, and deployment are unified in a single environment.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "4f04e2f2",
+      "title": "AI UX Design: Strategic Blueprint for the AI-Augmented Designer",
+      "url": "https://blog.uxfol.io/ai-ux-design/",
+      "source": "UX Folio Blog",
+      "date": "2026-05-26",
+      "summary": "The article maps how AI has fundamentally shifted UX design from manual execution to strategic curation, presenting a three-phase framework — human context, AI-driven exploration, human validation — for AI-augmented design practice. It is a practical reference for designers navigating the transition from pixel-pushing to directing AI tools while maintaining design quality.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
