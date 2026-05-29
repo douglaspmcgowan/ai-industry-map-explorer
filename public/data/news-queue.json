@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T10:11:33.735Z",
+  "generated": "2026-05-29T10:09:43.992Z",
   "items": [
     {
       "id": "15849abf",
@@ -2168,6 +2168,90 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7e29c153",
+      "title": "You Are No Longer the User. You Are the Principal.",
+      "url": "https://links.tldrnewsletter.com/IWnth0",
+      "source": "TLDR Design",
+      "date": "2026-05-27",
+      "summary": "Google I/O 2026 signaled a fundamental shift from humans directly operating software to AI agents (Gemini Spark, Android Halo, WebMCP) working autonomously on their behalf, making people \"principals\" who delegate intent rather than \"users\" who interact directly. This raises new design challenges around trust, visibility, control, and accountability that designers must now plan for.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cd15ab2a",
+      "title": "Reallusion Pairs 3D Control with ByteDance's Seedance 2.0 in AI Studio",
+      "url": "https://thenextweb.com/news/reallusion-ai-studio-bytedance-seedance-3d-video",
+      "source": "The Next Web",
+      "date": "2026-05-28",
+      "summary": "Reallusion's AI Studio combines iClone 3D animation tools with ByteDance's Seedance 2.0, giving filmmakers and 3D artists precise spatial control—exact camera paths, character positions—that text-only AI generators lack, while AI handles the cinematic rendering. The platform supports multiple AI backends (Veo 3, Kling AI) so studios preserve their 3D assets and creative intent while tapping generative models.",
+      "industry_nodes": [
+        "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7bc7fd59",
+      "title": "Should I Design for Humans or Machines?",
+      "url": "https://links.tldrnewsletter.com/sYYe62",
+      "source": "TLDR Design",
+      "date": "2026-05-28",
+      "summary": "UX and design systems are evolving from being built solely for human interpretation to also serving AI and machine \"users,\" exposing how traditional human-centered design approaches break down when AI agents consume interfaces. The article argues designers must now build systems legible to both humans and automated agents simultaneously—a new dual-audience constraint.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2d381d55",
+      "title": "The Interface Is No Longer the Product",
+      "url": "https://blog.mozilla.ai/the-interface-is-no-longer-the-product/",
+      "source": "Mozilla AI Blog",
+      "date": "2026-05-28",
+      "summary": "Mozilla AI argues that as AI agents take over task execution, the traditional GUI becomes secondary—the product is now the model capability and agent behavior, not the interface. This shifts design priorities from visual/UX craft toward designing agent behavior, boundaries, and trust surfaces.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d37edbee",
+      "title": "How I Rebuilt My Portfolio with Claude Code",
+      "url": "https://www.unknownarts.co/p/how-i-rebuilt-my-portfolio-with-claude",
+      "source": "Unknown Arts",
+      "date": "2026-05-28",
+      "summary": "A designer documents rebuilding their portfolio site using Claude Code as the primary development tool, illustrating how AI coding assistants are becoming part of the designer's standard workflow rather than just a developer tool. It demonstrates the expanding boundary of what designers can build independently when paired with AI agents.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "274f10d6",
+      "title": "AI in Design 2026: State of AI Design Report",
+      "url": "https://stateofaidesign.com/",
+      "source": "State of AI Design",
+      "date": "2026-05",
+      "summary": "A comprehensive 18,000-word industry report drawing on 900+ survey responses from design leaders and ICs across 60+ countries, mapping how AI is changing design workflows, tool adoption, skills requirements, and org structures in 2026. The largest practitioner survey of its kind for AI+design, providing benchmark data on adoption curves and workflow transformation.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
