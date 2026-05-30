@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T10:09:43.992Z",
+  "generated": "2026-05-30T10:08:35.646Z",
   "items": [
     {
       "id": "15849abf",
@@ -2252,6 +2252,123 @@
       ],
       "schools": [],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ba339f56",
+      "title": "Should I Design for Humans or Machines?",
+      "url": "https://uxdesign.cc/should-i-design-for-humans-or-machines-3b8d3addd006",
+      "source": "UX Collective",
+      "date": "2026-05-01",
+      "summary": "Design systems are evolving to serve two audiences—human designers who need descriptive flexibility and AI agents that require explicit, machine-readable rules and constraints. The article argues that without a parallel structured layer, AI agents will improvise when they cannot find a rule, undermining design system integrity.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a80ab193",
+      "title": "Retune: Modify Website Elements Directly in the Browser with AI",
+      "url": "https://www.retune.dev/",
+      "source": "TLDR Design",
+      "date": "2026-05-28",
+      "summary": "Retune is a visual design tool that lets designers select and modify website elements directly in the browser while an AI agent writes the corresponding code, with instant previews applied via Claude Code or Cursor. It bridges the gap between visual design intent and code output without leaving the browser.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "de43588c",
+      "title": "Tesla's Dedicated Optimus Factory Construction Officially Underway at Giga Texas",
+      "url": "https://www.teslarati.com/tesla-dedicated-optimus-factory-construction-officially-underway-giga-texas/",
+      "source": "Teslarati / TLDR",
+      "date": "2026-05-28",
+      "summary": "Tesla has begun steel construction on a 5.2-million-square-foot dedicated humanoid robot factory at Gigafactory Texas, targeting production of roughly 27,000 Optimus robots per day with high-volume output planned for Summer 2027. The facility signals a massive industrial bet on robotics manufacturing at scale, with full AI-driven factory planning and production automation.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1c7c478b",
+      "title": "Beyond the Prompt: Claude Code as Autonomous Engineering Agent",
+      "url": "https://arps18.github.io/posts/claude-code-mastery/",
+      "source": "TLDR",
+      "date": "2026-05-28",
+      "summary": "Treating Claude Code as a configurable autonomous agent—rather than a chatbot or fancy autocomplete—requires tuning directory structure, skills, agents, plugins, and MCPs to turn it into a collaborative engineering teammate. The guide covers best practices for operating Claude Code end-to-end on complex engineering tasks.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6e797744",
+      "title": "Compound Engineering Gets an Upgrade",
+      "url": "https://every.to/guides/compound-engineering-gets-an-upgrade",
+      "source": "Every.to",
+      "date": "2026-05-29",
+      "summary": "Every.to's AI-native engineering philosophy expands from a 4-step loop (brainstorm → work → review → compound) to 8 steps by adding ideation at the front and polishing at the end, reflecting that AI now handles the middle reliably. The framework argues that human judgment is most critical at both ends—defining what is worth building and ensuring the result actually feels right.',",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0da8068e",
+      "title": "Introducing Dynamic Workflows in Claude Code",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "source": "Anthropic",
+      "date": "2026-05-29",
+      "summary": "Anthropic's Dynamic Workflows feature in Claude Code enables Claude to tackle problems too large for a single agent pass by dynamically writing orchestration scripts that spawn tens to hundreds of parallel subagents. Available in research preview on Max, Team, Enterprise, and API plans, the feature represents a shift toward fully agentic engineering pipelines.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "221e565e",
+      "title": "Generative Design for Additive Manufacturing 2026: Patent Trends and Emerging Directions",
+      "url": "https://www.patsnap.com/resources/blog/rd-blog/generative-design-for-additive-manufacturing-2026/",
+      "source": "PatSnap",
+      "date": "2026-01-01",
+      "summary": "PatSnap patent analysis identifies five forward-looking directions in generative design for additive manufacturing: LLM-native CAD generation fusing multi-modal inputs, crash-simulation-integrated shell design, generative AI for industrial automation hardware, generative AI for building assembly, and Asian market entry. The report highlights convergence of large language models with topology optimization and 3D printing pipelines.",
+      "industry_nodes": [
+        "ai-for-dfm-dfam",
+        "topology-optimization",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e252d5d5",
+      "title": "Design Systems for AI Agents: The New Paradigm Shift",
+      "url": "https://medium.com/@vicentegrafico.com/design-systems-for-ai-agents-the-new-paradigm-shift-ad097cfae228",
+      "source": "Medium",
+      "date": "2026-05-01",
+      "summary": "Design systems must now be built with two parallel layers—descriptive guidance for human designers and structured, machine-executable specifications for AI agents, since agents that cannot query a design system will improvise. The article frames this shift as the most significant paradigm change in design systems practice since the move to component libraries.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
