@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T10:08:35.646Z",
+  "generated": "2026-05-31T10:07:57.258Z",
   "items": [
     {
       "id": "15849abf",
@@ -2369,6 +2369,35 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7be82219",
+      "url": "https://slack.design/articles/designing-where-the-pixels-actually-live/",
+      "title": "Designing Where the Pixels Actually Live",
+      "source": "Slack Design (via TLDR Design)",
+      "date": "2026-05-29",
+      "summary": "A senior product designer at Slack describes how AI tooling (Cursor) helped her collapse the gap between static design mockups and real, deployable prototypes her team can test—enabling faster alignment and richer design conversations. The piece argues that designing close to the actual product experience is now achievable by individual designers and represents a meaningful shift in the craft.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f7bc14f4",
+      "url": "https://pjonori.blog/posts/design-system-doc-spec/",
+      "title": "I'm Making a Spec for Design System Documentation",
+      "source": "pjonori.blog (via TLDR Design)",
+      "date": "2026-05-29",
+      "summary": "The author proposes a portable, structured format for design system documentation covering entities and document blocks—solving vendor lock-in and fragmented knowledge. The standardized format explicitly enables AI integration by making design system knowledge machine-readable, pointing toward LLM-powered tools that can reason over component libraries.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
