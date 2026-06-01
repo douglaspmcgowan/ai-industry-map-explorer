@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T10:07:57.258Z",
+  "generated": "2026-06-01T10:11:16.227Z",
   "items": [
     {
       "id": "15849abf",
@@ -2398,6 +2398,114 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d1ca29e7",
+      "title": "Introducing the Fusion MCP: Opening Fusion to AI-Powered Workflows",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/introducing-the-fusion-mcp-opening-fusion-to-ai-powered-workflows/",
+      "source": "Autodesk Fusion Blog",
+      "date": "2026-04-28",
+      "summary": "Autodesk launched the Fusion Model Context Protocol (MCP), enabling Claude to connect directly to Fusion 360 and execute parametric modeling commands—reading geometry, modifying parts, and writing design history—through natural language. This marks a pivotal moment for text-to-CAD: a major parametric modeler is now natively agentic, shifting the benchmark for what AI-assisted engineering design can do.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ea6d91a0",
+      "title": "NVIDIA and Global Industrial Software Giants Bring Design, Engineering and Manufacturing Into the AI Era",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-global-industrial-software-giants-bring-design-engineering-and-manufacturing-into-the-ai-era",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-03-17",
+      "summary": "NVIDIA partnered with Cadence, Dassault Systèmes, PTC, Siemens, and Synopsys to deploy GPU-accelerated AI agents across semiconductor, PCB, CAD, and manufacturing workflows—including Cadence ChipStack AI SuperAgent, Siemens Fuse EDA AI Agent, and Dassault Virtual Companions on 3DEXPERIENCE. This positions NVIDIA as infrastructure for the entire design-to-manufacture AI stack, affecting every major CAD and EDA platform simultaneously.",
+      "industry_nodes": [
+        "eda-chip-design",
+        "cad-copilots",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8c992e71",
+      "title": "Figma Launches Native AI Design Agent as Revenue Surges 46% Amid Intensifying Competition",
+      "url": "https://theaiinsider.tech/2026/05/21/figma-launches-native-ai-design-agent-as-revenue-surges-46-amid-intensifying-competition/",
+      "source": "The AI Insider",
+      "date": "2026-05-21",
+      "summary": "Figma shipped a native AI design agent embedded directly in its canvas that reads your design system—components, colors, styles—and executes multi-step design tasks like generating layout iterations, resizing assets, and running accessibility checks in parallel. Unlike external AI integrations, this agent operates within the tool and brand context, making it the first canvas-native agentic design workflow at scale.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4109f382",
+      "title": "Prompt2CAD Deploys Claude to Bridge Natural Language and CAD-Native Output",
+      "url": "https://3dprintingindustry.com/news/prompt2cad-deploys-claude-to-bridge-natural-language-and-cad-native-output-250502/",
+      "source": "3D Printing Industry",
+      "date": "2026-05-02",
+      "summary": "Prompt2CAD uses Claude to convert plain-text furniture and product descriptions into parametric 3D models that export directly to STEP, DXF, STL, and OBJ—the AI screenshots its own output from multiple angles and self-corrects geometry before presenting results. It is one of the clearest demonstrations of Claude as a CAD geometry engine rather than just a design assistant, closing the loop from language to manufacturable output.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b549c00f",
+      "title": "Autodesk Fusion MCP: Faster CAD, Same Bottleneck",
+      "url": "https://www.colabsoftware.com/post/autodesk-fusion-mcp-faster-cad-same-bottleneck",
+      "source": "CoLab Software",
+      "date": "2026-05-01",
+      "summary": "CoLab's analysis of the Fusion MCP finds that while natural-language geometry creation and API-driven parametric edits are genuinely faster, the human bottleneck shifts to review and validation rather than being eliminated. This is a useful corrective for anyone evaluating AI CAD copilots: the value is real but the workflow overhead moves rather than disappears.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f982442a",
+      "title": "IDS Camera Technology Powers Flexible AI-Supported Visual Inspection System",
+      "url": "https://www.roboticstomorrow.com/news/2026/05/20/ids-camera-technology-powers-flexible-ai-supported-visual-inspection-system/26598/",
+      "source": "RoboticsTomorrow",
+      "date": "2026-05-20",
+      "summary": "IDS introduced a flexible AI-supported visual inspection system that allows users without image processing expertise to create and deploy inspection models directly on the factory floor with edge AI processing for millisecond accept/reject decisions. This represents the productization of vision-AI quality inspection into a no-code accessible system for SME manufacturers.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "deb9c996",
+      "title": "Clarify Before You Draw: Proactive Agents for Robust Text-to-CAD Generation",
+      "url": "https://arxiv.org/abs/2602.03045",
+      "source": "arXiv",
+      "date": "2026-02-01",
+      "summary": "This paper proposes a proactive agent architecture for text-to-CAD that asks clarifying questions before generating geometry, reducing ambiguity-driven failures in parametric model generation. It directly addresses the biggest practical failure mode of LLM-to-CAD pipelines and provides a research foundation for more reliable conversational CAD tools.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
