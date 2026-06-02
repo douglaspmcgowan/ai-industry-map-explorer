@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T10:11:16.227Z",
+  "generated": "2026-06-02T10:09:28.194Z",
   "items": [
     {
       "id": "15849abf",
@@ -2506,6 +2506,48 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e6a33a7",
+      "title": "Figma Make, Now on Your Local Code",
+      "url": "https://www.figma.com/blog/figma-make-now-on-your-local-code/",
+      "source": "Figma Blog",
+      "date": "2026-06-01",
+      "summary": "Figma Make now lets designers work directly in their production codebase, enabling visual edits, annotations, and Git-based PR creation without leaving Figma. This two-way collaboration between Make and the Figma canvas closes the design-to-code loop and marks a step-change in AI-assisted designer workflow.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "855c182c",
+      "title": "Photoshop is being eaten by the prompt box",
+      "url": "https://www.digitaltrends.com/computing/photoshop-is-being-eaten-by-the-prompt-box/",
+      "source": "Digital Trends",
+      "date": "2026-06-01",
+      "summary": "AI image editing tools are shifting creative practice from mastering complex software to guiding AI through natural language prompts, but the process becomes an iterative negotiation that can degrade image quality over repeated edits. The piece examines how this transition changes the skill set required of designers and visual editors.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2154c3ba",
+      "title": "Could AI Help Us to Design and Build More Inclusive Digital Experiences?",
+      "url": "https://www.vccp.com/news/2026/05/could-ai-help-us-to-design-and-build-more-inclusive-digital-experiences/",
+      "source": "VCCP",
+      "date": "2026-05-30",
+      "summary": "AI tools can identify accessibility issues and inclusivity gaps in digital design that human reviewers might miss, but cannot replace the human-centered design methods needed to genuinely represent diverse communities. The article advocates combining AI-powered auditing with traditional inclusive design practices for the best outcomes.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
