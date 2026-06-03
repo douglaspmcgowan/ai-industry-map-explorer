@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T10:09:28.194Z",
+  "generated": "2026-06-03T10:10:22.063Z",
   "items": [
     {
       "id": "15849abf",
@@ -2548,6 +2548,78 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a70b9fb8",
+      "title": "Four New Ways to Go from Idea to Product with AI Tools",
+      "url": "https://www.figma.com/blog/4-new-ways-to-go-from-idea-to-product-with-ai-tools/",
+      "source": "Figma Blog",
+      "date": "2026-06-02",
+      "summary": "Figma explores how product teams at FloQast, Merkle, Affirm, and Accor use AI to move from concept to production through four distinct workflows — testing in code before designing, exploring layout variations at scale, prototyping before writing specs, and shipping with design-system context intact. Demonstrates how AI is restructuring the full design-to-dev pipeline at real enterprises.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "23a3f33f",
+      "title": "Does AI Find Real UI Problems or Just Hallucinations?",
+      "url": "https://measuringu.com/does-ai-find-real-ui-problems-or-just-hallucinations/",
+      "source": "MeasuringU",
+      "date": "2026-06-02",
+      "summary": "Research examining whether AI UX-audit tools reliably identify genuine usability problems or generate plausible-sounding false positives, rigorously testing the quality and grounding of AI-surfaced UI issues. Directly actionable for designers deciding how much to trust AI in design-review workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "fc82fcbb",
+      "title": "Designing for AI Means Designing Like It's 1999",
+      "url": "https://uxdesign.cc/designing-for-ai-means-designing-like-its-1999-da9c53d24644",
+      "source": "UX Collective",
+      "date": "2026-05-15",
+      "summary": "Patrick Neeman draws parallels between AI interface design today and web design in 1999 — standards unsettled, chat is a placeholder default, business models unproven — arguing designers who thrive will invent new conventions rather than optimise around chat. Practical guidance: design toward the job, not the chat log; plan for capabilities two model generations ahead; build for the experience staying viable if model costs rise.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "aff30d55",
+      "title": "Robotically Assembled Building Blocks Could Make Construction More Efficient and Sustainable",
+      "url": "https://news.mit.edu/2026/robotically-assembled-building-blocks-makes-construction-more-efficient-and-sustainable-0428",
+      "source": "MIT News",
+      "date": "2026-04-28",
+      "summary": "MIT researchers demonstrate a voxel-based robotic assembly system that reduces embodied carbon by up to 82% versus 3D concrete printing or steel framing, while handling complex geometric configurations with standardised modular components. The system directly connects AI-guided robotic fabrication to sustainable AEC design, enabling complex building forms at scale.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6c4a1741",
+      "title": "AI and the Next Stage of Scan-to-CAD",
+      "url": "https://engtechnica.com/ai-and-the-next-stage-of-scan-to-cad/",
+      "source": "ENGtechnica",
+      "date": "2026-06-01",
+      "summary": "AI is transforming scan-to-CAD by automating point cloud registration, noise suppression, and feature recognition, lowering the expertise barrier for converting physical objects into editable parametric models. The article maps where AI delivers versus where human expertise remains essential in reverse-engineering workflows, a practical guide for manufacturing and product-design teams.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
