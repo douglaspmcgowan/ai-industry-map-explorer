@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T10:10:22.063Z",
+  "generated": "2026-06-04T10:10:49.544Z",
   "items": [
     {
       "id": "15849abf",
@@ -2620,6 +2620,65 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "97c660eb",
+      "title": "From Claude Code to Figma: Turning Production Code into Editable Figma Designs",
+      "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/",
+      "source": "Figma Blog",
+      "date": "2026-02-01",
+      "summary": "Figma introduced a workflow that converts Claude Code-generated production code back into editable Figma design files, enabling round-trip design-to-code-to-design iteration. This makes Claude a bidirectional design tool rather than a one-way code generator.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "cd1bc60d",
+      "title": "Pulse of Quality in Manufacturing 2026 Survey Reveals Surge in AI Adoption",
+      "url": "https://www.globenewswire.com/news-release/2026/06/03/3306349/0/en/Pulse-of-Quality-in-Manufacturing-2026-Survey-Reveals-Surge-in-AI-Adoption.html",
+      "source": "GlobeNewswire",
+      "date": "2026-06-03",
+      "summary": "A 2026 survey finds 47% of manufacturers now use AI in quality control—up from 33% in 2025—with edge AI vision systems and robotic inspection cells moving to production scale. Significant benchmark data confirming AI-driven quality inspection is crossing from pilot to mainstream in manufacturing.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c924e8a8",
+      "title": "Does AI Find Real UI Problems or Just Hallucinations?",
+      "url": "https://measureingu.com/does-ai-find-real-ui-problems-or-just-hallucinations/",
+      "source": "MeasuringU",
+      "date": "2026-06-02",
+      "summary": "Research examining whether AI models reliably surface genuine UI usability issues or generate confident-sounding fabricated problems, comparing AI-assisted UX audits against expert human findings. Critical for product teams evaluating AI-assisted UX review, as it quantifies the reliability gap between AI and expert heuristic analysis.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1e722441",
+      "title": "How AI Quietly Changed Modern UX Patterns",
+      "url": "https://hackernoon.com/how-ai-quietly-changed-modern-ux-patterns",
+      "source": "HackerNoon",
+      "date": "2026-06-03",
+      "summary": "Analysis of how AI features—predictive text, auto-complete, intelligent search, recommendation engines—have incrementally transformed standard UX design patterns without dramatic announcements. Maps how user expectations and UI conventions have shifted around AI-augmented interactions, relevant for designers building on top of AI systems.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
