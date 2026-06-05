@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T10:10:49.544Z",
+  "generated": "2026-06-05T10:10:07.212Z",
   "items": [
     {
       "id": "15849abf",
@@ -2679,6 +2679,110 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1e25e0ff",
+      "title": "Design Systems that Document AI",
+      "url": "https://learn.thedesignsystem.guide/p/design-systems-that-document-ai",
+      "source": "The Design System Guide / TLDR Design",
+      "date": "2026-06-04",
+      "summary": "Of 156 public design systems surveyed, only 26 address AI in any meaningful way — through labels, chat patterns, explainability frameworks, or ethical guidelines — revealing a major gap in how design organizations are codifying AI-native patterns. The piece argues design systems must evolve to document AI components, conversational states, and agent-assisted flows as first-class citizens.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "56962abe",
+      "title": "What Will AI-First UX Look Like?",
+      "url": "https://www.infoworld.com/article/4178415/what-will-ai-first-ux-look-like.html",
+      "source": "InfoWorld / TLDR Design",
+      "date": "2026-06-04",
+      "summary": "AI-first UX will evolve from basic chatbots toward blended experiences that combine conversational interfaces, visual workspaces, and agentic flows where AI handles multi-step tasks proactively. The article maps the architectural decisions product and design teams face as AI shifts from assistant to co-pilot in everyday tools.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3adb675a",
+      "title": "China Is Training a Robot Future — One Folded Shirt at a Time",
+      "url": "https://restofworld.org/2026/china-ai-robotics-training-data/",
+      "source": "Rest of World / TLDR",
+      "date": "2026-06-04",
+      "summary": "China's low labor costs, government support, and population-scale mobilization for robotics training data collection are accelerating the development of embodied AI and manufacturing robots. The piece reveals how data-gathering pipelines for household and industrial tasks are becoming a strategic advantage in China's robotics manufacturing push.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8772d5bc",
+      "title": "New KATALYST 3D Design Assistant Converts Text to CAD",
+      "url": "https://www.voxelmatters.com/new-katalyst-3d-design-assistant-converts-text-to-cad/",
+      "source": "VoxelMatters",
+      "date": "2026-05-28",
+      "summary": "KATALYST launched a 3D design assistant that converts natural language prompts directly into CAD geometry optimized for additive manufacturing constraints, targeting engineers who need to rapidly prototype DfAM-aware parts without deep CAD expertise. The tool integrates manufacturing feasibility feedback into the generation loop rather than as a downstream check.",
+      "industry_nodes": [
+        "text-to-cad",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8e101799",
+      "title": "Microsoft Discovery Reaches General Availability for Agentic Scientific and Engineering Workflows",
+      "url": "https://www.hpcwire.com/aiwire/2026/06/03/microsoft-discovery-reaches-general-availability-for-agentic-scientific-and-engineering-workflows/",
+      "source": "HPCwire / AIwire",
+      "date": "2026-06-03",
+      "summary": "Microsoft Discovery is now generally available, providing a platform for agentic AI workflows across scientific and engineering disciplines — including hypothesis generation, simulation integration, and automated experiment design. For engineering teams it represents a production-ready bridge between LLM reasoning and domain-specific simulation toolchains.",
+      "industry_nodes": [
+        "engineering-rag-chat",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0aac9af1",
+      "title": "Neural Network-Based Surrogate Model in Postprocessing of Topology Optimized Structures",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12053174/",
+      "source": "Neural Computing and Applications / PMC",
+      "date": "2026-05-01",
+      "summary": "Researchers demonstrate a neural network surrogate that replaces costly FEM computations in the postprocessing stage of topology optimization, accurately predicting stress distributions in optimized structural geometries at a fraction of compute cost. Applied to wind-tunnel balance design, the method opens a path to near-real-time topology optimization validation in aerospace and mechanical engineering.",
+      "industry_nodes": [
+        "surrogate-models",
+        "topology-optimization",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "926cac7f",
+      "title": "A New Era of Discovery: Google Research at I/O 2026",
+      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/",
+      "source": "Google Research",
+      "date": "2026-06-04",
+      "summary": "Google Research's I/O 2026 recap highlights AI agent tools for scientific discovery — Co-Scientist, Robin, and Empirical Research Assistance — alongside advances in 3D world generation moving from static outputs to interactive spatial environments. The post signals Google's investment in generative AI for 3D design and scientific workflows as the next major frontier.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
