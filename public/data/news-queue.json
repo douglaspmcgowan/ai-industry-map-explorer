@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T10:10:07.212Z",
+  "generated": "2026-06-06T10:09:40.305Z",
   "items": [
     {
       "id": "15849abf",
@@ -2780,6 +2780,64 @@
       "industry_nodes": [
         "generative-3d-shape",
         "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d3be4672",
+      "title": "Being an AI-native Designer isn't What You Think it is",
+      "url": "https://thedesignersfieldguide.substack.com/p/being-an-ai-native-designer-isnt",
+      "source": "The Designers Field Guide",
+      "date": "2026-06-05",
+      "summary": "Based on 28 design leader interviews, AI-native design is not about building chatbots or mastering new tools—it's about developing critical thinking to break down ambiguous problems before leveraging AI for tedious tasks like compiling notes, parsing transcripts, and generating design variations. This matters for the AI+design map because it defines what genuine design agency looks like as AI capabilities expand into more of the craft.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0140cee1",
+      "title": "Agentic AI in Adobe Creative Cloud Changes How Designers Work",
+      "url": "https://weandthecolor.com/agentic-ai-in-adobe-creative-cloud-is-changing-how-designers-actually-work/210044",
+      "source": "We And The Color",
+      "date": "2026-06-05",
+      "summary": "Adobe's Firefly AI Assistant (launched April 2026, now in public beta) brings agentic AI to Creative Cloud, enabling designers to describe desired outcomes while the assistant orchestrates multi-step workflows across 60+ tools including Photoshop, Illustrator, and Premiere—with a native connector to Anthropic's Claude. This is one of the most significant platform shifts for professional designers: AI as a workflow orchestrator, not just a feature inside individual apps.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "403dca6a",
+      "title": "Who Survives AI? Useful Insights from Walter Terruso",
+      "url": "https://designwanted.com/walter-terruso-interview-ai-insights-designers/",
+      "source": "DesignWanted",
+      "date": "2026-06-04",
+      "summary": "Italian interior designer and AI workflow consultant Walter Terruso warns that AI is creating an 'outliers economy' in design—only exceptionally creative professionals will survive while mid-level designers struggle—and consults studios on integrating agentic AI workflows. Unlike optimistic top-designer narratives, Terruso offers a grounded assessment of how AI reshapes the design labor market, with specific implications for who builds AI+design tools and for whom.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b872ee6e",
+      "title": "Material-to-Product Engine: Photos-to-CAD+BOM+DfM Analysis Without a CAD License",
+      "url": "https://x.com/mp_engine/status/2052690524193145119",
+      "source": "X / Material-to-Product Engine",
+      "date": "2026-06-05",
+      "summary": "The Material-to-Product Engine is a mobile-first AI tool that takes 3–5 photos of available raw materials and outputs a full CAD model, bill of materials, three build tiers, regulatory flags, patent check, and sustainability analysis—no CAD license required. This demonstrates convergence of scan-to-CAD, DfM analysis, and engineering knowledge retrieval in a single mobile workflow, pointing toward a new class of AI-native design-to-manufacture tools.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "cad-copilots",
+        "dfm-machining-molding"
       ],
       "schools": [],
       "relevance": 4,
