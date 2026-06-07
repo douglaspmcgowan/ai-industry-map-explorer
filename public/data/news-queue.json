@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T10:09:40.305Z",
+  "generated": "2026-06-07T10:13:40.853Z",
   "items": [
     {
       "id": "15849abf",
@@ -2841,6 +2841,107 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ecb82de5",
+      "title": "Siemens unveils new 3D electrical systems design workflow for electromechanical innovation",
+      "url": "https://news.siemens.com/en-us/capital-3d-electrical-systems-design/",
+      "source": "Siemens News",
+      "date": "2026-06-02",
+      "summary": "Siemens announced new 3D electrical design capabilities in its Capital software, unifying wiring design and physical harness routing in a single model-based workflow spanning the Xcelerator portfolio. The integration lets electrical and mechanical engineers work concurrently in a shared 3D context, reducing late-stage design changes—a concrete step toward true ECAD/MCAD co-design.",
+      "industry_nodes": [
+        "pcb-electronics-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "56da39c0",
+      "title": "MISUMI Americas expands in AI and digital manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/misumi-americas-expands-ai-digital-manufacturing/",
+      "source": "Aerospace Manufacturing and Design",
+      "date": "2026-06-01",
+      "summary": "MISUMI Americas launched an AI-powered supply chain platform that provides instant quoting and automated DFM feedback, flagging manufacturability issues before production begins. The platform targets mechanical sourcing and promises 30–40% faster development cycles and 15–20% BOM cost reductions by embedding AI-driven DFM directly into the part-sourcing stage.",
+      "industry_nodes": [
+        "dfm-machining-molding",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c7aca6db",
+      "title": "Synopsys releases Ansys 2026 R1 engineering platform",
+      "url": "https://www.engineering.com/synopsys-releases-ansys-2026-r1-engineering-platform/",
+      "source": "Engineering.com",
+      "date": "2026-03-11",
+      "summary": "Ansys 2026 R1 is the first fully integrated Synopsys-Ansys release, introducing GeomAI for AI-assisted conceptual geometry exploration, the Engineering Copilot assistant across simulation products, and TwinAI fusion modeling that aligns simulation data with real sensor readings. These updates push AI deep into the simulation-driven design loop—from early geometry generation through digital twin calibration.",
+      "industry_nodes": [
+        "physics-aware-surrogates",
+        "surrogate-models",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "42b65bba",
+      "title": "Amazon's New Proteus Warehouse Robot Is Fully Autonomous",
+      "url": "https://www.engadget.com/2187338/amazons-new-proteus-warehouse-robot-is-fully-autonomous/",
+      "source": "Engadget",
+      "date": "2026-06-04",
+      "summary": "Amazon's updated Proteus warehouse robot accepts plain-language commands from workers and autonomously determines task priority, routing, and timing for moving heavy carts across fulfillment centers. The AI upgrade turns a purpose-built mobile robot into a language-directed autonomous agent, with European deployment planned for the first half of 2027.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8a8592df",
+      "title": "The Skeptic's Guide to Humanoid Robots Going Viral on the Internet",
+      "url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
+      "source": "Ars Technica",
+      "date": "2026-06-05",
+      "summary": "Ars Technica pushes back on the flood of viral humanoid robot demos, noting that controlled showcases obscure the critical challenge of skill generalization across real-world conditions. The article argues that meaningful evaluation requires quantitative, large-scale tests in the wild—a useful calibration tool for teams assessing robotics viability for manufacturing and logistics.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0b589e9f",
+      "title": "Is AI Killing User Experience?",
+      "url": "https://knowledge.wharton.upenn.edu/article/is-ai-killing-user-experience/",
+      "source": "Wharton Knowledge",
+      "date": "2026-06-05",
+      "summary": "Despite AI cutting product design timelines from weeks to hours, only 17% of consumers believe their experiences are improving and over 60% lack confidence in how businesses use AI. The core diagnosis: AI generates interfaces quickly but cannot automatically understand user emotions, context, and the deeper human stories that make experiences feel meaningful.",
+      "industry_nodes": [
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "528c50ee",
+      "title": "What Architects Expect From AI Tools in 2026",
+      "url": "https://www.archdaily.com/1040024/what-architects-expect-from-ai-tools-in-2026",
+      "source": "ArchDaily",
+      "date": "2026-03-31",
+      "summary": "ArchDaily surveyed architects on their expectations for AI tools in 2026, revealing demand for deeper integration with BIM workflows, code compliance checking, and generative massing—not just image generation. The findings signal that the AEC profession is moving past novelty toward expecting AI to handle the tedious compliance and documentation work that consumes design bandwidth.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
