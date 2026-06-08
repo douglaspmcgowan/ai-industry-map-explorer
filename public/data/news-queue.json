@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T10:13:40.853Z",
+  "generated": "2026-06-08T10:15:42.179Z",
   "items": [
     {
       "id": "15849abf",
@@ -2942,6 +2942,100 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "eb064a38",
+      "title": "REV1 (YC W26) — Automating Engineering Drawings for Mechanical Engineers",
+      "url": "https://www.ycombinator.com/launches/PKz-rev1-automating-engineering-drawings-for-mechanical-engineers",
+      "source": "Y Combinator",
+      "date": "2026-02-01",
+      "summary": "REV1 uses AI to automatically convert 3D CAD models into production-ready 2D manufacturing drawings, covering 300+ GD&T tolerancing rules in minutes instead of hours. This directly addresses the 25%+ of mechanical engineering time consumed by drawing creation, making it a critical DFM automation tool for aerospace, robotics, and medical devices.",
+      "industry_nodes": [
+        "cad-copilots",
+        "dfm-machining-molding",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fe930bf7",
+      "title": "Prototyping.io (YC 2026) — Autonomous Manufacturing for Mechanical Parts",
+      "url": "https://www.ycombinator.com/companies/prototypingio",
+      "source": "Y Combinator",
+      "date": "2026-03-01",
+      "summary": "Prototyping.io rebuilds the CAD-to-finished-part workflow using AI-driven DFM, sourcing, programming, and setup planning, cutting hardware iteration cycles from weeks to days. The system targets the 1 trillion dollar annual market for mechanical part manufacturing where manual processes still dominate even at large enterprises.",
+      "industry_nodes": [
+        "dfm-machining-molding",
+        "ai-for-dfm-dfam",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b122f1f2",
+      "title": "New SOLIDWORKS AI Agents LEO and MARIE Unveiled at 3DExperience World 2026",
+      "url": "https://develop3d.com/cad/new-solidworks-ai-agents-added-at-3dexperience-world/",
+      "source": "DEVELOP3D",
+      "date": "2026-02-01",
+      "summary": "At 3DEXPERIENCE World 2026, Dassault Systèmes unveiled LEO, an AI agent for mechanical engineering that can reverse-engineer BREP bodies into parametric models, generate drawings, and run simulations from natural language prompts, alongside MARIE for materials science. Together with the existing AURA copilot, these agents mark a major push toward AI-native CAD workflows built on Mistral AI inside SOLIDWORKS.",
+      "industry_nodes": [
+        "cad-copilots",
+        "ai-for-dfm-dfam",
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4b199dc7",
+      "title": "A Tale of Three Chatbots: Aura, Leo, and Marie — Inside SOLIDWORKS AI Companion Strategy",
+      "url": "https://www.engineering.com/a-tale-of-three-chatbots-aura-leo-and-marie/",
+      "source": "Engineering.com",
+      "date": "2026-02-01",
+      "summary": "Engineering.com analyzes the three SOLIDWORKS AI companions — AURA (general copilot), LEO (mechanical/simulation/manufacturing), and MARIE (materials science) — built on Mistral AI via Dassault Systemes Outscale cloud. The piece critically examines how these domain-specialized agents compare to general-purpose LLMs and where they add genuine design engineering value.",
+      "industry_nodes": [
+        "cad-copilots",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "07629116",
+      "title": "Autodesk Launches Product Help MCP Server to Connect AI Assistants to Design Documentation",
+      "url": "https://adsknews.autodesk.com/en/news/product-help-mcp-server/",
+      "source": "Autodesk News",
+      "date": "2026-04-01",
+      "summary": "Autodesk released a public read-only MCP server giving AI agents direct access to documentation for Fusion, Revit, AutoCAD, and Inventor, complementing the Fusion MCP that lets Claude operate inside Fusion 360. This infrastructure layer enables AI-assisted engineering workflows grounded in verified product knowledge rather than hallucinated API syntax.",
+      "industry_nodes": [
+        "cad-copilots",
+        "engineering-rag-chat",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "dd7c9ef9",
+      "title": "AdamCAD Review 2026: The YC W25 Text-to-CAD Tool That Has Generated Over 1 Million Models",
+      "url": "https://pasqualepillitteri.it/en/news/3372/adamcad-text-to-cad-ai-review-2026",
+      "source": "Pasquale Pillitteri",
+      "date": "2026-05-24",
+      "summary": "AdamCAD (YC W25) has crossed 1 million generated models and 4.1M in funding as a text-to-CAD platform that competes with Zoo.dev and CADGPT in the AI-native 3D model generation market. The review benchmarks its strengths in accessible natural-language-to-3D workflows while noting where it falls short for professional engineering precision.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
