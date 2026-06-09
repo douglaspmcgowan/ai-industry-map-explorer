@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T10:15:42.179Z",
+  "generated": "2026-06-09T10:10:48.682Z",
   "items": [
     {
       "id": "15849abf",
@@ -3036,6 +3036,109 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cadb5752",
+      "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
+      "url": "https://arxiv.org/abs/2603.27448",
+      "source": "arXiv",
+      "date": "2026-03-28",
+      "summary": "A data-augmentation framework that uses geometric feedback—soft-rejection sampling and failure-driven augmentation—to train models that convert images into executable parametric CAD programs. Improves mean IoU by 12% over supervised baselines while cutting inference compute by 80%, making image-to-CAD practical without additional human annotation.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1be6b03d",
+      "title": "Zero-to-CAD: Agentic Synthesis of Interpretable CAD Programs at Million-Scale Without Real Data",
+      "url": "https://arxiv.org/abs/2604.24479",
+      "source": "arXiv / Autodesk AI Lab",
+      "date": "2026-04-27",
+      "summary": "Autodesk AI Lab embeds an LLM agent inside a live CAD environment to iteratively generate, execute, and validate construction sequences, producing ~1M executable CAD programs without any real training data. Models fine-tuned on this synthetic corpus reach 82.1% editable-reconstruction success on benchmark parts, generalizing to human-designed ABC geometry.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "28a045db",
+      "title": "Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback",
+      "url": "https://arxiv.org/abs/2605.17448",
+      "source": "arXiv",
+      "date": "2026-05-17",
+      "summary": "Introduces a benchmark requiring AI agents (including GPT-5.5 and Claude Opus-4.7) to generate fully assembled multi-part STEP files from engineering briefs, then validates them with FEA—finding current frontier models pass only ~20% of typed structural requirements. Establishes FEA-gated evaluation as the gold standard for physics-correct AI-driven CAD design.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "77f2148f",
+      "title": "Computer-Aided Design Generation by Cascaded Discrete Diffusion Model",
+      "url": "https://arxiv.org/abs/2605.05031",
+      "source": "arXiv",
+      "date": "2026-05-06",
+      "summary": "Addresses the fundamental mismatch between continuous diffusion and CAD tokens—which are inherently discrete and heterogeneous—by proposing a cascaded discrete diffusion framework that generates valid CAD command sequences without the invalid-symbol artifacts common to continuous-space methods. Demonstrates improved validity and diversity across standard CAD benchmarks.",
+      "industry_nodes": [
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b92e23b6",
+      "title": "Dassault Systèmes Announces SOLIDWORKS 2026: AI-Powered Design and Collaboration for the Generative Economy",
+      "url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-announces-solidworks-2026-ai-powered-design-and-collaboration-generative-economy",
+      "source": "Dassault Systèmes",
+      "date": "2026-02-10",
+      "summary": "Official GA announcement for SOLIDWORKS 2026, embedding generative AI across drawing creation, assembly automation, and parametric modelling—including the LEO virtual companion that reverse-engineers drawings into parametric models and generates manufacturable parts from sketches. Marks the mainstream, production-grade arrival of daily-use AI inside the world's most widely deployed mechanical CAD platform.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c17bce89",
+      "title": "How to Make Your Design System AI-Ready",
+      "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+      "source": "Smashing Magazine",
+      "date": "2026-06-08",
+      "summary": "Practical guide arguing that AI-generated prototypes fail because design decisions live in designers' heads rather than structured files; the fix is treating the design system as machine-readable infrastructure—Markdown spec files, a token layer, FigmaLint audits, and sync routines. Matters because it maps directly to the knowledge-representation bottleneck blocking reliable AI co-design.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "37a4badb",
+      "title": "Complexity is the Ceiling: Software Design in the Age of AI Coding",
+      "url": "https://thenextweb.com/news/complexity-is-the-ceiling-software-design-in-the-age-of-ai-coding",
+      "source": "The Next Web",
+      "date": "2026-06-08",
+      "summary": "A 2026 study of over 300,000 AI-authored commits finds nearly 90% of introduced issues are structural code smells, showing that AI optimizes for working output rather than maintainable design. Argues that clean, well-structured codebases amplify AI's benefits while tangled ones create a hard ceiling—making software design more consequential in the AI era, not less.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
