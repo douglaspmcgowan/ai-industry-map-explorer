@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T10:10:48.682Z",
+  "generated": "2026-06-10T10:11:16.996Z",
   "items": [
     {
       "id": "15849abf",
@@ -3139,6 +3139,79 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "803c9a3b",
+      "title": "Check Designs in Figma: Catch What's Off, Ship What's Right",
+      "url": "https://www.figma.com/release-notes/?title=check-designs-catch-whats-off-ship-whats-right",
+      "source": "TLDR Design",
+      "date": "2026-06-04",
+      "summary": "Figma launched \"Check designs,\" a feature that compares designs against design systems and flags mismatches in variables, accessibility rules, library components, and detached elements — with one-click fixes. It gives design teams a systematic, automated way to enforce design system integrity at the moment of shipping rather than in post-hoc reviews.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e667fc4e",
+      "title": "How I Validated Design Decisions Before Writing Production Code",
+      "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/",
+      "source": "Slack Design Blog",
+      "date": "2026-06-09",
+      "summary": "A Slack senior director used AI-assisted coding to build interactive prototypes testing gallery layout algorithms and max-width strategies against real data distributions before production, replacing weeks of iteration with days. The approach reframes design validation from \"which option looks right\" to \"which option holds up everywhere,\" showing how AI-assisted coding changes how designers test assumptions.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "077cdaae",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "source": "darylcecile.net",
+      "date": "2026-06-09",
+      "summary": "A developer-designer reports being 4x faster in engineering tasks with AI, noting that prototyping has fundamentally changed from producing static concepts to building working tests in hours. The deeper shift is strategic: AI handles implementation, so the human role moves toward system architecture, boundaries, and delegation decisions.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "da2a3174",
+      "title": "The Four Design Jobs AI Created (So Far)",
+      "url": "https://www.nngroup.com/articles/design-jobs-ai-created/",
+      "source": "Nielsen Norman Group",
+      "date": "2026-06-09",
+      "summary": "NN Group identifies four distinct AI design roles: using AI to improve the design process, designing AI-powered products, designing content and systems for AI agents to interact with, and shaping AI model behavior itself. Demand for the latter two categories is growing fastest, but most hiring managers conflate all four — a clarity gap the article addresses with role-specific skills and success metrics.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "dfe24d52",
+      "title": "I Gave My AI Design System Ethics, Accessibility, and a Memory",
+      "url": "https://www.designsystemscollective.com/building-bads-the-behavioral-agentic-design-system-5698ff721db1",
+      "source": "Design Systems Collective",
+      "date": "2026-06-09",
+      "summary": "Proposes the Behavioral Agentic Design System (BADS) framework — design systems that encode brand identity, accessibility rules, ethics, and memory so AI coding agents produce distinctive, consistent UI instead of generic output. The central argument is that the future of design shifts from creating screens to creating the rule systems, feedback loops, and constraints that guide agents building them.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
