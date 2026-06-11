@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T10:11:16.996Z",
+  "generated": "2026-06-11T10:09:08.116Z",
   "items": [
     {
       "id": "15849abf",
@@ -3208,6 +3208,35 @@
       "summary": "Proposes the Behavioral Agentic Design System (BADS) framework — design systems that encode brand identity, accessibility rules, ethics, and memory so AI coding agents produce distinctive, consistent UI instead of generic output. The central argument is that the future of design shifts from creating screens to creating the rule systems, feedback loops, and constraints that guide agents building them.",
       "industry_nodes": [
         "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ac59430d",
+      "title": "PTC brings AI into play at its PTC Next event",
+      "url": "https://develop3d.com/cad/ptc-brings-ai-into-play-at-its-ptc-next-event",
+      "source": "DEVELOP3D",
+      "date": "2026-06-09",
+      "summary": "At PTC NEXT Chicago (June 9-10), PTC unveiled a new AI platform with 12 AI agents embedded across CAD, PLM, ALM, and SLM tools, plus two new cross-portfolio products (Orbit for asset data and Jetstream for design review). This signals a full-portfolio shift from AI features to agentic AI throughout the engineering product lifecycle, putting PTC alongside Siemens and Autodesk in the race to embed AI co-pilots into mechanical design workflows.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "16c2484b",
+      "title": "PTC Brings AI-Powered Guidance to the Design Environment with Creo 13",
+      "url": "https://www.prnewswire.com/news-releases/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13-302796715.html",
+      "source": "PR Newswire",
+      "date": "2026-06-09",
+      "summary": "PTC released Creo 13 and Creo+ 13.3 featuring a new AI Assistant embedded directly in the mechanical CAD workspace, providing engineers real-time, context-aware guidance grounded in design best practices via a chat interface. The release also adds model-based definition, composite design, simulation-driven optimization, and advanced manufacturing enhancements — marking the mainstream arrival of an AI co-pilot inside industrial-grade parametric CAD.",
+      "industry_nodes": [
+        "cad-copilots",
         "human-ai-co-design"
       ],
       "schools": [],
