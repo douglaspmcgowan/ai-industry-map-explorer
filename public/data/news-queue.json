@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T10:09:08.116Z",
+  "generated": "2026-06-12T10:05:35.998Z",
   "items": [
     {
       "id": "15849abf",
@@ -3241,6 +3241,77 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "79ca57d1",
+      "title": "Design Systems are Over. Product Context is the Work",
+      "url": "https://www.robin-cannon.com/p/design-systems-are-over-product-context",
+      "source": "TLDR Design",
+      "date": "2026-06-11",
+      "summary": "AI reshapes product development by requiring broader product context rather than isolated design components — the focus must shift from traditional design systems to comprehensive frameworks that include decisions, constraints, and reasoning guiding both human and AI outputs. This is essential reading for any team building with AI, as coherence at scale now depends on what you tell the AI about your product, not just what you hand it as components.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6ee84243",
+      "title": "Useful AI Skills and Workflows for Designers",
+      "url": "https://smart-interface-design-patterns.com/articles/ai-skills-for-designers-a-curated-list/",
+      "source": "TLDR Design",
+      "date": "2026-06-11",
+      "summary": "A curated collection of reusable AI skills from working designers — covering product design, UX research, accessibility, and motion — that encode expert decision-making as repeatable frameworks rather than one-off prompts. The article argues that the real value of these skills is adapting them to your workflow and team dynamics, making AI a consistent collaborator in craft-level design decisions.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c316422d",
+      "title": "Apple's Photos App is Getting Three New AI-Powered Editing Tools",
+      "url": "https://petapixel.com/2026/06/08/apples-photos-app-is-getting-three-new-ai-powered-editing-tools/",
+      "source": "PetaPixel",
+      "date": "2026-06-08",
+      "summary": "iOS 27 introduces three AI-powered photo editing features — Cleanup (object removal), Extend (generative frame expansion), and Reframe (AI-guided recomposition using spatial data) — all powered by Apple Intelligence. These on-device generative capabilities signal how AI image manipulation is being embedded directly in everyday creative and design workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3fba929b",
+      "title": "Apple's All-New Image Playground Promises More Than Cartoons",
+      "url": "https://petapixel.com/2026/06/08/apples-all-new-image-playground-promises-more-than-cartoons/",
+      "source": "PetaPixel",
+      "date": "2026-06-08",
+      "summary": "Apple upgraded Image Playground in iOS 27 to support photorealistic image generation via a new Apple Intelligence model running on Private Cloud Compute, enabling targeted edits by describing or selecting areas to change. SynthID watermarking for AI-generated content is included, making this a significant step in bringing enterprise-grade generative image tools to consumer design workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "eef504bf",
+      "title": "MAI-Image-2.5 Launches at No. 2 for Image Editing on Arena",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-5/",
+      "source": "Microsoft AI",
+      "date": "2026-06-11",
+      "summary": "Microsoft launched MAI-Image-2.5, ranked #2 on the Arena image-editing leaderboard, supporting precise localized edits — object replacement, background cleanup, face identity preservation — and already shipping in PowerPoint and OneDrive. A faster Flash variant and API access via Foundry and OpenRouter make this a meaningful addition to the AI-assisted design toolkit.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
