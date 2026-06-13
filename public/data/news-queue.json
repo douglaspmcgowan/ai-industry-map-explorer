@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T10:05:35.998Z",
+  "generated": "2026-06-13T10:10:10.026Z",
   "items": [
     {
       "id": "15849abf",
@@ -3307,6 +3307,80 @@
       "source": "Microsoft AI",
       "date": "2026-06-11",
       "summary": "Microsoft launched MAI-Image-2.5, ranked #2 on the Arena image-editing leaderboard, supporting precise localized edits — object replacement, background cleanup, face identity preservation — and already shipping in PowerPoint and OneDrive. A faster Flash variant and API access via Foundry and OpenRouter make this a meaningful addition to the AI-assisted design toolkit.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3355a47c",
+      "title": "Jeff Bezos's Prometheus Raises $12B to Build an 'Artificial General Engineer' for the Physical World",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "source": "TechCrunch",
+      "date": "2026-06-11",
+      "summary": "Jeff Bezos's AI startup Prometheus has raised $12 billion at a $41 billion valuation to build what Bezos calls an 'artificial general engineer'—AI tools that cover the full pipeline from design to manufacturing for complex physical products, described as 'a very modern version of CAD.' The startup signals massive capital conviction that AI-native design-to-manufacturing platforms will reshape how physical products—from chips to spacecraft—are conceived and built.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "adf4a8d5",
+      "title": "Dieter Rams avoids computers. His ten rules still fit designing for AI",
+      "url": "https://uxdesign.cc/dieter-rams-avoids-computers-his-ten-rules-still-fit-designing-for-ai-499229fd049e",
+      "source": "UX Collective",
+      "date": "2026-06-01",
+      "summary": "This article applies Dieter Rams' ten principles of good design to AI product design, arguing that great AI should be useful, understandable, honest, unobtrusive, and efficient—prioritizing human needs over technological complexity. It argues that AI design should follow Rams' restraint ethos: simplify workflows, communicate uncertainty clearly, and avoid feature creep, making these 1970s design principles more relevant than ever for today's AI builders.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "813bc80d",
+      "title": "Amazon Now Lets You Design Custom Merch Using AI",
+      "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "source": "TechCrunch",
+      "date": "2026-06-08",
+      "summary": "Amazon launched an AI feature in its Shopping app that turns text prompts via Alexa into custom merchandise like t-shirts and hoodies, then handles print-on-demand production and fulfillment—putting text-to-physical-product design in the hands of anyone without design skills. This directly challenges Redbubble and Bonfire while demonstrating consumer-scale AI-driven design-to-manufacture workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5d94bfdd",
+      "title": "Autodesk Flow Studio Launches Wonder 3D Generative AI Model",
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-flow-studio-launches-wonder-3d-gen-ai-model-to-help-creators-make-3d-characters-and-objects-faster-and-easier/",
+      "source": "Autodesk News",
+      "date": "2026-03-04",
+      "summary": "Autodesk released Wonder 3D inside Flow Studio, a generative AI model that produces fully editable 3D assets—characters, creatures, and props with geometry and textures—from text or image prompts. It extends Autodesk's neural CAD strategy by making AI-generated geometry available in the creative pipeline, signaling the convergence of entertainment 3D and professional CAD workflows.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fb3a224b",
+      "title": "The Vibe Coding Crisis: Is Web Design Becoming a Commodity?",
+      "url": "https://webdesignerdepot.com/the-vibe-coding-crisis-is-web-design-becoming-a-commodity/",
+      "source": "Web Designer Depot",
+      "date": "2026-06-12",
+      "summary": "The article examines whether AI-assisted 'vibe coding' tools are commoditizing web design, pushing designers to differentiate through strategic thinking, systems design, and design judgment that AI cannot replicate. It argues that the designer's craft must evolve upward toward design systems, product context, and human-AI collaboration to remain irreplaceable.",
       "industry_nodes": [
         "designer-workflow-with-ai"
       ],
