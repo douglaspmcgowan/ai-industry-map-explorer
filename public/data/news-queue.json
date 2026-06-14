@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T10:10:10.026Z",
+  "generated": "2026-06-14T10:08:42.898Z",
   "items": [
     {
       "id": "15849abf",
@@ -3386,6 +3386,53 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9f578471",
+      "title": "Jeff Bezos Describes His $38B Startup Prometheus For the First Time: 'Nothing to Do With Robotics'",
+      "url": "https://www.geekwire.com/2026/jeff-bezos-describes-his-38b-startup-prometheus-for-the-first-time-nothing-to-do-with-robotics/",
+      "source": "GeekWire",
+      "date": "2026-06-11",
+      "summary": "Jeff Bezos publicly described Prometheus for the first time, clarifying the $38B AI startup is building an \"artificial general engineer\" — an AI platform that compresses design-to-manufacture cycles for physical products, not a robotics company. Positioned to reshape how engineers design chips, automobiles, spacecraft, and infrastructure, Prometheus has hired from OpenAI, DeepMind, and Nvidia and is now the highest-profile bet on AI for engineering design.",
+      "industry_nodes": [
+        "cad-copilots",
+        "ai-for-dfm-dfam",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6de5039b",
+      "title": "PTC Adds AI Assistant in Creo 13 and Creo+ 13.3",
+      "url": "https://www.engineering.com/ptc-adds-ai-assistant-in-creo-13-and-creo-13-3/",
+      "source": "Engineering.com",
+      "date": "2026-06-10",
+      "summary": "PTC released Creo 13 on June 10, 2026, embedding an AI Assistant that delivers natural-language design guidance, best-practice recommendations, and 3D model validation directly within the CAD environment. This is a significant step toward conversational CAD workflows — reducing reliance on external documentation and lowering onboarding time for complex mechanical design tasks.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bd90351b",
+      "title": "Generative AI Is Moving From Design to Factory Floors: TCT Asia 2026 Shows the Full Workflow",
+      "url": "https://3dprint.com/324187/generative-ai-is-moving-from-design-to-factory-floors-tct-asia-2026-shows-the-full-workflow/",
+      "source": "3DPrint.com",
+      "date": "2026-03-19",
+      "summary": "At TCT Asia 2026 in Shanghai, AI platforms like Meshy AI, Tripo AI, and DreamTech demonstrated integrated workflows where generative AI, topology optimization, and print-file preparation combine into a single production-ready pipeline. The event signaled a key shift from AI as a creative concept tool toward AI as an operational manufacturing technology driving end-to-end additive manufacturing.",
+      "industry_nodes": [
+        "generative-platforms",
+        "ai-for-dfm-dfam",
+        "process-monitoring-am-boost",
+        "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
