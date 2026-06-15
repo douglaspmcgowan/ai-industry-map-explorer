@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T10:08:42.898Z",
+  "generated": "2026-06-15T10:09:13.398Z",
   "items": [
     {
       "id": "15849abf",
@@ -3430,6 +3430,130 @@
         "ai-for-dfm-dfam",
         "process-monitoring-am-boost",
         "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fcfe7eae",
+      "title": "UniCAD: A Unified Benchmark and Universal Model for Multi-Modal Multi-Task CAD",
+      "url": "https://arxiv.org/abs/2606.05058",
+      "source": "arXiv",
+      "date": "2026-06-08",
+      "summary": "UniCAD presents a unified benchmark spanning point-to-CAD reconstruction, text/image-to-CAD generation, and CAD question answering across diverse modalities, paired with UniCAD-MLLM, a single multi-modal model that ingests text, images, sketches, and point clouds end-to-end. This is the first universal framework addressing the full spectrum of multi-modal CAD understanding tasks, marking a major step toward general AI competency over 3D engineering models.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad",
+        "generative-3d-shape",
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1ad323d0",
+      "title": "Bridging CAD and Data-Driven Design: Attributed Feature Graphs for Engineering Design",
+      "url": "https://arxiv.org/abs/2606.06405",
+      "source": "arXiv",
+      "date": "2026-06-09",
+      "summary": "This paper introduces Attributed Feature Graphs (AFGs), encoding CAD features such as extrusions, ribs, and pockets as graph nodes with geometric and dependency edges, enabling graph neural networks to learn directly on parametric CAD structure while preserving design intent. AFGs bridge the gap between explicit engineering knowledge and data-driven learning, making AI-assisted parametric design more interpretable and compatible with standard ML toolchains.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "design-knowledge-representation",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ee625e75",
+      "title": "New AI Model from Backflip Accelerates 3D Scan-to-CAD",
+      "url": "https://3dprintingindustry.com/news/new-ai-model-from-backflip-accelerates-3d-scan-to-cad-237055/",
+      "source": "3D Printing Industry",
+      "date": "2026-03-01",
+      "summary": "Backflip AI has released a new foundation model that converts 3D scan data into fully parametric, editable CAD files in minutes, alongside a SolidWorks plug-in that generates native feature trees with a complete rebuild history from uploaded STL files. Targeting industrial manufacturers struggling with downtime, the technology dramatically compresses reverse engineering and spare-part recreation workflows.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f7fc92b5",
+      "title": "STEP-LLM: Generating CAD STEP Models from Natural Language with Large Language Models",
+      "url": "https://arxiv.org/abs/2601.12641",
+      "source": "arXiv",
+      "date": "2026-01-20",
+      "summary": "STEP-LLM trains large language models to translate natural language design descriptions directly into STEP-format parametric CAD files, targeting the professional manufacturing exchange format rather than hobbyist mesh outputs. The approach demonstrates that LLMs can generate industry-standard geometry representations from text, moving text-to-CAD from novelty toward production-grade tooling.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "a395b207",
+      "title": "Rumors of Autodesk, PTC, and Synthetic Engineers",
+      "url": "https://www.engineering.com/rumors-of-autodesk-ptc-and-synthetic-engineers/",
+      "source": "Engineering.com",
+      "date": "2026-05-01",
+      "summary": "Engineering.com examines signals that Autodesk and PTC are developing AI agents capable of running complete engineering design workflows autonomously, framing them as \"synthetic engineers\" rather than simple copilots. The piece marks a shift in the industry narrative from AI-assisted CAD to AI-as-engineer, with major implications for how mechanical and product design organizations will be structured.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9a291c7d",
+      "title": "2026 AEC Trends: AI in Architecture with Vibe Coding and Real-Time Analysis",
+      "url": "https://www.stantec.com/en/ideas/topic/buildings/2026-aec-trends-part-2-ai-in-architecture-vibe-coding-real-time-analysis-data",
+      "source": "Stantec Ideas",
+      "date": "2026-01-15",
+      "summary": "Stantec architects and engineers outline how AI practices including vibe coding — generating building designs from natural language — and AI-driven real-time structural and energy analysis are entering AEC workflows in 2026. The practitioner-level perspective offers concrete examples of how generative AI is reshaping the day-to-day architecture design process.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5ff3c0e5",
+      "title": "AI Trends in AEC for 2026: From Predictive Design to Autonomous Construction",
+      "url": "https://www.allplan.com/blog/from-ai-design-to-autonomous-construction-how-predictive-data-centric-workflows-and-ai-agents-are-reshaping-aec/",
+      "source": "Allplan Blog",
+      "date": "2026-01-10",
+      "summary": "Allplan charts the 2026 AEC AI trajectory from predictive project planning and BIM 6.0 data-centric workflows to AI agents coordinating physical construction activities, framing autonomous construction as the near-term horizon. The overview is useful for situating current AI-in-architecture tools within a broader industry transformation arc.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "390a0ef4",
+      "title": "Foundation Model-Based Generative AI for Smart Manufacturing: A Paradigm Shift",
+      "url": "https://link.springer.com/article/10.1007/s42524-026-5359-0",
+      "source": "Springer Nature",
+      "date": "2026-02-01",
+      "summary": "This peer-reviewed paper proposes using foundation models to unify disparate smart manufacturing tasks — design generation, simulation, and quality control — under a single in-context learning framework, arguing this constitutes a paradigm shift from task-specific to general AI for manufacturing. The unification thesis has significant implications for how AI is architected into industrial design and production systems.",
+      "industry_nodes": [
+        "generative-platforms",
+        "surrogate-models",
+        "process-monitoring-am-boost"
       ],
       "schools": [],
       "relevance": 4,
