@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T10:09:13.398Z",
+  "generated": "2026-06-16T10:05:51.376Z",
   "items": [
     {
       "id": "15849abf",
@@ -3557,6 +3557,49 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f9bfc60e",
+      "title": "Every Component in Your Design System is a Promise",
+      "url": "https://blog.murphytrueman.com/every-component-in-your-design-system-is-a-promise/",
+      "source": "TLDR Design",
+      "date": "2026-06-15",
+      "summary": "Ian Guisard from Uber built an AI system called uSpec that generates component documentation in minutes instead of weeks by programmatically reading well-structured design systems. The piece argues design systems must function as machine-parseable contracts—not just human-readable docs—so AI agents can interpret component behavior and usage rules accurately.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "de068b6d",
+      "title": "Context Architecture",
+      "url": "https://www.nngroup.com/articles/context-architecture/",
+      "source": "Nielsen Norman Group",
+      "date": "2026-06-15",
+      "summary": "AI product design is evolving from prompt engineering to context architecture—the practice of organizing instructions, knowledge, tools, memory, and state so agents retrieve the right information and behave reliably. Applying information architecture principles like hierarchy, labeling, and taxonomy to the AI context layer is now the decisive design challenge for autonomous AI systems.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "343515ac",
+      "title": "Capture Webpages as Editable Figma Layers with the Chrome Extension",
+      "url": "https://www.figma.com/release-notes/?title=figma-chrome-extension",
+      "source": "Figma",
+      "date": "2026-06-15",
+      "summary": "Figma released a Chrome extension (currently in beta on paid plans) that captures webpages as fully editable layers, allowing designers to copy full pages or selected elements and paste them directly into Figma without coding. Design system integration for the captured layers is coming soon.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
