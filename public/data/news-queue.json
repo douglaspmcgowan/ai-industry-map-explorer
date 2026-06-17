@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T10:05:51.376Z",
+  "generated": "2026-06-17T10:06:46.291Z",
   "items": [
     {
       "id": "15849abf",
@@ -3600,6 +3600,110 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "829a1465",
+      "title": "Unexpected Lessons from an AI-Assisted Prototyping Experiment",
+      "url": "https://adobe.design/ideas/unexpected-lessons-from-an-ai-assisted-prototyping-experiment",
+      "source": "Adobe Design",
+      "date": "2026-06-16",
+      "summary": "A cross-functional pod at Adobe Firefly used AI-assisted prototyping to design directly inside a production codebase, shipping two features in eight business days. Working closer to the build process deepened rather than reduced collaboration with engineering, and core design fundamentals like empathy and craft remained essential — only exercised at the moment decisions actually take effect.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ea3e9be6",
+      "title": "The Core Skill of Design in the AI Era: Critique",
+      "url": "https://www.nngroup.com/articles/ai-era-critique/",
+      "source": "NNGroup / TLDR Design",
+      "date": "2026-06-16",
+      "summary": "Designing AI-powered products is less about specifying exact behaviors and more about defining what a good outcome looks like, since AI systems produce different responses to the same input. This shifts designers from prescribing exact interactions to setting quality standards — making critique the most leveraged design skill in an AI-first workflow.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "efd3b9a0",
+      "title": "What is AX Design? Why Do We Need This New Role",
+      "url": "https://medium.com/design-bootcamp/what-is-ax-design-why-do-we-need-this-new-role-e21dff4dd541",
+      "source": "Medium / TLDR Design",
+      "date": "2026-06-16",
+      "summary": "Introduces AX (Agentic Experience) design as a new discipline focused on defining goals, rules, guardrails, and success criteria for autonomous AI agent systems rather than creating human-facing interfaces. The AX Designer investigates workflows, identifies automation opportunities, and ensures agents solve the right problems before deployment — shifting design from execution to evaluation.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0c87b21f",
+      "title": "How to Make AI Better at Product",
+      "url": "https://refactoring.fm/p/how-to-make-ai-better-at-product",
+      "source": "Refactoring",
+      "date": "2026-06-17",
+      "summary": "Argues that with coding largely automated, product taste, review, and validation have become the bottleneck in AI-era software development. Proposes loop engineering as a systematic approach to scaling product development the same way agentic coding workflows have been scaled.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1cf371bf",
+      "title": "We Built Our Own Agent-native Tool. It Overhauled How We Build Software.",
+      "url": "https://every.to/p/we-built-our-own-agent-native-tool-it-overhauled-how-we-build-software",
+      "source": "Every.to",
+      "date": "2026-06-16",
+      "summary": "Team at Hoop built an internal agent-native tool to synthesize customer discovery call notes, overhauling their product roadmap process by giving the whole team AI-structured insight rather than competing interpretations. Demonstrates a practical pattern for integrating agentic workflows into design and product development loops.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0b722fbc",
+      "title": "Design in Tech Report 2026: From UX to AX",
+      "url": "https://johnmaeda.medium.com/design-in-tech-report-2026-from-ux-to-ax-f9d83164f4d2",
+      "source": "John Maeda / Medium",
+      "date": "2026-06-01",
+      "summary": "John Maeda's annual Design in Tech Report tracks the transition from UX to AX (Agentic Experience), examining how AI agents are fundamentally changing the design problem from helping someone do a task to helping someone evaluate whether a task was done well. Covers new skills, tools, and organizational structures designers need in an agentic world.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5219092b",
+      "title": "AI in Design 2026: The Inflection Point Is Here",
+      "url": "https://designerfund.com/blog/ai-in-design-2026",
+      "source": "Designer Fund",
+      "date": "2026-06-01",
+      "summary": "Research by Designer Fund and Foundation Capital documents that weekly AI usage for design tasks jumped from 54% to 91% in one year, with 75% of designers using AI daily. Maps which parts of the design workflow have been most transformed and identifies the emerging gap between designers who use AI as a tool vs those who architect AI-powered systems.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
