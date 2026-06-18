@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T10:06:46.291Z",
+  "generated": "2026-06-18T10:12:29.085Z",
   "items": [
     {
       "id": "15849abf",
@@ -3704,6 +3704,51 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bdc86db0",
+      "title": "Exploring early generative AI workflows with Building Layout Explorer in Autodesk Forma",
+      "url": "https://adsknews.autodesk.com/en/news/building-layout-explorer-in-autodesk-forma/",
+      "source": "Autodesk News",
+      "date": "2026-06-02",
+      "summary": "Autodesk launched Building Layout Explorer as an experimental Forma Site Design feature that generates dozens of floor plan layout variants from a massing model, typology, and structural parameters—before design decisions are locked in. Powered by generative AI trained on aggregated 3D AEC data, it enables architects to explore and evaluate early-stage layout trade-offs within the same environment used for conceptual design.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "generative-platforms",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fef24ca3",
+      "title": "Meet Autodesk Assistant: AI-native intelligence in Forma",
+      "url": "https://www.autodesk.com/blogs/construction/meet-autodesk-assistant-ai-native-intelligence-in-forma/",
+      "source": "Autodesk",
+      "date": "2026-06-03",
+      "summary": "Autodesk introduced Autodesk Assistant, an AI-native intelligence layer embedded across Autodesk Forma that gives construction and design teams a conversational interface to project data, workflows, and AEC guidance. The announcement also consolidates Autodesk Construction Cloud into Forma as a unified AEC industry cloud, giving the assistant access to a continuous data model from design through build.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a54b1a21",
+      "title": "Falling in Love with the Build",
+      "url": "https://karlkoch.me/writing/falling-in-love-with-the-build",
+      "source": "karlkoch.me / TLDR Design",
+      "date": "2026-06-11",
+      "summary": "Karl Koch argues that designer-developers risk reverse-engineering justifications for things they built and loved, and that \"AI slop arises from a design-to-build gap, not the tool itself.\" His fix: write the decision rationale in prose before committing to code, ensuring the build serves the decision rather than the other way around.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
