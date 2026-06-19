@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T10:12:29.085Z",
+  "generated": "2026-06-19T10:05:04.724Z",
   "items": [
     {
       "id": "15849abf",
@@ -3749,6 +3749,95 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "12aca123",
+      "title": "Anthropic ships major Claude Design overhaul with design system imports, code round-trips, and a fix for its token-burning problem",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "source": "VentureBeat",
+      "date": "2026-06-18",
+      "summary": "Anthropic has overhauled Claude Design to fix its token consumption issue, adding the ability to import design systems from GitHub repos, design files, or raw uploads. The update transforms Claude Design from a prototype into an enterprise-grade platform capable of producing consistent, branded output at scale.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "26a79d90",
+      "title": "4 ways we're using our MCP server at Figma",
+      "url": "https://www.figma.com/blog/4-ways-were-using-our-mcp-server-at-figma/",
+      "source": "Figma Blog",
+      "date": "2026-06-18",
+      "summary": "Figma shares four internal workflows built using their own MCP server, connecting AI models directly to Figma design data and enabling agents to read, write, and reason over design files. This is a landmark example of AI-native design tooling showing how MCP bridges design systems and large language models in real production use.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "836d956a",
+      "title": "Building a design system specced for engineers and agents",
+      "url": "https://evilmartians.com/chronicles/building-a-design-system-specced-for-engineers-and-agents",
+      "source": "Evil Martians",
+      "date": "2026-06-18",
+      "summary": "Evil Martians details how to build design systems that serve both human engineers and AI coding agents, covering token structure, component documentation, and machine-readable specs. This is a practical guide to the emerging practice of dual-audience design systems where AI agents are first-class consumers alongside human developers.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d937b2eb",
+      "title": "AI coding agents can autonomously direct robot training",
+      "url": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "source": "Ars Technica",
+      "date": "2026-06-17",
+      "summary": "Researchers demonstrate AI coding agents that autonomously set up, direct, and iterate on robot training pipelines without human intervention. This closes a key loop in the robotics design workflow—from code generation to physical training—pointing toward fully automated robot design-and-test cycles.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5ece8bf2",
+      "title": "Designing Uncertainty: How AI Supercharges Probabilistic Thinking",
+      "url": "https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
+      "source": "Smashing Magazine",
+      "date": "2026-06-18",
+      "summary": "The article argues that AI tools push designers to embrace probabilistic, multi-outcome thinking rather than pixel-perfect determinism, with practical frameworks for designing with uncertainty. It is directly relevant to practitioners integrating AI into their design workflow and needing to rethink how they specify and evaluate outputs.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "16decd58",
+      "title": "What is AX?",
+      "url": "https://maeda.pm/2026/06/11/what-is-ax/",
+      "source": "maeda.pm",
+      "date": "2026-06-11",
+      "summary": "John Maeda proposes AX (Agent Experience) as a new design discipline alongside UX, focusing on how to design experiences that agents navigate rather than humans. This is a high-signal early framing of a field that will matter enormously as agentic AI enters design and engineering workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
