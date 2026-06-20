@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T10:05:04.724Z",
+  "generated": "2026-06-20T10:06:55.135Z",
   "items": [
     {
       "id": "15849abf",
@@ -3835,6 +3835,65 @@
       "industry_nodes": [
         "designer-workflow-with-ai",
         "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "22f7359a",
+      "url": "https://claude.com/blog/claude-design-stays-on-brand-for-daily-work",
+      "title": "Claude Design Stays On Brand for Daily Work",
+      "source": "Anthropic / Claude Blog",
+      "date": "2026-06-17",
+      "summary": "Anthropic's major Claude Design overhaul adds design-system imports from GitHub, a bidirectional /design-sync bridge to Claude Code, and nine new export partners including Adobe and Canva—directly fixing a token-burn problem that exhausted Pro users in under 30 minutes. The update repositions Claude Design from a viral prototype toy into an enterprise brand-compliance layer embedded across creative, coding, and business workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8d05de09",
+      "url": "https://www.framer.com/blog/framer-3/",
+      "title": "Introducing Framer Agents, Branching, and the New Community",
+      "source": "Framer Blog",
+      "date": "2026-06-16",
+      "summary": "Framer 3.0 ships AI Agents that autonomously design full pages, handle responsive breakpoints, build components, write code, and connect to CMS—all on the canvas alongside human designers. The release also adds External Agents that connect Framer to Claude Code, Codex, Cursor, and Gemini CLI, establishing AI as a first-class collaborator in the full web design-to-publish workflow.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "39993f01",
+      "url": "https://www.figma.com/blog/design-systems-ai-mcp/",
+      "title": "Design Systems and AI: Why MCP Servers Are The Unlock",
+      "source": "Figma Blog",
+      "date": "2026-06-18",
+      "summary": "Figma argues that MCP servers are the critical interface layer turning design tokens, components, and style guidelines into machine-readable context that AI coding agents can actively enforce—rather than treating design systems as static human documentation. The post details how Figma's MCP server now spans Slides, FigJam, Make prototypes, and the new Figma Agent, with bidirectional integration into Claude Code and OpenAI Codex.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "249a5ff7",
+      "url": "https://www.techbuzz.ai/articles/figma-opens-design-code-to-ai-agents-via-expanded-mcp-server",
+      "title": "Figma Opens Design Code to AI Agents via Expanded MCP Server",
+      "source": "TechBuzz.ai",
+      "date": "2026-06-18",
+      "summary": "Figma's expanded MCP server now lets AI tools read and write across its full platform—Presentations, FigJam boards, Make prototypes, and Figma Agent—with new download_assets support for SVG, PDF, and PNG export. A new Design Snapshot feature converts AI-generated Make prototypes into fully editable Figma layers with layout, styles, and tokens intact, closing the loop between generative code and production design.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
       ],
       "schools": [],
       "relevance": 4,
