@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T10:06:55.135Z",
+  "generated": "2026-06-21T10:09:35.692Z",
   "items": [
     {
       "id": "15849abf",
@@ -3897,6 +3897,53 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7a6bf425",
+      "title": "Neural CAD AI foundational models",
+      "url": "https://aecmag.com/ai/neural-cad-ai-foundational-models/",
+      "source": "AEC Magazine",
+      "date": "2026-06-16",
+      "summary": "AEC Magazine covers Autodesk's neural CAD foundation models for Fusion and Forma—machine-learning models trained on professional design data that generate precision 3D CAD geometry from text prompts, representing a fundamental shift from classical parametric engines. Autodesk claims the technology will automate 80–90% of geometry creation tasks, with neural CAD for buildings enabling architects to autocomplete internal walls, columns, and cores when changing building massing.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "text-to-cad",
+        "generative-geometry-cad",
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8fa2f747",
+      "title": "Architecture: the missing AI middle",
+      "url": "https://aecmag.com/ai/architecture-the-missing-ai-middle/",
+      "source": "AEC Magazine",
+      "date": "2026-04-01",
+      "summary": "Argues that AI tools in architecture are excelling at the extremes—early massing and final visualization—while missing the middle layer where architects generate meaningful, informed space and justify design decisions. The piece frames the gap as a product design challenge: the next wave of AEC AI must assist in reasoning about constraints and intent, not merely output geometry.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fff4960c",
+      "title": "AI in AEC: collapse cognition, not geometry",
+      "url": "https://aecmag.com/ai/ai-in-aec-collapse-cognition-not-geometry",
+      "source": "AEC Magazine",
+      "date": "2026-04-01",
+      "summary": "Reframes AI's role in AEC as primarily collapsing data latency and compressing cognition rather than replacing geometric design tasks—the real bottleneck is the time between decision-making moments, not drawing production. Relevant for positioning how RAG, agent-based retrieval, and design knowledge systems can deliver more value than generative geometry alone.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
