@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T10:09:35.692Z",
+  "generated": "2026-06-22T10:09:49.274Z",
   "items": [
     {
       "id": "15849abf",
@@ -3944,6 +3944,110 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7dbaadc0",
+      "title": "PTC Unveils Wave of Product Innovations with 12 New AI Agents Across Product Lifecycle",
+      "url": "https://www.prnewswire.com/news-releases/ptc-unveils-a-wave-of-product-innovations-to-give-manufacturers-new-ai-capabilities-and-connected-tools-across-the-intelligent-product-lifecycle-302796855.html",
+      "source": "PR Newswire / PTC",
+      "date": "2026-06-10",
+      "summary": "PTC announced 12 new AI agents and major updates across Creo CAD, Onshape, and Windchill PLM at PTC NEXT Chicago, including AI-assisted simulation-driven optimization in Creo, expanded AI design feedback and robotics simulation in Onshape, and AI-assisted PLM workflows. The announcements mark a significant expansion of AI across the connected intelligent product lifecycle, covering CAD, PDM, and manufacturing process planning.",
+      "industry_nodes": [
+        "cad-copilots",
+        "ai-for-dfm-dfam",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e4f363b9",
+      "title": "Introducing the Revit Public MCP Server: A Trusted Foundation for AI-Powered Workflows",
+      "url": "https://www.autodesk.com/blogs/aec/2026/06/17/revit-public-mcp-server/",
+      "source": "Autodesk AEC Blog",
+      "date": "2026-06-17",
+      "summary": "Autodesk launched a public Model Context Protocol (MCP) server for Revit, enabling AI assistants such as Claude to securely access BIM data and interact with Revit workflows through natural language. The release marks a significant step toward AI-native AEC design workflows, allowing architects and engineers to query and drive Revit models without manual UI navigation.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4c680abc",
+      "title": "Backflip Introduces Mesh-To-CAD: AI Model Converts 3D Scans to Parametric SOLIDWORKS Parts",
+      "url": "https://develop3d.com/cad/backflip-introduces-mesh-to-cad/",
+      "source": "DEVELOP3D",
+      "date": "2026-05-28",
+      "summary": "Backflip unveiled an AI foundation model trained on 100M+ synthetic 3D geometries that converts mesh or point-cloud scan data directly into fully parametric, editable CAD files, delivered via a SOLIDWORKS plugin and web app. The model runs 60x more efficiently and 10x faster than prior methods, enabling reverse engineering of physical parts in seconds with a complete editable feature tree.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "93fbde9b",
+      "title": "AI-Powered Surrogate Models Bring Real-Time Simulation to Composite Manufacturing",
+      "url": "https://techxplore.com/news/2026-04-ai-powered-surrogate-real-simulation.html",
+      "source": "TechXplore",
+      "date": "2026-04-01",
+      "summary": "Researchers at IMDEA Materials Institute and UPM developed a deep learning surrogate model for liquid composite molding simulations on unstructured 3D grids, achieving speed-ups of four to five orders of magnitude over conventional FEA methods. Published in Composites Part A, the model enables real-time process simulation feedback during manufacturing design, drastically reducing the cost of exploring composite layup parameters.",
+      "industry_nodes": [
+        "physics-aware-surrogates",
+        "surrogate-models",
+        "process-monitoring-am-boost"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "111c378c",
+      "title": "NVIDIA and US Manufacturing Leaders Drive Reindustrialization With Physical AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-us-manufacturing-robotics-physical-ai",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-03-16",
+      "summary": "NVIDIA announced that leading US manufacturers and robotics companies are deploying Omniverse and Isaac technologies to build robotic factories and autonomous collaborative robots for labor-augmented manufacturing. The initiative targets reindustrialization through physical AI agents capable of interpreting sensor data, detecting defects, and providing safety alerts in real-time on the factory floor.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0a487507",
+      "title": "How Autodesk Is Expanding AI Across Design and Manufacturing",
+      "url": "https://adsknews.autodesk.com/en/news/design-manufacturing-autodesk-assistant/",
+      "source": "Autodesk News",
+      "date": "2026-04-28",
+      "summary": "Autodesk announced its AI Assistant is now live across the full Design and Manufacturing portfolio including Fusion (with prompt-to-API script execution), Inventor, Moldflow, and Vault, enabling natural-language control of 3D design, injection molding simulation, and PDM. The Claude-via-MCP integration marks the first external AI agent able to directly drive parametric CAD operations inside Autodesk tools.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0f342c0b",
+      "title": "AI-Enhanced Machine Vision Powers the Next Generation of EV Battery Quality Control",
+      "url": "https://metrology.news/ai-enhanced-machine-vision-powers-the-next-generation-of-ev-battery-quality-control/",
+      "source": "Metrology and Quality News",
+      "date": "2026-02-25",
+      "summary": "The article surveys how AI-enhanced machine vision systems combining deep learning defect detection with inline camera networks are enabling near-100% inspection accuracy at EV battery assembly lines, replacing sampling with continuous per-cell quality monitoring. Atlas Copco and others deploy closed-loop systems where vision AI feeds results back to assembly robots for autonomous process correction.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
