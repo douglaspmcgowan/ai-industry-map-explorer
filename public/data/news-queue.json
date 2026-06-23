@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T10:09:49.274Z",
+  "generated": "2026-06-23T10:06:10.264Z",
   "items": [
     {
       "id": "15849abf",
@@ -4048,6 +4048,108 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8268b331",
+      "title": "Atlassian's DESIGN.md is Here: What We Learned Testing Portable Design Context in Practice",
+      "url": "https://www.atlassian.com/blog/ai-at-work/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice",
+      "source": "Atlassian",
+      "date": "2026-06-22",
+      "summary": "Atlassian tested Google's open-source DESIGN.md format — a portable Markdown file that gives AI agents brand and UI context — against its own MCP server in a live keynote demo. DESIGN.md reduced UI slop but consumed 92% more tokens and showed greater variance than the MCP approach, making it best for prototyping rather than production design tooling.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0e886068",
+      "title": "Adobe Just Made Its Biggest AI Push Yet, and It Stretches from Photoshop to Disney World",
+      "url": "https://thenextweb.com/news/adobe-ai-week-firefly-agent-disney-semrush-genstudio-linkedin",
+      "source": "The Next Web",
+      "date": "2026-06-22",
+      "summary": "Adobe rolled out five AI initiatives in three days, including a Firefly AI Assistant in public beta inside Photoshop, Premiere, and Illustrator, plus a custom generative model deal with Walt Disney Imagineering. The push also includes a Brand Visibility tool tracking how companies appear across AI platforms, drawing on 300 million real-world AI search prompts.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a8a7a79b",
+      "title": "Design DNA for Agents: /taste",
+      "url": "https://www.tastelab.xyz/",
+      "source": "TasteLab",
+      "date": "2026-06-22",
+      "summary": "/taste is a tool that turns any URL into a complete design context package for AI agents, including Design Map, Taste DNA, and the reasoning behind every design choice. It addresses a core gap in AI-assisted UI work: giving coding agents portable, structured access to a product's visual identity.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f785c0e3",
+      "title": "NVIDIA ENPIRE: Autonomous Robotics Research",
+      "url": "https://research.nvidia.com/labs/gear/enpire/",
+      "source": "NVIDIA Research",
+      "date": "2026-06-22",
+      "summary": "NVIDIA ENPIRE is a closed-loop framework that enables coding agents to iteratively improve real-world robot policies through automated resets, evaluation, verification, and refinement — without human intervention in the loop. This represents a meaningful step toward fully autonomous robot skill learning for manufacturing and field applications.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9efce20a",
+      "title": "A New Era of Midjourney: Midjourney Medical",
+      "url": "https://www.midjourney.com/medical/blogpost",
+      "source": "Midjourney",
+      "date": "2026-06-22",
+      "summary": "Midjourney announced a medical imaging venture centered on a full-body ultrasound scanner that submerges users in water and produces MRI-quality 3D images in under 60 seconds using half a million sensor elements and massive parallel computing. The system reconstructs detailed 3D body composition maps — a novel application of AI-driven volumetric sensing at clinical scale.",
+      "industry_nodes": [
+        "medical-engineering-ai",
+        "scan-to-cad-reverse-eng"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f30f5039",
+      "title": "Preliminary Thoughts On The Midjourney Scanner",
+      "url": "https://www.astralcodexten.com/p/preliminary-thoughts-on-the-midjourney",
+      "source": "Astral Codex Ten",
+      "date": "2026-06-22",
+      "summary": "Scott Alexander provides a detailed technical analysis of whether the Midjourney Medical ultrasound scanner's claimed capabilities — MRI-quality 3D imaging in 60 seconds — are physically and commercially plausible. The piece is an important reality-check for AI+engineering claims at the intersection of computational sensing and medical device design.",
+      "industry_nodes": [
+        "medical-engineering-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e4eb1d06",
+      "title": "Founders Fund's Outlier Bet on Humanely Killed Fish (Shinkei)",
+      "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+      "source": "TechCrunch",
+      "date": "2026-06-20",
+      "summary": "Shinkei has built a refrigerator-sized robot that uses computer vision to scan fish, identify the species, locate the brain, and precisely kill them before they can thrash — preventing stress hormones from degrading meat quality. The system is a compelling real-world example of AI-powered vision and robotics applied to precision food processing at scale.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
