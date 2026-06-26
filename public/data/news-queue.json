@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T10:06:10.264Z",
+  "generated": "2026-06-26T10:13:49.545Z",
   "items": [
     {
       "id": "15849abf",
@@ -4150,6 +4150,108 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "525fe7e9",
+      "title": "Adam — CAD Copilot for Hardware Teams",
+      "url": "https://adam.new/",
+      "source": "TLDR Design",
+      "date": "2026-06-24",
+      "summary": "Adam is a CAD copilot built for hardware teams that works across CADAM, Onshape, and Autodesk Fusion, bringing AI-assisted design directly into professional mechanical engineering workflows. Its launch marks another point in the growing cad-copilots category where AI assistants are embedded inside the tools engineers already use, rather than requiring context switches.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e9a84cce",
+      "title": "Adobe: New Firefly Graph Can Turn Creative Workflows Into Reusable Assets",
+      "url": "https://www.computerworld.com/article/4186410/adobe-new-firefly-graph-can-turn-creative-workflows-into-reusable-assets.html",
+      "source": "TLDR Design",
+      "date": "2026-06-25",
+      "summary": "Adobe launched Firefly Graph for Creative Cloud, a node-based workflow tool that chains AI-powered tasks—image generation, background removal, upscaling—into reusable pipelines using 300+ node types spanning Adobe, Google, and OpenAI. Unlike ComfyUI, its advantage is deep integration across the Creative Cloud suite, positioning it as the enterprise answer to custom AI creative production workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a3969197",
+      "title": "My Beef with Agentic Design Systems",
+      "url": "https://southleft.substack.com/p/my-beef-with-agentic-design-systems",
+      "source": "TLDR Design",
+      "date": "2026-06-25",
+      "summary": "This essay argues that agentic design systems—AI loops that self-heal and generate components autonomously—are dangerous not because of the agents themselves, but because they remove human ownership from the judgment layer that governs design decisions. The author posits that agents belong between the gates, handling generation and conformance checking, while humans must own every gate—otherwise the result is confident, unowned drift.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d3dbafc7",
+      "title": "Designing with AI: Why Claude Design Is Not the Future of Enterprise Design",
+      "url": "https://penpot.app/blog/designing-with-ai-why-claude-design-is-not-the-future-of-enterprise-design/",
+      "source": "TLDR Design",
+      "date": "2026-06-25",
+      "summary": "Penpot argues that Claude Design accelerates early-stage UI generation but lacks the governance, scalability, and design-system consistency that enterprise teams need, with Anthropic's proprietary data ecosystem raising compliance concerns for health and finance sectors. The piece makes a case for enterprise AI design tools that prioritize open standards, data ownership, self-hosting, and MCP integration—signaling a coming enterprise-vs-consumer rift in AI-assisted design tooling.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "45221321",
+      "title": "Moving Beyond UX: The Rise of the Agentic Experience (AX) Designer",
+      "url": "https://webdesignerdepot.com/moving-beyond-ux-the-rise-of-the-agentic-experience-ax-designer/",
+      "source": "TLDR Design",
+      "date": "2026-06-25",
+      "summary": "Agentic Experience (AX) Design is introduced as an emerging discipline focused not on human-facing interfaces but on structuring the environments where autonomous AI agents operate—across inboxes, CRMs, databases, and backend systems without a traditional UI. The article argues that AX design skills—prompt architecture, agent-boundary definition, and delegation logic—will become as foundational as UX was for the web era.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "436d18a7",
+      "title": "Moondream — Production-Ready Vision Language Model",
+      "url": "https://moondream.ai/",
+      "source": "TLDR Design",
+      "date": "2026-06-24",
+      "summary": "Moondream is a highly efficient open-source vision language model combining powerful image understanding with a small footprint, making it viable for edge and production deployments where large models are impractical. Its compact architecture broadens access to visual AI for manufacturing inspection, quality control, and other resource-constrained engineering environments.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1d72a87d",
+      "title": "Three Days, Three Keynotes: Trends and Insights from Automate 2026 in Chicago",
+      "url": "https://www.vision-systems.com/factory/article/55386467/three-days-three-keynotes-trends-and-insights-from-automate-2026-in-chicago-june-22-25",
+      "source": "Vision Systems Design",
+      "date": "2026-06-25",
+      "summary": "Vision Systems Design's on-site recap of Automate 2026 (June 22–25, Chicago, 50,000+ attendees) covers keynotes on physical AI, machine vision, and humanoid robotics in manufacturing, with ABB, NVIDIA, Kawasaki, and Standard Bots demonstrating AI-driven vision inspection and physical AI toolchains. The dominant theme was the shift from brittle, programmatic automation to adaptive, learning-based systems where vision tools can be trained incrementally on the factory floor.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
