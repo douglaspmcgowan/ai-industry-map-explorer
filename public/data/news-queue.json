@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T10:13:49.545Z",
+  "generated": "2026-06-28T10:06:38.153Z",
   "items": [
     {
       "id": "15849abf",
@@ -4252,6 +4252,81 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9c13b0af",
+      "title": "Config 2026: New Materials, New Tools, and a More Expressive Canvas",
+      "url": "https://www.figma.com/blog/config-2026-recap/",
+      "source": "Figma Blog",
+      "date": "2026-06-26",
+      "summary": "Figma unveiled generative plugins, shader fills, code layers, Figma Motion, and Weave tools at Config 2026, collapsing the boundary between design and development into a single expressive canvas. CEO Dylan Field frames these features as a foundation for designers to push creative expression further rather than positioning AI as the ceiling-raiser, signaling a human-directed AI approach to design tooling.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "330c54d3",
+      "title": "Beyond Vibe Coding: A Designer's Case for Directed Generation",
+      "url": "https://uxmag.com/articles/beyond-vibe-coding-a-designers-case-for-directed-generation",
+      "source": "UX Magazine",
+      "date": "2026-06-26",
+      "summary": "The article argues that describing intentional AI-assisted design work as vibe coding misrepresents the process — proposing directed generation or reference-guided generation as terms that keep human authorship central. The reframing matters for how design teams, clients, and the profession assign accountability and evaluate craft in AI-assisted workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "32c9a90c",
+      "title": "50 Design Token Files, One Problem: Your Agents Can't Read the Meaning",
+      "url": "https://learn.thedesignsystem.guide/p/50-design-token-files-one-problem",
+      "source": "The Design System Guide",
+      "date": "2026-06-26",
+      "summary": "An analysis of 50 public design systems finds that while tokens are well-structured for build pipelines, most lack the semantic metadata — usage guidance, intent, constraints — that AI agents need to use them reliably. Adding descriptions, deprecation flags, and machine-readable rules directly to token files can transform design systems into agent-ready knowledge sources.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f93ac351",
+      "title": "An Interview with Figma CEO Dylan Field about Design and AI",
+      "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "source": "Stratechery",
+      "date": "2026-06-26",
+      "summary": "Ben Thompson interviews Figma CEO Dylan Field about how AI is being embedded in design tools and what it means for the profession, with Field framing Config 2026 announcements as amplifiers of human creativity rather than AI-directed automation. This is an authoritative primary-source view on how the leading design platform is positioning AI amid rapid tooling change.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "2d4e3049",
+      "title": "Enterprise-Grade AI Image Generation in 2 Seconds Is Here: Krea 2 Raw and Turbo",
+      "url": "https://venturebeat.com/technology/enterprise-grade-ai-image-generation-in-2-seconds-is-here-krea-2-raw-and-turbo-available-as-open-weights-under-custom-license",
+      "source": "VentureBeat",
+      "date": "2026-06-26",
+      "summary": "Krea has open-weighted two AI image models — Krea 2 Raw and Krea 2 Turbo — built for enterprise creative workflows requiring fast (2-second) generation and high visual variety, under a custom license requiring content filters for organizations over 50 seats. The release marks Krea's shift from AI tools aggregator to independent model provider and raises the bar for generative image quality in design pipelines.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
