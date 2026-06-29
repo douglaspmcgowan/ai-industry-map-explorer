@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T10:06:38.153Z",
+  "generated": "2026-06-29T10:15:40.387Z",
   "items": [
     {
       "id": "15849abf",
@@ -4327,6 +4327,65 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b2d1e66e",
+      "title": "Figma adds code layers, support for animations, more AI features in new update",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "source": "TechCrunch",
+      "date": "2026-06-24",
+      "summary": "Figma launched a suite of AI-powered tools at Config 2026, including Weave Tools—a node-based visual workflow builder that chains multiple AI models in sequence—plus AI-generated shaders via the Figma agent, native Motion timeline, and Code Layers that sync design layers with live code side-by-side. These features shift Figma from a tool with individual AI assists toward a platform where designers can compose multi-model agentic pipelines directly in their design environment.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9687deaf",
+      "title": "PTC Brings AI-Powered Guidance to the Design Environment with Creo 13",
+      "url": "https://www.ptc.com/en/news/2026/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13",
+      "source": "PTC",
+      "date": "2026-06-10",
+      "summary": "PTC released Creo 13 and Creo+ 13.3, embedding a new AI Assistant that reads 3D models directly to surface design issues, compliance insights, and key data through a chat interface inside the CAD tool. The release also delivers up to 70% faster assembly loading, 60x faster composite calculations, and enhanced generative design—making AI-guided design review a first-class feature in a leading industrial CAD platform.",
+      "industry_nodes": [
+        "cad-copilots",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "74fb0f9b",
+      "title": "DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces",
+      "url": "https://arxiv.org/abs/2603.05607",
+      "source": "arXiv",
+      "date": "2026-03-10",
+      "summary": "DreamCAD proposes a multimodal generative framework that produces editable boundary representations (BReps) from text, images, or point clouds, representing CAD geometry as sets of differentiable Bézier surface patches trained without CAD-specific annotations. The authors release CADCap-1M, the largest CAD captioning dataset (over 1 million GPT-5-generated descriptions), and achieve state-of-the-art on ABC and Objaverse benchmarks—outperforming GPT-5.2 on multi-view CAD reconstruction.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "28aa9aeb",
+      "title": "The agentic future of BIM",
+      "url": "https://aecmag.com/features/the-agentic-future-of-bim/",
+      "source": "AEC Magazine",
+      "date": "2026-06-01",
+      "summary": "AEC Magazine examines how AI agents are entering BIM workflows through open platforms like Speckle and Fastio, with a predicted arc from AI augmentation (2026–2030) to discipline-level autonomous design generation (2028–2035). The article highlights a critical gap: the draft revision of ISO 19650-1:2026, the main BIM standard, still does not mention agents or autonomous workflows, revealing the institutional lag behind technical capability.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
