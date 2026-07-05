@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-04T10:09:11.126Z",
+  "generated": "2026-07-05T10:08:52.388Z",
   "items": [
     {
       "id": "15849abf",
@@ -4520,6 +4520,64 @@
       "relevance": 4,
       "status": "pending",
       "id": "76da70e4"
+    },
+    {
+      "id": "c9aebade",
+      "title": "Why Accessibility is an Operational Capability, Not a Feature",
+      "url": "https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+      "source": "Smashing Magazine",
+      "date": "2026-06-30",
+      "summary": "AI-generated UI code is inaccessible by default because models learn from non-semantic markup, mirroring the same process gaps that cause security flaws in AI-written code. Organizations that succeed embed accessibility into design systems, CI automation, and workflows rather than treating it as a one-time audit.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "650b8db1",
+      "title": "AI vs. Human Illustrators? AI + Human Illustrators!",
+      "url": "https://evilmartians.com/chronicles/ai-vs-human-illustrators-ai-plus-human-illustrators",
+      "source": "Evil Martians",
+      "date": "2026-07-03",
+      "summary": "Evil Martians replaced its contract-illustrator workflow for blog cover art first with pure AI image generation, then settled on a hybrid pipeline pairing AI generation with a human illustrator for final cleanup and creative direction. The case study documents the tradeoffs in quality, cost, and creative control across both approaches.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "15b82acd",
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+      "source": "Geoffrey Litt",
+      "date": "2026-07-02",
+      "summary": "As AI agents write more code and generate more design artifacts, human understanding of what was produced becomes the new limiting factor rather than output speed. The article presents techniques for maintaining the mental model needed to verify correctness and participate meaningfully in the creative process alongside AI.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "bfe35916",
+      "title": "Autoresearch, Claude, and Constrained Optimization",
+      "url": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization/",
+      "source": "Elliot C. Smith",
+      "date": "2026-07-03",
+      "summary": "A practical account of using Claude as an autonomous research agent for constrained optimization problems, showing how the AI iterates through solution spaces, checks constraints, and surfaces results with minimal human steering. The piece illustrates an emerging pattern where AI handles the search loop while humans define objectives and review outputs.",
+      "industry_nodes": [
+        "surrogate-models",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
