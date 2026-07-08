@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T10:08:52.388Z",
+  "generated": "2026-07-08T10:13:02.606Z",
   "items": [
     {
       "id": "15849abf",
@@ -4577,6 +4577,96 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "39f3a2ee",
+      "title": "Enhancing Creativity in 3D Generative Design via a TRIZ-Inspired Text-to-CAD Framework",
+      "url": "https://arxiv.org/abs/2606.21378",
+      "source": "arXiv / KAIST",
+      "date": "2026-06-28",
+      "summary": "KAIST researchers embed TRIZ (Theory of Inventive Problem Solving) principles into LLM prompting to generate editable, structurally diverse CAD models from text while systematically exploring creative design alternatives. By encoding insights from patent records, the framework resolves technical contradictions autonomously—pushing text-to-CAD beyond geometric reproduction toward genuine invention.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "54e6878b",
+      "title": "A Field Guide to Claude Fable: Finding Your Unknowns",
+      "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "source": "Anthropic / Claude Blog",
+      "date": "2026-07-03",
+      "summary": "Anthropic engineer Thariq Shihipar presents eight concrete techniques across three stages—pre-implementation, during, and post—for using Claude Fable 5 as a partner that surfaces unknowns before they become expensive mistakes. The guide argues that Fable's quality ceiling is now bottlenecked by the human's ability to articulate unknowns, making this meta-skill the key differentiator for engineers and designers working with AI agents.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2a363859",
+      "title": "Use Fable Before You Know What to Ask",
+      "url": "https://every.to/context-window/use-fable-before-you-know-what-to-ask",
+      "source": "Every.to / Context Window",
+      "date": "2026-07-07",
+      "summary": "Every.to's Context Window shows how Fable 5's sharpest edge is surfacing decisions you didn't know you were making—using it as a diagnostic layer before committing to a direction, not just an execution tool. Includes a case study from Every's head of social who had Fable diagnose a recurring task that Opus 4.8 kept fumbling, and a /ce-pov skill for stress-testing tool evaluations against a project's real constraints.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "79e5a805",
+      "title": "Impeccable by Design",
+      "url": "https://www.a16z.news/p/impeccable-by-design",
+      "source": "a16z News",
+      "date": "2026-07-05",
+      "summary": "a16z profiles Paul Bakaus and Impeccable, an open-source design skill for AI coding agents (Claude Code, Cursor) that gives models a shared vocabulary for design quality—'bolder,' 'quieter,' 'denser'—instead of one-shot full redesigns. Backed by a16z and now partnered with GitHub, Renaissance Geek aims to raise the ceiling on AI-assisted creative work by keeping humans in the loop for the final 20% where taste and context matter.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "33cf3dd9",
+      "title": "The Robots Are Here",
+      "url": "https://www.chinatalk.media/p/the-robots-are-here",
+      "source": "ChinaTalk",
+      "date": "2026-07-07",
+      "summary": "A deep interview with robotics experts on why general-purpose robots (especially Unitree) are the real transformative technology of 2026, decoupling production capacity from human labor constraints. The piece explains why you can't AI-prompt your way out of a hardware and supply-chain problem—and what the US must do as China's robot manufacturing capabilities accelerate.",
+      "industry_nodes": [
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ed56d18d",
+      "title": "Transforming Engineering Design with AI: A New Era of Possibilities",
+      "url": "https://www.neuralconcept.com/post/transforming-engineering-design-with-ai-a-new-era-of-possibilities",
+      "source": "Neural Concept",
+      "date": "2026-05-21",
+      "summary": "Neural Concept outlines how their physics- and geometry-aware AI platform replaces slow CAE simulation loops with real-time surrogate models, enabling engineers to explore thousands of design alternatives that would take weeks via traditional FEA. The platform integrates with NVIDIA Omniverse and demonstrated live at CES 2026, representing a mature deployment of deep learning surrogates directly inside engineering CAD workflows.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
