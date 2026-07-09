@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T10:13:02.606Z",
+  "generated": "2026-07-09T10:12:22.249Z",
   "items": [
     {
       "id": "15849abf",
@@ -4668,6 +4668,96 @@
       "schools": [],
       "relevance": 4,
       "status": "pending"
+    },
+    {
+      "url": "https://www.autodesk.com/products/fusion-360/blog/july-2026-major-product-update-whats-new/",
+      "title": "July 2026 Major Product Update – What's New in Autodesk Fusion",
+      "source": "Autodesk Fusion Blog",
+      "date": "2026-07-07",
+      "summary": "Autodesk Fusion's July 2026 update extends the AI-powered Autodesk Assistant into the Manufacturing workspace, enabling natural-language setup of CAM toolpaths and context-specific machining guidance. It also adds a honeycomb lattice cell type for lightweight additive manufacturing and GD&T-aware STEP file import — deepening AI integration across the full design-to-fabrication pipeline.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "b3309f63"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.23667",
+      "title": "Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Structural Topology Optimization",
+      "source": "arXiv",
+      "date": "2025-10-30",
+      "summary": "This paper introduces a foundation model for structural topology optimization that generalizes across arbitrary shapes and mesh resolutions without task-specific retraining, leveraging transformer architectures trained on diverse engineering geometries. It advances the field toward universal surrogate models that can accelerate lightweight structure design for aerospace, automotive, and additive manufacturing without the cost of per-problem simulation.",
+      "industry_nodes": [
+        "topology-optimization",
+        "physics-aware-surrogates",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "4062549a"
+    },
+    {
+      "url": "https://www.techrepublic.com/article/news-anthropic-claude-design-overhaul-enterprise-teams/",
+      "title": "Anthropic Adds Brand Controls, Code Sync to Claude Design",
+      "source": "TechRepublic",
+      "date": "2026-06-17",
+      "summary": "Anthropic's June 2026 Claude Design overhaul adds enterprise brand-control locks, GitHub-based design system imports, and a direct code-handoff to Claude Code so that design output can flow into implementation without rebuilding. For teams using Claude as a design-to-dev pipeline, this positions Claude Design as a design-system compliance layer, not just a visual prototyping tool.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "281b895a"
+    },
+    {
+      "url": "https://metrology.news/unitx-launches-flex-ai-powered-visual-inspection-system-for-inline-manufacturing-quality-control/",
+      "title": "UnitX Launches FleX AI-Powered Visual Inspection System for Inline Manufacturing Quality Control",
+      "source": "Metrology News",
+      "date": "2026-07-09",
+      "summary": "UnitX has launched FleX, an inline AI visual inspection system designed for manufacturing quality control that brings automated defect detection directly to the production line. The product targets the growing adoption of edge AI for closed-loop inspection, where accept/reject decisions happen in milliseconds without cloud round-trips.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "49357ef5"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11831-025-10302-y",
+      "title": "Generative Design for Engineering Applications: A State-of-the-Art Review",
+      "source": "Archives of Computational Methods in Engineering (Springer)",
+      "date": "2025-07-01",
+      "summary": "This Springer review surveys the state of generative design across AI-driven, optimization-based, and physics-informed approaches, covering topology optimization, GANs, diffusion models, and ML surrogates for sustainable engineering. It provides a structured taxonomy of the generative design landscape and identifies open challenges in multi-objective optimization and manufacturing constraint integration.",
+      "industry_nodes": [
+        "topology-optimization",
+        "surrogate-models",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "273be3d8"
+    },
+    {
+      "url": "https://www.engineering.com/allplan-launches-2026-releases-with-new-ai-and-bim-tools/",
+      "title": "Allplan Launches 2026 Releases with New AI and BIM Tools",
+      "source": "Engineering.com",
+      "date": "2026-07-01",
+      "summary": "Allplan released its 2026 AEC software suite, adding AI-assisted drawing generation, clash detection, and automated BIM workflows for architecture and structural engineering teams. The update reflects the accelerating integration of generative AI into mainstream AEC tools used for building design and construction documentation.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "d3ea7b84"
     }
   ]
 }
