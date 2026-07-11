@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T10:12:22.249Z",
+  "generated": "2026-07-11T10:11:06.203Z",
   "items": [
     {
       "id": "15849abf",
@@ -4758,6 +4758,108 @@
       "relevance": 3,
       "status": "pending",
       "id": "d3ea7b84"
+    },
+    {
+      "url": "https://gamesbeat.com/tripo-ai-raises-150m-for-genai-tools-for-gaming-a-month-after-its-previous-200m-raise/",
+      "title": "Tripo AI Raises $150M for GenAI Tools for Gaming — A Month After Its Previous $200M Raise",
+      "source": "GamesBeat / TLDR Design",
+      "date": "2026-07-09",
+      "summary": "Tripo AI raised $150M in a Series A3 round from automotive, gaming, and tech investors to accelerate development of its 3D foundation models and Project Eden world model. The company is commercializing generative 3D geometry at scale, with automotive investor Geely Capital signaling real-time 3D design use cases beyond gaming.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-platforms"
+      ],
+      "relevance": 4,
+      "id": "9008a48a",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.hongkiat.com/blog/ai-skills-coding-agent-design/",
+      "title": "10 AI Skills to Give Your Coding Agent Real Design Taste",
+      "source": "Hongkiat / TLDR Design",
+      "date": "2026-07-09",
+      "summary": "Introduces ten markdown-based design skill packages covering color science, Swiss grid systems, and brand style generation that can be installed into coding agents to give them design judgment. Design knowledge is shifting from static human-readable references to executable rules that agents apply automatically, reframing design systems as agent-executable specifications.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 4,
+      "id": "aaa7cf71",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.itsnicethat.com/features/in-house-figma-loredana-crisan-creative-industry-080726",
+      "title": "Figma's Loredana Crisan talks taste, last-minute decisions and the art of prioritisation",
+      "source": "It's Nice That / TLDR Design",
+      "date": "2026-07-09",
+      "summary": "At Config 2026, Figma's Chief Design Officer Loredana Crisan discussed new AI-powered features Figma is shipping while arguing that human judgment, taste, and empathy remain the irreplaceable core of great design. She framed AI as a craft amplifier rather than a replacement, emphasizing that design culture must actively embrace AI-driven workflows without ceding the final creative direction.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "965ce678",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://refactoring.fm/p/the-rise-of-malleable-software-with",
+      "title": "The Rise of Malleable Software — with Geoffrey Litt",
+      "source": "Refactoring FM",
+      "date": "2026-07-10",
+      "summary": "Notion Design Engineer Geoffrey Litt explains how AI agents are enabling malleable software — tools that users and agents can reshape at runtime — and how Notion built a developer platform that lets agents ship code directly inside the product. The conversation maps a new model of design engineering where the designer ships to production, blurring the line between prototyping and final product.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 3,
+      "id": "a7e0445a",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+      "title": "Introducing Seedream 5.0 Pro: Beyond Generation, It Understands Design",
+      "source": "ByteDance Seed",
+      "date": "2026-07-08",
+      "summary": "ByteDance's Seedream 5.0 Pro is a production-ready multimodal image model combining deep prompt reasoning with interactive precision editing — point selection, sketch guidance, region annotations — and exporting scenes as editable transparent PNG layers for independent control. It targets professional design workflows with complex infographic generation, native on-image text across 10+ languages, and 2K output, closing the gap between AI generation and production-ready creative delivery.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "relevance": 3,
+      "id": "8cdf9c40",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.19717",
+      "title": "Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design",
+      "source": "arXiv / IJCAI-ECAI 2026",
+      "date": "2026-05-26",
+      "summary": "Proposes embedding validated physics simulation directly into the decision loop of AI agents for CAD design, formulating engineering design as closed-loop sequential decision-making with explicit physical verification as the feedback signal. Accepted at IJCAI-ECAI 2026, the system generates designs with 4.2x greater structural complexity and improved compile rates vs. prior agentic baselines, with a public benchmark for functional validity in generative CAD.",
+      "industry_nodes": [
+        "cad-copilots",
+        "physics-aware-surrogates"
+      ],
+      "relevance": 5,
+      "id": "ad7f45c9",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00839",
+      "title": "2026 Roadmap on Artificial Intelligence and Machine Learning for Smart Manufacturing",
+      "source": "arXiv",
+      "date": "2026-05-01",
+      "summary": "A community roadmap paper surveying where AI and ML are transforming smart manufacturing in 2026, covering generative AI for process planning, agentic AI for supply chains, predictive quality inspection, and DfAM integration. It serves as a consensus reference for researchers and practitioners on near-term deployment priorities in AI-driven manufacturing design.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "ai-for-dfm-dfam"
+      ],
+      "relevance": 4,
+      "id": "57990a18",
+      "schools": [],
+      "status": "pending"
     }
   ]
 }
