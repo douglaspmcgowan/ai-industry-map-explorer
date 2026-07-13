@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T10:11:06.203Z",
+  "generated": "2026-07-13T10:14:52.814Z",
   "items": [
     {
       "id": "15849abf",
@@ -4859,6 +4859,121 @@
       "relevance": 4,
       "id": "57990a18",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "f07ec45d",
+      "title": "Engineering's Next Competitive Edge: AI-Driven Design, Simulation, and Manufacturing",
+      "url": "https://dailycadcam.com/engineerings-next-competitive-edge-ai-driven-design-simulation-and-manufacturing/",
+      "source": "DailyCADCAM",
+      "date": "2026-07-06",
+      "summary": "Comprehensive survey of how major PLM/CAD vendors—Autodesk, Siemens, Dassault Systèmes, PTC, Hexagon, and Sandvik—are embedding AI into design, simulation, and manufacturing workflows in 2026, marking a shift from pilot programs to mainstream integration. Matters because it maps the full vendor landscape and documents which AI capabilities are production-ready versus still experimental across the engineering design stack.",
+      "industry_nodes": [
+        "cad-copilots",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "88f47ee2",
+      "title": "AI Capabilities in SOLIDWORKS Design 2026: The Next Generation of AI-Powered Product Development",
+      "url": "https://dailycadcam.com/ai-capabilities-in-solidworks-design-2026-the-next-generation-of-ai-powered-product-development/",
+      "source": "DailyCADCAM",
+      "date": "2026-07-01",
+      "summary": "Details SOLIDWORKS 2026 AI features now reaching general availability in July 2026: AI drawing generation, the LEO virtual companion, assembly-hardware recognition, and the DraftSight AI Agent for CAD standards verification across thousands of drawings. Matters because these features represent a production-ready CAD copilot layer integrated directly into Dassault's mainstream modeling environment.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "abcd85db",
+      "title": "Cadence, NVIDIA Bring Autonomous Virtual Engineer for Chip Design",
+      "url": "https://dailycadcam.com/cadence-nvidia-bring-autonomous-virtual-engineer-for-chip-design/",
+      "source": "DailyCADCAM / Cadence",
+      "date": "2026-06-01",
+      "summary": "Cadence extends ChipStack to Level-5 autonomy with NVIDIA Nemotron models, enabling AI agents to orchestrate hundreds of dynamic RTL simulations and reduce a typical five-week verification loop to under one day. Matters because this is the first fully autonomous EDA agent covering chip design and verification end-to-end, representing a threshold moment for AI in semiconductor design.",
+      "industry_nodes": [
+        "eda-chip-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "2fa652ec",
+      "title": "Bringing Fusion onto Claude for Creative Work",
+      "url": "https://aps.autodesk.com/blog/bringing-fusion-claude-creative-work",
+      "source": "Autodesk Platform Services",
+      "date": "2026-04-28",
+      "summary": "Autodesk's official technical explainer on the Claude for Creative Work + Fusion MCP integration: Claude can read geometry, modify parts, run Fusion API operations, and write parametric history directly into active CAD files using natural language prompts. Matters because it details how a major LLM's tool-use capability is being wired into a professional CAD environment at the API level, setting a pattern for AI-in-CAD architecture.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8e5b03a6",
+      "title": "Autodesk Announces Updates to AI Expansion Across Design & Manufacturing Portfolio",
+      "url": "https://develop3d.com/cad/autodesk-announces-updates-to-ai-expansion/",
+      "source": "DEVELOP3D",
+      "date": "2026-04-16",
+      "summary": "Autodesk rolls Autodesk Assistant out across its full Product Design & Manufacturing portfolio—Fusion, Inventor, Moldflow, and more—with prompt-to-API capabilities in Fusion giving AI agents access to nearly all modeling operations and a new Design & Make Marketplace for certified MCP connectors. Matters because it signals Autodesk's commitment to agentic AI across its entire CAD/CAM/CAE stack, not just individual products.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3d04750c",
+      "title": "SimScale Publishes 2026 State of Engineering AI Report",
+      "url": "https://dailycadcam.com/simscale-publishes-2026-state-of-engineering-ai-report/",
+      "source": "DailyCADCAM / SimScale",
+      "date": "2026-03-30",
+      "summary": "SimScale's 2026 industry survey finds engineering teams using AI-enabled simulation workflows generate nearly 4x more design variants per program than conventional teams, with autonomous simulation orchestration moving from experimental pilots to routine use. Matters because it provides empirical evidence that AI-driven simulation is genuinely accelerating exploration across the design space, validating the surrogate-model and physics-aware-surrogate investment thesis.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fe4421e1",
+      "title": "Siemens Updates Designcenter Solid Edge 2026 with AI and Cloud-Driven Enhancements",
+      "url": "https://dailycadcam.com/siemens-updates-designcenter-solid-edge-with-ai-cloud-driven-enhancements/",
+      "source": "DailyCADCAM / Siemens",
+      "date": "2026-02-18",
+      "summary": "Designcenter Solid Edge 2026 debuts Design Copilot (conversational AI for in-environment help), Magnetic Snap Assembly (AI-driven constraint automation), and automatic 2D drawing generation covering 80% of views with minimal input, all shipping as part of the Siemens Xcelerator portfolio. Matters because it shows Siemens matching Dassault and Autodesk in embedding generative AI directly into mainstream mechanical CAD workflows.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6ba81a0e",
+      "title": "Cadence Launches ChipStack AI Super Agent for Chip Design and Verification",
+      "url": "https://dailycadcam.com/cadence-launches-chipstack-ai-super-agent-for-chip-design-verification/",
+      "source": "DailyCADCAM / Cadence",
+      "date": "2026-02-17",
+      "summary": "Cadence unveils ChipStack, the first agentic AI workflow for front-end silicon design and verification, delivering up to 10X productivity gains by autonomously coding RTL, generating testbenches, orchestrating regression runs, and debugging failures. Matters because it establishes a concrete benchmark for what agentic AI can do in EDA today, before the Level-5 autonomous engineer announcement three months later.",
+      "industry_nodes": [
+        "eda-chip-design"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
