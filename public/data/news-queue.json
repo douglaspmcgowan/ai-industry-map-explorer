@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T10:08:17.505Z",
+  "generated": "2026-07-16T10:11:22.906Z",
   "items": [
     {
       "id": "15849abf",
@@ -5105,6 +5105,52 @@
       "relevance": 3,
       "status": "pending",
       "id": "bad0aef7"
+    },
+    {
+      "url": "https://sakana.ai/smart-cellular-bricks/",
+      "title": "Smart Cellular Bricks: Towards Collective Intelligence for the Physical World",
+      "source": "Sakana AI / Nature Communications",
+      "date": "2026-07-13",
+      "summary": "Sakana AI, IT University of Copenhagen, and Autodesk Research publish a Nature Communications paper describing roughly 200 circuit-board cubes (\"Smart Cellular Bricks\") that collectively classify 3D shapes using Neural Cellular Automata without centralized control. Each brick communicates only with its physical neighbors, yet the whole assembly converges on a correct shape label within ~3 minutes — and the system recovers autonomously from missing or faulty modules.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "robotics-manufacturing",
+        "physics-aware-surrogates"
+      ],
+      "relevance": 5,
+      "id": "17a1064c",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b",
+      "title": "Taste Cannot Be Delegated",
+      "source": "UX Collective",
+      "date": "2026-07-14",
+      "summary": "Aurélie Radom argues that while AI handles prediction and pattern-matching, the judgment of which design outputs deserve to exist — \"taste\" — remains irreducibly human. As AI floods the market with generated interfaces and visuals, the designer's value shifts from producing outputs to exercising accountability for what gets made.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "relevance": 3,
+      "id": "3ac3525c",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://s2026.siggraph.org/siggraph-2026-announces-sponsored-keynote-presentations-showcasing-the-future-of-graphics-ai-and-simulation/",
+      "title": "SIGGRAPH 2026 Keynotes: Tripo AI on Functional 3D Intelligence and NVIDIA on Visual Computing",
+      "source": "SIGGRAPH 2026",
+      "date": "2026-07-16",
+      "summary": "SIGGRAPH 2026 (July 19-23, Los Angeles) announces sponsored keynotes including Tripo AI presenting their shift from static 3D asset generation to functional, interactive 3D intelligence applicable to gaming, 3D printing, and robotics simulation. NVIDIA Research will cover the latest graphics and simulation breakthroughs, making this the week's key bellwether for AI+3D design tools.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-geometry-cad"
+      ],
+      "relevance": 3,
+      "id": "d28935ef",
+      "schools": [],
+      "status": "pending"
     }
   ]
 }
