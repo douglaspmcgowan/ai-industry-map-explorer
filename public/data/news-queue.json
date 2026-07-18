@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T10:11:22.906Z",
+  "generated": "2026-07-18T10:10:22.750Z",
   "items": [
     {
       "id": "15849abf",
@@ -5150,6 +5150,49 @@
       "relevance": 3,
       "id": "d28935ef",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "cb14f827",
+      "title": "ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2607.05123",
+      "source": "arXiv",
+      "date": "2026-07-06",
+      "summary": "ASSEMCAD is an axiom-grounded framework that generates production-ready multi-part CAD assemblies from natural language descriptions, decomposing the task into structured assembly specification, on-demand component synthesis, and geometry-aware verification. Unlike prior work that outputs static geometry, it produces mechanically executable assemblies with valid joint structures and articulated mates, substantially improving physical validity over code-centric CAD generation baselines on AssemBench.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9b3f183a",
+      "title": "Cadence and Rapidus Partner on Agentic AI for Advanced SoC Design",
+      "url": "https://www.hpcwire.com/off-the-wire/cadence-and-rapidus-partner-on-agentic-ai-for-advanced-soc-design/",
+      "source": "HPCwire",
+      "date": "2026-07-17",
+      "summary": "Cadence and Rapidus announced a collaboration integrating the Cadence InnoStack AI Super Agent into Rapidus' AI-Agentic Design Solution (Raads), targeting up to a 2X improvement in SoC design turnaround time for advanced-node 2nm semiconductors. The partnership deploys agentic AI at the physical implementation phase of chip design, combining Rapidus' AI-native foundry ecosystem with Cadence's EDA orchestration technology for design-manufacturing co-optimization.",
+      "industry_nodes": [
+        "eda-chip-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bc7f35fd",
+      "title": "Canva Code 2.0 just made vibe coding way less intimidating for everyone",
+      "url": "https://www.digitaltrends.com/computing/canva-code-2-0-just-made-vibe-coding-way-less-intimidating-for-everyone/",
+      "source": "Digital Trends",
+      "date": "2026-07-16",
+      "summary": "Canva Code 2.0 brings AI-powered app and website creation to all Canva users, combining natural language prompting with Canva's existing design tools to let designers build functional, on-brand digital experiences without coding expertise. It distinguishes itself from generic vibe-coding tools by integrating directly into the design workflow with real-time collaboration, letting designers customize layouts, branding, and content while the AI generates the underlying code.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
