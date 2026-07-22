@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T10:10:22.750Z",
+  "generated": "2026-07-22T10:13:18.938Z",
   "items": [
     {
       "id": "15849abf",
@@ -5193,6 +5193,145 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.figma.com/release-notes/?title=bring-code-backed-screens-onto-the-canvas-with-variables-attached",
+      "title": "Figma: Bring Code-backed Screens onto the Canvas with Variables Attached",
+      "source": "Figma / TLDR Design",
+      "date": "2026-07-20",
+      "summary": "Figma now binds colors, type, and spacing tokens to existing file variables when code-backed screens arrive on the canvas via the Figma MCP server, Make previews, or the Chrome extension. This closes the design-to-code fidelity gap by letting teams refine real production layouts in Figma instead of rebuilding them from scratch.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "relevance": 4,
+      "id": "9dd82ce9",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.30429",
+      "title": "Arko-T: A Foundation Model for Text-to-Structured 3D Generation",
+      "source": "arXiv",
+      "date": "2026-06-29",
+      "summary": "Arko-T is a 4B-parameter foundation model that maps natural-language design intent directly into executable parametric CAD programs, preserving editable features, parameters, and construction logic rather than just generating renderable meshes. It uses execution-grounded supervision and formal design-state alignment throughout curation, normalization, and training to produce out-of-distribution mechanical parts coherently.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "relevance": 5,
+      "id": "0fa59efa",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.31252",
+      "title": "Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling",
+      "source": "arXiv",
+      "date": "2026-06-30",
+      "summary": "Embodied CAD introduces a solver-grounded LLM agent that iteratively selects actions from a stratified CAD skill library (L0-L4), resolves them into typed geometric operations, executes them in a CAD kernel, and uses solver feedback for GRPO-style reinforcement to produce valid, editable B-Rep assemblies. This approach closes the gap between LLMs writing plausible CAD scripts and actually passing the geometric kernel validation required for industrial use.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "relevance": 5,
+      "id": "4b500dc1",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19773",
+      "title": "PR-CAD: Progressive Refinement for Unified Controllable and Faithful Text-to-CAD Generation with Large Language Models",
+      "source": "arXiv",
+      "date": "2026-04-01",
+      "summary": "PR-CAD unifies text-to-CAD generation and editing in a single RL-enhanced agent that integrates intent understanding, parameter estimation, and precise edit localization, trained on a lifecycle-spanning dataset covering multiple CAD representations and both qualitative and quantitative descriptions. It achieves state-of-the-art controllability and faithfulness in both generation and refinement scenarios while significantly improving CAD modeling efficiency.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "relevance": 5,
+      "id": "72eaa6d1",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.01702",
+      "title": "KDH-CAD: Knowledge-Data Hybrid CAD Learning under Data Scarcity",
+      "source": "arXiv",
+      "date": "2026-06-01",
+      "summary": "KDH-CAD addresses the fundamental data scarcity problem in CAD AI by combining pretrained foundation model knowledge, structured domain knowledge from mechanical textbooks and tutorial videos, and small amounts of labeled CAD data—achieving 92.6% accuracy on real mechanical part classification with only 250 training samples. The framework shows that design textbooks and tutorials are valuable knowledge sources for grounding AI models in CAD domain concepts.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "cad-copilots"
+      ],
+      "relevance": 4,
+      "id": "11d197d3",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.16317",
+      "title": "CADEvolve: Creating Realistic CAD via Program Evolution",
+      "source": "arXiv",
+      "date": "2026-02-18",
+      "summary": "CADEvolve uses VLM-guided evolutionary program synthesis to grow CAD programs from simple primitives to industrial-grade complexity, producing an 8k dataset of complex parts and a 1.3M-script augmented corpus that exercises the full CadQuery operation set. A VLM fine-tuned on CADEvolve achieves state-of-the-art on Image2CAD tasks across DeepCAD, Fusion 360, and MCB benchmarks, showing that evolution-based data synthesis can overcome the complexity gap in public CAD corpora.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "cad-copilots"
+      ],
+      "relevance": 4,
+      "id": "03d6798d",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.10873",
+      "title": "CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation",
+      "source": "arXiv",
+      "date": "2026-05-01",
+      "summary": "CADBench provides a unified evaluation framework of 18,000 samples spanning six dataset families and five input modalities (clean/noisy meshes, single/multi-view renders, photorealistic images), benchmarking 11 systems on geometric fidelity, executability, and program compactness. Key findings: specialized mesh-to-CAD models outperform code-generating VLMs under idealized conditions, but model rankings shift across metrics and modalities, revealing three systematic failure modes.",
+      "industry_nodes": [
+        "cad-copilots",
+        "scan-to-cad-reverse-eng",
+        "text-to-cad"
+      ],
+      "relevance": 4,
+      "id": "9f6eb339",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.17702",
+      "title": "Seek-CAD: A Self-refined Generative Modeling for 3D Parametric CAD Using Local Inference via DeepSeek",
+      "source": "arXiv / ICLR 2026",
+      "date": "2026-05-01",
+      "summary": "Seek-CAD is the first training-free system to incorporate both visual and Chain-of-Thought feedback in a self-refinement loop for parametric CAD generation, using locally deployed DeepSeek-R1 as the reasoning engine and a VLM to assess rendered step-by-step perspective images. Accepted at ICLR 2026, the work introduces an SSR (Sketch, Sketch-based feature, Refinements) CAD dataset and demonstrates that self-refinement with visual grounding substantially improves parametric model quality without fine-tuning.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "relevance": 4,
+      "id": "d51f6e47",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.nature.com/collections/fafcgigbai",
+      "title": "Generative AI for Mechanical Engineering Design and Optimization (Nature Collection)",
+      "source": "Nature",
+      "date": "2026-01-01",
+      "summary": "Nature's curated research collection aggregates peer-reviewed work on how generative AI is enabling new modes of human-AI collaboration for mechanical engineering design—covering solution-space exploration, surrogate-model acceleration, and AI-driven design optimization across structural, thermal, and material domains. The collection serves as a living academic reference tracking the research frontier at the intersection of generative AI and engineering geometry.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "surrogate-models",
+        "generative-platforms",
+        "topology-optimization"
+      ],
+      "relevance": 5,
+      "id": "78bc436a",
+      "schools": [],
       "status": "pending"
     }
   ]
