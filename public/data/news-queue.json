@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T10:13:18.938Z",
+  "generated": "2026-07-23T10:10:38.593Z",
   "items": [
     {
       "id": "15849abf",
@@ -5332,6 +5332,51 @@
       "relevance": 5,
       "id": "78bc436a",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "76556285",
+      "title": "From Vibe to Specs: Reclaiming the Design Process with SAID Framework",
+      "url": "https://uxdesign.cc/from-vibe-to-specs-reclaiming-the-design-process-with-said-framework-477a5d0d8932",
+      "source": "UX Collective / TLDR Design",
+      "date": "2026-07-22",
+      "summary": "AI-native product teams are replacing linear design handoffs with the SAID framework—a continuous loop of Specifying intent, Agentic delegation, Iterative description, and human Discernment and Diligence—built around specs, Git, and human-agent collaboration. Designers learn to express intent as precise, testable behavior that both humans and AI agents can execute, making specs the shared source of truth across shifting team archetypes.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "90cabf0c",
+      "title": "Drowning in Demos? Here's a Better Way to Prototype",
+      "url": "https://every.to/p/drowning-in-demos-here-s-a-better-way-to-prototype",
+      "source": "Every.to",
+      "date": "2026-07-21",
+      "summary": "AI prototyping tools like Bolt and Replit let Whoop's product team spin up dozens of demos in an afternoon, but faster prototypes overwhelmed decision-making rather than accelerating it. Former Whoop product lead Hilary Gridley argues teams need a structured evaluation process for which ideas are worth building—a framework problem that AI tools surface rather than solve.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "86f2663f",
+      "title": "NVIDIA Cosmos 3 Edge: 4B-Parameter Open World Model for Robotics and Physical AI",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "source": "NVIDIA / HuggingFace",
+      "date": "2026-07-21",
+      "summary": "NVIDIA released Cosmos 3 Edge, a 4-billion-parameter world foundation model that runs on edge devices like the Jetson Thor, combining understanding, prediction, simulation, and action through a shared world representation at 15 Hz. It enables robots and autonomous vision agents to reason about surroundings in real time and generate actions, advancing on-device physical AI for manufacturing and inspection use cases.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
