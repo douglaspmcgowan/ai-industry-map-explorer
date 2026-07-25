@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T10:10:38.593Z",
+  "generated": "2026-07-25T10:12:37.043Z",
   "items": [
     {
       "id": "15849abf",
@@ -5377,6 +5377,120 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f279d9df",
+      "title": "Nine Designers Open Up About AI-Assisted Coding",
+      "url": "https://rongoldin.substack.com/p/9-designers-open-up-about-ai-assisted",
+      "source": "TLDR Design",
+      "date": "2026-07-23",
+      "summary": "Nine designers from major tech companies and early-stage startups share candid first-hand accounts of AI-assisted coding and its effect on design craft. The consensus: AI coding tools deliver real value when used with discipline, but erode quality when over-relied upon and can create friction between designers and engineers.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "468118a2",
+      "title": "Sculpting a Shapeless Medium",
+      "url": "https://www.aidesignfieldguide.com/articles/amelia-wattenberger",
+      "source": "AI Design Field Guide",
+      "date": "2026-07-23",
+      "summary": "Amelia Wattenberger's new tool \"Intent\" organizes AI-assisted work into structured workspaces with specialist agents, specs, and bundled workflows—replacing single chatbot sessions with steerable human-AI collaboration systems. The article explores how designing for AI-powered work requires rethinking the interface layer: from prompting to directing, from one agent to orchestrated teams.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e6440c08",
+      "title": "Where Does Design Reside Now?",
+      "url": "https://www.designweek.co.uk/where-does-design-reside-now/",
+      "source": "Design Week",
+      "date": "2026-07-23",
+      "summary": "Design work is fragmenting across template-driven tools like Canva, individual employees using generative AI, and constraint systems governing model outputs—dissolving the traditional design department. Two futures compete: design roles shrinking into obsolescence as prompts replace brand books, or designers elevating into systems architects who govern AI-generated output quality.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0d4c476b",
+      "title": "Webflow MCP 2.0 Brings Governance to the Agentic Web",
+      "url": "https://webflow.com/updates/introducing-mcp-2-0",
+      "source": "Webflow",
+      "date": "2026-07-21",
+      "summary": "Webflow MCP 2.0 lets AI agents including Claude, Cursor, and ChatGPT build components from screenshots, edit 50+ CSS design tokens, and query site analytics conversationally—with new governance guardrails, brand instruction sets, and enterprise permissions. Over 30% of enterprise customers already use it with 4x growth since January 2026, and 90% of MCP users connect through Anthropic's Claude.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7280fe4d",
+      "title": "Runway Bets on AI Model Routing as Generative Media Gets Crowded",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "source": "TechCrunch",
+      "date": "2026-07-23",
+      "summary": "Runway Media Router automatically selects the best image, video, or audio generation model based on quality, speed, or cost—positioning Runway Dev as the infrastructure layer under generative media, consolidating Gen-4.5, Veo 3, GPT Image 2, and ElevenLabs under one API. Customers including Adobe, Cloudflare, and Shutterstock use the platform to embed AI media generation without managing model switches manually.",
+      "industry_nodes": [
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a9e5d7ac",
+      "title": "Vibecoded Apps Are Flooding Apple's App Store, and Users Are Getting Sick of Them",
+      "url": "https://www.digitaltrends.com/phones/vibecoded-apps-are-flooding-apples-app-store-and-users-are-getting-sick-of-them/",
+      "source": "Digital Trends",
+      "date": "2026-07-23",
+      "summary": "App submissions to Apple's App Store have nearly doubled in early 2026 due to AI-assisted vibecoding, while downloads grew only marginally—triggering mounting frustration from reviewers, developers, and communities like r/iosapps who are implementing moderation systems to flag AI-generated releases. The article surfaces the quality crisis when AI lowers the floor for shipping without raising the bar for design.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "26a036cc",
+      "title": "Adobe Stock AI Studio vs. Canva AI vs. Creative Fabrica: Which AI Editor Actually Wins?",
+      "url": "https://weandthecolor.com/adobe-stock-ai-studio-vs-canva-ai-vs-creative-fabrica-which-ai-editor-actually-wins/210843",
+      "source": "We and the Color",
+      "date": "2026-07-23",
+      "summary": "A three-week head-to-head evaluation of the leading AI image generation editors for designers—Adobe Stock AI Studio, Canva AI, and Creative Fabrica—finds no single overall winner, with each platform excelling in different aspects of creative workflow. The comparison provides designers with a practical benchmark for choosing AI image tools based on use-case priorities.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ff4dc3f1",
+      "title": "Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware Parametric Precision",
+      "url": "https://arxiv.org/abs/2606.29301",
+      "source": "arxiv (ECCV 2026)",
+      "date": "2026-06",
+      "summary": "Pointer-CAD v2 introduces a plan-then-construct pipeline for text-to-CAD generation that separates design intent planning from parametric geometry construction, achieving dimension-aware precision in B-Rep output—accepted to ECCV 2026. The approach advances the frontier for automated CAD generation by grounding LLM reasoning in exact parametric constraints before geometry execution.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
