@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T10:12:37.043Z",
+  "generated": "2026-07-26T10:12:41.645Z",
   "items": [
     {
       "id": "15849abf",
@@ -5492,6 +5492,97 @@
       "schools": [],
       "relevance": 5,
       "status": "pending"
+    },
+    {
+      "url": "https://highways.today/2026/07/24/generative-search-ai-bim/",
+      "title": "Generative Search Emerges as the New Gatekeeper for AI BIM Automation",
+      "source": "Highways Today",
+      "date": "2026-07-24",
+      "summary": "AI BIM automation is entering its commercial phase as Autodesk embeds agentic AI in Revit 2027 and generative search reshapes how AEC firms discover and shortlist construction software—marking a shift from manual evaluation to AI-curated vendor discovery. The piece argues generative search is now the primary filter through which new BIM automation tools reach buyers, restructuring competitive dynamics across the AEC software market.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "d72e9102"
+    },
+    {
+      "url": "https://aijourn.com/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026/",
+      "title": "Shanghai Electric Showcases Embodied Intelligence Robot Matrix and AI-Native Smart Factory Solutions at WAIC 2026",
+      "source": "The AI Journal",
+      "date": "2026-07-24",
+      "summary": "Shanghai Electric demonstrated at WAIC 2026 a portfolio including humanoid robots with 41 degrees of freedom, pipe-inspection robots achieving ±1mm positioning accuracy, and 51 industrial-grade AI agents targeting production-line scheduling, quality inspection, and predictive maintenance. The showcase illustrates how AI-native manufacturing platforms are integrating embodied intelligence and precision vision inspection into smart factory workflows.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "vision-inspection-qa-ml"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "ee875754"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13368",
+      "title": "IterCAD: An Iterative Multimodal Agent for Visually-Grounded CAD Generation and Editing",
+      "source": "arXiv (cs.CV / cs.AI)",
+      "date": "2026-06",
+      "summary": "IterCAD proposes a \"Look and Loop\" agent architecture that uses multi-view engineering drawings with dimensional constraints as persistent visual references to iteratively generate and correct parametric CAD models, treating the task as a closed-loop process rather than one-shot synthesis. The approach advances visually-grounded text-to-CAD by enabling defect isolation and geometric consistency across refinement iterations.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "5c31056d"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.11247",
+      "title": "Physics-Informed Generative AI for Semiconductor Manufacturing: Enforcing Hard Physical Constraints in Generative Models by Construction",
+      "source": "arXiv (cs.ET)",
+      "date": "2026-06-08",
+      "summary": "This survey establishes that generative AI for semiconductor manufacturing must enforce hard physical constraints (lithography, transport, reaction, device physics) by architectural construction rather than post-hoc filtering, since physically invalid masks or layouts are unusable—not merely low quality. The paper catalogues emerging approaches including physics-informed diffusion, PDE-constrained variational models, and neural-operator priors as the correct design vocabulary for constrained manufacturing generation.",
+      "industry_nodes": [
+        "eda-chip-design",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "43b394d9"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.28126",
+      "title": "AI-Driven Synthesis for High-Tech System Design: Automating Innovation",
+      "source": "arXiv (cs.RO / cs.ET)",
+      "date": "2026-06-26",
+      "summary": "Researchers at TU Eindhoven present Computational Design Synthesis (CDS), a framework using deep learning and generative AI to automate novel engineering system creation, validated on e-drive system design and spatial dimensioning case studies. The approach marks a shift from simulation-based optimization toward autonomous design with minimal human supervision, proposing automation-in-design (AiD) as a new engineering paradigm.",
+      "industry_nodes": [
+        "surrogate-models",
+        "generative-platforms",
+        "topology-optimization"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "afc0326a"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.00843",
+      "title": "Generative AI for CAD Automation: Leveraging Large Language Models for 3D Modelling",
+      "source": "arXiv",
+      "date": "2025-08",
+      "summary": "This paper integrates LLMs with FreeCAD to automate 3D CAD modeling from natural language, using iterative script generation and error-feedback refinement where the LLM generates FreeCAD Python scripts that are executed, evaluated, and corrected in a loop. Results show LLMs succeed on simple to moderate geometries but need improved memory retrieval and hybrid AI techniques for highly constrained assemblies.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "4f3ff527"
     }
   ]
 }
