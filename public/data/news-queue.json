@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T10:12:41.645Z",
+  "generated": "2026-07-29T10:10:45.624Z",
   "items": [
     {
       "id": "15849abf",
@@ -5583,6 +5583,111 @@
       "relevance": 4,
       "status": "pending",
       "id": "4f3ff527"
+    },
+    {
+      "id": "67d9bf9a",
+      "title": "A Side Project is the Fastest Way to Upskill in the Age of AI",
+      "url": "https://www.philmorton.co/a-side-project-is-the-fastest-way-to-upskill-in-the-age-of-ai/",
+      "source": "Phil Morton",
+      "date": "2026-07-27",
+      "summary": "Argues that UX professionals should build small side projects using AI coding tools — Claude Code, Codex, and Cursor — to gain deep practical understanding of how AI is reshaping software development, rather than relying on highly abstracted no-code platforms. Emphasizes building with AI rather than having AI build everything, so designers develop end-to-end product-building skills and technical fluency that makes them more effective in AI-first workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cadb2120",
+      "title": "Learning Before Leverage",
+      "url": "https://newsletter.rogerwong.me/p/learning-before-leverage",
+      "source": "Roger Wong Newsletter",
+      "date": "2026-07-27",
+      "summary": "Documents a design team rollout of Claude Code in February and the social pressure to appear competent before actually mastering the tool, drawing parallels to a similar cultural pattern at Slack. Argues AI adoption in design and engineering should be treated as reversible experimentation with candor and shared vocabulary across teams, backed by survey data showing most designers feel overwhelmed by AI adoption pressure.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2c57bd5a",
+      "title": "The Pixel Police are Retired: Why AI Agents are the New Mediators of Web Design",
+      "url": "https://webdesignerdepot.com/the-pixel-police-are-retired-why-ai-agents-are-the-new-mediators-of-web-design/",
+      "source": "Webdesigner Depot",
+      "date": "2026-07-27",
+      "summary": "Claims AI agents are eliminating the traditional designer-to-developer handoff, enabling design and engineering teams to build live together in real time instead of manually translating Figma specifications into code. Positions AI agents as a structural shift in design collaboration rather than just a productivity tool.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3f3cbba2",
+      "title": "Working Backwards",
+      "url": "https://www.antonsten.com/articles/working-backwards/",
+      "source": "Anton Sten",
+      "date": "2026-07-27",
+      "summary": "Draws a parallel between how art students learn deliberate layer-by-layer deconstruction and the kind of deep judgment senior designers build over time, arguing that as AI turns prompts into finished apps within days, designers who skip slow craft practice may lose the taste and judgment no tool can replace. A meditation on what design expertise means when the barrier to output has nearly disappeared.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7c6df43a",
+      "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
+      "url": "https://blogs.nvidia.com/blog/siggraph-news-2026/",
+      "source": "NVIDIA Blog",
+      "date": "2026-07-19",
+      "summary": "NVIDIA keynote at SIGGRAPH 2026 unveils neural rendering advances, the Cosmos 3 Edge world model, and 3D-guided neural rendering — techniques that use deep learning to replace or augment physics-based rendering calculations for industrial design, robotics, and real-time content creation pipelines. Signals a broad shift toward neural-network-assisted simulation and agentic AI running on specialized hardware across design and creative tools.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f71a7264",
+      "title": "Neural Concept Showcases Physics-Grounded 3D Design Approach at CVPR 2026",
+      "url": "https://www.tipranks.com/news/private-companies/neural-concept-showcases-physics-grounded-3d-design-approach-at-cvpr-2026",
+      "source": "TipRanks",
+      "date": "2026-06-20",
+      "summary": "Neural Concept presented PhysGen at CVPR 2026, a generative model that embeds physical constraints such as aerodynamic drag and pressure fields directly into the generative process for engineering design, so candidate geometries are physically valid from the start rather than requiring post-hoc simulation. Represents a step toward physics-aware generative models that close the gap between AI shape generation and real engineering performance requirements.",
+      "industry_nodes": [
+        "physics-aware-surrogates",
+        "topology-optimization",
+        "surrogate-models"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ae899941",
+      "title": "State of AI 3D Generation 2026",
+      "url": "https://www.3daistudio.com/state-of-ai-3d-generation-2026",
+      "source": "3D AI Studio",
+      "date": "2026-07-15",
+      "summary": "Comprehensive mid-2026 survey of AI 3D generation highlights Spectral Labs SGS-1 (generates fully editable parametric CAD from text, sketches, or 3D scans), GenCAD-3D (point cloud to editable parametric feature tree), and Neural Concept domain-specific engineering copilots, plus open-source models, MCP integrations, and API availability for 3D generation. Provides a current market map of what is shipping versus what remains research-stage in text-to-CAD and scan-to-CAD.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-3d-shape",
+        "scan-to-cad-reverse-eng",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
     }
   ]
 }
