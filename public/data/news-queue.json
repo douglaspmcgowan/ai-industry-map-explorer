@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T10:10:45.624Z",
+  "generated": "2026-07-31T10:12:24.850Z",
   "items": [
     {
       "id": "15849abf",
@@ -5687,6 +5687,97 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1b57fca0",
+      "title": "MUSE: Benchmarking Manufacturable, Functional, and Assemblable Text-to-CAD Generation",
+      "url": "https://arxiv.org/abs/2605.28579",
+      "source": "arXiv",
+      "date": "2026-05-28",
+      "summary": "MUSE is the first text-to-CAD benchmark to evaluate generated assemblies against engineering-grade criteria—manufacturability, functionality, and assemblability—using a rubric-based VLM judge validated against human annotation. Experiments on frontier LLMs reveal a clear failure cascade from executable code to valid geometry to engineering-ready design, exposing the gap between syntactic correctness and real-world CAD utility.",
+      "industry_nodes": [
+        "text-to-cad",
+        "ai-for-dfm-dfam",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1b09ef82",
+      "title": "Paper Raises $34M Series A to Build the Design Platform for the Agentic Era",
+      "url": "https://paper.design/blog/series-a",
+      "source": "Paper Design Blog",
+      "date": "2026-07-23",
+      "summary": "Paper, an HTML/CSS design canvas that exports directly to production code, raised $34M from Accel and ICONIQ after 25x ARR growth since its desktop launch, positioning itself as infrastructure for AI coding agents. The round signals investor conviction that agentic design tooling—where Claude Code and Cursor drive a shared canvas—is becoming a distinct product category.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3f841142",
+      "title": "UX-Context Design: Using UX Knowledge to Inform AI-Generated Design",
+      "url": "https://www.nngroup.com/articles/ux-context-design/",
+      "source": "Nielsen Norman Group",
+      "date": "2026-07-28",
+      "summary": "NNGroup articulates a shift where design deliverables become machine-readable context files (DESIGN.md, UX.md) that AI tools consume rather than documents written for humans, using Google DESIGN.md as a canonical example. This reframes UX research and standards as a living context layer that every AI tool reads, rather than a one-time handoff artifact.",
+      "industry_nodes": [
+        "design-knowledge-representation",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9ad266f9",
+      "title": "State of Engineering AI 2026 Report — SimScale",
+      "url": "https://www.simscale.com/the-state-of-engineering-ai-2026/",
+      "source": "SimScale",
+      "date": "2026-03-24",
+      "summary": "A survey of 350 senior engineering leaders reveals that AI-enabled teams test nearly 4x more design variants per program, compressing cycle times from months to minutes for teams embedding AI into simulation and design workflows. The report distinguishes teams generating measurable impact from those still in pilot mode, attributing the gap to how deeply AI is woven into infrastructure and decision-making rather than tooling ambition alone.",
+      "industry_nodes": [
+        "surrogate-models",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6081a434",
+      "title": "Digital Tools, Human Expression: The Visual Identity Behind Config 2026",
+      "url": "https://www.figma.com/blog/the-visual-identity-behind-config-2026/",
+      "source": "Figma Blog",
+      "date": "2026-07-01",
+      "summary": "Figma's Brand Studio used Figma Make to generate glyphs, dithering effects, and scribbly textures for Config 2026's visual identity, then translated them into physical installations and interactive attendee experiences. The case study shows AI-generated design elements being curated, not just accepted, as a model for maintaining human craft in an agentic workflow.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "67dcb07e",
+      "title": "Thinking Outside the Box: Digital Design in the AI Era",
+      "url": "https://www.smashingmagazine.com/2026/07/digital-design-ai-era/",
+      "source": "Smashing Magazine",
+      "date": "2026-07-01",
+      "summary": "MacPaw's design team created Eney, a proactive AI assistant designed as an expressive circular character rather than a chat widget, showing how designers are rethinking AI interface forms beyond the default text-box paradigm. The piece argues human artistic judgment and curiosity remain central as AI handles execution, pointing to character design and emotional register as the irreducible creative layer.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
