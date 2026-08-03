@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T10:20:46.266Z",
+  "generated": "2026-08-03T10:11:31.468Z",
   "items": [
     {
       "id": "15849abf",
@@ -1768,6 +1768,97 @@
       "summary": "Abstraction is an AI-native illustration platform that offers editable vector-like creative control — users generate, select, refine, and reshape images rather than just generating and accepting. Matters for designer workflow because it models a new paradigm where AI illustration is iterative and parametric, moving beyond one-shot generation toward designer-AI co-authorship of visual assets.",
       "industry_nodes": [
         "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "cb14f827",
+      "title": "ASSEMCAD: Production-Ready CAD Assembly Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2607.05123",
+      "source": "arXiv",
+      "date": "2026-07-09",
+      "summary": "ASSEMCAD is an axiom-grounded framework that generates mechanically executable CAD assemblies with valid assembly structures and articulated joints directly from natural language prompts, going beyond static geometry to produce editable B-Rep models. It combines foundation models with programmatic CAD kernels and geometric verification, substantially outperforming code-centric baselines on the AssemBench benchmark.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fb78fade",
+      "title": "Exploring Generative Design AI Tools for Astronomical Instrumentation: A CubeSat Chassis Case Study",
+      "url": "https://arxiv.org/abs/2607.28217",
+      "source": "arXiv",
+      "date": "2026-07-30",
+      "summary": "This paper applies generative design AI tools to mechanical engineering CAD for scientific instrumentation, using a CubeSat chassis as a real-world test case to evaluate current tool capabilities and limitations. It addresses the gap in disseminated case studies that has slowed adoption of generative design AI in engineering design workflows.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "topology-optimization"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "48aa19ed",
+      "title": "3DEXPERIENCE World 2026: SOLIDWORKS Goes All-in on AI",
+      "url": "https://hawkridgesys.com/blog/3dx-world-solidworks-ai",
+      "source": "Hawk Ridge Systems",
+      "date": "2026-02-15",
+      "summary": "SolidWorks 2026 SP1 ships LEO and AURA, two AI virtual companions that handle assembly structure generation, image-to-mesh, parametric feature addition to STEP files, and simulation inside SOLIDWORKS Design — available free to all commercial customers. This represents the most AI-dense SolidWorks release ever, marking a structural shift from discrete features to always-on AI copilots embedded in the modeling environment.",
+      "industry_nodes": [
+        "cad-copilots",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "43b394d9",
+      "title": "Physics-Informed Generative AI for Semiconductor Manufacturing: Enforcing Hard Physical Constraints in Generative Models by Construction",
+      "url": "https://arxiv.org/abs/2606.11247",
+      "source": "arXiv",
+      "date": "2026-06-08",
+      "summary": "This paper develops physics-informed generative models that enforce hard physical constraints by construction for semiconductor manufacturing, ensuring generated masks and layouts satisfy lithography and process rules without post-hoc filtering. It addresses a core challenge in applying generative AI to high-stakes manufacturing domains where constraint violation is not tolerable.",
+      "industry_nodes": [
+        "eda-chip-design",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5219092b",
+      "title": "AI in Design 2026: The Inflection Point Is Here",
+      "url": "https://designerfund.com/blog/ai-in-design-2026",
+      "source": "Designer Fund",
+      "date": "2026-07-15",
+      "summary": "Designer Fund surveyed 900+ designers across 60 countries and found AI usage surged from 54% weekly in 2025 to 91% in 2026, with half of respondents having shipped AI-generated code to production and designers now averaging 7 AI tools. The report maps how design workflows are restructuring around AI for prototyping, code generation, design QA, and developer handoff.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "01f3b16a",
+      "title": "Agentic AI in Engineering and Manufacturing: Industry Perspectives on Utility, Adoption, Challenges, and Opportunities",
+      "url": "https://arxiv.org/abs/2604.09633",
+      "source": "arXiv",
+      "date": "2026-04-04",
+      "summary": "An industry-focused study on agentic AI adoption in engineering and manufacturing contexts, finding 82% of manufacturers cite AI as a primary growth driver and 44% report significant ROI, while identifying workflow integration, trust, and human-AI handoff as the primary barriers. Surfaces practitioner perspectives on where autonomous AI agents are delivering value in engineering contexts today.",
+      "industry_nodes": [
+        "cad-copilots",
+        "robotics-manufacturing",
+        "human-ai-co-design"
       ],
       "schools": [],
       "relevance": 3,
