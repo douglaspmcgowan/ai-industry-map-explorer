@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T10:11:31.468Z",
+  "generated": "2026-08-04T10:13:54.349Z",
   "items": [
     {
       "id": "15849abf",
@@ -1862,6 +1862,145 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ee14e819",
+      "title": "A Properties Panel and Annotations, Now in Figma Make",
+      "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/",
+      "source": "Figma Blog",
+      "date": "2026-07-30",
+      "summary": "Figma Make now includes a properties panel for adjusting spacing, typography, and layout via familiar design controls, plus an annotations feature that lets designers mark elements and describe intended behaviors (like hover effects or animations) for the AI agent to apply. Both features eliminate the need to rely solely on text prompts, making AI-assisted design in Make more precise and accessible to visual designers.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "34115d61",
+      "title": "How To Reduce AI Drifting in Design Systems",
+      "url": "https://smart-interface-design-patterns.com/articles/ai-drift-design-systems/",
+      "source": "Smart Interface Design Patterns",
+      "date": "2026-08-03",
+      "summary": "Design systems drift when Figma components and front-end code fall out of sync, and AI agents widen that gap—unless bounded by 'component contracts,' plain-language specs that serve as the shared source of truth for both humans and AI. Testing showed an AI agent building screens from a contract catalog scored 100/100 for fidelity versus 69/100 when ungoverned, a result that positions component contracts as a practical harness engineering technique for agentic UI generation.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e55a64f0",
+      "title": "Jakob's Law: How to Apply It as AI Collapses Surfaces into One Chat Box",
+      "url": "https://uxdesign.cc/jakobs-law-how-to-apply-it-as-ai-collapses-surfaces-into-one-chat-box-d8ebc9a727db",
+      "source": "UX Collective",
+      "date": "2026-07-31",
+      "summary": "As AI assistants pull more tasks through a conversational front door, Jakob's Law shifts its reference point from familiar websites to familiar AI interfaces like ChatGPT and Claude—meaning designers must now optimize for discoverability inside agents, not just within apps. The piece introduces A2UI and MCP Apps as the emerging protocols that let AI-facing products render interactive UI directly in conversation, making structural design decisions about how a product surfaces to agents as important as its native UI.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ad7f45c9",
+      "title": "Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design",
+      "url": "https://arxiv.org/abs/2605.19717",
+      "source": "arXiv / IJCAI-ECAI 2026",
+      "date": "2026-05-19",
+      "summary": "This IJCAI-ECAI 2026 paper proposes embedding validated knowledge-based engineering tools directly into the decision-making loop of LLM agents so that CAD designs are physically verified at each iteration, not just syntactically generated. The system achieves a 4.2× increase in structural complexity and 3.5% higher compile rate over baseline agentic methods, demonstrating that closed-loop physics feedback is the key missing ingredient for reliable AI-generated engineering designs.",
+      "industry_nodes": [
+        "cad-copilots",
+        "physics-aware-surrogates",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4b500dc1",
+      "title": "Embodied CAD: Solver-Grounded LLM Agents for Parametric B-Rep Assembly Modeling",
+      "url": "https://arxiv.org/abs/2606.31252",
+      "source": "arXiv",
+      "date": "2026-06-30",
+      "summary": "Embodied CAD grounds an LLM agent in a CAD execution environment by having it iteratively select from a stratified L0–L4 CAD skill library, resolving operations into typed geometric actions, executing them, and learning from solver feedback rather than generating one-shot scripts. Evaluated on multi-step mechanical and mold-oriented assembly tasks, the framework achieves high executable rates and introduces GRPO-style refinement for CAD planning—a significant architectural advance for text-to-CAD agents.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3d8ce00e",
+      "title": "ToolCAD: Exploring Tool-Using Large Language Models in Text-to-CAD Generation with Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2604.07960",
+      "source": "arXiv",
+      "date": "2026-04-09",
+      "summary": "ToolCAD frames text-to-CAD as a tool-use agentic task, training an LLM agent in an interactive CAD modeling gym via online curriculum reinforcement learning to develop a CAD Modeling Chain of Thought and evolve into a proficient CAD tool-using agent. The approach addresses the absence of tool-augmented LLM methods for CAD and is the first to apply end-to-end RL post-training to drive autonomous text-to-CAD modeling.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9f6eb339",
+      "title": "CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation",
+      "url": "https://arxiv.org/abs/2605.10873",
+      "source": "arXiv / MIT",
+      "date": "2026-05-11",
+      "summary": "CADBench from MIT introduces a unified benchmark of 18,000 evaluation samples across six benchmark families and five input modalities (meshes, renders, multi-view) to systematically compare eleven vision-language systems on AI-assisted CAD program generation. Key findings reveal that CAD-specialized models are brittle under modality shift and model rankings change depending on whether geometric fidelity or program executability is the metric—critical signal for anyone choosing or building text-to-CAD systems.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "scan-to-cad-reverse-eng",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4f3ff527",
+      "title": "Generative AI for CAD Automation: Leveraging Large Language Models for 3D Modelling",
+      "url": "https://arxiv.org/abs/2508.00843",
+      "source": "arXiv",
+      "date": "2025-08-01",
+      "summary": "This paper proposes a framework integrating LLMs with FreeCAD to automate CAD workflows, generating initial CAD scripts from natural language descriptions and iteratively refining them using error feedback from the CAD engine. It benchmarks LLM performance across simple to complex designs, finding strong performance on constrained models with a structured code format while identifying multi-refinement loops as necessary for high-complexity parts.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4b30f5bd",
+      "title": "The Path to Manufacturing: 3D Generative Design for CAD and Manufacturing — ECCV 2026 Workshop",
+      "url": "https://3dgen-cad-workshop.github.io/",
+      "source": "ECCV 2026",
+      "date": "2026-08-01",
+      "summary": "This ECCV 2026 workshop brings together researchers in 3D generative models and manufacturing to advance AI-driven CAD design and downstream manufacturing processes, bridging the gap between neural geometry generation and practical fabrication constraints. It represents a high-signal venue for tracking the state of generative 3D shape research with a manufacturing applicability lens.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-geometry-cad",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
