@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T10:13:54.349Z",
+  "generated": "2026-08-06T10:12:59.189Z",
   "items": [
     {
       "id": "15849abf",
@@ -2001,6 +2001,79 @@
       ],
       "schools": [],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "961417db",
+      "title": "To Stay Ahead on AI, Think Like a Designer",
+      "url": "https://every.to/p/to-stay-ahead-on-ai-think-like-a-designer",
+      "source": "Every.to",
+      "date": "2026-08-04",
+      "summary": "Former Amazon AI scientist Aishwarya Reganti argues that as AI absorbs execution, the new competitive edge is \"designing the work\" — establishing context, constraints, and decision frameworks before AI agents begin so they and humans can make better choices. She reframes professional expertise as architecture rather than output, calling the shift from proving competence through doing to proving it through how you set up the work.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d5eb920a",
+      "title": "Ideas Are Cheap. Invention Is Not",
+      "url": "https://www.robin-cannon.com/p/ideas-are-cheap-invention-is-not",
+      "source": "Refactoring (via TLDR Design)",
+      "date": "2026-08-05",
+      "summary": "With AI now generating endless ideas on demand, the real design bottleneck shifts to selecting, validating, and applying judgment — a structured invention pipeline using SIT, TRIZ, and cross-domain collision turns raw AI ideation into genuinely usable, defensible proposals. The article argues invention is fundamentally about killing weak ideas quickly and distilling survivors into a clear, actionable design brief.",
+      "industry_nodes": [
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0b675577",
+      "title": "Designing for the Proxy",
+      "url": "https://uxdesign.cc/designing-for-the-proxy-2606ffac2335",
+      "source": "UX Collective (via TLDR Design)",
+      "date": "2026-08-05",
+      "summary": "Author Aurélie Radom argues that AI has become the first audience for design work — interpreting, summarizing, and evaluating content before humans ever see it — which forces designers to reconsider machine-readable information architecture without surrendering human-centered intent. The real value of design lies in the invisible decisions (systems, accessibility, judgment) that AI-generated interfaces cannot replicate, so the goal is to make work legible to machines while remaining focused on people.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bb02eeee",
+      "title": "Designing Systems That Decide",
+      "url": "https://bigmedium.com/ideas/links/designing-systems-that-decide.html",
+      "source": "Big Medium (via TLDR Design)",
+      "date": "2026-08-05",
+      "summary": "Runtime-assembled AI interfaces demand a fundamental shift in design thinking: instead of shipping fixed screens, designers must define goals, constraints, and generation rules — acting as improv directors rather than script writers. The essay enumerates ten outdated design instincts to unlearn, replacing assumptions like \"same input, same output\" with approaches suited to radically adaptive, agent-driven interfaces.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "39f3a2ee",
+      "title": "Enhancing Creativity in 3D Generative Design via a TRIZ-Inspired Text-to-CAD Framework",
+      "url": "https://arxiv.org/abs/2606.21378",
+      "source": "arXiv (preprint)",
+      "date": "2026-06-30",
+      "summary": "Introduces a TRIZ-inspired text-to-CAD framework that enables engineers to generate creative 3D designs by combining LLMs with structured contradiction resolution and inventive design principles, going beyond conventional parametric CAD generation to explicitly target the creativity dimension of design exploration. The approach connects the established methodology of TRIZ — a systematic innovation framework — to modern generative CAD, offering a path toward AI-assisted invention in mechanical design.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
