@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T10:12:59.189Z",
+  "generated": "2026-08-09T10:12:04.996Z",
   "items": [
     {
       "id": "15849abf",
@@ -2074,6 +2074,127 @@
       ],
       "schools": [],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "da3c6f63",
+      "title": "Designing With AI? Make a Jig.",
+      "url": "https://every.to/p/designing-with-ai-make-a-jig",
+      "source": "Every",
+      "date": "2026-08-07",
+      "summary": "Jack Cheng explores how designers are building custom AI jigs—constrained prompt fixtures that make consistent outputs less dependent on manual effort—drawing parallels to woodworking jigs and showcasing studios that systematize AI-assisted interface design through reusable tools. The piece signals a shift from ad-hoc prompting toward engineered design tooling, with concrete examples from the production of an AI-assisted novel.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "442a3988",
+      "title": "Claude Cowork for Designers: A Working Field Guide",
+      "url": "https://nervegna.substack.com/p/claude-cowork-for-designers-a-working",
+      "source": "Nervegna (via TLDR Design)",
+      "date": "2026-08-07",
+      "summary": "A detailed field guide for designers using Claude Cowork—Anthropic's agentic assistant—covering setup, permission modes, research synthesis, competitive audits, and building reusable skills that encode designer judgment across sessions. It critically assesses real limitations including hallucination, thin memory, rising usage costs, and browser-based security risks, positioning Cowork as most valuable for documents and synthesis versus Claude Code for technical ship-ready work.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5eed33f6",
+      "title": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP",
+      "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/",
+      "source": "Figma Blog",
+      "date": "2026-08-07",
+      "summary": "Figma's Code Connect links design components to real production-codebase equivalents inside MCP, giving coding agents accurate context instead of generic React output; across 27 design-to-code tasks it cut median token usage by 29.5%, task duration by 19.6%, and raised code quality by a full point on a 1–4 scale. The benchmark shows that design-system grounding—not just better models—is a major lever for AI-assisted design-to-code fidelity, with Coinbase cited as a beneficiary avoiding fabricated components.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b9e076d6",
+      "title": "The \"AI Can Do the UX\" Mistake",
+      "url": "https://www.robin-cannon.com/p/the-ai-can-do-the-ux-mistake",
+      "source": "Robin Cannon",
+      "date": "2026-08-07",
+      "summary": "Argues that AI has narrowed the execution gap between design and development unevenly—designers can now build functional UIs, but developers still cannot easily judge whether an interface genuinely fits user needs—making the assumption that AI handles UX a category error. The piece recenters human design judgment as irreplaceable even as AI collapses the cost of building.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "274f10d6",
+      "title": "AI in Design 2026: The Inflection Point Is Here",
+      "url": "https://stateofaidesign.com/",
+      "source": "Designer Fund",
+      "date": "2026-08-01",
+      "summary": "Designer Fund's second annual AI in Design report—900+ survey responses across 60 countries, 25+ interviews, case studies from Anthropic, Framer, Linear, Notion, Shopify, and Stripe—documents a jump from 54% to 91% weekly AI usage and an average of 7 AI tools per designer. Sixty-five percent of designers now take on expanded product or engineering responsibilities, with design leaders explicitly hiring for AI fluency, marking a structural role shift.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "11ebd951",
+      "title": "Challenges and Opportunities in the Integration of Generative AI with Computer-Aided Design",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/challenges-and-opportunities-in-the-integration-of-generative-ai-with-computeraided-design/7BFFBB14BB4DBB258A56CD03F3E3F7F5",
+      "source": "Proceedings of the Design Society (Cambridge Core)",
+      "date": "2025-09-01",
+      "summary": "Reviews the state of generative AI applied to engineering CAD, identifying core blockers: small training datasets, difficulty representing mixed geometry-metadata types, proprietary file formats, and the gap between AI-generated shapes and valid parametric CAD models with manufacturing constraints. Serves as a rigorous reference mapping where text-to-CAD and neural geometry methods currently break down for production use.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7f2de220",
+      "title": "Challenges Hindering the Application of GenAI Methods in Engineering Design: A Meta-Analysis",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/challenges-hindering-the-application-of-genai-methods-in-engineering-design-and-the-product-development-process-a-metaanalysis/83F84A63337B0D243968159A6C76D7B5",
+      "source": "Proceedings of the Design Society (Cambridge Core)",
+      "date": "2026-07-01",
+      "summary": "July 2026 meta-analysis synthesizing barriers to GenAI adoption across the full engineering design and product development process, identifying recurring themes around data availability, interpretability, integration with legacy PDM/CAD tools, and skill gaps. Provides a structured taxonomy of adoption blockers useful for mapping where CAD-copilot and generative-platform tools are gaining traction versus stalling.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "cad-copilots",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d675bc3f",
+      "title": "Generative Design and Topology Optimization 2026",
+      "url": "https://www.patsnap.com/resources/blog/rd-blog/generative-design-topology-optimization-2026/",
+      "source": "PatSnap R&D Blog",
+      "date": "2026-01-01",
+      "summary": "Patent and R&D intelligence overview characterizing four technology clusters in the 2026 generative design and topology optimization landscape: density-based/level-set topology optimization, AM-constraint-integrated topology optimization, ML/AI-augmented generative design, and end-to-end rapid additive design frameworks. Useful for tracking IP activity and research investment patterns across the CAD AI ecosystem.",
+      "industry_nodes": [
+        "topology-optimization",
+        "generative-geometry-cad",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 3,
       "status": "pending"
     }
   ]
