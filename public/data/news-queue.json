@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T10:12:04.996Z",
+  "generated": "2026-08-13T10:19:41.298Z",
   "items": [
     {
       "id": "15849abf",
@@ -2192,6 +2192,80 @@
         "topology-optimization",
         "generative-geometry-cad",
         "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "89c085eb",
+      "title": "InfiMaker Launches K1 Desktop 5-Axis CNC with AI-Assisted CAM Software",
+      "url": "https://infimaker.com/blogs/news/infimaker-k1-desktop-5-axis-cnc",
+      "source": "InfiMaker",
+      "date": "2026-08-12",
+      "summary": "InfiMaker launched the K1, a desktop 5-axis CNC machine featuring InfiStudio: an AI-assisted CAM tool that takes a text prompt, image, or 3D model and automatically generates a machinable part, recommends tools, feeds and speeds, builds 5-axis toolpaths, and previews collision risks before cutting. It matters because it collapses the gap between digital design and physical machining for small-shop engineers and industrial designers, bringing AI-driven DfM into a sub-$10k desktop machine.",
+      "industry_nodes": [
+        "dfm-machining-molding",
+        "ai-for-dfm-dfam",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "eb09a686",
+      "title": "Suzanne: Physical AI for Product Design — Prompt to Manufacturable STEP/STL",
+      "url": "https://www.suzanne3d.com/",
+      "source": "Suzanne3D",
+      "date": "2026-08-13",
+      "summary": "Suzanne is a browser-based AI-native product design tool that lets users start from a text prompt, photograph, or sketch, iterate on the design through chat, and export production-ready geometry (STEP, STL, 3MF) without installing any software. It matters because it is one of the first tools to close the loop from natural-language intent to a manufacturable CAD file in a single conversation, directly targeting industrial and product designers.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-platforms",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5f0f18ee",
+      "title": "CadenceLIVE 2026: Can Agentic AI Finally Crack 3D IC Design Automation?",
+      "url": "https://futurumgroup.com/insights/cadencelive-2026-can-agentic-ai-finally-crack-3d-ic-design-automation/",
+      "source": "Futurum Group",
+      "date": "2026-06-15",
+      "summary": "Analysis from CadenceLIVE 2026 examining whether agentic AI systems can automate the complex verification and layout stages of 3D IC chip design, covering Cadence AI-assisted place-and-route and multi-die integration workflows. It matters for the design community because it is the first serious industry conversation about delegating EDA decision loops to AI agents, a step change from AI-assisted hints to AI-driven iteration.",
+      "industry_nodes": [
+        "eda-chip-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "296415cb",
+      "title": "AI BIM Automation Sees Concentrated June Activity With Four Major Launches",
+      "url": "https://www.geoweeknews.com/articles/ai-bim-automation-sees-concentrated-june-activity-with-four-major-launches/",
+      "source": "Geo Week News",
+      "date": "2026-07-01",
+      "summary": "Between June 17 and June 30, 2026, four companies unveiled or funded AI-powered BIM automation platforms in the same two-week window, including tools that use computer vision to interpret drawings and generative AI to automate repetitive BIM modeling and documentation. This concentrated activity signals that AI for building information modeling has crossed from pilot to product, with multiple funded entrants arriving simultaneously.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "694e36f8",
+      "title": "Dyna-2: A 1-Million-Hour Scaling Law for World-Action Models in Robotics",
+      "url": "https://www.dyna.co/dyna-2",
+      "source": "Dyna",
+      "date": "2026-08-11",
+      "summary": "Dyna-2 is a world-action model trained on over one million hours of human video that establishes predictable scaling laws measurably improving action accuracy on both human and robot manipulation tasks. It matters for manufacturing and industrial design because demonstrating that scale reliably improves physical-world prediction brings robot-assisted assembly, inspection, and fabrication meaningfully closer to deployment.",
+      "industry_nodes": [
+        "robotics-manufacturing"
       ],
       "schools": [],
       "relevance": 3,
