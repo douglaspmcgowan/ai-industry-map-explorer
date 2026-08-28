@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T10:19:41.298Z",
+  "generated": "2026-08-28T10:09:12.781Z",
   "items": [
     {
       "id": "15849abf",
@@ -2269,6 +2269,171 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d5bade13",
+      "title": "The Ledger of Design",
+      "url": "https://www.proofofconcept.pub/p/the-ledger-of-design",
+      "source": "Proof of Concept",
+      "date": "2026-08-27",
+      "summary": "AI has made finished-looking output cheap, so credibility in design work now rests on the trail of decisions behind an artifact rather than the artifact itself. Argues that contributors, managers, and agents each need different documentation ledgers—rejected directions, rationale, scoped execution—captured from tools already in use.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c6acb85e",
+      "title": "Designing Memory",
+      "url": "https://www.aidesignfieldguide.com/articles/benjamin-zweig",
+      "source": "AI Design Field Guide",
+      "date": "2026-08-27",
+      "summary": "Deep dive into how ChatGPT memory was designed: a simple notepad the model could read, write, and edit—but training the decision boundaries for what is worth saving proved harder than the interface. Argues that productive forgetting is the missing capability in current memory implementations.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "557c1c9c",
+      "title": "The AI Interface Museum",
+      "url": "https://interfaces.kylejeong.com/",
+      "source": "Kyle Jeong",
+      "date": "2026-08-27",
+      "summary": "A visual history of how humans learned to talk to, look through, create with, and delegate work to AI—tracing interface paradigms from command lines to conversational agents to agentic delegation. Useful reference for designers thinking about how AI feature placement and interaction patterns have evolved.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "47dea9aa",
+      "title": "Webflow Is Now Available in Codex and ChatGPT",
+      "url": "https://webflow.com/blog/webflow-is-now-available-in-codex-and-chatgpt",
+      "source": "Webflow",
+      "date": "2026-08-26",
+      "summary": "Webflow has shipped built-in Skills for Codex and ChatGPT that automate common Webflow design and publishing workflows: users describe an outcome and the agent handles the API calls, context, and best practices. Access is currently free and does not consume AI credits, making this a substantive no-code-to-AI bridge for web designers.",
+      "industry_nodes": [
+        "cad-copilots",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2b6662e7",
+      "title": "No Shortcuts: Why AI Threatens Creative Instinct",
+      "url": "https://www.itsnicethat.com/articles/pov-no-shortcuts-why-ai-threatens-creative-instinct-creative-industry-240826",
+      "source": "It's Nice That",
+      "date": "2026-08-26",
+      "summary": "As AI takes on more execution and ideation in creative work, the most valuable skill for designers is shifting from technical proficiency to judgment. AI differs from prior tools by generating complete outputs with minimal human involvement, risking the bypass of learning experiences that build taste and critical thinking.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6f1a8f6b",
+      "title": "Building May Be Cheap Now. Being Wrong Still Isn't",
+      "url": "https://www.viget.com/articles/building-may-be-cheap-now-being-wrong-still-isnt",
+      "source": "Viget",
+      "date": "2026-08-26",
+      "summary": "AI has collapsed the cost of building software but left the cost of being wrong untouched—making knowing what to build the new constraint. Discovery research answers whether something should exist at all, a question rapid prototyping with AI is not built to address.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "84e1e6e2",
+      "title": "Where Should AI Go in Your UI? A UX Guide to AI Feature Placement",
+      "url": "https://blog.logrocket.com/ux-design/ai-ui-placement/",
+      "source": "LogRocket",
+      "date": "2026-08-26",
+      "summary": "Placement determines how users perceive and adopt AI features; common patterns include floating widgets, toolbars, sidebars, dedicated hubs, and inline triggers. Five guiding questions—centrality, user expectations, frequency, scope, and whether a menu would suffice—help designers choose the right pattern.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "cd7f94fd",
+      "title": "The Case for Cloning Your Coworkers",
+      "url": "https://every.to/context-window/the-case-for-cloning-your-coworkers",
+      "source": "Every",
+      "date": "2026-08-26",
+      "summary": "Every CEO Dan Shipper describes building KateBench, a self-improving AI skill trained on 30,000 historical edits that now performs the editor-in-chief's copyediting at scale—democratizing expertise that was previously a bottleneck. The article details plans to clone UX feedback, operational judgment, and other tacit expertise across the team.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "73b6c278",
+      "title": "CADDesigner: Conceptual CAD Model Generation with a General-Purpose Agent",
+      "url": "https://arxiv.org/abs/2508.01031",
+      "source": "arXiv",
+      "date": "2026-08-01",
+      "summary": "Proposes CADDesigner, an agentic system that uses a general-purpose language model to generate conceptual CAD models from natural language descriptions, bridging the gap between early design intent and executable geometry. Demonstrates that agent-based approaches can handle the iterative, multi-step nature of conceptual CAD better than single-pass generation.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ff4dc3f1",
+      "title": "Pointer-CAD v2: Plan-Then-Construct CAD Generation with Dimension-Aware Parametric Precision",
+      "url": "https://arxiv.org/abs/2606.29301",
+      "source": "arXiv",
+      "date": "2026-06-01",
+      "summary": "Introduces a plan-then-construct pipeline for parametric CAD generation that explicitly models dimensional constraints and geometric precision, addressing a key gap in prior text-to-CAD systems. Achieves significantly higher dimensional accuracy on standard benchmarks, moving closer to engineering-grade output.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "bd8e0dba",
+      "title": "GraphBrep: Learning B-Rep in Graph Structure for Efficient CAD Generation",
+      "url": "https://arxiv.org/abs/2507.04765",
+      "source": "arXiv",
+      "date": "2026-07-01",
+      "summary": "Proposes representing B-Rep CAD geometry as graphs rather than sequential tokens, enabling more efficient and topologically valid CAD generation. The graph structure captures the face-edge-vertex relationships that define valid solid models, improving generation validity rates for downstream use in CAD/CAM pipelines.",
+      "industry_nodes": [
+        "generative-geometry-cad",
+        "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 5,
       "status": "pending"
     }
   ]
