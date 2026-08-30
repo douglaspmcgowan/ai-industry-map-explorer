@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T10:09:12.781Z",
+  "generated": "2026-08-30T10:09:38.434Z",
   "items": [
     {
       "id": "15849abf",
@@ -2435,6 +2435,93 @@
       "schools": [],
       "relevance": 5,
       "status": "pending"
+    },
+    {
+      "url": "https://petapixel.com/2026/08/27/adobe-brings-acrs-powerful-non-destructive-exposure-tools-into-photoshop-itself/",
+      "title": "Adobe Brings ACR's Powerful Non-Destructive Exposure Tools into Photoshop Itself",
+      "source": "PetaPixel via TLDR Design",
+      "date": "2026-08-27",
+      "summary": "Adobe's major Photoshop update introduces a Light Adjustment Layer (Camera Raw-style), Firefly-powered masking from text instructions, AI Markup tools for communicating edit requests, and a beta AI-Assisted Editor for natural-language complex edits. The update shifts Photoshop toward a craft-first model where AI handles tool selection, letting designers focus on creative decisions rather than software navigation.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "7567a99f"
+    },
+    {
+      "url": "https://mattrothenberg.com/notes/design-system-language/",
+      "title": "Speaking Design at Scale",
+      "source": "Matt Rothenberg via TLDR Design",
+      "date": "2026-08-28",
+      "summary": "Design system pattern names like Overview and PageHeader encode months of team decisions into shared vocabulary; AI agents can read the system repository and retrieve the code, guidance, and examples behind each name instantly. This enables a new model where more contributors — and agents — can express design intent in the system's own language, reducing knowledge transfer overhead and accelerating AI-assisted UI generation.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "design-knowledge-representation"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "f47a9d30"
+    },
+    {
+      "url": "https://ux4dotcom.blogspot.com/2026/08/the-creativity-we-outsource-ai.html",
+      "title": "The Creativity We Outsource — AI, Creativity and the Lost Value of Doing Things Yourself",
+      "source": "UX4.com via TLDR Design",
+      "date": "2026-08-28",
+      "summary": "Generative AI delivers design solutions before there is time to explore the problem, removing the productive detours where creative and craft learning happens — especially for students and junior designers. The author proposes designing for Learning Experience (LX) alongside User Experience, treating friction not as a bug but as the site of skill formation in AI-augmented creative workflows.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "5d2720c0"
+    },
+    {
+      "url": "https://www.designweek.co.uk/the-cbis-latest-ai-report-on-how-design-businesses-can-bridge-ais-execution-divide/",
+      "title": "The CBI's Latest AI Report on How Design Businesses Can Bridge AI's Execution Divide",
+      "source": "Design Week",
+      "date": "2026-08-28",
+      "summary": "The CBI report argues that real AI value in design now comes from integrating AI across end-to-end workflows — concept creation through production — rather than isolated experiments. AI's near-term impact augments human judgment and creativity, but automation is hollowing out entry-level design tasks, creating a talent pipeline risk unless firms redesign junior roles around AI-assisted work.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "b6bc7451"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+      "title": "Anthropic's New Hardware Standard Lets AI Agents Control the Physical World",
+      "source": "Ars Technica via TLDR AI",
+      "date": "2026-08-28",
+      "summary": "Anthropic's Model Hardware Standard (MHS) is a model-agnostic specification and standardized driver set letting AI agents directly interface with and operate scientific instruments and manufacturing equipment. The system reduces bespoke software integration from weeks or months down to hours, with immediate implications for AI-driven lab automation, process control, and DfAM workflows.",
+      "industry_nodes": [
+        "robotics-manufacturing",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "553e5cf0"
+    },
+    {
+      "url": "https://www.ptc.com/en/news/2026/onshape-launches-featurescript-mcp-server",
+      "title": "PTC Advances Leadership in AI-Driven Design with Launch of Onshape FeatureScript MCP Server",
+      "source": "PTC",
+      "date": "2026-08-13",
+      "summary": "PTC released the Onshape FeatureScript MCP Server, enabling engineers to describe desired CAD functionality in natural language and have Claude, ChatGPT, or Gemini build, test, debug, and refine custom parametric features in FeatureScript automatically. Unlike session-only AI interactions, the generated features become reusable, shareable design tools that capture and scale engineering knowledge across teams without ongoing AI costs.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "87e7928d"
     }
   ]
 }
