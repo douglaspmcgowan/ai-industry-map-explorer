@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T10:09:38.434Z",
+  "generated": "2026-09-03T10:10:59.062Z",
   "items": [
     {
       "id": "15849abf",
@@ -2522,6 +2522,120 @@
       "relevance": 5,
       "status": "pending",
       "id": "87e7928d"
+    },
+    {
+      "id": "1b34383a",
+      "title": "Atlas: A World Model for Spatial Intelligence",
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "source": "World Labs / TLDR AI",
+      "date": "2026-09-01",
+      "summary": "World Labs unveiled Atlas, an omni world model pretrained from scratch to natively operate on text, images, video, and 3D data within a shared spatial context—capable of reconstructing scenes from 2–3 images at 1440p, generating minute-long videos, and simulating spatial environments. For AI+design, Atlas demonstrates that a single unified spatial foundation can power next-generation tools for generative 3D modeling, scene reconstruction, and engineering simulation at commercial quality.",
+      "industry_nodes": [
+        "generative-3d-shape",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "91ed2d93",
+      "title": "Backflip AI Launches CAD Copilot That Transforms 3D Scans Into Engineer-Quality, Editable CAD Models",
+      "url": "https://www.businesswire.com/news/home/20260803007022/en/Backflip-AI-Launches-CAD-Copilot-That-Transforms-3D-Scans-Into-Engineer-Quality-Editable-CAD-Models",
+      "source": "BusinessWire / Backflip AI",
+      "date": "2026-08-03",
+      "summary": "Backflip AI launched a second-generation foundation model that converts 3D scans, STLs, and mesh files into fully editable parametric CAD models with proper feature trees—available as an Autodesk Fusion add-in—reducing scan-to-CAD costs from ~,500 per part to ~0 and hours of work to minutes. This matters because it makes complete factory floor digitization economically viable for the first time, collapsing a major barrier between physical-part inventories and AI-native manufacturing workflows.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8bcbfb36",
+      "title": "How AI-Ready Is Your Design System? Now You Can Measure It.",
+      "url": "https://christophhellmuth.com/open-design-system-bench/",
+      "source": "Christoph Hellmuth / TLDR Design",
+      "date": "2026-09-01",
+      "summary": "open-design-system-bench is an open benchmark that measures whether AI coding agents use a design system correctly when generating UI, scoring four major systems between 52–63 on an AI-readiness composite with none reaching the \"AI-native\" tier across 898 graded generations. It matters because it surfaces a concrete, measurable gap between the design systems teams have built and the AI agents now consuming them, creating a path to intentionally closing that gap.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cd46bcfa",
+      "title": "Workflow Lab: Moving Between Design and Code with Agents",
+      "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+      "source": "Figma Blog / TLDR Design",
+      "date": "2026-09-01",
+      "summary": "Figma documents a practical workflow using its MCP server and Code Connect to give coding agents direct access to a team's components, tokens, and layouts so generated code matches design specs—including catching token drift before review. This is a concrete, reproducible template for design-to-code agent pipelines that preserves design intent without manual handoff.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3c23342a",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "url": "https://www.nngroup.com/articles/ai-ux-debt/",
+      "source": "Nielsen Norman Group / TLDR Design",
+      "date": "2026-09-01",
+      "summary": "Nielsen Norman Group argues AI is pushing UX into a \"custodial era\" where teams ship features faster than they can evaluate them, creating UX debt that practitioners must triage, simplify, and validate. The piece reframes the UX role—from creator to custodian—and calls for embedding UX principles directly into AI generation workflows to prevent future problems.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "deb6f816",
+      "title": "Two Adobe AI Features Worth a Web Designer's Attention",
+      "url": "https://1stwebdesigner.com/adobe-creative-cloud-ai-workflow/",
+      "source": "1st Web Designer / TLDR Design",
+      "date": "2026-09-01",
+      "summary": "Adobe added a conversational AI Assistant across Photoshop, Illustrator, InDesign, Premiere, and Frame.io for multi-step task automation, while Illustrator's new Text to Vector tool generates fully editable SVG paths—a capability no major competing AI tool currently offers. Both features mark a meaningful shift in AI integration within the dominant professional creative suite, directly impacting how designers work with vector and production assets.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "62049e24",
+      "title": "Behind the Build: Generative Plugins and Shaders at Figma",
+      "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
+      "source": "Figma Blog / TLDR Founders",
+      "date": "2026-09-02",
+      "summary": "Figma introduced generative plugins and shaders to the canvas, letting users design tools on demand with the agent building motion and interactivity into any effect, backed by full Figma MCP server integration for view, change, and export of the generated code. This signals Figma moving from a static design canvas to an AI-native, programmable design environment where teams can extend the tool itself using agents.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "46bdb66a",
+      "title": "Introducing Solaris: An Interface World Model",
+      "url": "https://runway.com/news/research/introducing-solaris",
+      "source": "Runway / TLDR AI",
+      "date": "2026-09-01",
+      "summary": "Runway unveiled Solaris, an Interface World Model that generates real-time interactive web and app interfaces frame by frame as users interact—handling both rendering and interaction jointly without any intermediate code representation. For designers, this opens a path to AI systems that produce functional, interactive prototypes in real time, collapsing the gap between design intent and deployed interface and enabling agents to train in far more dynamic environments.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
