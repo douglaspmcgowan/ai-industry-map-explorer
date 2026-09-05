@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T10:10:59.062Z",
+  "generated": "2026-09-05T10:08:05.953Z",
   "items": [
     {
       "id": "15849abf",
@@ -2635,6 +2635,140 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://www.figma.com/release-notes/?title=updates-to-generative-plugins-shaders",
+      "title": "Updates to Generative Plugins and Shaders",
+      "source": "Figma / TLDR Design",
+      "date": "2026-09-03",
+      "relevance": 4,
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "cad-copilots"
+      ],
+      "summary": "Figma gains animated and interactive shaders built by prompting its AI agent, with MCP updates letting third-party agents modify plugins and shaders directly. This marks a milestone in agents-as-design-tool where models generate and modify live UI code within production tooling.",
+      "id": "c8a52e32",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/Zzjz6J",
+      "title": "AI Is Making Product Development Faster. But Where Did the Work Go?",
+      "source": "TLDR Design",
+      "date": "2026-09-03",
+      "relevance": 3,
+      "industry_nodes": [
+        "human-ai-co-design"
+      ],
+      "summary": "AI accelerates individual product-development tasks but displaces rather than eliminates work, shifting effort into review, verification, and downstream handoffs. The systemic question is whether AI improves the full pipeline, not just local velocity.",
+      "id": "341f43ea",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/6T0yCv",
+      "title": "Spec Driven Design — From Logic to Style",
+      "source": "TLDR Design",
+      "date": "2026-09-04",
+      "relevance": 4,
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "summary": "Spec-Driven Design uses AI agents to translate moodboards and style guides into styled working prototypes while keeping human judgment in control of aesthetics and quality gates. The workflow closes the spec-to-implementation gap by treating AI as an applicator of designer intent rather than a generator.",
+      "id": "91542db6",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://iamrob.in/blog/2026_08_18-role-of-a-design-engineer",
+      "title": "My View on Design Engineering",
+      "source": "TLDR Design",
+      "date": "2026-08-18",
+      "relevance": 3,
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "summary": "As AI accelerates UI generation, design engineers increasingly own product coherence across the design-to-development gap rather than simply translating specs. The role shifts toward judgment, consistency enforcement, and taste-keeping in AI-assisted development.",
+      "id": "1cdd83f2",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://john-moriarty.medium.com/the-most-exciting-and-exhausting-time-to-be-a-designer-6d04316f4162",
+      "title": "The Most Exciting and Exhausting Time to Be a Designer",
+      "source": "TLDR Design",
+      "date": "2026-09-04",
+      "relevance": 3,
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "summary": "Designers in 2026 face dual pressure: mastering AI tooling while maintaining craft excellence, with judgment emerging as the scarce resource. The piece argues that sustainable AI-augmented design practice requires intentional rest and clarity on what AI acceleration actually measures.",
+      "id": "30e284ae",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.digitaltrends.com/computing/adobe-brings-image-video-and-pdf-creation-directly-into-slack/",
+      "title": "Adobe Brings Image, Video, and PDF Creation Directly into Slack",
+      "source": "TLDR Design / Digital Trends",
+      "date": "2026-09-04",
+      "relevance": 3,
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "summary": "Adobe for Slack integrates image, video, and PDF creation via Slackbot routing requests to over 70 Adobe AI tools, contextually reading conversations and shared files. This embeds professional creative AI directly into collaboration workflows rather than requiring context-switching to dedicated tools.",
+      "id": "705e0607",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2604.21315",
+      "title": "TopoStyle: Supporting Iterative Design with Generative AI for 2.5D Topology Optimization",
+      "source": "arXiv",
+      "date": "2026-04-30",
+      "relevance": 5,
+      "industry_nodes": [
+        "topology-optimization",
+        "generative-geometry-cad",
+        "human-ai-co-design"
+      ],
+      "summary": "TopoStyle introduces a generative AI system for iterative 2.5D topology optimization that lets designers explore and steer structural geometry through natural-language and style-based prompts. It advances human-AI co-design for manufacturing by bridging generative models with physics-constrained structural optimization.",
+      "id": "f5d1f20e",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.patsnap.com/resources/blog/rd-blog/generative-design-for-additive-manufacturing-2026/",
+      "title": "Generative Design for Additive Manufacturing 2026",
+      "source": "PatSnap",
+      "date": "2026-08-01",
+      "relevance": 4,
+      "industry_nodes": [
+        "topology-optimization",
+        "ai-for-dfm-dfam",
+        "generative-platforms"
+      ],
+      "summary": "AI-driven topology optimization is converging with LLM-native CAD generation to create vertically integrated design-to-print pipelines for additive manufacturing. Patent analysis shows Chinese universities, Siemens, and ANSYS leading filings in generative AM design as of 2026.",
+      "id": "221e565e",
+      "schools": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.monarch-innovation.com/generative-design-cad-ai-mechanical-engineering",
+      "title": "Generative Design in CAD: How AI is Changing Mechanical Engineering Workflows in 2026",
+      "source": "Monarch Innovation",
+      "date": "2026-08-20",
+      "relevance": 4,
+      "industry_nodes": [
+        "generative-platforms",
+        "cad-copilots",
+        "topology-optimization"
+      ],
+      "summary": "AI-powered generative design in major CAD platforms (Autodesk Fusion, SolidWorks, Altair Inspire) automates constraint-based geometry optimization for mechanical engineering. The shift enables engineers to define performance requirements and let AI generate weight-optimized, manufacturable designs rather than manually iterating.",
+      "id": "c5e76493",
+      "schools": [],
       "status": "pending"
     }
   ]
