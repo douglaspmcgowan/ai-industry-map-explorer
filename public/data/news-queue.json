@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T10:08:05.953Z",
+  "generated": "2026-09-09T10:11:29.337Z",
   "items": [
     {
       "id": "15849abf",
@@ -2769,6 +2769,96 @@
       "summary": "AI-powered generative design in major CAD platforms (Autodesk Fusion, SolidWorks, Altair Inspire) automates constraint-based geometry optimization for mechanical engineering. The shift enables engineers to define performance requirements and let AI generate weight-optimized, manufacturable designs rather than manually iterating.",
       "id": "c5e76493",
       "schools": [],
+      "status": "pending"
+    },
+    {
+      "id": "66f0759d",
+      "title": "How our agents build on-brand pages with design.md",
+      "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+      "source": "Vercel Blog / TLDR Design",
+      "date": "2026-09-08",
+      "summary": "Vercel introduced design.md—a public specification file any AI agent can load to generate on-brand pages outside the codebase—paired with a fixed stylesheet, token system, and an evaluation loop that turns reviewer feedback into deterministic checks. After 200+ test runs, pages generated with design.md showed 57% fewer known layout failures, marking a concrete step toward codifying brand knowledge as agent-readable design constraints.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5dd1159b",
+      "title": "Using AI for UX Work: Study Guide",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/",
+      "source": "Nielsen Norman Group / TLDR Design",
+      "date": "2026-09-07",
+      "summary": "NN Group published a comprehensive guide on integrating AI into UX work, finding the strongest use cases are targeted—research planning and synthesis, prototyping, ideation, and service design—while keeping real users and critical evaluation at the center. As UX roles evolve, the most durable skills are shifting toward strategy, critique, taste, systems thinking, and the ability to curate meaningful context for AI rather than simply producing artifacts faster.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a668a5a4",
+      "title": "When the Canvas Starts Acting, Who's Really in Control?",
+      "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c",
+      "source": "UX Collective / TLDR Design",
+      "date": "2026-09-07",
+      "summary": "As AI agents move from responding to prompts to actively navigating context, modifying files, and running workflows, interface design is shifting from specifying every user action to orchestrating how responsibility moves between people and systems. In this emerging model, designers increasingly shape the product's policy layer—behavior, permissions, constraints, defaults, and attention—deciding what agents can do autonomously, when to ask for confirmation, and which decisions must always return to a human.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "52f4f7ac",
+      "title": "To Read—Or Not to Read the Code?",
+      "url": "https://every.to/source-code/to-read-or-not-to-read-the-code",
+      "source": "Every.to (Source Code)",
+      "date": "2026-09-08",
+      "summary": "Kieran Klaassen argues that as AI agents write and ship code autonomously, engineers must deliberately read the output—not to verify it, but to maintain the domain discernment needed to judge which of two reasonable-sounding AI proposals will cause harm six months from now. Drawing on the manufacturing \"dark factory\" analogy and citing a recent paper showing AI agents measurably erode human vigilance and critical thinking, the essay proposes four practices for compounding human judgment alongside compound engineering.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "040d3312",
+      "title": "CADEngBench: It Looks Like CAD, but Does It Work? Evaluating Parametric Design, Assembly Reasoning, and Physics Simulation",
+      "url": "https://arxiv.org/abs/2608.09296",
+      "source": "arXiv",
+      "date": "2026-08-10",
+      "summary": "CADEngBench introduces the first benchmark explicitly testing whether AI-generated CAD outputs satisfy engineering requirements—not just visual plausibility—via B-Rep validity, FEA structural response, parameter-family perturbations, and kinematic joint verification across 300 parametric parts and 150 assembly pairs. Across eight multimodal models, editing supplied CAD is substantially easier than generating it, while complex edits and matched FEA simulation remain difficult, establishing a rigorous bar for physics-aware CAD generation.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-geometry-cad",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "99321583",
+      "title": "RealCADBench: Benchmarking Parametric CAD Modeling from Industrial Design Intents",
+      "url": "https://arxiv.org/abs/2609.03773",
+      "source": "arXiv",
+      "date": "2026-09-03",
+      "summary": "RealCADBench benchmarks LLMs and agents on parametric CAD modeling from real industrial design intents rather than academic toy problems, exposing how current text-to-CAD systems perform when faced with the specification ambiguity and manufacturing constraints present in actual engineering workflows. The benchmark targets the gap between headline text-to-CAD demos and the rigorous, intent-grounded modeling required in production-grade CAD environments.",
+      "industry_nodes": [
+        "text-to-cad",
+        "cad-copilots",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
