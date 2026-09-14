@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:11:29.337Z",
+  "generated": "2026-09-14T10:10:44.596Z",
   "items": [
     {
       "id": "15849abf",
@@ -2856,6 +2856,125 @@
         "text-to-cad",
         "cad-copilots",
         "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f9231aef",
+      "title": "Anthropic Launches Claude for CAD with Autodesk Fusion and Blender Connectors",
+      "url": "https://manufactur3dmag.com/anthropic-claude-for-cad-fusion-blender/",
+      "source": "Manufactur3D",
+      "date": "2026-04-01",
+      "summary": "Anthropic officially released MCP connectors bringing Claude into Autodesk Fusion and Blender, enabling text-driven 3D geometry creation and modification directly inside CAD tools. This marks the first major LLM with official native CAD platform integration, shifting AI-assisted design from chat-adjacent to in-workflow.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4649f45d",
+      "title": "Backflip AI updated engine flips mesh into feature tree-CAD model in seconds",
+      "url": "https://develop3d.com/ai/backflip-ai-reverse-engineering",
+      "source": "DEVELOP3D",
+      "date": "2026-08-03",
+      "summary": "DEVELOP3D covers Backflip AI's upgraded foundation model that converts 3D scans and STL mesh files into fully editable parametric CAD feature trees in minutes rather than hours. The model uses agent loops to reconstruct geometry, self-check accuracy, and iterate—reducing skilled reverse-engineering cost from ~$1,500 to ~$10 per part.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fdb3a89b",
+      "title": "AI Physics Pushes Engineering Simulation Towards a New Compute Model",
+      "url": "https://highways.today/2026/08/26/ai-physics-compute-model/",
+      "source": "Highways Today",
+      "date": "2026-08-26",
+      "summary": "Reports on Rescale's AI Physics Operating System extending to transient FEA applications including crash simulation, where surrogate models predict multi-step sequences instead of calling the FEM solver. The piece surveys how Ansys SimAI, Altair PhysicsAI, and Siemens Simcenter PhysicsAI are industrializing surrogate-model workflows once confined to academic settings.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6446a487",
+      "title": "Machine Learning-Powered Vision for Robotic Inspection in Manufacturing: A Review",
+      "url": "https://www.mdpi.com/1424-8220/26/3/788",
+      "source": "MDPI Sensors",
+      "date": "2026-03-01",
+      "summary": "Comprehensive review of ML-based computer vision applied to robotic inspection in manufacturing, covering CNN-based defect detection, edge AI deployment for sub-200ms accept/reject decisions, and closed-loop quality control that feeds results directly back to robotic arms. Establishes the state of the art as of early 2026.",
+      "industry_nodes": [
+        "vision-inspection-qa-ml",
+        "robotics-manufacturing"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5ff3c0e5",
+      "title": "AI Trends in AEC for 2026: From Predictive Design to Autonomous Construction",
+      "url": "https://www.allplan.com/blog/from-ai-design-to-autonomous-construction-how-predictive-data-centric-workflows-and-ai-agents-are-reshaping-aec/",
+      "source": "Allplan",
+      "date": "2026-09-01",
+      "summary": "Allplan surveys 2026 AI adoption across architecture, engineering, and construction, highlighting the shift from pilot projects to production use of AI agents for generative layout optimization, predictive clash detection, and continuous data-driven design-to-operations workflows. Data organization is identified as the single biggest barrier to scaling.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9a291c7d",
+      "title": "2026 AEC Trends: AI in Architecture with Vibe Coding and Real-Time Analysis",
+      "url": "https://www.stantec.com/en/ideas/topic/buildings/2026-aec-trends-part-2-ai-in-architecture-vibe-coding-real-time-analysis-data",
+      "source": "Stantec",
+      "date": "2026-09-01",
+      "summary": "Stantec's practitioner perspective on how vibe-coding approaches—prompting AI to write parametric scripts—are changing how architects explore design options without writing code from scratch. Also covers real-time AI structural analysis and energy performance prediction embedded in BIM authoring tools.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed43c73d",
+      "title": "AI-Accelerated FEA Technology Landscape 2026",
+      "url": "https://www.patsnap.com/resources/blog/articles/ai-accelerated-fea-technology-landscape-2026/",
+      "source": "Patsnap Eureka",
+      "date": "2026-09-01",
+      "summary": "Patent landscape analysis of AI-accelerated finite element analysis showing Bosch, Pratt & Whitney, and X Development filing patents that explicitly replace FEM solver calls with neural surrogates in design optimization loops. Charts the transition from academic surrogate modelling to industrial IP, with Ansys, Siemens, and Altair as dominant commercial tool providers.",
+      "industry_nodes": [
+        "surrogate-models",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "30cb22d4",
+      "title": "Exploring AI's Role in Scan-to-CAD",
+      "url": "https://develop3d.com/3d-scanning/exploring-ais-role-in-scan-to-cad/",
+      "source": "DEVELOP3D",
+      "date": "2026-09-01",
+      "summary": "DEVELOP3D examines the emerging AI-powered scan-to-CAD pipeline, where foundation models trained on geometry automatically convert point clouds and mesh scans into editable parametric solid models. Compares approaches from Backflip AI, Physna, and academic methods like CAD-Recode, and discusses remaining accuracy and tolerance challenges for production engineering.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng"
       ],
       "schools": [],
       "relevance": 4,
