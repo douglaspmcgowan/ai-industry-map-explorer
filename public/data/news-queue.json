@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T10:10:44.596Z",
+  "generated": "2026-09-21T10:09:54.399Z",
   "items": [
     {
       "id": "15849abf",
@@ -2979,6 +2979,110 @@
       "schools": [],
       "relevance": 4,
       "status": "pending"
+    },
+    {
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-ai-design-manufacturing-au-2026",
+      "title": "Autodesk advances AI for design and manufacturing at AU 2026",
+      "source": "Autodesk News",
+      "date": "2026-09-17",
+      "summary": "At Autodesk University 2026 (Sept 15-17, Las Vegas), Autodesk unveiled neural CAD for Fusion, an AI foundation model that generates editable BREP geometry from text prompts, alongside agentic capabilities including AutoTimeline, AutoAssemble, and System Modeler. This marks Autodesk full pivot to AI-native design workflows across Fusion, Inventor, Vault, and PLM, with geometry-generating copilots now built into the core CAD environment.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending",
+      "id": "1487f4bb"
+    },
+    {
+      "url": "https://adsknews.autodesk.com/en/news/new-investments-in-fusion-bring-ai-powered-transformation-to-manufacturing/",
+      "title": "New investments in Autodesk Fusion to bring AI-powered transformation to manufacturing",
+      "source": "Autodesk News",
+      "date": "2026-09-15",
+      "summary": "Autodesk details its neural CAD roadmap for Fusion, including editable boundary-representation BREP geometry generated from a single text prompt, dramatically accelerating geometry creation for manufacturing design. The article also covers AI-powered assembly automation, simulation-driven design, and connected PLM workflows that close the loop from design intent to factory floor.",
+      "industry_nodes": [
+        "cad-copilots",
+        "text-to-cad",
+        "ai-for-dfm-dfam"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "b3648216"
+    },
+    {
+      "url": "https://adsknews.autodesk.com/en/news/building-layout-explorer-in-autodesk-forma/",
+      "title": "Exploring early generative AI workflows with Building Layout Explorer in Autodesk Forma",
+      "source": "Autodesk News",
+      "date": "2026-09-15",
+      "summary": "Autodesk Building Layout Explorer brings generative AI to early-stage architectural design inside Forma Site Design, automatically producing floor plan options from a massing model using AI models trained on aggregated 3D AEC data. Teams can explore thousands of layout variants informed by massing, building type, and structural material before committing to detailed design.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "bdc86db0"
+    },
+    {
+      "url": "https://adsknews.autodesk.com/en/news/autodesk-forma-ai-aec-connected-workflows-2026",
+      "title": "How Autodesk Forma and AI are advancing a more connected future for AEC",
+      "source": "Autodesk News",
+      "date": "2026-09-15",
+      "summary": "Autodesk describes how Forma AI capabilities, including Drawing Change Analysis, Drawing Compliance Review, and an expanded Autodesk Assistant, are tightening the feedback loop between design, construction, and data in AEC workflows. The piece situates Forma Building Design within a broader strategy to connect Revit desktop workflows to cloud-based AI reasoning.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "8585d0f7"
+    },
+    {
+      "url": "https://develop3d.com/cad/backflip-converse-2d-engineering-drawings-directly-into-cad",
+      "title": "Backflip now converts 2D engineering drawings directly into CAD",
+      "source": "DEVELOP3D",
+      "date": "2026-09-19",
+      "summary": "Backflip AI expanded its CAD copilot to handle 2D engineering drawings and mobile phone photographs, generating fully editable parametric feature trees inside Autodesk Fusion. Photo-to-CAD and Drawing-to-CAD close the last gaps in digitising legacy part inventories at roughly $10 per part versus the traditional $1,500 manual reverse-engineering cost.",
+      "industry_nodes": [
+        "scan-to-cad-reverse-eng",
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "5552238e"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.05607",
+      "title": "DreamCAD: Scaling Multi-modal CAD Generation using Differentiable Parametric Surfaces",
+      "source": "arXiv",
+      "date": "2026-03-07",
+      "summary": "DreamCAD presents a scalable multi-modal framework for generating parametric CAD models from text, images, or sketches using differentiable NURBS and B-rep surface representations, enabling gradient-based optimisation over shape space. The approach achieves state-of-the-art results on text-to-CAD benchmarks while producing editable, feature-rich geometry, advancing the text-to-cad node with a principled differentiable path from prompt to solid model.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-geometry-cad"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending",
+      "id": "74fb0f9b"
+    },
+    {
+      "url": "https://www.getleo.ai/blog/ai-cad-design-2026-whats-real",
+      "title": "AI CAD Design in 2026: What's Real, What's Hype, and What Engineers Actually Use",
+      "source": "Leo AI",
+      "date": "2026-09-01",
+      "summary": "A practitioner-focused survey of the AI CAD landscape in 2026, distinguishing topology-optimisation and constraint-based generative design (mature and delivering ROI) from text-to-geometry tools (promising but not yet production-ready for most teams). The piece argues that the highest near-term value lies in part-search, knowledge retrieval, and design-validation AI rather than geometry generation.",
+      "industry_nodes": [
+        "cad-copilots"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending",
+      "id": "a83b159b"
     }
   ]
 }
