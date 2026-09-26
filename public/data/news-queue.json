@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T10:09:54.399Z",
+  "generated": "2026-09-26T10:14:31.181Z",
   "items": [
     {
       "id": "15849abf",
@@ -3083,6 +3083,94 @@
       "relevance": 3,
       "status": "pending",
       "id": "a83b159b"
+    },
+    {
+      "id": "3e1adc7d",
+      "title": "Six New Google Flow Tools Built by Industry Creatives",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/six-new-tools-built-by-creatives/",
+      "source": "TLDR Design",
+      "date": "2026-09-25",
+      "summary": "Google released six new Flow Tools co-built with professionals in architecture, sound design, and digital content, including Surface for real-time architectural texture mapping and tools for automated captions, social thumbnails, animated collages, and motion graphics. The tools highlight how AI is being embedded into domain-specific creative and architectural workflows, with users able to describe a workflow to spawn custom tools.",
+      "industry_nodes": [
+        "aec-construction-ai",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3b1d8238",
+      "title": "Design Engineering with Maggie Appleton",
+      "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+      "source": "The Pragmatic Engineer",
+      "date": "2026-09-25",
+      "summary": "Maggie Appleton argues AI is changing designer workflows but not what makes great design — human judgment, problem-solving, and clear thinking remain essential. She advises starting with familiar patterns, sketching by hand, building AI-powered interactive prototypes, and treating AI as a collaborator that accelerates exploration while requiring constant oversight.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c07c973d",
+      "title": "Pixel Crew: Production-Ready Design from a Crew of AI Agents",
+      "url": "https://pixelcrew.ai/",
+      "source": "TLDR Design",
+      "date": "2026-09-25",
+      "summary": "Pixel Crew is a multi-agent system that coordinates specialized AI agents across research, creative direction, wireframing, and production-ready HTML delivery with a design system. It represents an emerging category of autonomous design agents that can ship production-quality outputs, not just prototypes.",
+      "industry_nodes": [
+        "designer-workflow-with-ai",
+        "human-ai-co-design"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "eb879b76",
+      "title": "What a UX Designer Learned from Building Apps with AI",
+      "url": "https://www.tech.gov.sg/technews/what-a-ux-designer-learnt-from-building-apps-with-ai/",
+      "source": "GovTech Singapore",
+      "date": "2026-09-25",
+      "summary": "A UX designer at Singapore's GovTech spent months solo-building working apps using Lovable, including a real-time planning-poker tool that required WebSocket knowledge before AI could unblock. The experiment concluded AI accelerates prototyping but doesn't replace design judgment or engineering expertise, especially for public-sector systems running at scale.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "4916c784",
+      "title": "Adobe Integrates Acrobat, Photoshop, and Firefly Tools Directly into AI Chats",
+      "url": "https://www.digitaltrends.com/computing/adobe-just-made-claude-far-more-useful-for-pdfs-by-bringing-acrobat-tools-directly-into-the-chat/",
+      "source": "Digital Trends",
+      "date": "2026-09-25",
+      "summary": "Adobe expanded its Claude plugin by integrating Acrobat tools — edit, organize, convert, redact, and review PDFs — directly within the Claude chat interface, alongside an interactive PDF editor and AI-powered document review. The company also added Photoshop, Lightroom, Express, and Firefly tools to Google Gemini, signaling a broader push to embed creative tools into AI co-pilots.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f989b2be",
+      "title": "Putting the User Back into AI Evaluation",
+      "url": "https://microsoft.design/articles/putting-the-user-back-into-ai-evaluation/",
+      "source": "Microsoft Design",
+      "date": "2026-09-25",
+      "summary": "Three Microsoft AI researchers argue that machine evals confirm a response meets criteria but only users can judge whether it actually worked; qualitative conversations with real users exposed gaps in tone, context, and fear of generic output that automated metrics missed. The team built a shared loss-pattern taxonomy and multi-turn evaluations that treat entire conversations as the unit of measurement.",
+      "industry_nodes": [
+        "human-ai-co-design",
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
