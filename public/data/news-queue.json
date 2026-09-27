@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T10:14:31.181Z",
+  "generated": "2026-09-27T10:17:59.922Z",
   "items": [
     {
       "id": "15849abf",
@@ -3170,6 +3170,125 @@
       ],
       "schools": [],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d197058f",
+      "title": "Autodesk Advances Agentic AI in Its Three Industry Clouds",
+      "url": "https://adsknews.autodesk.com/en/pressrelease/autodesk-advances-agentic-ai-in-its-three-industry-clouds/",
+      "source": "Autodesk News",
+      "date": "2026-09-15",
+      "summary": "Autodesk previewed agentic AI across Forma (AEC), Fusion (design/manufacturing), and Flow at AU 2026, with new AutoTimeline, AutoAssemble, and PLM agents that automate parametric conversion, assembly, and documentation. This marks a platform-wide shift toward AI-native CAD workflows across all three of Autodesk's industry verticals.",
+      "industry_nodes": [
+        "cad-copilots",
+        "aec-construction-ai",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "24fd1ea6",
+      "title": "Autodesk 'Unlocks Design Capacity' with Latest AI for Fusion & Inventor",
+      "url": "https://develop3d.com/cad/autodesk-latest-ai-for-fusion-inventor/",
+      "source": "DEVELOP3D",
+      "date": "2026-09-17",
+      "summary": "At AU 2026, Autodesk unveiled AutoTimeline (converts imported STEP geometry into editable parametric parts), AutoAssemble (assembles parts automatically), and System Modeler for toolpath generation, with Inventor becoming the first Fusion Connected Client. The capabilities collectively automate weeks of geometry prep and setup work in CAD and CAM workflows.",
+      "industry_nodes": [
+        "cad-copilots",
+        "dfm-machining-molding"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4d2491c9",
+      "title": "Multiphysics Gets MCP Server and Onshape Gets SimScale Agent",
+      "url": "https://www.engineering.com/multiphysics-gets-mcp-server-and-onshape-gets-simscale-agent/",
+      "source": "Engineering.com",
+      "date": "2026-09-23",
+      "summary": "Comsol revealed an MCP server for Multiphysics 2027 enabling external AI systems to drive simulation directly from agents; simultaneously, SimScale launched its Engineering AI Agent inside Onshape that proposes simulation setups, generates meshes, and returns physics results within the CAD environment from a single natural-language prompt. Both moves position physics simulation as a first-class capability in AI-augmented design pipelines.",
+      "industry_nodes": [
+        "cad-copilots",
+        "physics-aware-surrogates"
+      ],
+      "schools": [],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3df9c1ba",
+      "title": "Autodesk's AI Push Is Actually a Pull",
+      "url": "https://www.engineering.com/autodesks-ai-push-is-actually-a-pull/",
+      "source": "Engineering.com",
+      "date": "2026-09-17",
+      "summary": "Analysis argues Autodesk's strategy embeds AI deeply into existing CAD/PLM workflows rather than forcing engineers into new tools — the \"pull\" model keeps engineers in context while AI handles geometry conversion, assembly generation, and documentation. This approach reflects a broader industry pattern of augmenting CAD rather than replacing it with generative pipelines.",
+      "industry_nodes": [
+        "cad-copilots",
+        "generative-platforms"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "738783b6",
+      "title": "AU 2026: Autodesk's AI Assistant Is Evolving",
+      "url": "https://www.engineering.com/au-2026-autodesks-ai-assistant-is-evolving/",
+      "source": "Engineering.com",
+      "date": "2026-09-17",
+      "summary": "Autodesk's natural-language Assistant is becoming the universal entry point across the entire software portfolio, with AI rendering now live and conversational access extending to every tool; it now links geometry context, file state, and task history across sessions. The shift represents a move from feature-by-feature AI add-ons to a unified conversational interface layer for CAD and AEC.",
+      "industry_nodes": [
+        "cad-copilots",
+        "engineering-rag-chat"
+      ],
+      "schools": [],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7bedafb4",
+      "title": "What It Takes to Build Great Products Now",
+      "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
+      "source": "Figma Blog",
+      "date": "2026-09-24",
+      "summary": "Figma VP of Product argues AI collapses time-to-prototype but teams still need direction (choosing the right bet among many) and differentiation (making something only they would make) to build lasting products. With AI accelerating execution, taste and design judgment become the scarce resource and primary competitive moat for product teams.",
+      "industry_nodes": [
+        "designer-workflow-with-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "25edb23a",
+      "title": "Generative AI and Extended Reality in Collaborative Architectural Design Education: An Exploratory Studio Study",
+      "url": "https://arxiv.org/abs/2609.13494",
+      "source": "arXiv",
+      "date": "2026-09",
+      "summary": "An exploratory studio study examining how combining text-to-image generative AI with extended reality (XR) changes how architecture students iterate on spatial concepts, coordinate in teams, and communicate design intent. Findings show that the combination accelerates early exploration but introduces new challenges in evaluating spatial quality and shared design authorship.",
+      "industry_nodes": [
+        "aec-construction-ai"
+      ],
+      "schools": [],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0fa59efa",
+      "title": "Arko-T: A Foundation Model for Text-to-Structured 3D Generation",
+      "url": "https://arxiv.org/abs/2606.30429",
+      "source": "arXiv",
+      "date": "2026-06",
+      "summary": "Introduces Arko-T, a foundation model that generates structured 3D geometry (parametric forms and topology graphs, not just unstructured meshes) from natural-language prompts, bridging creative text input and engineering-usable output. The structured output format is a key differentiator that makes Arko-T outputs more editable and manufacturable than diffusion-based 3D mesh generators.",
+      "industry_nodes": [
+        "text-to-cad",
+        "generative-3d-shape"
+      ],
+      "schools": [],
+      "relevance": 4,
       "status": "pending"
     }
   ]
