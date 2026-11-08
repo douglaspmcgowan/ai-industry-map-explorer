@@ -87,6 +87,7 @@ Everything above the closing marker is generated from `.agents/templates/AGENTS.
 
 - Add only rules required by this repository.
 - A dispatched builder follows the shared `.agents/AGENTS.md` Dispatch rule for tool-call scope.
+- Readiness: read [READINESS.md](READINESS.md) first, take its Next list, and after each change refresh it with Test-ProductReadiness.ps1 -ProductPath . -Check all -Write -Url https://ai-industry-map-explorer.vercel.app
 
 ## Product adapters
 
