@@ -24,7 +24,7 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| B2.1 | A control reacts within 0.1 s. | agent | could-not-tell | 2026-11-08 |
+| B2.1 | A control reacts within 0.1 s. | agent | met | 2026-11-08 |
 | B2.2 | Any wait over 1 s shows progress. | agent | could-not-tell | 2026-11-08 |
 | B2.3 | Work over 10 s can be left running or cancelled. | agent | could-not-tell | 2026-11-08 |
 
@@ -34,6 +34,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B3.1 | Every data region has loading, empty and error states. | auto | could-not-tell | 2026-11-08 |
 | B3.3 | An empty state says what belongs there and offers one action. | judge | could-not-tell | 2026-11-08 |
+| B3.4 | Data that can go stale shows its age. | agent | met | 2026-11-08 |
 
 ## B4 Errors and recovery
 
@@ -49,6 +50,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B5.1 | Nothing typed is lost on reload, back or crash. | agent | failing | 2026-11-08 |
 | B5.2 | Reversible actions can be undone; only irreversible ones ask to confirm. | agent | failing | 2026-11-08 |
+| B5.3 | Stored data has a restore that has been tested. | agent | failing | 2026-11-08 |
 
 ## B6 Navigation
 
@@ -114,7 +116,7 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| B13.1 | Copy is reread, with no machine vocabulary left. | judge | could-not-tell | 2026-11-08 |
+| B13.1 | Copy is reread, with no machine vocabulary left. | judge | failing | 2026-11-08 |
 
 ## B14 Visual design
 
@@ -153,15 +155,15 @@ Target: production
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
 | VZ4.1 | Selecting records in one linked view highlights the same records in every linked view. | auto | no-check | never |
-| VZ4.2 | A compare shows two selections on one shared scale, with the scale named. | judge | could-not-tell | 2026-11-08 |
-| VZ4.3 | A compare's difference is shown with its sign and unit. | agent | could-not-tell | 2026-11-08 |
+| VZ4.2 | A compare shows two selections on one shared scale, with the scale named. | judge | failing | 2026-11-08 |
+| VZ4.3 | A compare's difference is shown with its sign and unit. | agent | failing | 2026-11-08 |
 
 ## VZ5 Shareable state and export
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| VZ5.2 | An export contains exactly the filtered records the view shows. | agent | could-not-tell | 2026-11-08 |
-| VZ5.3 | An export names its time range and data source in its header or title. \(when the data has a time axis\) | agent | could-not-tell | 2026-11-08 |
+| VZ5.2 | An export contains exactly the filtered records the view shows. | agent | failing | 2026-11-08 |
+| VZ5.3 | An export names its time range and data source in its header or title. \(when the data has a time axis\) | agent | failing | 2026-11-08 |
 
 ## VZ6 Readable table behind every chart
 
@@ -174,7 +176,7 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| VZ7.1 | The Before it ships checklist in dashboards.md passes. | judge | could-not-tell | 2026-11-08 |
+| VZ7.1 | The Before it ships checklist in dashboards.md passes. | judge | failing | 2026-11-08 |
 
 ## runtime Browser runtime errors
 
@@ -204,7 +206,7 @@ Generated from `.agents/work/readiness.json` by `Test-ProductReadiness.ps1 -Writ
 
 `met` means the app's own command reported success. It does not mean the app is correct or good.
 
-Kind: ai-industry-map-explorer | Generated: 2026-11-08T02:44:00.0871225Z | Input hash: efd15c2f9ca7
+Kind: ai-industry-map-explorer | Generated: 2026-11-08T02:54:07.1770091Z | Input hash: e93721cb3289
 
 ## Next (checks, detail)
 
@@ -234,9 +236,9 @@ Stage: works
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| build | met | 2026-11-08T02:38:47.907691Z | 0 |  |
-| typecheck | failing | 2026-11-08T02:38:48.3886185Z | 1 | child exited 1 |
-| console-clean | met | 2026-11-08T02:38:51.0136956Z | 0 |  |
+| build | met | 2026-11-08T02:50:06.4974115Z | 0 |  |
+| typecheck | failing | 2026-11-08T02:50:07.1746205Z | 1 | child exited 1 |
+| console-clean | met | 2026-11-08T02:50:12.0609989Z | 0 |  |
 
 - tests: package.json declares no test script
 
@@ -244,15 +246,15 @@ Stage: works
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| loading-state | could-not-tell | 2026-11-08T02:38:51.7475374Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| empty-state | could-not-tell | 2026-11-08T02:38:52.6515421Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| error-state | could-not-tell | 2026-11-08T02:38:53.4207603Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| not-found-state | could-not-tell | 2026-11-08T02:38:54.1787439Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| keyboard-focus | met | 2026-11-08T02:38:56.0618567Z | 0 |  |
-| error-capture | failing | 2026-11-08T02:38:57.3524347Z | 1 | child exited 1 |
-| structured-logs | failing | 2026-11-08T02:38:58.0397539Z | 1 | child exited 1 |
-| viewport-320-1280 | met | 2026-11-08T02:39:01.7932803Z | 0 |  |
-| not-found-page | failing | 2026-11-08T02:39:02.5137639Z | 1 | child exited 1 |
+| loading-state | could-not-tell | 2026-11-08T02:50:13.4842658Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| empty-state | could-not-tell | 2026-11-08T02:50:15.0478133Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| error-state | could-not-tell | 2026-11-08T02:50:16.1017163Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| not-found-state | could-not-tell | 2026-11-08T02:50:17.7939888Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| keyboard-focus | met | 2026-11-08T02:50:20.9020912Z | 0 |  |
+| error-capture | failing | 2026-11-08T02:50:22.3206633Z | 1 | child exited 1 |
+| structured-logs | failing | 2026-11-08T02:50:23.1807095Z | 1 | child exited 1 |
+| viewport-320-1280 | met | 2026-11-08T02:50:28.5722151Z | 0 |  |
+| not-found-page | met | 2026-11-08T02:50:29.8334552Z | 0 |  |
 
 Not applicable: cli-conformance, game-playable
 
@@ -260,26 +262,25 @@ Not applicable: cli-conformance, game-playable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| design-banned-patterns | failing | 2026-11-08T02:39:03.6749425Z | 1 | child exited 1 |
+| design-banned-patterns | failing | 2026-11-08T02:50:31.6522471Z | 1 | child exited 1 |
 | design-review-dated | never-run |  |  | no design-review receipt; run Write-DesignReviewReceipt.ps1 |
 
 ### production
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| privacy-terms | failing | 2026-11-08T02:39:04.275513Z | 1 | child exited 1 |
-| seo-tags | failing | 2026-11-08T02:39:04.9517991Z | 1 | child exited 1 |
-| security-headers | failing | 2026-11-08T02:39:05.6767591Z | 1 | child exited 1 |
-| axe | could-not-tell | 2026-11-08T02:39:06.4164223Z | 2 | `{"check":"axe","target":"http://127.0.0.1:4202","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
-| core-web-vitals | failing | 2026-11-08T02:39:25.0642016Z | 1 | child exited 1 |
-| log-personal-data | met | 2026-11-08T02:39:26.0646902Z | 0 |  |
+| privacy-terms | failing | 2026-11-08T02:50:32.9566735Z | 1 | child exited 1 |
+| seo-tags | failing | 2026-11-08T02:50:34.4710985Z | 1 | child exited 1 |
+| security-headers | failing | 2026-11-08T02:50:36.1204094Z | 1 | child exited 1 |
+| axe | could-not-tell | 2026-11-08T02:50:37.6198716Z | 2 | `{"check":"axe","target":"https://ai-industry-map-explorer.vercel.app","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
+| core-web-vitals | failing | 2026-11-08T02:51:00.0397559Z | 1 | child exited 1 |
+| log-personal-data | met | 2026-11-08T02:51:01.2579762Z | 0 |  |
 
 ### operated
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| deployed-url | met | 2026-11-08T02:39:26.6756461Z | 0 |  |
-| env-documented | could-not-tell | 2026-11-08T02:39:26.747214Z |  | setup gap: scripts/check-env-docs.js absent |
-| monitoring | could-not-tell | 2026-11-08T02:39:26.839527Z |  | setup gap: scripts/check-monitoring.js absent |
-
-Not applicable: restore-path
+| deployed-url | met | 2026-11-08T02:51:02.8487959Z | 0 |  |
+| env-documented | could-not-tell | 2026-11-08T02:51:02.9509329Z |  | setup gap: scripts/check-env-docs.js absent |
+| monitoring | could-not-tell | 2026-11-08T02:51:03.0759083Z |  | setup gap: scripts/check-monitoring.js absent |
+| restore-path | could-not-tell | 2026-11-08T02:51:03.1493136Z |  | setup gap: scripts/check-restore.js absent |

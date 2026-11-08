@@ -2,10 +2,10 @@
   "schema": "app-readiness/v1",
   "app": "ai-industry-map-explorer",
   "kind": "ai-industry-map-explorer",
-  "generated_at": "2026-11-08T02:44:00.0871225Z",
+  "generated_at": "2026-11-08T02:54:07.1770091Z",
   "generated_by": "Test-ProductReadiness.ps1",
   "catalog": "app-readiness.json",
-  "input_hash": "efd15c2f9ca76de3d053d71a232ff69f8526af422b52820489f20c442e39fe73",
+  "input_hash": "e93721cb32896287ead92ecde0699b20dd9b21019b709d09cd34163e49e73ef0",
   "stages": {
     "works": {
       "state": "not-met"
@@ -32,9 +32,9 @@
       "command": "npm run build",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:38:47.907691Z",
-      "input_hash": "0d8cbbee49fb17a2481699a27256ff0ae4c0d75d214be9510a39636db2505933",
-      "receipt_id": "90438457-8f47-4bdd-8b33-dfe9241788e5",
+      "ran_at": "2026-11-08T02:50:06.4974115Z",
+      "input_hash": "4247c036624baa37911032299a8af8d201dbf0f1b8f5289e00de4771fda7bcc2",
+      "receipt_id": "fa09a89f-06a3-43ce-b253-2c01a24aa2ca",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -47,9 +47,9 @@
       "command": "npm run typecheck",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:38:48.3886185Z",
-      "input_hash": "defbf3c1d2bf36955f035c80397452eeb607f275f9dfaf8d16cf0f00f0f4b81b",
-      "receipt_id": "a91c4942-b42e-4f68-b7bb-605d7443672a",
+      "ran_at": "2026-11-08T02:50:07.1746205Z",
+      "input_hash": "600b732bf2e6a2af0d41399955a014fa214668310172bfb2129ee7dc09d5aaf3",
+      "receipt_id": "7752b617-eae9-4a98-bf06-0a2ddd2a47fe",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -62,9 +62,9 @@
       "command": "npm test",
       "state": "not-applicable",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:38:48.4641088Z",
-      "input_hash": "25690b4eead6ff9abf77996cc031dfe834e2ea0f6d28c91d91c02d5c3d20089b",
-      "receipt_id": "57006f8f-0dfc-4a6d-ac0c-6fae738cb150",
+      "ran_at": "2026-11-08T02:50:07.3890085Z",
+      "input_hash": "d600ee7391e2a7bb5f7f17606df6c2e0dfc6442ae70eddb9f0a1df97c010088b",
+      "receipt_id": "cc77e811-096c-42e0-99fa-400b2d65b87d",
       "waiver": null,
       "waiver_expired": null,
       "note": "package.json declares no test script"
@@ -74,12 +74,12 @@
       "stage": "works",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ConsoleClean.ps1 -Path . -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ConsoleClean.ps1 -Path . -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:38:51.0136956Z",
-      "input_hash": "acb3ac341aa6f20ee7052eadc318748df0d38e0e47b5f7a702ba44bd2d13d036",
-      "receipt_id": "f9cd35b6-42b9-4072-9569-92e76034935b",
+      "ran_at": "2026-11-08T02:50:12.0609989Z",
+      "input_hash": "3f25fd869205683185310f8487960080745b95d93ce757e10cc88658d229db38",
+      "receipt_id": "b6e34226-be53-43df-85e3-61105a912d47",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -89,12 +89,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State loading -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State loading -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:38:51.7475374Z",
-      "input_hash": "c79d5236a48c0d7cf630e438a3edfb9595f97918230594179d7ff1af7315e2d5",
-      "receipt_id": "236f0901-eff3-4308-aa94-9512e010eb8c",
+      "ran_at": "2026-11-08T02:50:13.4842658Z",
+      "input_hash": "ab48ec66f700c15f47e27438069d8e201f1caa1a9c1329e31ca5954f37f74153",
+      "receipt_id": "3f8627bf-2e43-4d43-ac10-36483753d7c6",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"loading-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -104,12 +104,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State empty -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State empty -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:38:52.6515421Z",
-      "input_hash": "7b3a09ea41d3079dfae76ea29f16bf60f0f164e5d7bb7d3dcf295c118c8d82a3",
-      "receipt_id": "ad8060ea-90e5-4dcc-964c-4bce28470aa8",
+      "ran_at": "2026-11-08T02:50:15.0478133Z",
+      "input_hash": "74cfc1ca17902c0e68b681d71a4fd8f4a78abe717d4f12542c269a36ba98fc88",
+      "receipt_id": "a31c8ffa-db9d-4fd8-ad23-dd711ff3598a",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"empty-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -119,12 +119,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State error -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State error -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:38:53.4207603Z",
-      "input_hash": "19286042b7ee4fc798b3f951270018ebe82224166498f97f1f757f41a41f7cd2",
-      "receipt_id": "fc5230b9-4cb1-469a-947d-f668b05aac14",
+      "ran_at": "2026-11-08T02:50:16.1017163Z",
+      "input_hash": "bbb1962fb9e92b1abdcf04877d78f5cee25811b91c61ef9c39d683ccd961e843",
+      "receipt_id": "13ca1629-81c8-44f9-852f-1d757791105d",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"error-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -134,12 +134,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State not-found -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State not-found -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:38:54.1787439Z",
-      "input_hash": "1b8be83ab67cfb4a4184ad26165fd1420d05dfc97b718ca65aaade9b2d06e9ae",
-      "receipt_id": "33cfc81c-3abf-45e6-9117-0f4ae12cde58",
+      "ran_at": "2026-11-08T02:50:17.7939888Z",
+      "input_hash": "557e8c6ae3d4110351419bf217f62444ff67d2ec2a888a1b2b8171c6425b1681",
+      "receipt_id": "02afa1c2-eda3-4cb0-8aad-4e80ac1f59ae",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"not-found-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -149,12 +149,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-KeyboardFocus.ps1 -Path . -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-KeyboardFocus.ps1 -Path . -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:38:56.0618567Z",
-      "input_hash": "0fdeaf703596df189cba363e14f17652e9ecac2c0e6dfe729c6281b3d699128a",
-      "receipt_id": "826740b5-32e9-4dd7-ba1e-922c49fc61ec",
+      "ran_at": "2026-11-08T02:50:20.9020912Z",
+      "input_hash": "eadf93e38ee69f7b95f9ec2648af237974b2e71863b77e9aeaac500264b02b74",
+      "receipt_id": "9371adfa-7ab6-45ce-a81a-4c4062b91e85",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -167,9 +167,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ErrorCapture.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:38:57.3524347Z",
-      "input_hash": "479824662eb3fae4e38a1fb7032d9c1191fbd40ccf5bd55be49024ce6a78e99a",
-      "receipt_id": "2d714049-4e94-452f-ac12-bee8a9144bfd",
+      "ran_at": "2026-11-08T02:50:22.3206633Z",
+      "input_hash": "6f621daad00c7d9dd4fbb03b7c4f91187e7c834e34408ed0977302b25987c8fb",
+      "receipt_id": "b3189aa0-3cfc-440a-912d-f35ddee81817",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -182,9 +182,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StructuredLogs.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:38:58.0397539Z",
-      "input_hash": "12ff78226f023dc241ce4df982b6588e5cbbb8dba9e2f5452d86ae56ccb5009e",
-      "receipt_id": "431d4141-9442-4605-8fbf-ef06557bf2dd",
+      "ran_at": "2026-11-08T02:50:23.1807095Z",
+      "input_hash": "b65ea9a5fa32b0d74a8347d50ba04cfa179d0f87173640623554bd1d48f995da",
+      "receipt_id": "e215beca-6a14-403e-a94e-6bc14c637220",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -209,12 +209,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-NoHorizontalScroll.ps1 -Path . -Url 'http://127.0.0.1:4202' -Width 320,768,1440",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-NoHorizontalScroll.ps1 -Path . -Url 'https://ai-industry-map-explorer.vercel.app' -Width 320,768,1440",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:39:01.7932803Z",
-      "input_hash": "511edab6db012d97ed718e397ca0b9825eaa142f416bf01c8b78dbf34ad3b06f",
-      "receipt_id": "97c47916-c0cf-417e-a15e-ca8fb73bf852",
+      "ran_at": "2026-11-08T02:50:28.5722151Z",
+      "input_hash": "55a6cf2c92f15667b50d07e6a86f780ef470413271347ae4cefdd6c086b9b8f0",
+      "receipt_id": "40985899-5f38-4267-82a8-5159baf54257",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -224,15 +224,15 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check not-found-page -Url 'http://127.0.0.1:4202'",
-      "state": "failing",
-      "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:02.5137639Z",
-      "input_hash": "0404786948fc43fb13cdfaceae3f2f3b478424c14483a6ebf79547647f872849",
-      "receipt_id": "f2c51bac-56f1-4cec-b69d-1e04b572fd04",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check not-found-page -Url 'https://ai-industry-map-explorer.vercel.app'",
+      "state": "met",
+      "exit_code": 0,
+      "ran_at": "2026-11-08T02:50:29.8334552Z",
+      "input_hash": "ab783a4516aa603212abe4b4e1ee36430200034d9a87a8d265d18b6d3e346064",
+      "receipt_id": "6edb7630-ba71-48ec-9196-30b7b0daf60c",
       "waiver": null,
       "waiver_expired": null,
-      "note": "child exited 1"
+      "note": null
     },
     {
       "id": "game-playable",
@@ -257,9 +257,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-DesignBannedPatterns.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:03.6749425Z",
-      "input_hash": "2ff20972d7142ab4a3756861b1d3b1ef03b17edfb3358516d49b8b89b8e60335",
-      "receipt_id": "1fe817a8-6c8d-443e-9b25-a622f224ef04",
+      "ran_at": "2026-11-08T02:50:31.6522471Z",
+      "input_hash": "09875e6f478e86476dd537243107da75fd556e687272a9a35d026204ceeb6f84",
+      "receipt_id": "44f5264b-1493-4652-bbe2-e60a1c24cb84",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -284,12 +284,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check privacy-terms -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check privacy-terms -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:04.275513Z",
-      "input_hash": "6d705c954cc34648845780885bab9f5fcf137066294b93e35b2f3c1601c09d6c",
-      "receipt_id": "3f2d7190-a4ba-438d-9e3f-d18cc6c922e8",
+      "ran_at": "2026-11-08T02:50:32.9566735Z",
+      "input_hash": "82c0b87a2a61798ba2807eba8dd997028ebcef0f76125a4ba7cce696df67366c",
+      "receipt_id": "1bc7a5e2-2f7a-45fb-a6cf-c754739ff46f",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -299,12 +299,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check seo-tags -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check seo-tags -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:04.9517991Z",
-      "input_hash": "191f5f7e604869cd751082587998b99ab44c4637d5b6d32311b040f21b6af99a",
-      "receipt_id": "294fe06e-e7b1-49c9-958e-10e51f3c2aa1",
+      "ran_at": "2026-11-08T02:50:34.4710985Z",
+      "input_hash": "7f5bca531607d14bb398fb186dc92831a0c274951de3509ad8b0a5733ca5448c",
+      "receipt_id": "c8133505-8289-435f-8ac7-de6919010571",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -314,12 +314,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check security-headers -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check security-headers -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:05.6767591Z",
-      "input_hash": "63af6b9007fa36a02c5e154fd27da287daad841645319a106a1d5eee9cb57a44",
-      "receipt_id": "560f78e4-5ddb-4ff2-8e3e-6fcea8a939ec",
+      "ran_at": "2026-11-08T02:50:36.1204094Z",
+      "input_hash": "8245e3bff0cd8b4ba9ec8ce50f3700af3a4dc95d0ddcc1c1f777b44ebdf7e102",
+      "receipt_id": "b63fe88b-37f0-43a4-8233-04514a7776ae",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -329,27 +329,27 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check axe -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check axe -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:39:06.4164223Z",
-      "input_hash": "270558cb55d2ae72ec8b5678f397a38bca98f6640bebd60c9febee6ce860efec",
-      "receipt_id": "811f52ab-580a-4b16-af61-5c66aec39028",
+      "ran_at": "2026-11-08T02:50:37.6198716Z",
+      "input_hash": "4e4355e7d97e5e5151a569fc5b92b2e06734da8c80bfbdae1cf2ea6f71601b19",
+      "receipt_id": "1fe3a262-5883-45b0-ae85-e80f71d2b0e2",
       "waiver": null,
       "waiver_expired": null,
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4202\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-industry-map-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "core-web-vitals",
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check core-web-vitals -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check core-web-vitals -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:39:25.0642016Z",
-      "input_hash": "4847943be71f13413d43669f93548b698c0de14e5a18b3aa0a73b3bd508b0dc4",
-      "receipt_id": "1f2b03e8-05ec-4bd7-adcf-0ca1dbdc2940",
+      "ran_at": "2026-11-08T02:51:00.0397559Z",
+      "input_hash": "30951868839aab005e82343f1a2606cfe4f61a4d559f61b87a526368fe543237",
+      "receipt_id": "c0ad781e-9c51-44fc-bd47-a14d3ae9198d",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -362,9 +362,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-LogPersonalData.ps1 -Path .",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:39:26.0646902Z",
-      "input_hash": "db8e056ffea5b3628f7a04862ec34d5b8858673c2e07678ee87dd6db437dde31",
-      "receipt_id": "ebad09c6-6811-4ca8-a56f-4e10057a5f2c",
+      "ran_at": "2026-11-08T02:51:01.2579762Z",
+      "input_hash": "015432fe4e335ef666f9628bca32011e0d9972005cc3da542951ad294fa8397b",
+      "receipt_id": "82839441-a1a7-4684-a465-2b308cbdb919",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -374,12 +374,12 @@
       "stage": "operated",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check deployed-url -Url 'http://127.0.0.1:4202'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check deployed-url -Url 'https://ai-industry-map-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:39:26.6756461Z",
-      "input_hash": "21fa6d64a4bc422339e06279c49a7a5bff680960a15433806cb1394c5ae44353",
-      "receipt_id": "2aab4e1e-35ef-4ce9-9c01-51959c1b8b74",
+      "ran_at": "2026-11-08T02:51:02.8487959Z",
+      "input_hash": "88b424816d84b29eb11dc5981544f9384d148df5d1bd3188433ab995b32124d6",
+      "receipt_id": "518ba969-199c-4e80-8d6e-3fc592e82099",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -392,9 +392,9 @@
       "command": "node scripts/check-env-docs.js",
       "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:39:26.747214Z",
-      "input_hash": "b41c6781918377a8101c9f9e50fb541792dce432bfd01d7a85c4bbb2ce09033f",
-      "receipt_id": "a884def1-122e-4bbc-bbe1-4cff8ccdb35b",
+      "ran_at": "2026-11-08T02:51:02.9509329Z",
+      "input_hash": "6e3d9cd9df3734148510b0ba2b499d9490a65e39ce0ccce79d60903a221d072b",
+      "receipt_id": "14d07811-c825-48dc-a352-2bcb476b2a6c",
       "waiver": null,
       "waiver_expired": null,
       "note": "setup gap: scripts/check-env-docs.js absent"
@@ -407,9 +407,9 @@
       "command": "node scripts/check-monitoring.js",
       "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:39:26.839527Z",
-      "input_hash": "fb46270691c0b2d2c54c5447513452b7ab192a83758d86112370802a08c505aa",
-      "receipt_id": "37e75010-a634-40aa-9854-497e4f9d3636",
+      "ran_at": "2026-11-08T02:51:03.0759083Z",
+      "input_hash": "de17d3ca2bef50e9372f3e52ca483685e77f454d206f0b77fe59ecb96cc5195d",
+      "receipt_id": "cad77973-d623-42ad-aeca-6b6a5be48a7c",
       "waiver": null,
       "waiver_expired": null,
       "note": "setup gap: scripts/check-monitoring.js absent"
@@ -417,17 +417,17 @@
     {
       "id": "restore-path",
       "stage": "operated",
-      "applies": false,
+      "applies": true,
       "manual": false,
       "command": "node scripts/check-restore.js",
-      "state": "not-applicable",
+      "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": null,
-      "input_hash": null,
-      "receipt_id": null,
+      "ran_at": "2026-11-08T02:51:03.1493136Z",
+      "input_hash": "48941ba666954c140179445854e6ac0a4e84879a3f1c16a02378569671982592",
+      "receipt_id": "547441b7-ea9d-48bb-b609-6e03cd3fd1ce",
       "waiver": null,
       "waiver_expired": null,
-      "note": null
+      "note": "setup gap: scripts/check-restore.js absent"
     }
   ],
   "next_stage": "works",
@@ -436,19 +436,19 @@
   ],
   "refresh": "& 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' -NoProfile -NonInteractive -File ~/.agents/tools/Test-ProductReadiness.ps1 -ProductPath . -Profile .agents/app-profile.json -Check all -Write",
   "profile": {
-    "ai": "none",
     "sensitivity": "none",
-    "data": "none",
-    "posture": "transient",
-    "stakes": "daily-tool",
-    "audience": "public",
-    "access": "anonymous",
     "surfaces": [
       "web"
     ],
-    "expertise": "intermediate",
     "archetype": "visualization",
-    "name": "ai-industry-map-explorer"
+    "access": "anonymous",
+    "data": "server",
+    "audience": "public",
+    "name": "ai-industry-map-explorer",
+    "posture": "transient",
+    "ai": "none",
+    "stakes": "daily-tool",
+    "expertise": "intermediate"
   },
   "preset": "data-viz-tool",
   "target_stage": "production",
@@ -462,9 +462,9 @@
       "stage": "works",
       "verify": "agent",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:18.5394466Z",
+      "last_run": "2026-11-08T02:52:08.0815973Z",
       "checks": [],
-      "receipt_id": "7f9c7faf-60cc-46f1-8996-f854d0a418ef",
+      "receipt_id": "e41758ae-d6ed-4cf5-8e00-f420014c6617",
       "note": "No SPEC.md names core flows. Walked map -> category -> company detail -> Escape, and News Queue; all ran without error, but there is no spec to check them against."
     },
     {
@@ -475,9 +475,9 @@
       "stage": "polished",
       "verify": "judge",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:20.6235000Z",
+      "last_run": "2026-11-08T02:52:10.8517261Z",
       "checks": [],
-      "receipt_id": "fe1e071d-b79c-42b6-af07-32cf1f563d58",
+      "receipt_id": "158d064d-7a7f-4478-b620-ba93c00ff44e",
       "note": "PRODUCT.md and SPEC.md are empty templates, so there is nothing to judge the app against."
     },
     {
@@ -500,11 +500,11 @@
       "statement": "A control reacts within 0.1 s.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:22.8683734Z",
+      "state": "met",
+      "last_run": "2026-11-08T02:52:13.5320431Z",
       "checks": [],
-      "receipt_id": "106bd8be-7b3b-4bee-a265-ecc0b3479517",
-      "note": "Input-to-paint latency was not measured; cluster click to card grid took 1.7 s in Playwright including animation, which does not isolate control response."
+      "receipt_id": "2a545982-e852-4824-953b-650fa6537be3",
+      "note": null
     },
     {
       "id": "B2.2",
@@ -514,9 +514,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:25.1901504Z",
+      "last_run": "2026-11-08T02:52:16.5911483Z",
       "checks": [],
-      "receipt_id": "09b02b46-7429-4fb9-86b1-45a65d4b6202",
+      "receipt_id": "56810827-a105-470b-b41f-e7d5a2e928da",
       "note": "Cluster open animation about 1.7 s showed cards when done; no long data wait was observable because data is bundled static JSON."
     },
     {
@@ -527,9 +527,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:27.3844615Z",
+      "last_run": "2026-11-08T02:52:20.0817238Z",
       "checks": [],
-      "receipt_id": "d65b4561-59e5-4ca1-8622-1a1cf29cbf18",
+      "receipt_id": "373a1a03-5455-4937-9280-d7b8c6da2738",
       "note": "No work over 10 s exists in the app; item not observable."
     },
     {
@@ -540,14 +540,14 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:38:54.1787439Z",
+      "last_run": "2026-11-08T02:50:17.7939888Z",
       "checks": [
         "loading-state",
         "empty-state",
         "error-state",
         "not-found-state"
       ],
-      "receipt_id": "236f0901-eff3-4308-aa94-9512e010eb8c",
+      "receipt_id": "3f8627bf-2e43-4d43-ac10-36483753d7c6",
       "note": "{\"check\":\"loading-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
     },
     {
@@ -558,10 +558,23 @@
       "stage": "polished",
       "verify": "judge",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:29.5378738Z",
+      "last_run": "2026-11-08T02:52:23.5369422Z",
       "checks": [],
-      "receipt_id": "6b80f628-9679-4f78-bfa3-692a06bae8d6",
-      "note": "No empty state reachable: every category has cards and the news queue has 220 pending items."
+      "receipt_id": "2fbf1222-835b-4639-8fd8-f8a11a056425",
+      "note": "Walked on the local dev server: no empty state reachable, every category has cards and the news queue has 220 pending items."
+    },
+    {
+      "id": "B3.4",
+      "category": "B3",
+      "category_title": "States",
+      "statement": "Data that can go stale shows its age.",
+      "stage": "polished",
+      "verify": "agent",
+      "state": "met",
+      "last_run": "2026-11-08T02:53:52.9298907Z",
+      "checks": [],
+      "receipt_id": "91579657-23ff-4f4f-bb15-cf714cc5d49c",
+      "note": null
     },
     {
       "id": "B4.1",
@@ -571,11 +584,11 @@
       "stage": "works",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:38:51.0136956Z",
+      "last_run": "2026-11-08T02:50:12.0609989Z",
       "checks": [
         "console-clean"
       ],
-      "receipt_id": "f9cd35b6-42b9-4072-9569-92e76034935b",
+      "receipt_id": "b6e34226-be53-43df-85e3-61105a912d47",
       "note": null
     },
     {
@@ -586,9 +599,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:31.7199206Z",
+      "last_run": "2026-11-08T02:52:28.3907585Z",
       "checks": [],
-      "receipt_id": "f892d0c7-97fb-496a-9d87-c6113ad79712",
+      "receipt_id": "a4b6c120-ff6c-4bab-a9ce-c75f21cdb392",
       "note": "Failed news submit (no /api in dev) showed only 'Error' text in the submit bar: it renders String(e) of the raw response body, with no cause or next step (src/NewsPage.tsx submit)."
     },
     {
@@ -599,9 +612,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:42:33.8465193Z",
+      "last_run": "2026-11-08T02:52:31.5653936Z",
       "checks": [],
-      "receipt_id": "9c5da2a6-2132-4139-b10d-c3beb915d7ca",
+      "receipt_id": "c3f9c316-632a-48ef-be8b-5b5d48e8109a",
       "note": null
     },
     {
@@ -612,9 +625,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:36.1506641Z",
+      "last_run": "2026-11-08T02:52:35.8724107Z",
       "checks": [],
-      "receipt_id": "e8334bc8-50ed-4bf3-8f03-ba103aee916e",
+      "receipt_id": "777ea63a-04fb-4c76-8832-c5dc51c4c33a",
       "note": "News Queue Keep/Skip decisions live only in component state; after reload the app returned to the map and unsubmitted decisions are gone."
     },
     {
@@ -625,10 +638,25 @@
       "stage": "polished",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:38.5868781Z",
+      "last_run": "2026-11-08T02:52:39.5223871Z",
       "checks": [],
-      "receipt_id": "032d4b7a-5dad-4ca5-9bfb-7ba102bbff4f",
+      "receipt_id": "4e73ebfd-5168-4d57-8334-6a482b3ccecb",
       "note": "Keep/Skip toggles off on second click, category and detail close with Escape or back; no confirm on the irreversible Submit decisions (writes to the repo queue)."
+    },
+    {
+      "id": "B5.3",
+      "category": "B5",
+      "category_title": "Data safety and undo",
+      "statement": "Stored data has a restore that has been tested.",
+      "stage": "production",
+      "verify": "agent",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:55.5978870Z",
+      "checks": [
+        "restore-path"
+      ],
+      "receipt_id": "7c8d7a09-c468-40ed-adbd-1c9214b7bea6",
+      "note": "Feature absent: no tested restore of the news queue (a git-backed file); scripts/check-restore.js does not exist and no restore has been run."
     },
     {
       "id": "B6.1",
@@ -638,9 +666,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:41.0398840Z",
+      "last_run": "2026-11-08T02:52:42.7578126Z",
       "checks": [],
-      "receipt_id": "30fc9cfe-5b2a-4696-b93c-c292cdce6a51",
+      "receipt_id": "209928cb-9521-48f8-92fb-f15f0c244b07",
       "note": "Category view shows an All categories button and detail closes with Escape, but the News Queue view keeps the URL / (no own URL) and reload drops the user back on the map."
     },
     {
@@ -664,9 +692,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:43.1778133Z",
+      "last_run": "2026-11-08T02:52:46.4467540Z",
       "checks": [],
-      "receipt_id": "059d3a48-39de-4ca7-a756-8f71ec11ee93",
+      "receipt_id": "8701c5ed-0a34-4776-b4bd-2345675dba3f",
       "note": "Only Escape is bound (src/App.tsx); no shortcuts for category, theme or news actions."
     },
     {
@@ -677,11 +705,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:38:56.0618567Z",
+      "last_run": "2026-11-08T02:50:20.9020912Z",
       "checks": [
         "keyboard-focus"
       ],
-      "receipt_id": "826740b5-32e9-4dd7-ba1e-922c49fc61ec",
+      "receipt_id": "9371adfa-7ab6-45ce-a81a-4c4062b91e85",
       "note": null
     },
     {
@@ -692,12 +720,12 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:39:06.4164223Z",
+      "last_run": "2026-11-08T02:50:37.6198716Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "811f52ab-580a-4b16-af61-5c66aec39028",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4202\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "1fe3a262-5883-45b0-ae85-e80f71d2b0e2",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-industry-map-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B7.3",
@@ -720,12 +748,12 @@
       "stage": "polished",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:39:06.4164223Z",
+      "last_run": "2026-11-08T02:50:37.6198716Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "811f52ab-580a-4b16-af61-5c66aec39028",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4202\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "1fe3a262-5883-45b0-ae85-e80f71d2b0e2",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-industry-map-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B7.5",
@@ -748,12 +776,12 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:39:06.4164223Z",
+      "last_run": "2026-11-08T02:50:37.6198716Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "811f52ab-580a-4b16-af61-5c66aec39028",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4202\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "1fe3a262-5883-45b0-ae85-e80f71d2b0e2",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-industry-map-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B8.1",
@@ -763,11 +791,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:39:01.7932803Z",
+      "last_run": "2026-11-08T02:50:28.5722151Z",
       "checks": [
         "viewport-320-1280"
       ],
-      "receipt_id": "97c47916-c0cf-417e-a15e-ca8fb73bf852",
+      "receipt_id": "40985899-5f38-4267-82a8-5159baf54257",
       "note": null
     },
     {
@@ -778,11 +806,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:39:01.7932803Z",
+      "last_run": "2026-11-08T02:50:28.5722151Z",
       "checks": [
         "viewport-320-1280"
       ],
-      "receipt_id": "97c47916-c0cf-417e-a15e-ca8fb73bf852",
+      "receipt_id": "40985899-5f38-4267-82a8-5159baf54257",
       "note": null
     },
     {
@@ -806,9 +834,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:42:45.8281917Z",
+      "last_run": "2026-11-08T02:52:49.8015824Z",
       "checks": [],
-      "receipt_id": "37018b8a-be52-4d42-ac16-f7d0496d7a2f",
+      "receipt_id": "9d4418fd-bd34-435a-99ba-ee935e92152a",
       "note": null
     },
     {
@@ -819,11 +847,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:39:25.0642016Z",
+      "last_run": "2026-11-08T02:51:00.0397559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "1f2b03e8-05ec-4bd7-adcf-0ca1dbdc2940",
+      "receipt_id": "c0ad781e-9c51-44fc-bd47-a14d3ae9198d",
       "note": "child exited 1"
     },
     {
@@ -834,11 +862,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:39:25.0642016Z",
+      "last_run": "2026-11-08T02:51:00.0397559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "1f2b03e8-05ec-4bd7-adcf-0ca1dbdc2940",
+      "receipt_id": "c0ad781e-9c51-44fc-bd47-a14d3ae9198d",
       "note": "child exited 1"
     },
     {
@@ -849,11 +877,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:39:25.0642016Z",
+      "last_run": "2026-11-08T02:51:00.0397559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "1f2b03e8-05ec-4bd7-adcf-0ca1dbdc2940",
+      "receipt_id": "c0ad781e-9c51-44fc-bd47-a14d3ae9198d",
       "note": "child exited 1"
     },
     {
@@ -864,11 +892,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:38:57.3524347Z",
+      "last_run": "2026-11-08T02:50:22.3206633Z",
       "checks": [
         "error-capture"
       ],
-      "receipt_id": "2d714049-4e94-452f-ac12-bee8a9144bfd",
+      "receipt_id": "b3189aa0-3cfc-440a-912d-f35ddee81817",
       "note": "child exited 1"
     },
     {
@@ -879,12 +907,12 @@
       "stage": "production",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:48.2332129Z",
+      "last_run": "2026-11-08T02:52:53.4804858Z",
       "checks": [
         "log-personal-data",
         "monitoring"
       ],
-      "receipt_id": "af2d89cc-a3e2-468d-8350-3633b7f03745",
+      "receipt_id": "9101e5af-9f56-4dc8-a5e7-f989d84ff079",
       "note": "No error sink exists: no Sentry or equivalent, no window error listener (grep of src and index.html)."
     },
     {
@@ -895,11 +923,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:38:58.0397539Z",
+      "last_run": "2026-11-08T02:50:23.1807095Z",
       "checks": [
         "structured-logs"
       ],
-      "receipt_id": "431d4141-9442-4605-8fbf-ef06557bf2dd",
+      "receipt_id": "e215beca-6a14-403e-a94e-6bc14c637220",
       "note": "child exited 1"
     },
     {
@@ -923,11 +951,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:39:05.6767591Z",
+      "last_run": "2026-11-08T02:50:36.1204094Z",
       "checks": [
         "security-headers"
       ],
-      "receipt_id": "560f78e4-5ddb-4ff2-8e3e-6fcea8a939ec",
+      "receipt_id": "b63fe88b-37f0-43a4-8233-04514a7776ae",
       "note": "child exited 1"
     },
     {
@@ -938,11 +966,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:39:04.2755130Z",
+      "last_run": "2026-11-08T02:50:32.9566735Z",
       "checks": [
         "privacy-terms"
       ],
-      "receipt_id": "3f2d7190-a4ba-438d-9e3f-d18cc6c922e8",
+      "receipt_id": "1bc7a5e2-2f7a-45fb-a6cf-c754739ff46f",
       "note": "child exited 1"
     },
     {
@@ -953,9 +981,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:42:50.5799846Z",
+      "last_run": "2026-11-08T02:52:57.2928651Z",
       "checks": [],
-      "receipt_id": "273b2ecd-0eaf-4da8-b9b4-b0fead7b8571",
+      "receipt_id": "4f91396d-b8fb-4984-909c-fe8b78978e99",
       "note": null
     },
     {
@@ -966,9 +994,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:52.7417000Z",
+      "last_run": "2026-11-08T02:53:01.5042254Z",
       "checks": [],
-      "receipt_id": "25c44950-82c7-4875-807b-c5f0b79fc60a",
+      "receipt_id": "8f4650d8-2e9b-4d50-b172-f87894e2f38a",
       "note": "No first-run guidance beyond the faint footer hint 'drag to pan, scroll to zoom, clusters drift'; it is not shown as an onboarding aid and is unreadably small at 390 px."
     },
     {
@@ -979,9 +1007,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:42:55.0457851Z",
+      "last_run": "2026-11-08T02:53:05.3532460Z",
       "checks": [],
-      "receipt_id": "749c41e2-4be9-4f20-99d5-96eabf7e2374",
+      "receipt_id": "dd5f2efe-354b-4a74-83f5-c076133dd664",
       "note": "At 1440 px a first-time user can click a cluster and a card and reach a company description unaided. At 390 px cluster labels are unreadably small, so the first step is hard."
     },
     {
@@ -991,11 +1019,11 @@
       "statement": "Copy is reread, with no machine vocabulary left.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:42:57.6454190Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:08.2781695Z",
       "checks": [],
-      "receipt_id": "1bc7af01-f66b-4f06-8daf-83dc025d4188",
-      "note": "Not judged by a fresh reviewer; the sweep agent saw company copy and nav labels with no obvious machine vocabulary, but 'Static site' link text is unexplained."
+      "receipt_id": "7eb42161-478f-400d-a772-532c082e2437",
+      "note": "Copy defect: the nav link text Static"
     },
     {
       "id": "B14.1",
@@ -1005,11 +1033,11 @@
       "stage": "polished",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:00.0187176Z",
+      "last_run": "2026-11-08T02:53:11.2023179Z",
       "checks": [
         "design-review-dated"
       ],
-      "receipt_id": "f4bd6134-6427-421a-bb9b-c8f8ef8c44d9",
+      "receipt_id": "0a89b2d5-556f-4b75-89b9-ae4203f2b49c",
       "note": "Dark and light themes both render coherently at 1440 px; at 390 px cluster labels and bubbles are tiny and overlap. .agents/DESIGN.md not compared line by line."
     },
     {
@@ -1033,11 +1061,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:39:26.7472140Z",
+      "last_run": "2026-11-08T02:51:02.9509329Z",
       "checks": [
         "env-documented"
       ],
-      "receipt_id": "a884def1-122e-4bbc-bbe1-4cff8ccdb35b",
+      "receipt_id": "14d07811-c825-48dc-a352-2bcb476b2a6c",
       "note": "setup gap: scripts/check-env-docs.js absent"
     },
     {
@@ -1048,11 +1076,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:39:26.6756461Z",
+      "last_run": "2026-11-08T02:51:02.8487959Z",
       "checks": [
         "deployed-url"
       ],
-      "receipt_id": "2aab4e1e-35ef-4ce9-9c01-51959c1b8b74",
+      "receipt_id": "518ba969-199c-4e80-8d6e-3fc592e82099",
       "note": null
     },
     {
@@ -1063,9 +1091,9 @@
       "stage": "works",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:43:02.9465672Z",
+      "last_run": "2026-11-08T02:53:15.3162904Z",
       "checks": [],
-      "receipt_id": "ab27b61b-05bd-49e1-97ac-00346269bc9c",
+      "receipt_id": "c2561a08-44af-443e-93c6-6ae736c5a4fa",
       "note": null
     },
     {
@@ -1076,9 +1104,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:06.7082875Z",
+      "last_run": "2026-11-08T02:53:17.7684462Z",
       "checks": [],
-      "receipt_id": "b662f4e6-6296-47b9-9260-1b3e32bd6c37",
+      "receipt_id": "233b5bdb-7458-4c66-b966-8f284e007a53",
       "note": "No recomputation over 1 s is observable; data is static and loaded once."
     },
     {
@@ -1089,9 +1117,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:10.2055988Z",
+      "last_run": "2026-11-08T02:53:20.6098068Z",
       "checks": [],
-      "receipt_id": "10133ebd-b095-4cac-9a4c-bdda285dfe04",
+      "receipt_id": "1071695c-7ab8-48e6-8cd5-e6170735c086",
       "note": "Selecting a card opens a detail panel in place with description, usage and strength, but cluster bubbles show only a tool count; there are no values or units, as the data is qualitative."
     },
     {
@@ -1114,11 +1142,11 @@
       "statement": "A compare shows two selections on one shared scale, with the scale named.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:13.9961719Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:23.2933456Z",
       "checks": [],
-      "receipt_id": "e1969695-c615-469f-9a40-6eb4d796d506",
-      "note": "The app has no compare of two selections, so the item is not observable; open decision whether the visualization archetype requires one."
+      "receipt_id": "c18f4ea5-c068-458c-8057-932018b1a948",
+      "note": "Feature absent: the app has no compare of two selections or export. Open decision for Douglas whether the visualization archetype needs it in this app."
     },
     {
       "id": "VZ4.3",
@@ -1127,11 +1155,11 @@
       "statement": "A compare's difference is shown with its sign and unit.",
       "stage": "polished",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:18.4519119Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:26.2638981Z",
       "checks": [],
-      "receipt_id": "c17a446d-a4f8-4089-a59c-35906b21ea8c",
-      "note": "No compare feature exists."
+      "receipt_id": "b9b9c3e4-029f-421c-9381-66da1605bf6a",
+      "note": "Feature absent: the app has no compare of two selections or export. Open decision for Douglas whether the visualization archetype needs it in this app."
     },
     {
       "id": "VZ5.2",
@@ -1140,11 +1168,11 @@
       "statement": "An export contains exactly the filtered records the view shows.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:22.8354074Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:28.9910343Z",
       "checks": [],
-      "receipt_id": "c7da4d9e-a581-4448-9dd5-ffa74735068d",
-      "note": "No export feature exists."
+      "receipt_id": "a744ee1a-c895-423a-8417-d7b7f9e561f5",
+      "note": "Feature absent: the app has no compare of two selections or export. Open decision for Douglas whether the visualization archetype needs it in this app."
     },
     {
       "id": "VZ5.3",
@@ -1153,11 +1181,11 @@
       "statement": "An export names its time range and data source in its header or title. (when the data has a time axis)",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:27.8525394Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:31.8471406Z",
       "checks": [],
-      "receipt_id": "a435ee62-9ba2-4c8a-b08a-de43a31eca66",
-      "note": "No export feature exists."
+      "receipt_id": "993149b4-4ce2-4f29-b015-3468ddfbd3d0",
+      "note": "Feature absent: the app has no compare of two selections or export. Open decision for Douglas whether the visualization archetype needs it in this app."
     },
     {
       "id": "VZ6.1",
@@ -1192,11 +1220,11 @@
       "statement": "The Before it ships checklist in dashboards.md passes.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:43:31.9676692Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:53:34.6254877Z",
       "checks": [],
-      "receipt_id": "78b2a493-9922-49fd-a36d-39fed0bdad23",
-      "note": "The dashboards.md Before it ships checklist was not walked item by item; several of its parts (compare, export, table view) do not exist in this app."
+      "receipt_id": "d2e84796-575d-4464-8bd6-1623ce00b899",
+      "note": "Feature absent: the dashboards.md Before it ships checklist cannot pass because compare, export and the readable table behind the chart do not exist. Open decision for Douglas (product call)."
     },
     {
       "id": "S-WEB.1",
@@ -1206,9 +1234,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:36.4914589Z",
+      "last_run": "2026-11-08T02:53:36.7722861Z",
       "checks": [],
-      "receipt_id": "c943c620-5b86-4d3b-9dc6-a9529379e9b2",
+      "receipt_id": "3ce3a918-d956-4fa4-9988-07e9e26d04a6",
       "note": "No window error listener in src/main.tsx or index.html."
     },
     {
@@ -1219,9 +1247,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:39.8566978Z",
+      "last_run": "2026-11-08T02:53:40.4092209Z",
       "checks": [],
-      "receipt_id": "c0206b8a-546d-4e3d-889a-991b95983514",
+      "receipt_id": "4924dd87-4b07-4843-bb66-25119b79947c",
       "note": "No unhandledrejection listener anywhere in src or index.html."
     },
     {
@@ -1232,9 +1260,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:42.8347767Z",
+      "last_run": "2026-11-08T02:53:43.1577365Z",
       "checks": [],
-      "receipt_id": "7f3bf288-b67b-43f0-82e2-a39d9fab5b2d",
+      "receipt_id": "185b7c29-1fab-4258-9381-d5d8522be1f6",
       "note": "No error boundary in src; a render error would blank the whole app."
     },
     {
@@ -1245,9 +1273,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:43:46.3333301Z",
+      "last_run": "2026-11-08T02:53:47.0739455Z",
       "checks": [],
-      "receipt_id": "864642f8-cdf8-461e-a2b4-6ff175f08ee3",
+      "receipt_id": "19d80ffa-9f43-4d49-aad4-8f035bfe12b6",
       "note": "No vite:preloadError handler or reload prompt in src."
     },
     {
@@ -1297,9 +1325,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:43:48.8621660Z",
+      "last_run": "2026-11-08T02:53:50.1937532Z",
       "checks": [],
-      "receipt_id": "e4c92831-3004-4c79-b6d3-2eadb9b7bf75",
+      "receipt_id": "cefb88a0-4cdb-4137-abca-1b5a8ce51bfd",
       "note": null
     },
     {
@@ -1340,7 +1368,7 @@
       "statement": "Production build completes.",
       "state": "met",
       "note": null,
-      "receipt_id": "90438457-8f47-4bdd-8b33-dfe9241788e5"
+      "receipt_id": "fa09a89f-06a3-43ce-b253-2c01a24aa2ca"
     },
     {
       "id": "typecheck",
@@ -1348,15 +1376,15 @@
       "statement": "Type check passes. Not applicable only when package.json has no typecheck script and the app has no tsconfig.json.",
       "state": "failing",
       "note": "child exited 1",
-      "receipt_id": "a91c4942-b42e-4f68-b7bb-605d7443672a"
+      "receipt_id": "7752b617-eae9-4a98-bf06-0a2ddd2a47fe"
     },
     {
       "id": "not-found-page",
       "stage": "usable",
       "statement": "The home page answers 200 (otherwise could-not-tell), and an unknown path returns 404 with a non-empty page.",
-      "state": "failing",
-      "note": "child exited 1",
-      "receipt_id": "f2c51bac-56f1-4cec-b69d-1e04b572fd04"
+      "state": "met",
+      "note": null,
+      "receipt_id": "6edb7630-ba71-48ec-9196-30b7b0daf60c"
     },
     {
       "id": "design-banned-patterns",
@@ -1364,7 +1392,7 @@
       "statement": "Scans built interface files (.html .htm .css .scss .jsx .tsx .vue .svelte) for the two copy and layout patterns DESIGN.md bans outright (eyebrow labels and kicker titles; the middle dot or bullet as an inline divider), and warns on all-caps text. It does not check design rules in general. Cannot detect: an app with none of the scanned file types passes with 0 files scanned.",
       "state": "failing",
       "note": "child exited 1",
-      "receipt_id": "1fe817a8-6c8d-443e-9b25-a622f224ef04"
+      "receipt_id": "44f5264b-1493-4652-bbe2-e60a1c24cb84"
     },
     {
       "id": "seo-tags",
@@ -1372,7 +1400,7 @@
       "statement": "Title, description, canonical and Open Graph tags present in the parsed document (not inside comments, scripts, styles or templates); robots.txt is text with a directive line and does not disallow everything for User-agent: *; sitemap.xml is XML with a urlset having a url/loc or a sitemapindex having a sitemap/loc. Not checked: noindex (meta robots or X-Robots-Tag) and a meta refresh or script redirect to another origin.",
       "state": "failing",
       "note": "child exited 1",
-      "receipt_id": "294fe06e-e7b1-49c9-958e-10e51f3c2aa1"
+      "receipt_id": "c8133505-8289-435f-8ac7-de6919010571"
     }
   ],
   "item_next_stage": "works",
