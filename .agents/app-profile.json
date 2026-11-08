@@ -1,0 +1,15 @@
+{
+  "name": "ai-industry-map-explorer",
+  "preset": "data-viz-tool",
+  "archetype": "visualization",
+  "surfaces": ["web"],
+  "posture": "transient",
+  "audience": "public",
+  "expertise": "intermediate",
+  "access": "anonymous",
+  "data": "none",
+  "sensitivity": "none",
+  "stakes": "daily-tool",
+  "ai": "none",
+  "notes": "React/Vite/d3 single-page explorer of AI companies by category (cluster map, card grid, detail panel) with a news-queue curation page, deployed on Vercel; no PRODUCT.md or SPEC.md content exists, so facets come from code and README. Overrides of the data-viz-tool preset (data=local, expertise=expert): data=none because company and news data are bundled static JSON in public/data and visitors store nothing (the only write is the curator news queue via api/submit.js to a repo file); expertise=intermediate because the audience is public readers curious about the AI industry, not analysts needing power-user shortcuts. posture=transient (default sovereign): visitors open it to look something up and leave. audience=public, access=anonymous: no sign-in anywhere. ai=none: the map is about AI companies and has no AI feature."
+}
