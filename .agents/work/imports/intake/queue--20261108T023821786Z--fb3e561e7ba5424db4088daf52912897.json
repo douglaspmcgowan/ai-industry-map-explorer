@@ -1,0 +1,34 @@
+{
+  "queue_version": 1,
+  "queue_id": "89aeb85e-1691-4e6a-9dbe-06d16e9ffe76",
+  "kind": "work-scope-discovery",
+  "operation": "add",
+  "queued_at": "2026-11-08T02:38:21.7928695Z",
+  "source_tool": "Add-ProjectIntake.ps1",
+  "payload": {
+    "FixLocation": "READINESS.md Next gaps; package.json typecheck; vercel.json headers",
+    "CapabilityNotYetFiled": true,
+    "Root": "/home/user/ai-industry-map-explorer",
+    "CapabilityNotYetFiledReason": "intake sentinel: filer has no standing to assign a real capability, the owning session retracks it",
+    "CannotFixHere": "sweep files the app's own gaps record into its lane worktree by design",
+    "EntryDepth": "D1",
+    "DiscoveredFrom": "app-standard-sweep",
+    "SuggestedTrack": "intake",
+    "DedupCheckedBy": "Add-ProjectIntake.ps1",
+    "ObligationClass": "actionable",
+    "FixRationale": "The app's own readiness record lists these as the gaps between its current stage and its production target.",
+    "Relationship": "follow-up",
+    "Value": "medium",
+    "SuggestedCapability": "intake.external",
+    "Risk": "low",
+    "FixRecommendation": "Work READINESS.md Next gaps in order: fix typecheck, write SPEC.md core flows, then security headers, privacy page, 404, SEO tags, error capture.",
+    "SourceDate": "2026-11-08",
+    "Title": "App Standard gaps: stage not yet works, target production",
+    "Evidence": [
+      [
+        "Preliminary readiness 2026-11-08: all stages not-met, next stage works, target production. Top gaps: typecheck (failing), B1.1 and VZ1.1 (never run; no SPEC.md). READINESS.md is the live list."
+      ]
+    ],
+    "Id": "app-standard-gaps"
+  }
+}
