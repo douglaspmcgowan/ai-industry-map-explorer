@@ -1,0 +1,17 @@
+{
+  "name": "ai-industry-map-explorer",
+  "preset": "data-viz-tool",
+  "archetype": "visualization",
+  "surfaces": [
+    "web"
+  ],
+  "posture": "transient",
+  "audience": "public",
+  "expertise": "intermediate",
+  "access": "anonymous",
+  "data": "server",
+  "sensitivity": "none",
+  "stakes": "daily-tool",
+  "ai": "none",
+  "notes": "React/Vite/d3 single-page explorer of AI companies by category (cluster map, card grid, detail panel) with a News Queue curation page in the public nav, deployed on Vercel at https://ai-industry-map-explorer.vercel.app (responds 200; App.tsx:119 also links https://ai-industry-map.vercel.app, which responds too). No PRODUCT.md or SPEC.md content exists, so facets come from code and README. SECURITY: api/submit.js is an unauthenticated public POST endpoint with CORS * that commits public/data/news-queue.json to main through GH_TOKEN; any visitor can alter the repo queue. data=server for that reason (preset says local): the app writes to a remote repository through a server function. Company data is bundled static JSON in public/data. Other overrides of the data-viz-tool preset (expertise=expert): expertise=intermediate because the audience is public readers curious about the AI industry, not analysts needing power-user shortcuts. posture=transient (default sovereign): visitors open it to look something up and leave. audience=public, access=anonymous: no sign-in anywhere (which is the problem for the curation endpoint). ai=none: the map is about AI companies and has no AI feature. All url checks run against the deployed URL https://ai-industry-map-explorer.vercel.app."
+}

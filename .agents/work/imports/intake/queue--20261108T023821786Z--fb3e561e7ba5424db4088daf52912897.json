@@ -1,0 +1,34 @@
+{
+  "queue_version": 1,
+  "queue_id": "89aeb85e-1691-4e6a-9dbe-06d16e9ffe76",
+  "kind": "work-scope-discovery",
+  "operation": "add",
+  "queued_at": "2026-11-08T02:38:21.7928695Z",
+  "source_tool": "Add-ProjectIntake.ps1",
+  "payload": {
+    "FixLocation": "api/submit.js:9-36; package.json scripts; PRODUCT.md; SPEC.md; vercel.json headers",
+    "CapabilityNotYetFiled": true,
+    "Root": "/home/user/ai-industry-map-explorer",
+    "CapabilityNotYetFiledReason": "intake sentinel: filer has no standing to assign a real capability, the owning session retracks it",
+    "CannotFixHere": "sweep files the app's own gaps record into its lane worktree by design",
+    "EntryDepth": "D1",
+    "DiscoveredFrom": "app-standard-sweep",
+    "SuggestedTrack": "intake",
+    "DedupCheckedBy": "Add-ProjectIntake.ps1",
+    "ObligationClass": "actionable",
+    "FixRationale": "The submit endpoint lets any visitor rewrite the repo queue on main; typecheck is a one-line script gap; the rest are the readiness record gaps between current stage and production target.",
+    "Relationship": "follow-up",
+    "Value": "high",
+    "SuggestedCapability": "intake.external",
+    "Risk": "high",
+    "FixRecommendation": "1) Require a curator secret (Authorization header checked against an env var) in api/submit.js and lock CORS to the site origin; 2) add \"typecheck\": \"tsc -b\" to package.json scripts; 3) write PRODUCT.md and SPEC.md core flows; then security headers in vercel.json, privacy page, SEO meta tags, error listeners and boundary.",
+    "SourceDate": "2026-11-08",
+    "Title": "App Standard gaps: unauthenticated news-queue writer, stage not yet works, target production",
+    "Evidence": [
+      [
+        "Readiness 2026-11-08 against https://ai-industry-map-explorer.vercel.app: all stages not-met, next stage works, target production. Top gaps in order: (1) api/submit.js:9-36 is an unauthenticated public POST endpoint with CORS * that commits public/data/news-queue.json to main via GH_TOKEN, and the News Queue is in the public nav; (2) typecheck fails because package.json has no typecheck script (npx tsc -b passes); (3) B1.1/B1.3: SPEC.md and PRODUCT.md are empty, so core flows and audience are unrecorded. VZ1.1 is met. Also failing: security headers, privacy page, SEO tags, error capture, error boundary, compare/export absent. READINESS.md is the live list."
+      ]
+    ],
+    "Id": "app-standard-gaps"
+  }
+}
